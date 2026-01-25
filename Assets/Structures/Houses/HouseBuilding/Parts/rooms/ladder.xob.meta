@@ -1,0 +1,51 @@
+MetaFileClass {
+ Name "{160224CD7A29DAF6}Assets/Structures/Houses/HouseBuilding/Parts/roofs/ladder.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{67117AC5D23AFE8B}" {
+     SourceMaterial "elevator"
+     AssignedMaterial "{7F742C8CE483470B}Assets/Structures/Houses/HouseBuilding/Parts/roofs/Data/elevator.emat"
+    }
+   }
+   MeshParams {
+    MeshParam ladder {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_ladder_LOD0 {
+     LayerPreset "BuildingFire"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{67117AC5D226FE37}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{67117AC5D226FD3E}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{67117AC5D226FDF3}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{67117AC5D226FDC8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{67117AC5D226FD85}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{67117AC5D226FC6C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

@@ -1,0 +1,21 @@
+StaticModelEntity : "{FA5F43973A00A65C}Prefabs/Structures/BuildingParts/Entry/Entry_Base.et" {
+ ID "50D67C36F42A694D"
+ components {
+  MeshObject "{547A8804AA50F719}" {
+   Object "{8232AF828E9A665D}Assets/Structures/BuildingsParts/Entry/ConcreteStairs_02_Wide.xob"
+   Materials {
+    MaterialAssignClass "{670D4ECEB10179B3}" {
+     SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Wide"
+     AssignedMaterial "{087718FE6B72484F}Assets/Structures/BuildingsParts/Entry/Data/sirte_ConcreteStairs_02_Wide.emat"
+    }
+    MaterialAssignClass "{670D4ECEB101798E}" {
+     SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Wide_MLOD"
+     AssignedMaterial "{0EBD084F17D4CF7F}Assets/Structures/BuildingsParts/Entry/Data/sirte_ConcreteStairs_02_Wide_MLOD.emat"
+    }
+   }
+   LODFactors {
+    500 300 200 1 1
+   }
+  }
+ }
+}

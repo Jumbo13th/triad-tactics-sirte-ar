@@ -1,0 +1,24 @@
+SCR_DestructibleBuildingEntity : "{C604699791656656}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{66ECB2EB3D8BC555}" {
+     SourceMaterial "FuelTank_01"
+     AssignedMaterial "{532DA70CC0697356}Assets/Structures/Industrial/Containers/FuelTanks/FuelTank_01/data/FuelTank_01_orange.emat"
+    }
+    MaterialAssignClass "{66ECB2EB3D8BC55E}" {
+     SourceMaterial "FuelTank_01_MLOD"
+     AssignedMaterial "{532DA70CC0697356}Assets/Structures/Industrial/Containers/FuelTanks/FuelTank_01/data/FuelTank_01_orange.emat"
+    }
+   }
+  }
+  SCR_DestructibleBuildingComponent "{5DA867F4F045AA84}" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_sRuinsPrefab "{6893FA045768E152}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_01/FuelTank_01_orange_Ruin.et"
+    }
+   }
+  }
+ }
+}

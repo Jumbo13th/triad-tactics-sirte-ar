@@ -1,0 +1,13 @@
+StaticModelEntity : "{2AA51F15F675C7AD}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01_base.et" {
+ ID "1133272B8B185691"
+ {
+  GenericEntity : "{73A113FC0652DBC4}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01_bar.et" {
+   ID "66ECB2E595383957"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     PivotID "socket_bar"
+    }
+   }
+  }
+ }
+}

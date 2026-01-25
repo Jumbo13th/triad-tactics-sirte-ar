@@ -1,0 +1,28 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{C9C12FC0BF3C6319}Assets/Structures/Infrastructure/Naval/Piers/PierConcrete_01_corner_30_outer.xob"
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords -93.703 -53.119 76.836
+ IsBuilding 0
+ SlotBoneMappings {
+  SlotBoneMappingObject "{67070086E2E6A0AA}" {
+   BonePrefix "socket_bollard"
+   Prefab "{85CE0F68DA969A31}Prefabs/Structures/Infrastructure/Naval/SeaBollards/SeaBollard_01.et"
+  }
+  SlotBoneMappingObject "{67070086E2E6A0A4}" {
+   BonePrefix "socket_short_wood"
+   Prefab "{EEB26CC2CCC336F8}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Wood_Short_01.et"
+  }
+  SlotBoneMappingObject "{67070086E2E6A0A5}" {
+   BonePrefix "socket_tire"
+   Prefab "{5BA952DAADCB9C5B}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Tires_01.et"
+  }
+ }
+}

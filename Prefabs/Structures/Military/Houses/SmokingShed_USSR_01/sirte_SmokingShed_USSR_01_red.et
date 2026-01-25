@@ -1,0 +1,28 @@
+SCR_DestructibleBuildingEntity : "{B502991E95F6B29C}Prefabs/Structures/Military/Houses/SmokingShed_USSR_01/SmokingShed_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{66FAFBC5406BE6AB}" {
+     SourceMaterial "SmokingShed_USSR_01"
+     AssignedMaterial "{4DA89F917FD69C1A}Assets/Structures/Military/Houses/SmokingShed_USSR_01/Data/SmokingShed_USSR_01_red.emat"
+    }
+    MaterialAssignClass "{66FAFBC5406BE6DE}" {
+     SourceMaterial "SmokingShed_USSR_01_Decal_SovietStar"
+     AssignedMaterial "{4C212ECF9DF10D6F}Assets/Structures/Military/Houses/SmokingShed_USSR_01/Data/SmokingShed_USSR_01_Decal_Empty.emat"
+    }
+    MaterialAssignClass "{66FAFBC5406BE6C0}" {
+     SourceMaterial "SmokingShed_USSR_01_MLOD"
+     AssignedMaterial "{3315BDB4B0EA2EBA}Assets/Structures/Military/Houses/SmokingShed_USSR_01/Data/SmokingShed_USSR_01_Red_MLOD.emat"
+    }
+   }
+  }
+  SCR_DestructibleBuildingComponent "{6520C30225C0D447}" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_sRuinsPrefab "{A1BBE888EBE7F9A4}Prefabs/Structures/Military/Houses/SmokingShed_USSR_01/Dst/SmokingShed_USSR_01_Ruin_Red.et"
+    }
+   }
+  }
+ }
+}

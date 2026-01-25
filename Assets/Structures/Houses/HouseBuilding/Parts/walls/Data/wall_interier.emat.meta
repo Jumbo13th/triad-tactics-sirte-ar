@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{729344F33E2FDC07}Assets/Structures/Houses/HouseBuilding/Parts/walls/Data/wall_interier.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

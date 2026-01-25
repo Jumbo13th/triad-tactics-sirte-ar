@@ -1,0 +1,117 @@
+SCR_DestructibleBuildingEntity {
+ ID "66EABCCA6AB9ACED"
+ components {
+  MeshObject "{66EABCCA6AB9ACF2}" {
+   Object "{A461C0DFCFECD2B9}Assets/ME_Bulding/HouseC/House_C_11_EP1.xob"
+  }
+  RigidBody "{66EABCCA6AB9ACA4}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66EABCCA6AB9ACA9}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCCA6AB9ACAE}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCCA6AB9ACB0}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCCA6AB9ACB2}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCCA6AB9ACB5}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{2DA3D80E7657E67A}Prefabs/Structures/Bulding/HouseC/House_C_11_EP1_Ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCCA6AB9ACB6}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCCA6AB9ACB9}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCCA6AB9ACBB}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCCA6AB9ACBD}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66EABCCA6AB9ACBE}" {
+  }
+  RplComponent "{66EABCCA6AB9AC81}" {
+  }
+  Hierarchy "{66EABCCA6AB9AC4E}" {
+  }
+ }
+ coords 35.624 1.001 156.237
+}

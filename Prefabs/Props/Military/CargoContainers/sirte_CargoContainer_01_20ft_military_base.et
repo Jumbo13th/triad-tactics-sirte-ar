@@ -1,0 +1,40 @@
+GenericEntity : "{A46F8469F129E154}Prefabs/Props/Military/CargoContainers/CargoContainer_01_military_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{C18F31776C072B7D}Assets/Props/Industrial/CargoContainer_01/CargoContainer_01_20ft.xob"
+   Materials {
+    MaterialAssignClass "{66EB1063061760E0}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{36D9EECF3E50CA06}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_10ft_US.emat"
+    }
+    MaterialAssignClass "{66EB1063061760FB}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{7F1B31D47F78928F}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_US_LOD.emat"
+    }
+    MaterialAssignClass "{66EB1063061760F8}" {
+     SourceMaterial "Common/Materials/Default_Transparent"
+     AssignedMaterial "{D14E5BDA41F67677}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_Ammo_US.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
+   m_fBaseHealth 10000
+   m_DestroySpawnObjects {
+    SCR_PrefabSpawnable "{64C69C108BC12139}" {
+     m_Prefabs {
+      "{34634EF47E881553}Prefabs/Props/Military/CargoContainers/Dst/CargoContainer_01_20ft_US_Debris.et"
+     }
+    }
+    SCR_DebrisSpawnable "{64C69C13A07877F6}" {
+     m_ModelPrefabs {
+      "{116DF9DE71629C28}Assets/Props/Industrial/CargoContainer_01/Dst/CargoContainer_01_20ft_Dst_02_dbr_01.xob" "{887340476C85ADB8}Assets/Props/Industrial/CargoContainer_01/Dst/CargoContainer_01_20ft_Dst_02_dbr_02.xob" "{FF7928CF982742C8}Assets/Props/Industrial/CargoContainer_01/Dst/CargoContainer_01_20ft_Dst_02_dbr_03.xob" "{F8BED29EFEA1F80B}Assets/Props/Industrial/CargoContainer_01/Dst/CargoContainer_01_20ft_Dst_02_dbr_04.xob"
+     }
+    }
+   }
+  }
+ }
+}

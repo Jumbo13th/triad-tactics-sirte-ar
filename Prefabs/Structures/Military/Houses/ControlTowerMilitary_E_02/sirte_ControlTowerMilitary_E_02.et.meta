@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D6773EF393AC1F0A}Prefabs/Structures/Military/Houses/ControlTowerMilitary_E_02/sirte_ControlTowerMilitary_E_02.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

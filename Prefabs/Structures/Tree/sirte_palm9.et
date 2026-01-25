@@ -1,0 +1,24 @@
+Tree : "{63DC62906A5917F3}Prefabs/Vegetation/Tree/t_populus_nigra/t_populus_nigra_3s.et" {
+ ID "0F2AA6B42CA78628"
+ components {
+  MeshObject "{680BA6B5982CCC9C}" {
+   Object "{808E5DDBDBC95A1E}Assets/ME_Tree/palm_09.xob"
+  }
+ }
+ coords 115.526 -0.406 189.39
+ angles -0.138 126.006 -0.869
+ scale 0.831
+ FirstDestructionPhase SCR_BaseDestructionPhase "{5EA30A303A8696D4}" {
+  m_sPhaseModel "{808E5DDBDBC95A1E}Assets/ME_Tree/palm_09.xob"
+  m_aPhaseDestroySpawnObjects {
+   SCR_PrefabSpawnable "{6308EB177862FBD3}" {
+    m_Prefabs {
+     "{4688CE00450085D3}Prefabs/Structures/Tree/damp_palm9.et"
+    }
+   }
+  }
+ }
+ LastDestructionPhase SCR_BaseDestructionPhase "{5EA30A2E369EFD7F}" {
+  m_sPhaseModel "{B2A7E82B03B434DD}Prefabs/Structures/Tree/broken_palm.et"
+ }
+}

@@ -1,0 +1,33 @@
+GenericEntity : "{7B3DC0F2263E1036}Prefabs/Props/Military/WaterTanks/MobileWaterTank_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{6A07B988B26BFD8C}Assets/Props/Military/WaterTanks/MobileWaterTankUS_01/MobileWaterTankUS_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{61F2A96BAE15C474}" {
+   Enabled 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{61F2A96BD61EB512}" {
+     m_ModelPrefabs {
+      "{33731EF55105D2FB}Assets/Props/Military/WaterTanks/MobileWaterTankUS_01/Dst/MobileWaterTankUS_01_dst_dbr_03.xob"
+     }
+    }
+    SCR_DebrisSpawnable "{61F2A96BD4E55D67}" {
+     m_ModelPrefabs {
+      "{4479767DA5A73D8B}Assets/Props/Military/WaterTanks/MobileWaterTankUS_01/Dst/MobileWaterTankUS_01_dst_dbr_02.xob" "{DD67CFE4B8400C1B}Assets/Props/Military/WaterTanks/MobileWaterTankUS_01/Dst/MobileWaterTankUS_01_dst_dbr_01.xob"
+     }
+    }
+   }
+   m_bDeleteAfterFinalPhase 0
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{66EABCDA3FF37BA7}" {
+     m_PhaseModel "{0489A2618EBD3CDB}Assets/Props/Military/WaterTanks/MobileWaterTankUS_01/Dst/MobileWaterTankUS_01_dst.xob"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+ }
+}

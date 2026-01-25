@@ -1,0 +1,252 @@
+SCR_DestructibleBuildingEntity {
+ ID "66ECB2ED48A5E49C"
+ components {
+  MeshObject "{66ECB2ED48B068A1}" {
+   Object "{AA7F8497F21BDD63}Assets/ME_Bulding/HouseC/House_C_12_EP1.xob"
+  }
+  RigidBody "{66ECB2ED48B068A9}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66ECB2ED48B068B7}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66ECB2ED48B068BD}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66ECB2ED48B068BA}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66ECB2ED48B068B8}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66ECB2ED48B06846}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{56147C2189C8C055}Prefabs/Structures/Bulding/HouseC/House_C_12_EP1_Ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66ECB2ED48B06845}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66ECB2ED48B06842}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66ECB2ED48B06840}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66ECB2ED48B0684E}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66ECB2ED48B0684D}" {
+  }
+  RplComponent "{66ECB2ED48B0D569}" {
+  }
+  Hierarchy "{66ECB2ED48B0D576}" {
+  }
+ }
+ coords 120.488 1 106.492
+ {
+  $grp GenericEntity : "{45E5EAEDA8C5C3E1}Prefabs/Structures/BuildingParts/Doors/DoorSet_LighthouseMedium_bottom.et" {
+   {
+    ID "66ECB2ED48A9602A"
+    coords 0.359 3.836 -1.397
+    angles 0 0.693 0
+    scale 0.898
+   }
+   {
+    ID "66ECB2ED48A9602B"
+    coords -5.007 0.159 -1.163
+    angles 0 -179.307 0
+    scale 0.898
+   }
+  }
+  $grp GenericEntity : "{6665A9CC940A7F4E}Prefabs/Structures/Door/garage_door.et" {
+   {
+    ID "66ECB2ED48A82474"
+    coords 2.52 4.21 6.088
+    angles 0 0 0
+    scale 0.934
+   }
+   {
+    ID "66ECB2ED48A8A87D"
+    coords -1.354 4.21 6.088
+    angles 0 0 0
+    scale 0.934
+   }
+  }
+  GenericEntity : "{CBE2BA7FF0914514}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_01_FoodStore.et" {
+   ID "66ECB2ED48B3DA82"
+   components {
+    MeshObject "{5111E74D5E891458}" {
+     Materials {
+      MaterialAssignClass "{5682D51A894025A0}" {
+       SourceMaterial "Collor_Palette"
+       AssignedMaterial "{397FE9FA3787DCE1}Assets/ME_Sign/1024x256_CarMechanic_Sign_MLOD.emat"
+      }
+      MaterialAssignClass "{5682D51A894025D1}" {
+       SourceMaterial "SignCommercial_01"
+       AssignedMaterial "{8ADFA9C8A14D7CA4}Assets/ME_Sign/1024x256_CarMechanic_Sign.emat"
+      }
+     }
+    }
+   }
+   coords 1.96 3.815 6.328
+   angles 0 -0.268 0
+   scale 1.529
+  }
+  $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+   {
+    ID "66ECB2ED48B2ABD3"
+    coords 1.886 0.092 -3.848
+    angles 0 -90 0
+    scale 1.03
+   }
+   {
+    ID "66ECB2ED48B2CD76"
+    coords 3.639 0.134 -1.154
+    scale 1.03
+   }
+   {
+    ID "66ECB2ED48B2CD77"
+    coords -6.411 0.106 -3.914
+    angles 0 90 0
+    scale 1.03
+   }
+  }
+  $grp GenericEntity : "{FEC9E591743B4F8B}Prefabs/Structures/BuildingParts/Windows/Glass_88x154/Glass_88x154.et" {
+   {
+    ID "66ECB2ED48B01D3A"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66ECB2ED48B0D506}" {
+        SourceMaterial "Common/Materials/Glass_generic"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords 2.153 5.376 -3.287
+    angles 0 -8.603 0
+    scale 0.55
+   }
+   {
+    ID "66ECB2ED48B01D3B"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66ECB2ED48B0D502}" {
+        SourceMaterial "Common/Materials/Glass_generic"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords 2.08 5.38 -4.255
+    angles 0 -40.603 0
+    scale 0.55
+   }
+   {
+    ID "66ECB2ED48B068A7"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66ECB2ED48B0D505}" {
+        SourceMaterial "Common/Materials/Glass_generic"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -6.45 5.456 -3.326
+    angles 0 -40.398 0
+    scale 0.663
+   }
+   {
+    ID "66ECB2ED48B195E3"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66ECB2ED48B0D53B}" {
+        SourceMaterial "Common/Materials/Glass_generic"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -6.589 5.46 -4.325
+    angles 0 -8.398 0
+    scale 0.663
+   }
+  }
+ }
+}

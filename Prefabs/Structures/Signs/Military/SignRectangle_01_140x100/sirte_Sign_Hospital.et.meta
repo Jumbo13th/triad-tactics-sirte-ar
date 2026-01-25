@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F773B4FB09F3E51}Prefabs/Structures/Signs/Military/SignRectangle_01_140x100/sirte_Sign_Hospital.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

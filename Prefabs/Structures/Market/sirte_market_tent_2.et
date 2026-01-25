@@ -1,0 +1,9 @@
+GenericEntity : "{7F8DB0D9FEE38305}Prefabs/Structures/Market/hut.et" {
+ ID "5CB36483F06A1572"
+ components {
+  MeshObject "{5CB364830593DAAA}" {
+   Object "{B816DA7089FCCB4E}Assets/ME_Market/Market_Stalls_01_EP1.xob"
+  }
+ }
+ coords 120.234 1 116.13
+}

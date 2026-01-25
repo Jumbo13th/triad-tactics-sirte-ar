@@ -1,0 +1,7 @@
+MatPBRMulti {
+ VFXMap "{3A4656BD557C6D0F}Assets/Structures/Houses/House_1/Data/Final/brick_VFX.edds"
+ Color_1 0.784 0.784 0.784 1
+ BCR_1 "{72ECE887D06F8EFD}Assets/Structures/Houses/House_1/Data/Final/brick_BCR.edds"
+ NMO_1 "{80FAAE8D9CE4BA99}Assets/Structures/Houses/House_1/Data/Final/brick_N.edds"
+ DetNormal_1 3.294
+}

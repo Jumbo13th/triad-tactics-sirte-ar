@@ -1,0 +1,54 @@
+SCR_DestructibleBuildingEntity : "{576A1717188E62C7}Prefabs/Structures/Infrastructure/Waterworks/WaterTower_02/WaterTower_02_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_BuildingSoundComponent "{65F94812E0C5052B}" {
+   m_vMins -1.5 18 -1.5
+   m_vMaxs 1.5 21 1.5
+  }
+  MapDescriptorComponent "{66EEA8C414684930}" {
+   MainType "Water Tower"
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{A1E6DA03D4EBBCF3}Assets/Structures/Infrastructure/Waterworks/WaterTower_02/WaterTower_02_tall.xob"
+  }
+  SCR_DestructibleBuildingComponent "{64AA7D809E4A2932}" : "{23B1D64FCD7645A9}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Metal_Large.ct" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_bPersistent 1
+     m_sRuinsPrefab "{D6AD4DD647EB7075}Prefabs/Structures/Infrastructure/Waterworks/WaterTower_02/Dst/WaterTower_02_tall_ruin.et"
+    }
+   }
+   m_aInteriorQueryBoundingBoxes {
+    SCR_InteriorBoundingBox "{6674B260C929741A}" {
+     m_vCenter PointInfo "{66EEA8C414684921}" {
+      Offset 0 20.2609 0
+     }
+     m_vScale 3 5 3
+    }
+    SCR_InteriorBoundingBox "{6674B260C931F838}" {
+     m_vCenter PointInfo "{66EEA8C414684923}" {
+      Offset 0 10.7938 -2.2798
+     }
+     m_vScale 1 22 1
+    }
+    SCR_InteriorBoundingBox "{6674B260C9DB8EC7}" {
+     m_vCenter PointInfo "{66EEA8C414684922}" {
+      Offset 0 7.2087 0
+     }
+     m_vScale 1.5 23 1.5
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{2919DBB302E24586}Prefabs/Structures/BuildingParts/Ladders/Ladder_WaterTower_02/Ladder_WaterTower_02_2150_B.et" {
+   ID "66EEA8C414684939"
+   components {
+    Hierarchy "{557E8CF8B87AB6F6}" {
+     PivotID "COM_WaterTower_02_Tall"
+    }
+   }
+  }
+ }
+}

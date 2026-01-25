@@ -1,0 +1,300 @@
+SCR_DestructibleBuildingEntity : "{AACC08B16759B842}Prefabs/Structures/Bulding/Mosque/Mosque_big_Base.et" {
+ ID "5F388B1F9621EEFC"
+ components {
+  RigidBody "{66FCB55B449D27F6}" {
+   ModelGeometry 1
+   Static 1
+  }
+  Hierarchy "{66FCB55B449D271F}" {
+  }
+ }
+ coords 107.108 0 104.59
+ scale 0.92
+ {
+  $grp GenericEntity : "{0BE3BDE3910436F2}Prefabs/Props/Decorations/Flowerpots/FlowerpotPelargonia_01_red.et" {
+   {
+    ID "66FCB55B44946ED3"
+    coords -2.303 0.975 -12.985
+   }
+   {
+    ID "66FCB55B449566A9"
+    coords -1.549 0.978 -11.441
+    angles 0 -91 0
+   }
+   {
+    ID "66FCB55B4495A8EB"
+    coords 1.572 0.983 -11.373
+    angles 0 -90 0
+   }
+   {
+    ID "66FCB55B4495A8EC"
+    coords 1.572 0.983 -12.478
+    angles 0 -90 0
+   }
+   {
+    ID "66FCB55B4495EDC3"
+    coords -1.541 0.969 -12.519
+    angles 0 -91 0
+   }
+  }
+  $grp GenericEntity : "{379053BBA679D038}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_ST_M2.et" {
+   {
+    ID "66FCB55B449422BF"
+    coords 9.012 0.151 9.753
+    angles 0 -180 0
+    scale 0.88
+   }
+   {
+    ID "66FCB55B44946ED1"
+    coords 9.017 0.151 -9.881
+    scale 0.88
+   }
+   {
+    ID "66FCB55B44946EDE"
+    coords -9.023 0.151 9.665
+    angles 0 -180 0
+    scale 0.88
+   }
+   {
+    ID "66FCB55B44946EDF"
+    coords -9.016 0.151 -9.879
+    scale 0.88
+   }
+  }
+  $grp GenericEntity : "{4F63524C78A8CECD}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_EXT_COV_B_blue.et" {
+   {
+    ID "66FCB55B449422BA"
+    coords 0.056 0.149 9.917
+    angles 0 -180 0
+    scale 1.376
+   }
+   {
+    ID "66FCB55B449422BD"
+    coords -0.019 0.149 -10.124
+    scale 1.376
+   }
+  }
+  $grp GenericEntity : "{65D360B738316751}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_COV_B_beige.et" {
+   {
+    ID "66FCB55B449422BB"
+    coords 9.064 5.428 8.015
+    angles 0 0.057 0
+    scale 0.828
+   }
+   {
+    ID "66FCB55B4494CEB1"
+    coords 9.075 5.428 -8.167
+    angles 0 -179.943 0
+    scale 0.828
+   }
+   {
+    ID "66FCB55B4494CEB2"
+    coords -9.066 5.428 -8.177
+    angles 0 179.057 0
+    scale 0.82
+   }
+   {
+    ID "66FCB55B4494F8DB"
+    coords -9.077 5.427 7.991
+    scale 0.82
+   }
+  }
+  GenericEntity : "{7E08585422278B0A}Prefabs/Props/Decorations/Flowerpots/FlowerpotPelargonia_01_red_v2.et" {
+   ID "66FCB55B4494B51E"
+   coords 2.345 0.983 -12.972
+  }
+  $grp GenericEntity : "{A672274B7A57FF01}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_150x225.et" {
+   {
+    ID "66FCB55B4494B500"
+    coords -11.155 1.372 -0.105
+    angles 0 90.281 0
+    scale 1.07
+   }
+   {
+    ID "66FCB55B44980668"
+    coords -4.577 11.318 5.435
+    angles 0 140 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B44980A19"
+    coords -6.978 11.316 1.24
+    angles 0 99 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B44988708"
+    coords 0.036 11.313 7.062
+    angles 0 -180 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B44988709"
+    coords -2.422 11.313 6.632
+    angles 0 160 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449920A9"
+    coords -2.39 11.241 -6.617
+    angles 0 21 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B44997044"
+    coords -6.008 11.196 -3.458
+    angles 0 60 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B44997C5D"
+    coords 2.381 11.279 -6.628
+    angles 0 -19 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B4499BEF8"
+    coords -6.082 11.319 3.516
+    angles 0 120 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B4499BEFF"
+    coords -6.934 11.301 -1.218
+    angles 0 82 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449A1A40"
+    coords 6.126 11.216 -3.515
+    angles 0 -59 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449A5D63"
+    coords 6.96 11.225 -1.269
+    angles 0 -81 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449A9A2C"
+    coords 4.494 11.205 -5.4
+    angles 0 -40 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449A9A2D"
+    coords -0.008 11.315 -7.037
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449B541A"
+    coords 11.183 1.346 -0.058
+    angles 0 90.281 0
+    scale 1.07
+   }
+   {
+    ID "66FCB55B449B541B"
+    coords -9.022 6.475 10.211
+    scale 0.905
+   }
+   {
+    ID "66FCB55B449B68D5"
+    coords 9.102 6.479 10.243
+    scale 0.905
+   }
+   {
+    ID "66FCB55B449B9D8D"
+    coords -4.523 11.271 -5.373
+    angles 0 42 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449B9D8E"
+    coords 9.063 6.414 -10.388
+    scale 0.905
+   }
+   {
+    ID "66FCB55B449BCBE0"
+    coords -9.064 6.467 -10.401
+    scale 0.905
+   }
+   {
+    ID "66FCB55B449E5159"
+    coords 6.965 11.229 1.197
+    angles 0 -100 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449F276E"
+    coords 4.555 11.312 5.397
+    angles 0 -139 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449F7196"
+    coords 6.137 11.299 3.524
+    angles 0 -120 0
+    scale 0.87
+   }
+   {
+    ID "66FCB55B449F925B"
+    coords 2.47 11.295 6.568
+    angles 0 -160 0
+    scale 0.87
+   }
+  }
+  $grp GenericEntity : "{B67255F5360C6DBD}Prefabs/Structures/Misc/Bots.et" {
+   {
+    ID "66FCB55B449E28F5"
+    coords 1.225 0.149 -11.297
+    angles 0 -174 0
+   }
+   {
+    ID "66FCB55B449E3357"
+    coords -0.702 0.149 -12.31
+    angles 0 20 0
+   }
+   {
+    ID "66FCB55B449E515A"
+    coords 0.789 0.149 -11.512
+    angles 0 -177 0
+   }
+   {
+    ID "66FCB55B449E515B"
+    coords -0.894 0.149 -11.149
+    angles 0 5 0
+   }
+   {
+    ID "66FCB55B449EEEE4"
+    coords -1.271 0.149 -12.31
+    angles 0 5 0
+   }
+   {
+    ID "66FCB55B449EEEEB"
+    coords -1.293 0.149 -10.85
+    angles 0 5 0
+   }
+  }
+  $grp GenericEntity : "{EAB8C2D083C36160}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_100x125.et" {
+   {
+    ID "66FCB55B449D278E"
+    coords 5.661 14.127 -3.283
+    angles 0 -58 90
+    scale 0.86
+   }
+   {
+    ID "66FCB55B449D7582"
+    coords -5.682 14.116 -3.261
+    angles 0 -120 90
+    scale 0.86
+   }
+   {
+    ID "66FCB55B449D7583"
+    coords 0.013 14.09 6.625
+    angles 0 178 90
+    scale 0.86
+   }
+  }
+ }
+}

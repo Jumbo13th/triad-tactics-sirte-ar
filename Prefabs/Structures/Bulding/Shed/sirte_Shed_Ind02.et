@@ -1,0 +1,134 @@
+SCR_DestructibleBuildingEntity : "{B0036B087E62C886}Prefabs/Structures/Bulding/Shed/Shed_Ind02_Base.et" {
+ ID "6518692B65158D48"
+ coords 12.795 1 152.852
+ {
+  $grp GenericEntity : "{5182BEF1FA3240EB}Prefabs/Structures/BuildingParts/Doors/DoorSet_Passage_02_Brown.et" {
+   {
+    ID "66ECB2E8908E9D21"
+    coords 2.23 0.196 -9.231
+    scale 1.02
+   }
+   {
+    ID "66ECB2E8908E9D5D"
+    coords -2.212 -0.043 11.543
+    angles 0 -180 0
+    scale 1.02
+   }
+  }
+  $grp GenericEntity : "{51E35B4975CBC575}Prefabs/Structures/BuildingParts/Windows/Glass_102x130/Glass_102x130.et" {
+   {
+    ID "66ECB2E89082D0C9"
+    coords 5.222 5.213 7.263
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E89082EC9C"
+    coords 5.222 5.213 3.327
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E89083744A"
+    coords -5.2 2.409 -1.425
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908396D5"
+    coords -5.2 2.409 -5.033
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908396DA"
+    coords -5.2 2.409 10.111
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908C2AAD"
+    coords -5.2 5.213 -7.769
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908C2DA1"
+    coords -5.2 2.409 -7.769
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908C2E4D"
+    coords -1.276 4.972 13.512
+    scale 0.718
+   }
+   {
+    ID "66ECB2E8908C8901"
+    coords -5.2 2.409 3.327
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908CAE36"
+    coords -5.2 2.409 7.263
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908CAE37"
+    coords -5.2 5.213 10.111
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908D20B2"
+    coords -5.2 5.213 3.327
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908D213B"
+    coords -5.2 5.213 7.263
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908DB1E9"
+    coords -5.2 5.213 -1.425
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908DB1EA"
+    coords -5.2 5.213 -5.033
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908DE953"
+    coords 5.222 5.213 -1.425
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908E01E6"
+    coords 5.222 5.213 10.111
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908E1F72"
+    coords 5.222 5.213 -7.769
+    angles 0 -90 0
+    scale 1.15
+   }
+   {
+    ID "66ECB2E8908E4310"
+    coords 5.222 5.213 -5.033
+    angles 0 -90 0
+    scale 1.15
+   }
+  }
+ }
+}

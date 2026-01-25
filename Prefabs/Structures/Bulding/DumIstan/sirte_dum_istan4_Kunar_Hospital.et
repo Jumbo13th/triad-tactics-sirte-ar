@@ -1,0 +1,2011 @@
+SCR_DestructibleBuildingEntity {
+ ID "66FAA7F198658AF4"
+ components {
+  MeshObject "{66FAA7F19813F4F6}" {
+   Object "{652E725CA3ECF509}Assets/ME_Bulding/DumIstan/dum_istan4_B.xob"
+   LODFactors {
+    20 15 10 1
+   }
+  }
+  RigidBody "{66FAA7F19813F4FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66FAA7F19813F4FB}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66FAA7F19813F4ED}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAA7F19813F4D4}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAA7F19813F4D7}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66FAA7F19813F4D1}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{04CEBBEB2322FB9F}Prefabs/Structures/Bulding/HouseC/House_C_10_EP1_Ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAA7F19813F4DC}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66FAA7F19813F4DD}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66FAA7F19813F4DF}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAA7F19813F4D9}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66FAA7F19813F4C4}" {
+   Enabled 0
+  }
+  RplComponent "{66FAA7F19813F4C5}" {
+   Enabled 0
+  }
+  Hierarchy "{66FAA7F19813F77F}" {
+  }
+ }
+ coords 113.088 1 110.631
+ {
+  GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+   ID "66FAA7F198658AF0"
+   coords -1.853 12.314 -1.563
+   angles 0 90 0
+   scale 1.03
+  }
+  $grp Building : "{0C98FA35242BC3CC}Prefabs/Structures/BuildingParts/Windows/Win_FactoryHall_E/Win_FactoryHall_E_340x340_55555_B.et" {
+   {
+    ID "66FAA7F198658B00"
+    coords -3.009 1.359 7.913
+    scale 0.796
+   }
+   {
+    ID "66FAA7F198658B07"
+    coords 3.054 1.359 7.913
+    scale 0.796
+   }
+   {
+    ID "66FAA7F198658B09"
+    coords 6.162 1.359 7.913
+    scale 0.796
+   }
+   {
+    ID "66FAA7F198658B0F"
+    coords -5.993 1.359 7.913
+    scale 0.796
+   }
+   {
+    ID "66FAA7F198658B10"
+    coords 2.99 4.583 8.143
+    scale 0.931
+   }
+   {
+    ID "66FAA7F198658B12"
+    coords 2.99 10.302 8.143
+    scale 0.931
+   }
+   {
+    ID "66FAA7F198658B14"
+    coords 2.99 7.253 8.143
+    scale 0.931
+   }
+   {
+    ID "66FAA7F198658B16"
+    coords -2.981 4.583 8.143
+    scale 0.931
+   }
+   {
+    ID "66FAA7F198658B1B"
+    coords -2.981 10.302 8.143
+    scale 0.931
+   }
+   {
+    ID "66FAA7F198658B1D"
+    coords -2.981 7.253 8.143
+    scale 0.931
+   }
+   {
+    ID "66FAA7F198658B1E"
+    coords -7.192 1.361 6.702
+    angles 0 -90 0
+    scale 0.796
+   }
+   {
+    ID "66FAA7F198658B1F"
+    coords 7.154 1.369 6.668
+    angles 0 90 0
+    scale 0.796
+   }
+  }
+  GenericEntity : "{1D2BBC06E656974F}Prefabs/Structures/BuildingParts/Misc/TvAntenna_01.et" {
+   ID "66FAA7F198658B2E"
+   coords 1.299 15.229 -6.307
+  }
+  $grp SCR_DestructibleEntity : "{234AEC851DFF1B8C}Prefabs/Props/Decorations/Flowerpots/FlowerpotFlowers_01/FlowerpotFlowers_01_begonia_pink.et" {
+   {
+    ID "66FAA7F198651613"
+    coords -4.878 0.993 -0.249
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7F198658B2C"
+    coords 2.268 0.993 2.423
+    angles 0 -90 0
+   }
+  }
+  GenericEntity : "{25B473F35DCBDA7A}Prefabs/Props/Civilian/ClockUniversal_01.et" {
+   ID "66FAA7F198651615"
+   coords 1.509 1.822 2.987
+   angles 0 -90 0
+  }
+  $grp GenericEntity : "{27EA47994266D9DD}Prefabs/Props/Services/Healthcare/BinMedical_01.et" {
+   {
+    ID "66FAA7F19864F09F"
+    coords 3.139 0.087 -0.475
+    angles 0 -1 0
+   }
+   {
+    ID "66FAA7F198651617"
+    coords 1.237 0.087 4.806
+    angles 0 -118 0
+   }
+  }
+  $grp GenericEntity : "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et" {
+   {
+    ID "66FAA7F19864AA94"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_M1_01"
+      AutoTransform 1
+     }
+    }
+    coords 1.664 0.086 0.242
+    angles 0 90 0
+    scale 0.796
+   }
+   {
+    ID "66FAA7F19864F091"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_int_M1_01"
+      AutoTransform 1
+     }
+    }
+    coords -1.727 0.086 0.242
+    angles 0 -90 0
+    scale 0.796
+   }
+  }
+  $grp GenericEntity : "{31627435F2C7CBF4}Prefabs/Props/Services/Healthcare/CabinetMedical_01_single.et" {
+   {
+    ID "66FAA7F1986439D6"
+    coords 6.997 0.087 2.922
+    angles 0 -88 0
+   }
+   {
+    ID "66FAA7F19864AA95"
+    coords -4.66 0.087 4.799
+    angles 0 177 0
+   }
+  }
+  GenericEntity : "{33882C61BA9F0F90}Prefabs/Props/Civilian/Globe_01.et" {
+   ID "66FAA7F1986439D5"
+   coords 1.979 0.993 2.851
+   angles 0 45 0
+  }
+  GenericEntity : "{3800AA04761AE0EC}Prefabs/Props/Civilian/Notebook_01_Single_Blue.et" {
+   ID "66FAA7F1986439D3"
+   coords 2.442 0.993 2.83
+   angles 0 -151.798 0
+  }
+  $grp GenericEntity : "{44F62429569B0AD0}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_PortableCabin_E_A_B.et" {
+   {
+    ID "66FAA7F198640C72"
+    coords -7.487 4.188 0.723
+    angles 0 90 0
+    scale 0.9
+   }
+   {
+    ID "66FAA7F1986439D2"
+    coords -7.487 4.188 6.724
+    angles 0 90 0
+    scale 0.9
+   }
+  }
+  $grp GenericEntity : "{452C9FF31AAF2B82}Prefabs/Props/Services/Healthcare/CabinetMedical_01.et" {
+   {
+    ID "66FAA7F19863A3A3"
+    coords 7.038 0.087 3.719
+    angles 0 -88 0
+   }
+   {
+    ID "66FAA7F19863BED0"
+    coords -6.831 0.087 -0.203
+   }
+   {
+    ID "66FAA7F198640C71"
+    coords 4.518 0.087 4.772
+    angles 0 180 0
+   }
+  }
+  GenericEntity : "{49012FE1DEF653EE}Prefabs/Props/Furniture/Sink_01.et" {
+   ID "66FAA7F19863A3BD"
+   coords 3.449 0.188 -0.654
+  }
+  $grp GenericEntity : "{490914E767A7D60B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B_red.et" {
+   {
+    ID "66FAA7F198631C72"
+    coords -3.001 9.187 6.969
+    scale 1.01
+   }
+   {
+    ID "66FAA7F198634FFA"
+    coords 2.997 9.187 6.969
+    scale 1.01
+   }
+   {
+    ID "66FAA7F198634FFC"
+    coords -3.001 3.196 6.969
+    scale 1.01
+   }
+   {
+    ID "66FAA7F19863608D"
+    coords 2.997 3.196 6.969
+    scale 1.01
+   }
+   {
+    ID "66FAA7F198638DC4"
+    coords 2.997 6.177 6.969
+    scale 1.01
+   }
+   {
+    ID "66FAA7F198638DC7"
+    coords -3.001 6.177 6.969
+    scale 1.01
+   }
+   {
+    ID "66FAA7F19863A3BC"
+    coords -3.027 12.252 -0.758
+    scale 1.01
+   }
+  }
+  $grp GenericEntity : "{4A15C122F7AA1BC3}Prefabs/Props/Furniture/BenchOffice_01/BenchOffice_01_Green.et" {
+   {
+    ID "66FAA7F1986184B7"
+    coords -1.198 0.087 1.86
+    angles 0 90.287 0
+   }
+   {
+    ID "66FAA7F1986184B8"
+    coords 1.135 0.087 3.611
+    angles 0 -91 0
+   }
+   {
+    ID "66FAA7F19861B150"
+    coords 1.162 0.087 2.082
+    angles 0 -91 0
+   }
+   {
+    ID "66FAA7F19861CA52"
+    coords -6.768 0.05 6.399
+    angles 0 88.287 0
+   }
+   {
+    ID "66FAA7F1986202D6"
+    coords -5.93 0.05 7.502
+    angles 0 -179.713 0
+   }
+   {
+    ID "66FAA7F1986202D7"
+    coords 3.022 0.05 7.518
+    angles 0 -179.713 0
+   }
+   {
+    ID "66FAA7F198625B6C"
+    coords -1.19 0.087 3.535
+    angles 0 90.287 0
+   }
+   {
+    ID "66FAA7F19862CEB0"
+    coords 5.934 0.05 7.495
+    angles 0 -179.713 0
+   }
+   {
+    ID "66FAA7F19862CEB3"
+    coords -2.947 0.05 7.478
+    angles 0 -179.713 0
+   }
+   {
+    ID "66FAA7F198631C73"
+    coords 6.754 0.05 6.609
+    angles 0 -89.713 0
+   }
+  }
+  GenericEntity : "{4DBA189750F6F017}Prefabs/Props/Civilian/Typewriter_01/Typewriter_01_grey.et" {
+   ID "66FAA7F1986184B9"
+   coords 2.857 0.993 2.753
+  }
+  $grp GenericEntity : "{4F570A8D1471A537}Prefabs/Structures/BuildingParts/Windows/Blinds/Office_E/Win_Office_E_Blind_Full_Right_170x142_1_B.et" {
+   {
+    ID "66FAA7F198612949"
+    coords 5.989 1.368 4.942
+    scale 0.85
+   }
+   {
+    ID "66FAA7F1986129DA"
+    coords -2.983 1.376 4.968
+    angles 0 -180 0
+    scale 0.85
+   }
+   {
+    ID "66FAA7F1986129DB"
+    coords 2.987 1.368 4.942
+    scale 0.85
+   }
+   {
+    ID "66FAA7F198615AEA"
+    coords 6.706 1.368 4.942
+    scale 0.85
+   }
+   {
+    ID "66FAA7F1986184BA"
+    coords -5.992 1.376 4.968
+    scale 0.85
+   }
+  }
+  $grp GenericEntity : "{50801280D56B67A1}Prefabs/Props/Services/Healthcare/BedMedical_01.et" {
+   {
+    ID "66FAA7F1981FBE5F"
+    coords -6.83 0.087 3.746
+    angles 0 -179 0
+    scale 0.95
+   }
+   {
+    ID "66FAA7F1981FED09"
+    coords -3.013 0.087 4.38
+    angles 0 -89 0
+    scale 0.95
+   }
+   {
+    ID "66FAA7F198605981"
+    coords 6.676 0.087 0.645
+   }
+   {
+    ID "66FAA7F19860C2AF"
+    coords -2.995 0.087 2.147
+    angles 0 -89 0
+    scale 0.95
+   }
+  }
+  GenericEntity : "{530705FBB61026D2}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_03.et" {
+   ID "66FAA7F1981FBE59"
+   coords 6.262 12.129 0.662
+  }
+  GenericEntity : "{5E7626D8E78566B4}Prefabs/Props/Furniture/Desk_01_long.et" {
+   ID "66FAA7F1981FBE5A"
+   coords 3.768 0.087 2.283
+  }
+  GenericEntity : "{6E3320C3C37CAFE5}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_04.et" {
+   ID "66FAA7F1981F8172"
+   coords 4.184 12.129 0.546
+  }
+  GenericEntity : "{7BB30759D09C70B5}Prefabs/Props/Civilian/StepladderWooden_01.et" {
+   ID "66FAA7F1981F8173"
+   coords 1.155 12.128 -0.322
+   angles 9.285 -0.225 0
+  }
+  GenericEntity : "{81B7DA7DEF4795FE}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_M.et" {
+   ID "66FAA7F1981F810C"
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "socket_utilitybox_01"
+     AutoTransform 1
+    }
+   }
+   coords 1.51 1.166 5.387
+   scale 0.68
+  }
+  $grp GenericEntity : "{85FC23A6E1F49BBE}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_02.et" {
+   {
+    ID "66FAA7F1981E730A"
+    coords 1.544 1.325 1.134
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7F1981EE4E5"
+    coords 1.544 1.325 1.302
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7F1981F5BD1"
+    coords 1.544 1.325 1.47
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7F1981F5BD2"
+    coords 1.8 1.175 1.087
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7F1981F810D"
+    coords -1.809 1.275 1.003
+    angles 0 -90 0
+   }
+  }
+  GenericEntity : "{876B096F32584485}Prefabs/Props/Civilian/FileOffice_01_Stack.et" {
+   ID "66FAA7F1981E730C"
+   coords 1.986 0.993 2.47
+  }
+  GenericEntity : "{899258ADB1D070E6}Prefabs/Props/Civilian/WallMap_01_vertical.et" {
+   ID "66FAA7F1981E0F10"
+   coords -1.6 1.281 2.741
+   angles 0 90 0
+   scale 0.83
+  }
+  $grp Building : "{8A374B5E23EE1B49}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_150x142_M1.et" {
+   {
+    ID "66FAA7F1981DF955"
+    coords -5.965 1.279 5.046
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7F1981DF95A"
+    coords -2.983 1.279 5.046
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7F1981E0F12"
+    coords 3.032 1.247 5.007
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7F1981E0F13"
+    coords 6.026 1.247 5.007
+    angles 0 -180 0
+   }
+  }
+  GenericEntity : "{8BAF6C3ACF99388E}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_05.et" {
+   ID "66FAA7F1981D7D6A"
+   coords 5.437 12.129 -0.13
+  }
+  GenericEntity : "{8DBE697AA61EA7E3}Prefabs/Structures/Civilian/MessageBoard/MessageBoardSmall_01/MessageBoardSmall_01.et" {
+   ID "66FAA7F1981D7D68"
+   coords 1.477 4.017 -3.933
+   angles 0 90 0
+  }
+  GenericEntity : "{96FE174FB59A3532}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_ST_B_brown.et" {
+   ID "66FAA7F1981D7D69"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_ext_03"
+     AutoTransform 1
+    }
+   }
+   coords -0.012 0.021 4.955
+   scale 0.909
+  }
+  GenericEntity : "{985C3871D40C7F7B}Prefabs/Props/Garbage/Generic/Litter_01_small.et" {
+   ID "66FAA7F1981D7D6E"
+   coords 4.453 12.134 1.243
+  }
+  GenericEntity : "{A67BC8B7352F5E69}Prefabs/Props/Services/Healthcare/ScaleMedical_01.et" {
+   ID "66FAA7F1981D7D6F"
+   coords 4.961 0.087 -0.454
+   angles 0 2 0
+  }
+  GenericEntity : "{AE4BFFE75F7DA86F}Prefabs/Props/Furniture/CoatRack_04.et" {
+   ID "66FAA7F1981D7D6C"
+   coords -1.331 0.087 4.561
+   angles 0 -35.107 0
+  }
+  GenericEntity : "{AF87DF4E0C8C81C4}Prefabs/Props/Services/Healthcare/LampMedical_01.et" {
+   ID "66FAA7F1981D0182"
+   coords 6.062 0.087 1.986
+   angles 0 134.927 0
+  }
+  $grp GenericEntity : "{B3CF0487BB36323B}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01.et" {
+   {
+    ID "66FAA7F1981C007F"
+    coords -3.748 2.817 2.116
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7F1981C26CC"
+    coords 3.578 2.817 2.003
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7F1981CA13C"
+    coords 5.31 2.817 2.003
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7F1981CA13F"
+    coords 0.12 2.817 2.243
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7F1981D019D"
+    coords -5.513 2.817 2.134
+    angles 0 90 0
+   }
+  }
+  $grp GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
+   {
+    ID "66FAA7F1981B2768"
+    coords -0.116 0.09 -2.685
+   }
+   {
+    ID "66FAA7F1981B93A8"
+    coords -0.082 0.889 -3.145
+   }
+   {
+    ID "66FAA7F1981BD863"
+    coords -0.008 0.09 -3.362
+    angles 0 88 0
+   }
+   {
+    ID "66FAA7F1981C0079"
+    coords 0.323 0.09 -2.711
+   }
+  }
+  $grp GenericEntity : "{CC26426052C1D1E6}Prefabs/Props/Furniture/PlantRoom_02.et" {
+   {
+    ID "66FAA7F1981A6C54"
+    coords 6.746 0.05 5.438
+   }
+   {
+    ID "66FAA7F1981A6C5B"
+    coords -6.641 0.05 5.451
+    angles 0 -73 0
+   }
+   {
+    ID "66FAA7F1981A89AB"
+    coords 4.959 0.05 7.583
+   }
+   {
+    ID "66FAA7F1981ABA62"
+    coords 1.399 0.05 7.654
+    angles 0 -47 0
+   }
+   {
+    ID "66FAA7F1981AC722"
+    coords -4.419 0.05 7.54
+   }
+   {
+    ID "66FAA7F1981AC723"
+    coords -0.96 0.087 4.747
+   }
+   {
+    ID "66FAA7F1981B276A"
+    coords -1.474 0.05 7.695
+   }
+  }
+  GenericEntity : "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01.et" {
+   ID "66FAA7F1981A6C50"
+   coords 3.449 1.346 -0.644
+  }
+  $grp GenericEntity : "{D0FF7E066D18C383}Prefabs/Props/Furniture/Chair_01/Chair_01_white.et" {
+   {
+    ID "66FAA7F19819338D"
+    coords 2.811 0.087 3.527
+    angles 0 179.444 0
+   }
+   {
+    ID "66FAA7F19819A62D"
+    coords 2.201 0.087 1.89
+    angles 0 88.444 0
+   }
+   {
+    ID "66FAA7F19819BC04"
+    coords -4.416 0.087 -0.033
+    angles 0 3.031 0
+   }
+   {
+    ID "66FAA7F1981A13C5"
+    coords 3.486 0.087 1.937
+    angles 0 -87.556 0
+   }
+   {
+    ID "66FAA7F1981A6C51"
+    coords -2.255 0.087 3.139
+    angles 0 -87.969 0
+   }
+  }
+  $grp GenericEntity : "{D4CEA6E00051A0DB}Prefabs/Structures/BuildingParts/Windows/Blinds/Office_E/Win_Office_E_Blind_Rolled_Right_170x142_1_B.et" {
+   {
+    ID "66FAA7F19819338E"
+    coords -5.926 1.404 5
+    angles 0 -180 0
+    scale 0.83
+   }
+   {
+    ID "66FAA7F19819338F"
+    coords -3.696 1.404 5
+    angles 0 -180 0
+    scale 0.83
+   }
+  }
+  $grp GenericEntity : "{D51E223FD6EDB039}Prefabs/Props/Furniture/ClockWall_01.et" {
+   {
+    ID "66FAA7F198191687"
+    coords -3.518 1.901 -0.467
+   }
+   {
+    ID "66FAA7F1981933B0"
+    coords 3.477 2.333 -0.675
+   }
+  }
+  GenericEntity : "{D62A80FF7E61B2FA}Prefabs/Props/Furniture/LightTable_01.et" {
+   ID "66FAA7F198191686"
+   coords 3.512 0.993 2.535
+   angles 0 -45.572 0
+  }
+  GameEntity : "{D90FAA2CC6FDB2D4}Prefabs/Structures/BuildingParts/Ladders/Ladder_ControlTower_E_01_Long.et" {
+   ID "66FAA7F198191685"
+   coords -1.474 12.099 -2.448
+   angles 0 -180 0
+  }
+  GenericEntity : "{DAFA84A74B550694}Prefabs/Structures/BuildingParts/Heating/RadiatorCastIron_01/RadiatorCastIron_01_95.et" {
+   ID "66FAA7F198191684"
+   coords -7.334 0.487 1.073
+   angles 0 90 0
+  }
+  GenericEntity : "{DB56577F30DE9129}Prefabs/Props/Furniture/Table_02.et" {
+   ID "66FAA7F19818FDB6"
+   coords -5.269 0.087 0.051
+  }
+  GenericEntity : "{E7EA9EA108001D70}Prefabs/Props/Civilian/ClockPunch_01.et" {
+   ID "66FAA7F19818FDB1"
+   coords 2.24 3.279 -0.74
+   angles 0 -180 0
+  }
+  GenericEntity : "{EA00F95E0F2A342D}Prefabs/Props/Decorations/Paintings/PaintingBig_02_V3.et" {
+   ID "66FAA7F19818FDB0"
+   coords 1.197 1.519 -0.523
+   angles 1.068 0 0
+  }
+  GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+   ID "66FAA7F19818FDB3"
+   coords 0.294 0.133 -0.64
+  }
+  GenericEntity : "{EAEF48AB7A0B6420}Prefabs/Props/Decorations/Paintings/PaintingSmall_01_base.et" {
+   ID "66FAA7F19818FDBD"
+   coords -5.272 1.716 -0.467
+  }
+  $grp GenericEntity : "{EFCD232A50C15173}Prefabs/Props/Furniture/Nightstand_01.et" {
+   {
+    ID "66FAA7F198187800"
+    coords -2.015 0.087 1.376
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7F19818D354"
+    coords -7.056 0.087 2.333
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7F19818FDBC"
+    coords -2.097 0.211 3.601
+    angles 0 -90 0
+   }
+  }
+  $grp Building : "{F0A7B88BEB15F682}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_70x72_M1.et" {
+   {
+    ID "66FAA7F198183709"
+    coords 6.009 2.41 5.045
+    angles 0 -180 0
+    scale 0.431
+   }
+   {
+    ID "66FAA7F198186174"
+    coords -5.991 2.411 5.087
+    angles 0 -180 0
+    scale 0.431
+   }
+   {
+    ID "66FAA7F198186175"
+    coords 3.017 2.41 5.045
+    angles 0 -180 0
+    scale 0.431
+   }
+   {
+    ID "66FAA7F198187803"
+    coords -2.99 2.411 5.087
+    angles 0 -180 0
+    scale 0.431
+   }
+  }
+  GenericEntity : "{F21BCA366802D99D}Prefabs/Structures/BuildingParts/Windows/Win_Cowshed_E/win_cowshed_e_130x72_1_M2_white.et" {
+   ID "66FAA7F19818370E"
+   coords 7.5 2.308 3.626
+   angles 0 90 0
+  }
+  $grp Building : "{FD2E8BE8F3881CAD}Prefabs/Structures/glass/prop_window.et" {
+   {
+    ID "66FAA7F19813F403"
+    coords 7.439 7.206 0.703
+    angles 0 90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F198141899"
+    coords 7.439 7.206 6.74
+    angles 0 90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F1981455D2"
+    coords 7.439 10.215 0.703
+    angles 0 90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F1981455D3"
+    coords 7.439 10.215 6.74
+    angles 0 90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19814C16C"
+    coords -7.436 7.197 0.734
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F1981526BD"
+    coords -2.982 7.209 -6.699
+    angles 0 180 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F1981526BE"
+    coords -2.982 10.175 -6.699
+    angles 0 180 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F1981567E8"
+    coords 7.439 4.187 6.74
+    angles 0 90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19815D474"
+    coords 6.001 7.207 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19815D475"
+    coords 7.439 4.187 0.703
+    angles 0 90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19815D877"
+    coords 6.001 4.197 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F198161C81"
+    coords -5.999 4.192 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F198161C86"
+    coords -5.999 10.185 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F198162777"
+    coords -0.002 10.187 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F1981643E6"
+    coords -5.999 7.202 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F1981643E7"
+    coords 6.001 10.19 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F198167F77"
+    coords -7.436 7.197 6.732
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19816C629"
+    coords -7.436 10.174 -2.292
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19816C62A"
+    coords -7.436 7.197 -2.292
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F198170976"
+    coords -7.436 4.204 0.734
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F198170977"
+    coords -0.002 4.194 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F198176C83"
+    coords -0.002 7.204 8.207
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19817C401"
+    coords -7.436 4.204 -2.292
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19817C41C"
+    coords -7.436 4.204 6.732
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19817C41E"
+    coords -7.436 10.174 6.732
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19817C41F"
+    coords -2.982 4.182 -6.699
+    angles 0 180 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7F19818370F"
+    coords -7.436 10.174 0.734
+    angles 0 -90 0
+    {
+     GenericEntity {
+      ID "5A32D3994AC20D38"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A713FDD3D}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5A32D3994AC20D5F"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{61B4C58A748F0CF2}" {
+          SourceMaterial "window_glass_atlas_4FAEFEC368A5B59D"
+          AssignedMaterial "{0DD7B5597FEAD155}Prefabs/Structures/glass/glasss_black.emat"
+         }
+        }
+       }
+       SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+        Enabled 0
+       }
+       RplComponent "{5484E760A1898C1C}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

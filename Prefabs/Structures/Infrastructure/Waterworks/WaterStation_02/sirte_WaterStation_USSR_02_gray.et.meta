@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B577B8D96987F464}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_02/sirte_WaterStation_USSR_02_gray.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

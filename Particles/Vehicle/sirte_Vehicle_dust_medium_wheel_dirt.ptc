@@ -1,0 +1,145 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef L_1_smoke {
+   ShapeType Box
+   ShapeSize 0.3 0 0.3
+   ConeAngle 360 0 90
+   MaxNum 60
+   BirthRate 3
+   BirthRateRND 1
+   BirthRateVel 0.25
+   Offset 0 0 0
+   Angles 0 0 0
+   LodMin 0
+   LodMax 1
+   Material "{17C4D872CCB15FDE}Particles/_Materials/Gas/Dirt_Wheel_Cloud_N_02.emat"
+   SizeMultiplier 6
+   SizeRND 2
+   RotMultiplier 90
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 0.5
+   VelocityRND 1
+   AirResistance 1
+   AirResistanceRND 0.5
+   WindInfluence 0.25
+   GravityMultiply 0
+   GravityMultiplyRND -0.1
+   EnableCollisions 1
+   NormalRestitution 0.5
+   TagentialRestitution 1
+   RandomFrame 1
+   Lifetime 2
+   LifetimeRND 1
+   LifetimeVelFactor 0.02
+   Color {
+    0 0.082 0.07 0.066 1 0.082 0.07 0.066
+   }
+   Alpha {
+    0 0 0.287 0.7 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.234 1 0.75
+   }
+   EmittingTime 0.1
+  }
+  EmitterDef L_1_smoke_static {
+   ShapeType Point
+   ShapeSize 0.1 0.1 0.1
+   ConeAngle 360 0 45
+   MaxNum 40
+   BirthRate 5
+   BirthRateRND 1
+   BirthRateVel 0
+   Offset 0 0.2 0
+   Angles 0 0 0
+   LocalTransform 1
+   LodMin 0
+   LodMax 1
+   Material "{56901C2AD20B7D45}Particles/_Materials/Gas/Smoke_Explosion_02_forWheels.emat"
+   SizeMultiplier 4
+   SizeRND 1
+   RotMultiplier 10
+   RandomRotDir 1
+   RandomAngle 1
+   FlipU Random
+   Velocity 0.5
+   VelocityRND 0.3
+   AirResistance 0.5
+   AirResistanceRND 0.5
+   WindInfluence 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   AnimOnce 1
+   AnimFPS 40
+   RandomFrame 0
+   Lifetime 0.5
+   LifetimeRND 0
+   LifetimeVelFactor 0.04
+   Color {
+    0 0.082 0.07 0.066 1 0.082 0.07 0.066
+   }
+   Alpha {
+    0 0 0.48 0.25 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.237 1 0.407
+   }
+   EmittingTime 0.1
+  }
+  EmitterDef L_1_debris {
+   ShapeType Box
+   ShapeSize 0.4 0 0.4
+   ConeAngle 360 50 70
+   MaxNum 10
+   BirthRate 6
+   BirthRateRND 4
+   BirthRateVel 1
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   LodMin 0
+   LodMax 0
+   Material "{118F069016CE1546}Particles/_Materials/Solid/Stones_Base_01.emat"
+   SizeMultiplier 0.05
+   SizeRND 0.05
+   ScaleX 1
+   RotMultiplier 720
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 8
+   VelocityRND 8
+   VelAffect 0.2
+   AirResistance 5
+   AirResistanceRND 0.5
+   GravityMultiply 1
+   GravityMultiplyRND 2
+   EnableCollisions 1
+   NormalRestitution 0.1
+   TagentialRestitution 1
+   RandomFrame 1
+   Lifetime 0.4
+   LifetimeRND 0.2
+   Color {
+    0 0.149 0.121 0.072 1 0.055 0.042 0.034
+   }
+   Alpha {
+    0 0 0.006 1 0.841 0.756 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 1 1 0.209
+   }
+   EmittingTime 0.1
+  }
+ }
+}

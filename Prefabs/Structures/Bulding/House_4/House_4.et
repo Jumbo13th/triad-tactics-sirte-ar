@@ -1,0 +1,564 @@
+SCR_DestructibleBuildingEntity {
+ ID "66EA382B51E0FFC2"
+ components {
+  MeshObject "{66EA382B51FC1F48}" {
+   Object "{450247A3A8C80039}Assets/Structures/Houses/House_4/house_4.xob"
+   Materials {
+    MaterialAssignClass "{66F164A53A00E300}" {
+     SourceMaterial "home_4_main"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+    MaterialAssignClass "{66F164A53A00E316}" {
+     SourceMaterial "home_4_wall"
+     AssignedMaterial "{489810554F2478A7}Assets/Structures/Houses/House_4/Data/home_4_wall_end.emat"
+    }
+    MaterialAssignClass "{66F164A53A00E368}" {
+     SourceMaterial "home_4_wall_2"
+     AssignedMaterial "{5D523FCCE848C0A6}Assets/Structures/Houses/House_4/Data/home_4_facade_1.emat"
+    }
+    MaterialAssignClass "{66F164A53A00E36C}" {
+     SourceMaterial "house_4_wall_3"
+     AssignedMaterial "{03BA168F57C54EA9}Assets/Structures/Houses/House_4/Data/home_4_facade_2.emat"
+    }
+    MaterialAssignClass "{66F164A53A00E361}" {
+     SourceMaterial "house_4_wall_side_1"
+     AssignedMaterial "{436175CDF6FAE952}Assets/Structures/Houses/House_4/Data/home_4_side.emat"
+    }
+    MaterialAssignClass "{66F164A53A00E37B}" {
+     SourceMaterial "house_4_wall_side_2"
+     AssignedMaterial "{436175CDF6FAE952}Assets/Structures/Houses/House_4/Data/home_4_side.emat"
+    }
+   }
+  }
+  Occluder "{66F22DFDCDCD778A}" {
+  }
+  RigidBody "{66EA382B51FC1F38}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66EA382B51FC1F2F}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     ColliderNames {
+      "UTM_FireGeo"
+     }
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EA382B51FC1FCF}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EA382B51FC1FC2}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EA382B51FC1FFD}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EA382B51FC1FF6}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{86D95CE77269F3D2}Prefabs/Structures/Bulding/House_4/House_4_ruin.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EA382B51FC1FEB}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EA382B51FC1FE3}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EA382B51FC1FBB}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EA382B51FC1FB2}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66EA382B51FC1FA9}" {
+  }
+  RplComponent "{66EA382B51FC1FA6}" {
+  }
+  Hierarchy "{66EA382B51FC1FA0}" {
+  }
+ }
+ coords -0.657 0 0.569
+ {
+  $grp GenericEntity : "{07848CA53FAD246B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_R_INT_COV_B.et" {
+   {
+    ID "66EA3828BE5535E0"
+    coords 1.5 3.25 1.9
+    scale 1.12
+   }
+   {
+    ID "66EA38294426A00D"
+    coords 1.5 6.25 1.9
+    scale 1.12
+   }
+   {
+    ID "66EA3829666CFC02"
+    coords 1.5 9.25 1.9
+    scale 1.12
+   }
+   {
+    ID "66EA3829757A80AE"
+    coords 1.96 12.25 1.7
+    scale 1.12
+   }
+   {
+    ID "66EA3829CD6CDCA4"
+    coords 1.5 3.25 -1.9
+    angles 0 180 0
+    scale 1.12
+   }
+   {
+    ID "66EA3829DFBF3678"
+    coords 1.5 6.25 -1.9
+    angles 0 -180 0
+    scale 1.12
+   }
+   {
+    ID "66EA3829EF8B4EEC"
+    coords 1.5 9.25 -1.9
+    angles 0 180 0
+    scale 1.12
+   }
+   {
+    ID "66EA3829F301E610"
+    coords 1.941 12.25 -1.7
+    angles 0 -180 0
+    scale 1.12
+   }
+   {
+    ID "66EA382B51E0FFB0"
+    coords 2.868 0.097 0.002
+    angles 0 -90 0
+    scale 1.12
+   }
+   {
+    ID "66EA382B9224BEC5"
+    coords 1.5 0.25 -1.9
+    angles 0 -180 0
+    scale 1.12
+   }
+   {
+    ID "66EA382B9FFBFE17"
+    coords 1.5 0.25 1.9
+    angles 0 360 0
+    scale 1.12
+   }
+  }
+  $grp GenericEntity : "{10F8C471A1B179E1}Prefabs/Props/Furniture/CupboardOld_01/Parts/CupboardOld_01_large_glass_base.et" {
+   {
+    ID "66EA382215721088"
+    coords -7.376 1.783 -9.202
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA3822157210B8"
+    coords -2.847 1.86 -5.017
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38221572138A"
+    coords -7.314 1.748 9.192
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38224C752C93"
+    coords -2.842 1.855 4.969
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38229C3C01D1"
+    coords 7.354 1.744 4.528
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38229C3C0624"
+    coords 3.881 1.85 -9.706
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38229C3C0633"
+    coords 3.881 1.838 9.655
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38229C3C06D9"
+    coords 7.349 1.759 -4.485
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382347F28AD2"
+    coords -2.822 4.869 4.934
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382347F28B26"
+    coords -2.827 4.874 -5.052
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382347F28B30"
+    coords -7.356 4.797 -9.203
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382347F28B3D"
+    coords -7.294 4.762 9.237
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382347F28BC5"
+    coords 3.901 4.864 -9.741
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382347F28BCF"
+    coords 3.901 4.852 9.62
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382347F28BDC"
+    coords 7.374 4.758 4.493
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382347F28BFC"
+    coords 7.369 4.773 -4.52
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382353998498"
+    coords -2.86 7.835 4.976
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38235399850A"
+    coords 7.336 7.724 4.535
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382353998527"
+    coords 7.331 7.739 -4.478
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382353998531"
+    coords 3.863 7.83 -9.699
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38235399853B"
+    coords 3.863 7.818 9.662
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382353998547"
+    coords -7.332 7.728 9.205
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38235399856D"
+    coords -2.865 7.84 -5.01
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA382353998579"
+    coords -7.394 7.763 -9.208
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38236402D9A5"
+    coords -2.859 10.914 5.034
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38236402DE2A"
+    coords -7.331 10.807 9.211
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38236402DECE"
+    coords -2.864 10.919 -4.952
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38236402DED9"
+    coords -7.393 10.842 -9.212
+    angles 0 -90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38236402DF1A"
+    coords 7.332 10.818 -4.42
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38236402DF64"
+    coords 3.864 10.909 -9.641
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38236402DF6E"
+    coords 3.864 10.897 9.72
+    angles 0 90 0
+    scale 2.5
+   }
+   {
+    ID "66EA38236402DF7E"
+    coords 7.337 10.803 4.593
+    angles 0 90 0
+    scale 2.5
+   }
+  }
+  $grp GenericEntity : "{2A9517D5E59C7357}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_ST_M1.et" {
+   {
+    ID "66EA382B51E0FFA9"
+    coords -1.5 0.16 -6.8
+    angles 0 180 0
+   }
+   {
+    ID "66EA382C1A8CD855"
+    coords -2.867 6.192 3.502
+    angles 0 90 0
+   }
+   {
+    ID "66EA382C1A8CDB81"
+    coords 3.94 6.186 -7.999
+    angles 0 -90 0
+   }
+   {
+    ID "66EA382C1A8CDBAB"
+    coords -2.738 6.212 -3.499
+    angles 0 90 0
+   }
+   {
+    ID "66EA382C1A8CDBDE"
+    coords 3.949 6.176 7.997
+    angles 0 -90 0
+   }
+   {
+    ID "66EA382C483BB681"
+    coords 3.85 3.176 7.995
+    angles 0 -90 0
+   }
+   {
+    ID "66EA382C483BB711"
+    coords -2.837 3.212 -3.501
+    angles 0 90 0
+   }
+   {
+    ID "66EA382C483BB738"
+    coords -2.966 3.192 3.5
+    angles 0 90 0
+   }
+   {
+    ID "66EA382C483BB767"
+    coords 3.841 3.186 -8.001
+    angles 0 -90 0
+   }
+   {
+    ID "66EA382CDDF2546E"
+    coords 3.924 9.182 7.995
+    angles 0 -90 0
+   }
+   {
+    ID "66EA382CDDF254C8"
+    coords -2.732 9.218 -3.501
+    angles 0 90 0
+   }
+   {
+    ID "66EA382CDDF254DF"
+    coords 3.946 9.192 -8.001
+    angles 0 -90 0
+   }
+   {
+    ID "66EA382CDDF254F2"
+    coords -2.861 9.198 3.5
+    angles 0 90 0
+   }
+   {
+    ID "66EA382E236CBE15"
+    coords -1.5 0.16 6.8
+    angles 0 360 0
+   }
+   {
+    ID "66EA382E24ACDE02"
+    coords -1.5 0.16 11.4
+    angles 0 360 0
+   }
+   {
+    ID "66EA382E543F12D6"
+    coords -1.5 0.16 -11.4
+    angles 0 -180 0
+   }
+   {
+    ID "66EA382EA3587939"
+    coords -1.503 3.198 -6.756
+    angles 0 -180 0
+   }
+   {
+    ID "66EA382EA3587E14"
+    coords -1.503 3.198 11.444
+   }
+   {
+    ID "66EA382EA3587E31"
+    coords -1.503 3.198 6.844
+   }
+   {
+    ID "66EA382EA3587E41"
+    coords -1.503 3.198 -11.356
+    angles 0 180 0
+   }
+   {
+    ID "66EA382EB352F161"
+    coords -1.506 6.188 -6.767
+    angles 0 180 0
+   }
+   {
+    ID "66EA382EB352F19A"
+    coords -1.506 6.188 6.833
+   }
+   {
+    ID "66EA382EB352F1C6"
+    coords -1.506 6.188 -11.367
+    angles 0 -180 0
+   }
+   {
+    ID "66EA382EB352F1EE"
+    coords -1.506 6.188 11.433
+   }
+   {
+    ID "66EA382F07FCA038"
+    coords -2.87 0.192 3.5
+    angles 0 90 0
+   }
+   {
+    ID "66EA382F24AFEF6D"
+    coords 3.843 0.164 8.001
+    angles 0 -90 0
+   }
+   {
+    ID "66EA382F4CC63C5C"
+    coords -1.504 9.197 6.829
+   }
+   {
+    ID "66EA382F4CC63F26"
+    coords -1.504 9.197 -6.771
+    angles 0 -180 0
+   }
+   {
+    ID "66EA382F4CC63F8C"
+    coords -1.504 9.197 -11.371
+    angles 0 180 0
+   }
+   {
+    ID "66EA382F4CC63FB1"
+    coords -1.504 9.197 11.429
+   }
+   {
+    ID "66EA382F9AE224DB"
+    coords -2.844 0.2 -3.504
+    angles 0 90 0
+   }
+   {
+    ID "66EA382FE127C34F"
+    coords 3.834 0.174 -8.003
+    angles 0 -90 0
+   }
+  }
+ }
+}

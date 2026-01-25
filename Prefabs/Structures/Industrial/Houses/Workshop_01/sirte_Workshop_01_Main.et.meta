@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B6A71C8A1314C040}Prefabs/Structures/Industrial/Houses/Workshop_01/sirte_Workshop_01_Main.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

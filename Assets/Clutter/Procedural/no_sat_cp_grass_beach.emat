@@ -1,0 +1,42 @@
+Grass {
+ SpecularIBL 0.391 0.391 0.391 1
+ BCRMap "{5ECE46F72A83760F}Assets/Clutter/Procedural/Data/c_GrassAtlas_01_BCR.edds"
+ OpacityMap "{A889372677E3EEB7}Assets/Clutter/Procedural/Data/c_GrassAtlas_01_A.edds"
+ NTOMap "{F4F0EF95B625FBA5}Assets/Clutter/Procedural/Data/c_GrassAtlas_01_NTO.edds"
+ SatMapBlendMask "{B486FE162B9BDF9A}Assets/Clutter/Procedural/Data/c_GrassAtlas_01_MASK.edds"
+ SatMapBrightness 0.5
+ RoughnessScale 1.3
+ WetnessScale 0.15
+ PorosityScale 0.5
+ ViewDependency 1
+ SSSColorLV -6
+ Plants 8
+ BladesCount 3
+ Height 0.3
+ HeightRandomOffset 0.4
+ Edge 0.6
+ EdgeRandomOffset 0.075
+ EdgeBottomScale 0.38
+ Zenith 20
+ ZenithRandomOffset 20
+ Overlap 0.375
+ LayerEdgeHeight 0.999
+ Distribution "1 1 1 1 1 1"
+ ScaleDistribution "1 1 1 1 1 1"
+ DistanceDistribution "0.35 0.55 0.85 0.4 0.65 1"
+ DistributionAtlasUVs {
+  0 0.31 0.68 0.98
+  0 0.31 0.68 0.98
+  0 0.31 0.68 0.98
+  0.345 0.68 0.68 0.99
+  0.345 0.68 0.68 0.99
+  0.345 0.68 0.68 0.99
+ }
+ DistributionMap "{C9711A57FB32BD39}Assets/Clutter/Masks/cp_grass_beach_01_CMASK.edds"
+ TexPlants 6
+ WindLocalSpeed 0.6
+ WindSmoothness 0.7
+ WindLightness 0.13
+ WindLightnessOffset 0.5
+ ObstacleFlatteningAffection 0.65
+}

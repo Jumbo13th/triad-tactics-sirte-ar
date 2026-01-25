@@ -1,0 +1,62 @@
+SCR_DestructibleEntity : "{ABE1EFC16D47A8C2}Prefabs/Structures/Core/Wall_MultiPhase_Base.et" {
+ ID "51E2F0F09703F07B"
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Object "{41E9E32F8602AD7A}Assets/Structures/Houses/HouseBuilding/Parts/rooms/room_entrada_5_7.xob"
+  }
+  NavmeshCustomLinkComponent "{5088C72B466E73FA}" {
+   Enabled 0
+  }
+  RigidBody "{56DE7C8DDE282E03}" {
+   ResponseIndex "Normal"
+  }
+  Hierarchy "{6702EE996E20DDA7}" {
+  }
+ }
+ coords 100.681 0.082 -82.245
+ angles 0 0.683 0
+ placement none
+ Enabled 0
+ MaxHealth 15000
+ m_eMaterialSoundType BREAK_ROCK
+ {
+  SCR_DestructibleEntity : "{2C5EE7312DA22155}Prefabs/Structures/BuildingParts/Walls/wall_7m_mirror.et" {
+   ID "6702EEA78C892AFE"
+   components {
+    Hierarchy "{6702EE96DD63B47F}" {
+     PivotID "snap_wall_7m.002"
+    }
+   }
+   coords 0 0 0
+   angles 0 0 0
+  }
+  SCR_DestructibleEntity : "{381A5F600C6B264A}Prefabs/Structures/BuildingParts/Walls/wall_7m.et" {
+   ID "6702EEA78B72C382"
+   components {
+    Hierarchy "{6702EE963BCDF1C6}" {
+     PivotID "snap_wall_7m.001"
+    }
+   }
+   coords 0 0 0
+   angles 0 0 0
+  }
+  SCR_DestructibleEntity : "{C51EAF3001C29D3A}Prefabs/Structures/BuildingParts/Walls/wall_base.et" {
+   ID "6702EE996E20DDB6"
+   components {
+    MeshObject "{56DE7C8DCD0F4E0A}" {
+     Materials {
+      MaterialAssignClass "{6702EE9910A02316}" {
+       SourceMaterial "wall_interier"
+       AssignedMaterial "{F9CC973D4942AE7B}Assets/Structures/BuildingsParts/Doors/Door_TinWall_01/Data/TinWall_01_Gate_Small_MLOD.emat"
+      }
+     }
+    }
+    Hierarchy "{6702EE963BCDF1C6}" {
+     PivotID "snap_wall_5m.001"
+    }
+   }
+   coords 0 0 0
+   angles 0 0 0
+  }
+ }
+}

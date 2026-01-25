@@ -1,0 +1,37 @@
+GenericEntity : "{F8E2A60A2B254C0B}Prefabs/Props/Forest/WoodPile/WoodPile_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{726D3C8872EA41C2}Assets/Props/Forest/WoodPile_01/WoodPile_01_B.xob"
+   LODFactors {
+    30 25 18 17 7 4 2.5 1
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 2000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66EABCD408547AAF}" {
+     m_vOffsetPosition 0 0.5 0
+     m_ModelPrefabs {
+      "{D6954C0761572513}Assets/Props/Forest/WoodPile_01/Dst/Pile_01_End_A/WoodPile_01_End_A_dst_02.xob" "{4F8BF59E7CB01483}Assets/Props/Forest/WoodPile_01/Dst/Pile_01_End_A/WoodPile_01_End_A_dst_03.xob" "{E25F249B1698B655}Assets/Props/Forest/WoodPile_01/Dst/Pile_01_End_A/WoodPile_01_End_A_dst_04.xob" "{E7AAE75CFDCA4CE3}Assets/Props/Forest/WoodPile_01/Dst/Pile_01_End_A/WoodPile_01_End_A_dst_05.xob" "{E9B4A314C03D4339}Assets/Props/Forest/WoodPile_01/Dst/Pile_01_End_A/WoodPile_01_End_A_dst_06.xob"
+     }
+     m_fMass 100
+     m_fRandomVelocityLinear 10
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+    }
+    SCR_ParticleSpawnable "{66EABCD408547AA6}" {
+     m_Particle "{CEE298DA573A1161}Particles/Props/Dest_WoodenWall.ptc"
+    }
+    SCR_PrefabSpawnable "{66EABCD408547AA4}" {
+     m_Prefabs {
+      "{2AE32F7E8BCF68EE}Prefabs/Props/Forest/WoodPile/WoodPile_01_End_A.et"
+     }
+    }
+   }
+  }
+ }
+}

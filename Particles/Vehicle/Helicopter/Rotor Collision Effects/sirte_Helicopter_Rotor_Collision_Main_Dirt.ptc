@@ -1,0 +1,93 @@
+EffectDef {
+ Version 2
+ Emitters {
+  EmitterDef dust {
+   ShapeSize 2 0 1
+   ConeAngle 360 30 0
+   MaxNum 2
+   BirthRate 1000
+   BirthRateVel 2
+   LodMin 0
+   LodMax 2
+   Material "{ADDEE13E78378825}Particles/_Materials/Gas/Smoke_Landmine_N_01.emat"
+   SizeMultiplier 7
+   SizeRND 2
+   ScaleX 1
+   ScaleY 1
+   RandomRotDir 0
+   RandomAngle 1
+   FlipU Random
+   Velocity 50
+   VelocityRND 10
+   AirResistance 0.5
+   AirResistanceRND 0.5
+   WindInfluence 0.2
+   GravityMultiply 4
+   GravityMultiplyRND -0.2
+   EnableCollisions 1
+   RandomFrame 1
+   Lifetime 1
+   LifetimeRND 0.5
+   Color {
+    0 0.617 0.478 0.379
+   }
+   Alpha {
+    0 0 0.005 0.4 0.56 0.16 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.5 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+   AlphaMast {
+    0 0.05
+   }
+  }
+  EmitterDef dirt {
+   ShapeType Ellipse
+   ShapeSize 1 0 1
+   ConeAngle 360 15 0
+   MaxNum 2
+   BirthRate 1000
+   BirthRateVel 2
+   LodMin 0
+   LodMax 0
+   Material "{391690195D614CE5}Particles/_Materials/Gas/Smoke_Base_Debris_02.emat"
+   SizeMultiplier 15
+   SizeRND 4
+   ScaleX 1
+   ScaleY 1
+   RandomRotDir 0
+   RandomAngle 1
+   FlipU Random
+   Velocity 50
+   VelocityRND 10
+   AirResistance 0.5
+   AirResistanceRND 0.5
+   WindInfluence 0.2
+   GravityMultiply 4
+   GravityMultiplyRND -0.2
+   EnableCollisions 1
+   RandomFrame 1
+   Lifetime 0.5
+   LifetimeRND 0.2
+   Alpha {
+    0 0 0.024 0.75 0.08 0.991 0.605 0.914 1 0
+   }
+   RotationSpeed {
+    0 1 1 0
+   }
+   Size {
+    0 0.4 1 1
+   }
+   EmittingTime 0.1
+   Repeat 0
+   AlphaMast {
+    0 0.7
+   }
+  }
+ }
+}

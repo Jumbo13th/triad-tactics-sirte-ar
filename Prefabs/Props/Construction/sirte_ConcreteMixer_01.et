@@ -1,0 +1,24 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{CA3DFAC52081D6F2}Assets/Props/Construction/ConcreteMixer_01/ConcreteMixer_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 3500
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{66EABCDA15243B4C}" {
+     m_fPhaseHealth 3500
+     m_PhaseModel "{9599D3296D3926DF}Assets/Props/Construction/ConcreteMixer_01/Dst/ConcreteMixer_01_dst.xob"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+ }
+ coords 0 0 0
+}

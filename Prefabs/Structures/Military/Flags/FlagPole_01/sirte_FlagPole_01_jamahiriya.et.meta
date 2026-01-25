@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EB8B4545B98351F5}Prefabs/Structures/Military/Flags/FlagPole_01/sirte_FlagPole_01_empty.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,75 @@
+MatPBRMulti {
+ Color 0.4 0.244 0.213 1
+ RoughnessScale 3.611
+ GlobalMCRMap "{6A8DBB1CBB5651F5}Assets/ME_Data/dum/dum_istan2_x01b_mc.edds"
+ OverlayBlackPower 0.581
+ OverlayWhitePower 0.354
+ UVSrcGlobalMaps "UV set 2"
+ MaskRedScale 1
+ MaskGreenScale 0.655
+ MaskBlueScale 0.6
+ VFXMap "{0676D3FB5B73D5D5}Assets/ME_Data/dum/dum_istan2_x01_as.edds"
+ MudUserOpacity 1
+ MudOpacity 0.34
+ MudColor 0.235 0.223 0.184 1
+ MudRoughness 0.395
+ MudMetalness 0
+ MudDetNormal 1.5
+ MudBCRMap "{1624A684A875CD76}Assets/_SharedData/Concrete/ST_Concrete_Bare_01_BCR.edds"
+ MudNMOMap "{2EFC1D1671029FE8}Assets/_SharedData/Concrete/ST_Concrete_Bare_01_NMO.edds"
+ MudMaskMap "{F4BF2FE292D334B3}Assets/_SharedData/DetailMask/ST_Concrete_01_Mask1.edds"
+ MudUVTransform MatUVTransform "{4671A75989D7DE94}" {
+  TilingU 4
+  TilingV 4
+  OffsetV 0.148
+ }
+ DirtUserOpacity 1
+ DirtOpacity 0.47
+ DirtLayerSharpness 1.228
+ DirtColor 0.087 0.073 0.062 1
+ DirtRoughness 5
+ DirtMaskMap "{A074608E879A25CB}Assets/_SharedData/DetailMask/ST_Dirt_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{490AE75128C22D11}" {
+  OffsetU 0.395
+ }
+ Enabled_4 1
+ Color_4 0.444 0.546 0.342 1
+ BCR_4 "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ NMO_4 "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ Mask_4 "{CBD042945A4747A5}Assets/_SharedData/DetailMask/ST_Concrete_03_Mask1.edds"
+ MaskUVScale_4 0.407
+ UVTransform_4 MatUVTransform "{18A1E74228B2E032}" {
+  TilingV 2
+ }
+ DetNormal_4 0.4
+ AO_4 0.614
+ Enabled_3 1
+ Color_3 0.157 0.275 0.624 1
+ BCR_3 "{BEC99809792F49DF}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Clean_BCR.edds"
+ NMO_3 "{8611239BA0581B41}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Clean_NMO.edds"
+ Mask_3 "{ACD99D181AC21CBC}Assets/_SharedData/DetailMask/ST_Plaster_Bare_03_Mask1.edds"
+ MaskUVScale_3 1.5
+ UVTransform_3 MatUVTransform "{4F6B2751C85672D2}" {
+  TilingU 10
+  TilingV 10
+  OffsetV -0.049
+ }
+ DetNormal_3 3
+ Enabled_2 1
+ BCR_2 "{2483ECDD78B9260E}Assets/_SharedData/Concrete/ST_Concrete_Rough_01_BCR.edds"
+ NMO_2 "{2EFC1D1671029FE8}Assets/_SharedData/Concrete/ST_Concrete_Bare_01_NMO.edds"
+ Mask_2 "{CBD042945A4747A5}Assets/_SharedData/DetailMask/ST_Concrete_03_Mask1.edds"
+ UVTransform_2 MatUVTransform "{1E6A2751C09D826C}" {
+  TilingU 2
+  TilingV 2
+  OffsetU 0.333
+  OffsetV -0.123
+ }
+ Color_1 0.784 0.784 0.784 1
+ BCR_1 "{6BE53556B0CB5ED9}Assets/_SharedData/Plaster/ST_Plaster_Bare_02_BCR.edds"
+ NMO_1 "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{1E6A2751F183A771}" {
+  TilingU 2
+ }
+ Roughness_1 1.389
+}

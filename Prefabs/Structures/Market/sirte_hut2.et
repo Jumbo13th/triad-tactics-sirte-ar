@@ -1,0 +1,11 @@
+GenericEntity : "{223703BE93AAF919}Prefabs/Structures/Misc/CarpetA.et" {
+ ID "5CB36483F06A1572"
+ components {
+  MeshObject "{5CB364830593DAAA}" {
+   Object "{B4E02350FE94D902}Assets/ME_Market/covering_hut_EP1.xob"
+  }
+ }
+ coords 8.696 3.771 2.725
+ angles 0 0 0
+ scale 0.818
+}

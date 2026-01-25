@@ -1,0 +1,65 @@
+SCR_DestructibleBuildingEntity : "{8B92F9568943CBCB}Prefabs/Structures/Military/Houses/ShedMilitary_01/ShedMilitary_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_DestructibleBuildingComponent "{658D525705BC3740}" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_sRuinsPrefab "{2DBAD11AD8B5589D}Prefabs/Structures/Military/Houses/ShedMilitary_01/Dst/ShedMilitary_E_01_Ruin.et"
+    }
+   }
+  }
+ }
+ coords -4.268 0 -2.296
+ {
+  GenericEntity : "{939C815973AFEBA5}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_01.et" {
+   ID "67069DB165EC0487"
+   components {
+    Hierarchy "{67069DB165EC0468}" {
+     Enabled 1
+     PivotID "Socket_LightSwitch_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{9BEFC2C05F01D598}Prefabs/Structures/Military/Houses/ShedMilitary_01/Furniture/ShedMilitary_E_01_furniture_01.et" {
+   ID "67069DB165EC0480"
+   coords 0 0 0
+  }
+  GenericEntity : "{BCB896AAC01879BB}Prefabs/Structures/BuildingParts/Doors/DoorSet_Cowshed_L_EXT_B.et" {
+   ID "67069DB165EC049C"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "Socket_DoorSet_Cowshed_L_EXT_B"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  StaticModelEntity : "{CAF8666F26CEB7AD}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_Narrow.et" {
+   ID "67069DB165EC049D"
+   coords 0.028 0.169 1.642
+  }
+  GenericEntity : "{E34303CB179E13D6}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_01.et" {
+   ID "67069DB165EC049E"
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_LightIndustrial_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{EBA867C260CB0894}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock/Win_GlassBlock_01_118x170.et" {
+   ID "67069DB165EC049F"
+   components {
+    Hierarchy "{7642683663DE57B3}" {
+     PivotID "Socket_Win_GlassBlock_01_118x170"
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

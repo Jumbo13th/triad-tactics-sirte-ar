@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E9C93C38CBA2BFA1}Assets/Structures/Signs/Military/Data/sirte_Sign_FieldHospital_US_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

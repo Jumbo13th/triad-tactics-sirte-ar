@@ -1,0 +1,37 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{7DEF385292590E17}Assets/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02.xob"
+   LODFactors {
+    250 45 25 15 8 1 1
+   }
+   ClutterOccluder 1
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{5DA867F4F045AA84}" : "{7E6635733B9A9F75}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Metal_Small.ct" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_bPersistent 1
+     m_sRuinsPrefab "{55782EBCA852E225}Prefabs/Structures/Industrial/Containers/FuelTanks/FuelTank_02/FuelTank_02_yellow_Ruin.et"
+    }
+   }
+   m_aInteriorQueryBoundingBoxes {
+    SCR_InteriorBoundingBox "{62BAA7C574DC0E52}" {
+     m_vCenter PointInfo "{66ECB2D4533A39A8}" {
+      Offset 1.5692 -0.6313 0
+     }
+     m_vScale 9 7 2.8
+    }
+   }
+  }
+  RplComponent "{50A4E7C9B5728062}" {
+   Enabled 1
+  }
+ }
+ coords -0.164 0 0
+ IsBuilding 0
+}

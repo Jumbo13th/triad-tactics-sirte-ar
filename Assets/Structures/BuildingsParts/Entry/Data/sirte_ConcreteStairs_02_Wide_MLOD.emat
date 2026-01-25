@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.588 1 0.4 1
+ MetalnessScale 0
+ BCRMap "{BA252DD6C43C758C}Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides_MLOD_BCR.edds"
+ UVSrcGlobalMaps "UV set 2"
+}

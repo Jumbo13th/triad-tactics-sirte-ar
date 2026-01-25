@@ -1,0 +1,687 @@
+SCR_DestructibleBuildingEntity {
+ ID "66EB105CEDA6E089"
+ components {
+  MeshObject "{66EB105CED876F9E}" {
+   Object "{D151DF51DBBE2B52}Assets/ME_Bulding/HouseC/House_C_9_EP1.xob"
+  }
+  RigidBody "{66EB105CED876F95}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66EB105CED876F93}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EB105CED876FA9}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EB105CED876FA6}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EB105CED876FA4}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EB105CED876FA2}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{130D2763F207DDEF}Prefabs/Structures/Bulding/HouseC/House_C_9_EP1_Ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EB105CED876FBF}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EB105CED876FBD}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EB105CED876FBB}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EB105CED876FB8}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66EB105CED876FB5}" {
+  }
+  RplComponent "{66EB105CED876FB4}" {
+  }
+  Hierarchy "{66EB105CED876FCA}" {
+  }
+ }
+ coords 120.56 1 185.577
+ angles 0 90 0
+ {
+  $grp GenericEntity : "{4F63524C78A8CECD}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_EXT_COV_B_blue.et" {
+   {
+    ID "66EB105CEDAD0915"
+    coords 3.792 6.505 -4.059
+    angles 0 -180 0
+   }
+   {
+    ID "66EB105CEDAD092A"
+    coords -3.758 3.742 -3.976
+    angles 0 44.933 0
+    scale 0.85
+   }
+  }
+  GenericEntity : "{82705E62BB2D247E}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_01_A_EXT_B.et" {
+   ID "66EB105CEDB3CD50"
+   coords -3.908 0.171 -4.3
+   angles 0 -135 0
+   scale 0.877
+  }
+  $grp GenericEntity : "{83627982DE3DF2F3}Prefabs/Structures/BuildingParts/Windows/Glass_74x72/Glass_74x72.et" {
+   {
+    ID "66EB105CEDB34E17"
+    coords -6.159 5.463 1.928
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB360C3"
+    coords -6.159 5.453 1.029
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB3CD53"
+    coords 3.384 5.444 5.306
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB418E8"
+    coords 1.553 5.441 -6.606
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB4CE30"
+    coords -6.159 5.463 4.275
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB4CE37"
+    coords -6.159 5.463 5.185
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB513AF"
+    coords -4.752 5.452 -2.044
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB5B530"
+    coords -0.459 5.414 -5.94
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB5D2D7"
+    coords 0.658 5.441 -6.606
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB5ED9E"
+    coords 5.098 5.453 2.949
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB5ED9F"
+    coords -5.547 5.35 -0.536
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66EB105CEDB5F1B6"
+    coords -1.761 5.434 -4.994
+    angles 0 -180 0
+    scale 1.16
+   }
+  }
+  GenericEntity : "{A0683DD8CEF09277}Prefabs/Props/Decorations/Paintings/PaintingBig_01_base.et" {
+   ID "66EB105CEDB9B9C3"
+   components {
+    MeshObject "{5872F0EB7FA40561}" {
+     Materials {
+      MaterialAssignClass "{66EB105CED876E24}" {
+       SourceMaterial "PaintingBig_01"
+       AssignedMaterial "{507A3C71C8B08F1E}Assets/Props/Decorations/PaintingBig_01_620x1000/Data/PaintingBig_Kunar_Market_01.emat"
+      }
+      MaterialAssignClass "{66EB105CED876E22}" {
+       SourceMaterial "PaintingBig_01_MLOD"
+       AssignedMaterial "{692ACB8B8821285C}Assets/Props/Decorations/PaintingBig_01_620x1000/Data/PaintingBig_Kunar_Market_01_MLOD.emat"
+      }
+     }
+    }
+   }
+   coords -3.977 2.75 -4.362
+   angles 0 -135 0
+   scale 1.268
+  }
+  $grp GenericEntity : "{BFE2A564F61D6F2D}Prefabs/Structures/BuildingParts/Windows/Glass_CounterPostOffice_01/Glass_45x21.et" {
+   {
+    ID "66EB105CED8008EE"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E62}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 2.722 -2.691
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CED80281A"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E68}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 0.528 -1.35
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CED80281B"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E65}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -2.291 0.513 -5.383
+    angles 0 -180 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CED807D7F"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E7F}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -0.647 1.623 -5.383
+    angles 0 -180 -90
+    scale 3.479
+   }
+   {
+    ID "66EB105CED808BA2"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E6B}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -0.98 2.726 -5.383
+    angles 0 -180 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CED80B30D"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E6F}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -2.605 1.623 -5.383
+    angles 0 -180 -90
+    scale 3.479
+   }
+   {
+    ID "66EB105CED816CFC"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E73}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -3.16 0.778 -5.184
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66EB105CED81A355"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E7C}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -1.011 0.513 -5.383
+    angles 0 -180 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CED81A356"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E79}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 0.528 -2.691
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CED81DDDD"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E76}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -3.16 1.955 -5.184
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66EB105CED829C64"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E8F}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 2.722 -1.347
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CED82EAF4"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E89}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -3.16 2.95 -5.184
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66EB105CED82EAF5"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E8C}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.759 2.985 -3.571
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66EB105CEDBD5DF9"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E35}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 1.596 -1.679
+    angles 0 -90 -90
+    scale 3.297
+   }
+   {
+    ID "66EB105CEDBE1DA8"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E48}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 1.596 -1.016
+    angles 0 -90 -90
+    scale 3.297
+   }
+   {
+    ID "66EB105CEDBE1DA9"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E45}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -1.324 1.623 -5.383
+    angles 0 -180 -90
+    scale 3.479
+   }
+   {
+    ID "66EB105CEDBE90D8"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E4F}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.795 0.663 -3.536
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66EB105CEDBEE0A1"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E4B}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 1.596 -2.381
+    angles 0 -90 -90
+    scale 3.297
+   }
+   {
+    ID "66EB105CEDBF03BD"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E5C}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.962 2.816 2.114
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CEDBF2662"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E5F}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 1.596 -3.044
+    angles 0 -90 -90
+    scale 3.297
+   }
+   {
+    ID "66EB105CEDBF492B"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E52}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -2.291 2.726 -5.383
+    angles 0 -180 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CEDBF7E01"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E55}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.795 1.847 -3.536
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66EB105CEDBF7E06"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E59}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.962 2.816 0.878
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66EB105CEDBFB007"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66EB105CED876E42}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -1.963 1.623 -5.383
+    angles 0 -180 -90
+    scale 3.479
+   }
+  }
+  $grp GenericEntity : "{CBE2BA7FF0914514}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_01_FoodStore.et" {
+   {
+    ID "66EB105CED824F70"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{5682D51A894025A0}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{606DFE5B1E515E01}Assets/ME_Sign/1024x256_SuperMarket_01_Sign_MLOD.emat"
+       }
+       MaterialAssignClass "{5682D51A894025D1}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{7BCFAA7166A26FAE}Assets/ME_Sign/1024x256_SuperMarket_01_Sign.emat"
+       }
+      }
+     }
+    }
+    coords -4.985 3.744 -5.258
+    angles 0 -135.279 0
+    scale 0.931
+   }
+   {
+    ID "66EB105CED83B8A4"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{5682D51A894025A0}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{E401FC917354D705}Assets/ME_Sign/1024x256_SuperMarket_02_Sign_MLOD.emat"
+       }
+       MaterialAssignClass "{5682D51A894025D1}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{51EB8DD2904C0981}Assets/ME_Sign/1024x256_SuperMarket_02_Sign.emat"
+       }
+      }
+     }
+    }
+    coords -6.356 3.739 -1.886
+    angles 0 -90.378 0
+    scale 0.931
+   }
+   {
+    ID "66EB105CED83B8A5"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{5682D51A894025A0}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{598A5D8E30F1BD88}Assets/ME_Sign/1024x256_SuperMarket_03_Sign_MLOD.emat"
+       }
+       MaterialAssignClass "{5682D51A894025D1}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{89A7CFEAA54FC615}Assets/ME_Sign/1024x256_SuperMarket_03_Sign.emat"
+       }
+      }
+     }
+    }
+    coords -1.581 3.735 -6.755
+    angles 0 -179.875 0
+    scale 0.931
+   }
+  }
+  GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+   ID "66EB105CED87AE16"
+   coords 3.456 0.239 5.278
+   angles 0 -90 0
+   scale 1.04
+  }
+ }
+}

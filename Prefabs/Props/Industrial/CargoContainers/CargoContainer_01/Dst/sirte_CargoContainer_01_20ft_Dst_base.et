@@ -1,0 +1,9 @@
+GenericEntity : "{420F1B31E5556775}Prefabs/Props/Core/PropDebris_Base.et" {
+ ID "5AD69538DE9D4DDD"
+ components {
+  MeshObject "{5AD69538DE9D4DC5}" {
+   Object "{8F735F550C2EBE02}Assets/Props/Industrial/CargoContainer_01/Dst/CargoContainer_01_20ft_Dst.xob"
+  }
+ }
+ coords 0 0 0
+}

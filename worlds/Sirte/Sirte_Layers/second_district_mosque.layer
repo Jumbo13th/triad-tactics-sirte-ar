@@ -1,0 +1,667 @@
+$grp SplineShapeEntity {
+ {
+  coords 1915.1 5 3852.758
+  Points {
+   ShapePoint "{66ED516814F9B9FE}" {
+    Position -0.011 0 0.036
+   }
+   ShapePoint "{66ED516814F94D7F}" {
+    Position 0.651 0 38.838
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0.002 0 -0.001
+      OutTangent 0.002 0 -0.001
+     }
+    }
+   }
+   ShapePoint "{66ED5169EB43F6C8}" {
+    Position -62.41 0 38.813
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0.002 0 0.001
+      OutTangent 0.002 0 0.001
+     }
+    }
+   }
+   ShapePoint "{66ED5169FDB47733}" {
+    Position -62.432 0 0.039
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.001 0 0
+      OutTangent -0.001 0 0
+     }
+    }
+   }
+   ShapePoint "{66ED5169F0683113}" {
+    Position -0.032 0 0.007
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{C344BB14626BB0D1}PrefabLibrary/DefaultLibrary/Generators/Walls/Brick/WG_BrickWall_02.et" {
+    Flags 0x100003 0
+    coords 0 0 0
+    m_iSeed 11346
+    {
+     $grp SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_4m.et" {
+      {
+       coords 0.119 0 7.645
+       angles 0 270.977 0
+      }
+      {
+       coords 0.185 0 11.525
+       angles 0 270.977 0
+      }
+      {
+       coords 0.251 0 15.405
+       angles 0 270.977 0
+      }
+      {
+       coords 0.317 0 19.285
+       angles 0 270.977 0
+      }
+      {
+       coords 0.384 0 23.165
+       angles 0 270.977 0
+      }
+      {
+       coords 0.45 0 27.045
+       angles 0 270.977 0
+      }
+      {
+       coords 0.516 0 30.925
+       angles 0 270.977 0
+      }
+      {
+       coords -6.96 0 38.835
+       angles 0 179.978 0
+      }
+      {
+       coords -10.841 0 38.834
+       angles 0 179.978 0
+      }
+      {
+       coords -14.722 0 38.832
+       angles 0 179.978 0
+      }
+      {
+       coords -18.977 0 38.83
+       angles 0 179.978 0
+      }
+      {
+       coords -25.74 0 38.83
+      }
+      {
+       coords -36.167 0 38.824
+       angles 0 179.978 0
+      }
+      {
+       coords -38.006 0 38.823
+       angles 0 179.978 0
+      }
+      {
+       coords -41.887 0 38.822
+       angles 0 179.978 0
+      }
+      {
+       coords -45.767 0 38.82
+       angles 0 179.978 0
+      }
+      {
+       coords -49.648 0 38.818
+       angles 0 179.978 0
+      }
+      {
+       coords -53.529 0 38.817
+       angles 0 179.978 0
+      }
+      {
+       coords -57.41 0 38.816
+       angles 0 179.978 0
+      }
+      {
+       coords -62.414 0 31.257
+       angles 0 90.032 0
+      }
+      {
+       coords -62.416 0 27.376
+       angles 0 90.033 0
+      }
+      {
+       coords -62.418 0 23.495
+       angles 0 90.032 0
+      }
+      {
+       coords -62.421 0 19.615
+       angles 0 90.033 0
+      }
+      {
+       coords -62.423 0 15.734
+       angles 0 90.032 0
+      }
+      {
+       coords -62.425 0 11.853
+       angles 0 90.033 0
+      }
+      {
+       coords -62.427 0 7.973
+       angles 0 90.032 0
+      }
+      {
+       coords -54.823 0 0.035
+       angles 0 0.029 0
+      }
+      {
+       coords -50.942 0 0.033
+       angles 0 0.029 0
+      }
+      {
+       coords -47.062 0 0.031
+       angles 0 0.029 0
+      }
+      {
+       coords -43.181 0 0.029
+       angles 0 0.029 0
+      }
+      {
+       coords -39.3 0 0.027
+       angles 0 0.029 0
+      }
+      {
+       coords -27.658 0 0.021
+       angles 0 0.029 0
+      }
+      {
+       coords -23.778 0 0.019
+       angles 0 0.029 0
+      }
+      {
+       coords -19.897 0 0.017
+       angles 0 0.029 0
+      }
+      {
+       coords -16.016 0 0.015
+       angles 0 0.029 0
+      }
+      {
+       coords -12.136 0 0.014
+       angles 0 0.029 0
+      }
+      {
+       coords -9.363 0 0.012
+       angles 0 0.029 0
+      }
+      {
+       coords -3.869 0 0.01
+       angles 0 0.029 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{4546AD2CC984193B}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_2m.et" {
+      {
+       coords 0.582 0 34.805
+       angles 0 270.977 0
+      }
+      {
+       coords 0.613 0 36.648
+       angles 0 270.977 0
+      }
+      {
+       coords -62.429 0 4.092
+       angles 0 90.033 0
+      }
+      {
+       coords -62.43 0 2.25
+       angles 0 90.032 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{D4101A467FE8E7EE}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_8m.et" {
+      {
+       coords -0.015 0 -0.181
+       angles 0 270.977 0
+      }
+      {
+       coords 0.866 0 38.703
+       angles 0 180.942 0
+      }
+      {
+       coords -62.648 0 0.195
+       angles 0 1.138 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1883.975 5 3895.303
+  Points {
+   ShapePoint "{66ED516BDE3DE77F}" {
+    Position 0 0 3.98
+   }
+   ShapePoint "{66ED516BDE3DFD75}" {
+    Position 0 0 -9.253
+   }
+  }
+  {
+   RoadGeneratorEntity : "{31086BE1AF790FC5}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_Narrow.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6554AF23997E"
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position 0 0 3.98
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position 0 0 -9.253
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+      RoadSort 5
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1883.975 5 3895.303
+  Points {
+   ShapePoint "{66ED517152EC0AF3}" {
+    Position -5 0 -38.5
+   }
+   ShapePoint "{66ED51704827E0C9}" {
+    Position 15 0 -38
+   }
+   ShapePoint "{66ED5170812A5385}" {
+    Position 25 0 -30
+   }
+   ShapePoint "{66ED5170B74C9EDE}" {
+    Position 25 0 -15
+   }
+   ShapePoint "{66ED516B40F025E1}" {
+    Position 15 0 -10
+   }
+   ShapePoint "{66ED516B40F0128D}" {
+    Position -15 0 -10
+   }
+   ShapePoint "{66ED517728AC4EEB}" {
+    Position -25 0 -15
+   }
+   ShapePoint "{66ED51771F05FECB}" {
+    Position -25 0 -30
+   }
+   ShapePoint "{66ED5170C5B5BE7D}" {
+    Position -15 0 -38
+   }
+   ShapePoint "{66ED51714C5EA997}" {
+    Position 5 0 -38.5
+   }
+  }
+  {
+   RoadGeneratorEntity : "{31086BE1AF790FC5}PrefabLibrary/DefaultLibrary/Generators/Roads/Asphalt/RG_Road_Asphalt_E_01_Narrow.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "556C6554AF23997E"
+      SplinePoints {
+       ShapePoint "{556C6554868CB1B0}" {
+        Position -5 0 -38.5
+       }
+       ShapePoint "{556C6554868CB0CE}" {
+        Position 15 0 -38
+       }
+       ShapePoint "{66ED517728AC9302}" {
+        Position 25 0 -30
+       }
+       ShapePoint "{66ED51771F05C940}" {
+        Position 25 0 -15
+       }
+       ShapePoint "{66ED5170C5B5886D}" {
+        Position 15 0 -10
+       }
+       ShapePoint "{66ED5170B74CEA23}" {
+        Position -15 0 -10
+       }
+       ShapePoint "{66ED5170812AA73E}" {
+        Position -25 0 -15
+       }
+       ShapePoint "{66ED51704827CF45}" {
+        Position -25 0 -30
+       }
+       ShapePoint "{66ED51714C5EE1C5}" {
+        Position -15 0 -38
+       }
+       ShapePoint "{66ED517152EC5CA4}" {
+        Position 5 0 -38.5
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+      RoadSort 10
+     }
+    }
+   }
+  }
+ }
+}
+$grp Tree : "{126CB12E8C5C68BB}Prefabs/Structures/Tree/sirte_palm2.et" {
+ {
+  coords 1903.329 0 3888.262
+  angles 0 0 0
+ }
+ {
+  coords 1912.722 0 3868.283
+  angles 0 142.266 0
+ }
+ {
+  coords 1900.434 0 3854.93
+  angles 0 -98.895 0
+ }
+ {
+  coords 1867.465 0 3879.07
+  angles 0 0 0
+ }
+}
+$grp Tree : "{1E502DBD79FC8FA1}Prefabs/Structures/Tree/sirte_palm9.et" {
+ {
+  coords 1872.501 0 3888.307
+  angles 0 0 0
+ }
+ {
+  coords 1855.514 0 3882.006
+  angles 0 0 0
+ }
+ {
+  coords 1912.869 0 3876.602
+  angles 0 0 0
+ }
+ {
+  coords 1878.049 0 3854.23
+  angles 0 0 0
+ }
+ {
+  coords 1902.443 0 3865.311
+  angles 0 0 0
+ }
+}
+$grp Tree : "{28CE429AB498FD85}Prefabs/Structures/Tree/sirte_palm10.et" {
+ {
+  coords 1909.926 0 3885.28
+  angles 0 0 0
+ }
+ {
+  coords 1909.751 0 3860.066
+  angles 0 0 0
+ }
+}
+$grp SCR_DestructibleEntity : "{358B3FF55BA04C88}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_02_4m.et" {
+ {
+  coords 1908.915 0 3852.765
+  angles 0 0.029 0
+ }
+ {
+  coords 1852.519 0 3891.574
+ }
+ {
+  coords 1852.705 0 3887.427
+  angles 0 -90 0
+ }
+ {
+  coords 1852.708 0 3887.801
+  angles 0 90 0
+ }
+ {
+  coords 1895.752 0 3891.608
+ }
+ {
+  coords 1891.179 0 3891.608
+ }
+ {
+  coords 1880.221 0 3852.78
+  angles 0 180 0
+ }
+}
+$grp StaticModelEntity : "{5E2118406E9E4DE7}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/sirte_AsphaltPavement_01_Wide_4m_90.et" {
+ {
+  coords 1852.52 0 3893.469
+  angles 0 180 0
+ }
+ {
+  coords 1850.786 0 3852.646
+  angles 0 90 0
+ }
+ {
+  coords 1915.238 0 3850.906
+ }
+ {
+  coords 1917.684 0 3891.765
+  angles 0 -90 0
+ }
+}
+$grp Tree : "{7E3885CE3098E795}Prefabs/Structures/Tree/sirte_palm1.et" {
+ {
+  coords 1875.645 0 3889.547
+  angles 0 0 0
+ }
+ {
+  coords 1858.342 0 3886.262
+  angles 0 0 0
+ }
+ {
+  coords 1890.386 0 3853.933
+  angles 0 46.138 0
+ }
+}
+$grp Tree : "{B061414C594986D0}Prefabs/Structures/Tree/sirte_palm8small.et" {
+ {
+  coords 1896.489 0 3888.227
+ }
+ {
+  coords 1907.608 0 3858.947
+ }
+ {
+  coords 1867.637 0 3886.952
+ }
+}
+$grp StaticModelEntity : "{C8987A7787B4C3F3}PrefabLibrary/DefaultLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Wide_4m_A.et" {
+ {
+  coords 1852.454 0.127 3893.492
+  angles 0 359.951 0
+ }
+ {
+  coords 1850.75 0 3887.598
+  angles 0 269.97 0
+ }
+ {
+  coords 1850.758 0.127 3852.591
+  angles 0 270.031 0
+ }
+ {
+  coords 1856.591 0.125 3850.885
+  angles 0 180 0
+ }
+ {
+  coords 1917.073 0.127 3856.723
+  angles 0 91.075 0
+ }
+ {
+  coords 1911.883 0.127 3893.531
+  angles 0 359.951 0
+ }
+ {
+  coords 1917.679 0 3889.602
+  angles 0 91.075 0
+ }
+ {
+  coords 1917.702 0 3891.772
+  angles 0 91.075 0
+ }
+ {
+  coords 1878.361 0 3850.888
+  angles 0 180 0
+ }
+}
+$grp Tree : "{CAC4D8EFF5D576E7}Prefabs/Structures/Tree/sirte_palm4.et" {
+ {
+  coords 1865.46 0 3888.05
+  angles 0 -43.234 0
+ }
+ {
+  coords 1889.447 0 3888.864
+  angles 0 -79.39 0
+ }
+ {
+  coords 1858.487 0 3857.237
+  angles 0 0 0
+ }
+}
+$grp DecalEntity : "{E4A4110F56DDF920}PrefabLibrary/DefaultLibrary/Decals/Asphalt/Decal_Asphalt_Crossroad_01.et" {
+ {
+  coords 1881.161 0 3894.632
+  angles -90 9.688 0
+  scale 3.5
+ }
+ {
+  coords 1887.465 0 3895.018
+  angles -90 -9.208 0
+  scale 3.5
+ }
+ {
+  coords 1885.322 0 3893.316
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1881.815 0 3892.964
+  angles -90 40.976 0
+  scale 3.5
+ }
+ {
+  coords 1885.593 0 3891.544
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1886.288 0 3888.913
+  angles -90 -123.376 0
+  scale 3.5
+ }
+ {
+  coords 1881.609 0 3889.295
+  angles -90 107.82 0
+  scale 3.5
+ }
+ {
+  coords 1884.657 0 3883.915
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1882.858 0.137 3882.937
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1891.889 0 3883.191
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1885.678 0 3849.749
+  angles -90 -9.388 0
+  scale 3.5
+ }
+ {
+  coords 1888.494 0 3849.219
+  angles -90 0.507 0
+  scale 3.5
+ }
+ {
+  coords 1880.513 0 3849.453
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1882.533 0 3858.843
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1884.995 0 3859.096
+  angles -89.972 -33.075 0
+  scale 3.5
+ }
+ {
+  coords 1892.419 0 3858.679
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1876.088 0 3858.299
+  angles -90 -180 -180
+  scale 3.5
+ }
+ {
+  coords 1882.521 0 3821.762
+  angles -90 46.138 0
+  scale 3.5
+ }
+}
+SCR_DestructibleBuildingEntity : "{E502607631A9C352}Prefabs/Structures/Bulding/Mosque/sirte_mosque_big_f.et" {
+ coords 1883.853 5 3871.333
+}
+$grp SCR_DestructibleBuildingEntity : "{F4AEB01FF1333896}Prefabs/Structures/Bulding/Mosque/sirte_Big_Minaret_02.et" {
+ {
+  coords 1902.679 5 3871.333
+  {
+   GameEntity {
+    ID "66FCB55B2D4AD475"
+    components {
+     ActionsManagerComponent "{5916A63C9331DAB0}" {
+      ActionContexts {
+       UserActionContext "{5916A63C9CED0D8A}" {
+        Radius 50
+        VisibilityAngle 95
+       }
+      }
+     }
+    }
+    coords 0.025 17.042 -0.083
+   }
+  }
+ }
+ {
+  coords 1865.065 5 3871.333
+  {
+   GameEntity {
+    ID "66FCB55B2D4AD475"
+    components {
+     LadderComponent "{588EECC514BB6DFC}" {
+      TopFrontPositionInfo PointInfo "{52A8A5332BFD2893}" {
+      }
+     }
+     ActionsManagerComponent "{5916A63C9331DAB0}" {
+      ActionContexts {
+       UserActionContext "{5916A63C9CED0D8A}" {
+        Radius 50
+        VisibilityAngle 95
+       }
+      }
+     }
+    }
+    coords 0.025 17.06 -0.083
+   }
+  }
+ }
+}
+$grp Tree : "{F7F0FDD780B9FFD0}Prefabs/Structures/Tree/sirte_palm3.et" {
+ {
+  coords 1855.175 0 3878.668
+  angles 0 0 0
+ }
+ {
+  coords 1855.307 0 3867.839
+  angles 0 -82.131 0
+ }
+}

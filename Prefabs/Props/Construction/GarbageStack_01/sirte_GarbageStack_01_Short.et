@@ -1,0 +1,13 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{52BC3B8CEC1A1A82}Assets/Props/Construction/GarbageStack_01/GarbageStack_01_Short.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+ }
+}

@@ -1,0 +1,18 @@
+GenericEntity : "{CAE986C2BF5D5859}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_10ft_Base.et" {
+ ID "55DAD3EB50381589"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{66EABCC761146598}" {
+     SourceMaterial "Cargo_EXT"
+     AssignedMaterial "{A03CD2F07EDFC589}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_10ft_Red.emat"
+    }
+    MaterialAssignClass "{66EABCC761146561}" {
+     SourceMaterial "Cargo_Mlod"
+     AssignedMaterial "{C8D1B592918FB72B}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_01_Red_LOD.emat"
+    }
+   }
+  }
+ }
+ coords -8.425 1.7 20.352
+}

@@ -1,0 +1,72 @@
+SCR_DestructibleBuildingEntity {
+ ID "671423C7D0EDFC5F"
+ components {
+  MeshObject "{671423C7D0ECEA08}" {
+   Object "{4A8218907BBE09D5}Assets/Structures/Houses/House_1/house_1_dst.xob"
+   Materials {
+    MaterialAssignClass "{671423C7D0ECD5A4}" {
+     SourceMaterial "beton"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+    MaterialAssignClass "{671423C7D0ECD5A3}" {
+     SourceMaterial "house_1_interiar"
+     AssignedMaterial "{9C9A0315F38DBC10}Assets/Structures/Houses/House_4/Data/house_4_interier.emat"
+    }
+    MaterialAssignClass "{671423C7D0ECD5A8}" {
+     SourceMaterial "house_1_window"
+     AssignedMaterial "{75387861351DB1DF}Assets/Structures/Houses/House_4/Data/house_4_window.emat"
+    }
+    MaterialAssignClass "{671423C7D0ECD5B4}" {
+     SourceMaterial "huose_1_podezd"
+     AssignedMaterial "{9C9A0315F38DBC10}Assets/Structures/Houses/House_4/Data/house_4_interier.emat"
+    }
+    MaterialAssignClass "{671423C7D0ECD5B0}" {
+     SourceMaterial "kirpich"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+   }
+  }
+  Occluder "{671423C7D0ECD5B8}" {
+  }
+  RigidBody "{671423C7D0ECD584}" {
+   ModelGeometry 1
+   Static 1
+  }
+  WorldSubsceneComponent "{671423C7D0ECD544}" {
+  }
+  RplComponent "{671423C7D0ECD54B}" {
+   Streamable Disabled
+  }
+  Hierarchy "{671423C7D0ECD4A0}" {
+  }
+ }
+ coords 0 1.448 0
+ {
+  $grp StaticModelEntity : "{BF31B7BDF8A7F526}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/Dst/Ruins/ShopHouse_E_2I01t_V2_dst_01_dbr_04_ruins.et" {
+   {
+    ID "6717600D20737D92"
+    coords 6.226 0.392 -8.109
+   }
+   {
+    ID "6717600D21268EC6"
+    coords -0.344 -0.233 -10.115
+   }
+   {
+    ID "6717600D59F7EC90"
+    coords 0 0 0
+   }
+   {
+    ID "6717600D629DDA4F"
+    coords 9.485 -0.131 0.044
+   }
+   {
+    ID "6717600E79C7B89D"
+    coords 9.377 -0.339 -3.884
+   }
+   {
+    ID "6717600E7C1AD334"
+    coords 4.879 3.178 -4.172
+   }
+  }
+ }
+}

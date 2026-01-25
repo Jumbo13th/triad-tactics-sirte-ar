@@ -1,0 +1,57 @@
+StaticModelEntity : "{E4D57D1BA5178563}Prefabs/Structures/Core/Wall_Gate_Base.et" {
+ ID "1133272B8B185691"
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Object "{247146B4312F9A2B}Assets/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.xob"
+  }
+  RigidBody "{56DE7C8DDE282E03}" {
+   ResponseIndex "LargeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5AFCF34FE8F1AB15}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default : "{027E75D7EBD9D450}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Metal_Heavy.conf" {
+     DamageThreshold 60
+    }
+   }
+   m_fBaseHealth 2500
+   m_fDamageThresholdMaximum 50000
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{59F4C97478C10179}" : "{5C13E450831D831D}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Heavy.conf" {
+     m_ModelPrefabs {
+      "{20BF94D589E3A35B}Assets/Structures/Infrastructure/Barriers/BarGate_01/Dst/BarGate_01_pole_dbr_00.xob"
+     }
+     m_fMass 15
+     m_fMaxDamageToSpeedMultiplier 5
+     m_fRandomVelocityAngular 30
+     m_eMaterialSoundType METAL_POLE
+    }
+   }
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{66ECB2E6A0D4494F}" {
+     m_fPhaseHealth 2000
+     m_PhaseModel "{A8A47ABF6680536C}Assets/Structures/Infrastructure/Barriers/BarGate_01/Dst/BarGate_01_holder_dst_00.xob"
+     m_PhaseDestroySpawnObjects {
+      SCR_DebrisSpawnable "{59F4C97478C10177}" : "{5C13E450831D831D}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Heavy.conf" {
+       m_vOffsetPosition 0 0.1 0
+       m_vOffsetRotation 0 30 0
+       m_ModelPrefabs {
+        "{D5CF013A1F27A619}Assets/Structures/Infrastructure/Barriers/BarGate_01/Dst/BarGate_01_holder_dbr_00.xob"
+       }
+       m_fMass 15
+       m_eMaterialSoundType METAL_LIGHT
+      }
+      SCR_ParticleSpawnable "{66ECB2E6A0D44947}" {
+       m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+      }
+     }
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_POLE
+  }
+  ActionsManagerComponent "{102B276C16638B9B}" {
+   Enabled 0
+  }
+ }
+}

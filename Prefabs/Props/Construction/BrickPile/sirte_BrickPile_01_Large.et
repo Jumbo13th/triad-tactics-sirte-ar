@@ -1,0 +1,200 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{E68CDA735BC7F709}Assets/Props/Construction/BrickPile_01/BrickPile_01_Large.xob"
+   Materials {
+    MaterialAssignClass "{66F8B0389A87490B}" {
+     SourceMaterial "Color_palette_02"
+     AssignedMaterial "{F3CF9FA0D1005E53}Assets/Props/Construction/BrickPile_01/data/brickPile_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 2000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66F8B0389A874939}" {
+     m_vOffsetPosition -0.4 1.1 -0.4
+     m_ModelPrefabs {
+      "{B32EA6335333A273}Assets/Props/Debris/Brick/Brick_dbr_01.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+     }
+     m_fMass 15
+     m_fRandomVelocityLinear 5
+     m_eMaterialSoundType ROCK_SMALL
+    }
+    SCR_ParticleSpawnable "{66F8B0389A87493A}" {
+     m_vOffsetPosition 0 0.3 0
+     m_Particle "{BAD5F1D312113A1F}Particles/Props/Dest_Prop_Stone_Medium.ptc"
+    }
+    SCR_DebrisSpawnable "{66F8B0389A87CB1D}" {
+     m_vOffsetPosition 0.4 1.1 0
+     m_ModelPrefabs {
+      "{2A301FAA4ED493E3}Assets/Props/Debris/Brick/Brick_dbr_02.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+     }
+     m_fMass 15
+     m_fRandomVelocityLinear 5
+     m_eMaterialSoundType ROCK_SMALL
+    }
+    SCR_DebrisSpawnable "{66F8B0389A87CB03}" {
+     m_vOffsetPosition 0.4 1.1 0.4
+     m_ModelPrefabs {
+      "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+     }
+     m_fRandomVelocityLinear 5
+     m_eMaterialSoundType ROCK_SMALL
+    }
+    SCR_DebrisSpawnable "{66F8B0389A87CB00}" {
+     m_vOffsetPosition 0.4 1.1 -0.4
+     m_ModelPrefabs {
+      "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+     }
+     m_fMass 15
+     m_fRandomVelocityLinear 5
+     m_eMaterialSoundType ROCK_SMALL
+    }
+    SCR_DebrisSpawnable "{66F8B0389A87CB01}" {
+     m_vOffsetPosition -0.4 1.1 0.4
+     m_ModelPrefabs {
+      "{B32EA6335333A273}Assets/Props/Debris/Brick/Brick_dbr_01.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+     }
+     m_fMass 15
+     m_fRandomVelocityLinear 5
+     m_eMaterialSoundType ROCK_SMALL
+    }
+   }
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{66F8B0389A87CB04}" {
+     m_fPhaseHealth 3000
+     m_PhaseModel "{E770C4204BE5E886}Assets/Props/Construction/BrickPile_01/dst/BrickPile_01_Large_dst_01.xob"
+     m_PhaseDestroySpawnObjects {
+      SCR_ParticleSpawnable "{66F8B0389A87CB0A}" {
+       m_vOffsetPosition 0 0.1 0
+       m_Particle "{BAD5F1D312113A1F}Particles/Props/Dest_Prop_Stone_Medium.ptc"
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB0B}" {
+       m_vOffsetPosition 0.4 0.9 0.4
+       m_ModelPrefabs {
+        "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob" "{B32EA6335333A273}Assets/Props/Debris/Brick/Brick_dbr_01.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB08}" {
+       m_vOffsetPosition -0.4 0.9 -0.4
+       m_ModelPrefabs {
+        "{2A301FAA4ED493E3}Assets/Props/Debris/Brick/Brick_dbr_02.xob"
+       }
+       m_fMass 15
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB0E}" {
+       m_vOffsetPosition -0.4 0.9 0.4
+       m_ModelPrefabs {
+        "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+       }
+       m_fRandomVelocityLinear 4
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB0F}" {
+       m_vOffsetPosition 0.4 0.9 -0.4
+       m_ModelPrefabs {
+        "{B32EA6335333A273}Assets/Props/Debris/Brick/Brick_dbr_01.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+     }
+    }
+    SCR_DamagePhaseData "{66F8B0389A87CB7E}" {
+     m_fPhaseHealth 3000
+     m_PhaseModel "{7E6E7DB95602D916}Assets/Props/Construction/BrickPile_01/dst/BrickPile_01_Large_dst_02.xob"
+     m_PhaseDestroySpawnObjects {
+      SCR_DebrisSpawnable "{66F8B0389A87CB7C}" {
+       m_vOffsetPosition 0.4 0.5 0.4
+       m_ModelPrefabs {
+        "{B32EA6335333A273}Assets/Props/Debris/Brick/Brick_dbr_01.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB7D}" {
+       m_vOffsetPosition -0.4 0.5 0.4
+       m_ModelPrefabs {
+        "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+      SCR_ParticleSpawnable "{66F8B0389A87CB62}" {
+       m_vOffsetPosition 0 -0.1 -0.4
+       m_Particle "{BAD5F1D312113A1F}Particles/Props/Dest_Prop_Stone_Medium.ptc"
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB63}" {
+       m_vOffsetPosition -0.4 0.5 -0.4
+       m_ModelPrefabs {
+        "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB60}" {
+       m_vOffsetPosition 0.4 0.5 -0.4
+       m_ModelPrefabs {
+        "{B32EA6335333A273}Assets/Props/Debris/Brick/Brick_dbr_01.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+     }
+    }
+    SCR_DamagePhaseData "{66F8B0389A87CB61}" {
+     m_fPhaseHealth 3000
+     m_PhaseModel "{09641531A2A03666}Assets/Props/Construction/BrickPile_01/dst/BrickPile_01_Large_dst_03.xob"
+     m_PhaseDestroySpawnObjects {
+      SCR_ParticleSpawnable "{66F8B0389A87CB66}" {
+       m_vOffsetPosition 0 -0.3 0
+       m_Particle "{BAD5F1D312113A1F}Particles/Props/Dest_Prop_Stone_Medium.ptc"
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB67}" {
+       m_vOffsetPosition 0.4 0.1 0.4
+       m_ModelPrefabs {
+        "{B32EA6335333A273}Assets/Props/Debris/Brick/Brick_dbr_01.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB64}" {
+       m_vOffsetPosition -0.4 0.1 -0.4
+       m_ModelPrefabs {
+        "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+       }
+       m_fRandomVelocityLinear 5
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB65}" {
+       m_vOffsetPosition -0.4 0.1 0.4
+       m_ModelPrefabs {
+        "{2A301FAA4ED493E3}Assets/Props/Debris/Brick/Brick_dbr_02.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+      SCR_DebrisSpawnable "{66F8B0389A87CB53}" {
+       m_vOffsetPosition 0.4 0.1 -0.4
+       m_ModelPrefabs {
+        "{B32EA6335333A273}Assets/Props/Debris/Brick/Brick_dbr_01.xob" "{5D3A7722BA767C93}Assets/Props/Debris/Brick/Brick_dbr_03.xob"
+       }
+       m_fMass 15
+       m_fRandomVelocityLinear 5
+      }
+     }
+    }
+   }
+   m_eMaterialSoundType BREAK_ROCK
+  }
+ }
+ coords -3.222 1.768 -4.923
+ angles 0 -90.1 0
+}

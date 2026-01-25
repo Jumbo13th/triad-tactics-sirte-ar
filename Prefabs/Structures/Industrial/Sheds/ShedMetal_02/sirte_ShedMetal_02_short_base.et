@@ -1,0 +1,46 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{66EABCDD2130E01E}" {
+  }
+  SCR_BuildingSoundComponent "{66EABCDD2130E0E1}" {
+   Filenames {
+    "{6950FFCB5A048F3E}Sounds/Structures/Industrial/Sheds/ShedMetal_02/Structures_ShedMetal_02.acp"
+   }
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo Rattle_1 {
+     Offset 4 4 0
+    }
+    SoundPointInfo Rattle_2 {
+     Offset -4 4 0
+    }
+   }
+   m_vMins -6 4 -4
+   m_vMaxs 6 5 4
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{3B24EE09C46A2A34}Assets/Structures/Industrial/Sheds/ShedMetal_02/ShedMetal_02_short.xob"
+   LODFactors {
+    300 30 10 1 1
+   }
+   ClutterOccluder 0
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ResponseIndex "Normal"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{6445088E24D200EB}" : "{4AD52D8C0BF8C437}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Metal_Medium.ct" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.5
+     m_bPersistent 1
+     m_sRuinsPrefab "{8E336D60889007D7}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/Dst/ShedMetal_02_Ruin_base.et"
+    }
+   }
+   m_fRotationSpeed 1
+  }
+ }
+ IsBuilding 0
+}

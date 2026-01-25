@@ -1,0 +1,44 @@
+SCR_DestructibleBuildingEntity : "{4472D9B48597C94D}Prefabs/Structures/Houses/Village/HouseAddon_Workshop_E_01/HouseAddon_Workshop_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  Building : "{05DD427C1DC0EF4E}Prefabs/Structures/BuildingParts/Windows/Win_Workshop_E_A/Win_Workshop_E_A_195x142_2_B_metal.et" {
+   ID "66EEA8D56743DA46"
+   components {
+    Hierarchy "{66EEA8D567438EF7}" {
+     PivotID "socket_win_195x142_01"
+    }
+   }
+  }
+  StaticModelEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
+   ID "66EEA8D56743DA3B"
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     Enabled 1
+     PivotID "socket_entry_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{417F72B0CAAEB2C5}Prefabs/Structures/BuildingParts/Windows/Win_Workshop_E_A/Win_Workshop_E_A_100x72_2_B_metal.et" {
+   ID "66EEA8D56743DA3A"
+   components {
+    Hierarchy "{66EEA8D567438EC1}" {
+     PivotID "socket_win_100x72_01"
+    }
+   }
+  }
+  Building : "{8AD18D10C688180D}Prefabs/Structures/BuildingParts/Windows/Win_Workshop_E_A/Win_Workshop_E_A_150x72_2_B_metal.et" {
+   ID "66EEA8D567438EE2"
+   components {
+    Hierarchy "{66EEA8D567438EC9}" {
+     PivotID "socket_win_150x72_01"
+    }
+   }
+  }
+  GenericEntity : "{C9D3E3DC107A003B}Prefabs/Structures/Houses/Village/HouseAddon_Workshop_E_01/Furniture/HouseAddon_Workshop_E_01_furniture_01.et" {
+   ID "66EEA8D567438EEC"
+   coords 0 0 0
+  }
+ }
+}

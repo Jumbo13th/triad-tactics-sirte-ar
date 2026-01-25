@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6808D79A7D3D1F14}Assets/Structures/Houses/HouseBuilding/Parts/walls/Data/wall_base.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

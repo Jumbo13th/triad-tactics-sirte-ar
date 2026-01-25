@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BF1C025CF9A940AD}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/data/sirte_CabinetElectricalLarge_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

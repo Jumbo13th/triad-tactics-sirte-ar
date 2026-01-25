@@ -1,0 +1,57 @@
+GenericEntity : "{F1793FE006FDF888}Prefabs/Structures/BuildingParts/Doors/Door_Base.et" {
+ ID "627CE52CCB2692FE"
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   SoundFilename "{20BF71F689270E57}Sounds/Structures/_ShaderData/Doors/Structures_Door_Wooden_Handle.acp"
+   SoundPoints {
+    SoundPointEventInfo "{6713731E1FAF698C}" {
+     Offset 1.1821 1.0081 0
+    }
+    SoundPointEventInfo "{6713731E1FAF6835}" {
+     Offset 1.1821 1.0081 0
+     Event SOUND_OPEN_FINISH
+    }
+    SoundPointEventInfo "{6713731E1FAF6832}" {
+     Offset 1.1821 1.0081 0
+     Event SOUND_CLOSE_START
+    }
+    SoundPointEventInfo "{6713731E1FAF683F}" {
+     Offset 1.1821 1.0081 0
+     Event SOUND_CLOSE_FINISH
+    }
+    SoundPointEventInfo "{6713731E1FAF683E}" {
+     Offset 0 1.049 0
+     Event SOUND_MOVEMENT
+    }
+   }
+   TestContacts 1
+   TestCollider "UBX_Door_Left_01"
+  }
+  MeshObject "{309366462BDAFB24}" {
+   Object "{7615D2945377B487}Assets/Structures/BuildingsParts/Doors/Door_Town_E/Door_House_Town_E_A_Left_EXT_COV_B.xob"
+   Materials {
+    MaterialAssignClass "{6713731E1FAF6839}" {
+     SourceMaterial "Door_E_2I02_01_Brown"
+     AssignedMaterial "{36AF03396D98810C}Assets/Structures/BuildingsParts/Doors/Data/House_Town_E_2I02_Brown_B_INT.emat"
+    }
+    MaterialAssignClass "{6713731E1FAF6827}" {
+     SourceMaterial "Door_E_2I02_01_Brown_INT"
+     AssignedMaterial "{316755AE0D94A91F}Assets/Structures/BuildingsParts/Doors/Data/House_Town_E_2I02_Brown_B.emat"
+    }
+   }
+  }
+  NavmeshCustomLinkComponent "{559E7AC91AFA25BA}" {
+   LinkType NavmeshDoorLink "{559E7AC9151D5867}" {
+   }
+  }
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   ActionContexts {
+    UserActionContext "{50888D37F529F720}" {
+     Position PointInfo "{50888D37F0EB77E0}" {
+      Offset 1.2 1.1 0
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,10 @@
+GenericEntity : "{223703BE93AAF919}Prefabs/Structures/Misc/CarpetA.et" {
+ ID "5CB36483F06A1572"
+ components {
+  MeshObject "{5CB364830593DAAA}" {
+   Object "{CA85444140A7A48F}Assets/ME_Market/counter_EP1.xob"
+  }
+ }
+ coords 34.955 1.001 229.349
+ angles 0 0 0
+}

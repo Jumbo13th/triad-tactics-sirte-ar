@@ -1,0 +1,54 @@
+MetaFileClass {
+ Name "{0DB0FE66147BF90E}Assets/Structures/Houses/HouseBuilding/Parts/walls/wall_7m.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{6702EEA4A80CF3E8}" {
+     SourceMaterial "wall_base"
+     AssignedMaterial "{6808D79A7D3D1F14}Assets/Structures/Houses/HouseBuilding/Parts/walls/Data/wall_base.emat"
+    }
+    MaterialAssignClass "{6702EEA4A80CF3CD}" {
+     SourceMaterial "wall_interier"
+     AssignedMaterial "{729344F33E2FDC07}Assets/Structures/Houses/HouseBuilding/Parts/walls/Data/wall_interier.emat"
+    }
+   }
+   MeshParams {
+    MeshParam wall_7m {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_wall_7m {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6702EEA4A878A0CE}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6702EEA4A878A649}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6702EEA4A878A6E8}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6702EEA4A878A692}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6702EEA4A878A55E}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6702EEA4A878A50D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

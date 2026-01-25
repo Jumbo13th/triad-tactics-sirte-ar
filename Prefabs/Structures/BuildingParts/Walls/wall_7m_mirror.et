@@ -1,0 +1,8 @@
+SCR_DestructibleEntity : "{7E92E8056E90DCCA}Prefabs/Structures/BuildingParts/Walls/wall_base_mirror.et" {
+ ID "51E2F0F09703F07B"
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Object "{3BEFA38BF85922EA}Assets/Structures/Houses/HouseBuilding/Parts/walls/wall_7m_door_mirror.xob"
+  }
+ }
+}

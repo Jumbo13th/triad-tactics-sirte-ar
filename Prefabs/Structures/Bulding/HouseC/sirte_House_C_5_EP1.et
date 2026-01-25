@@ -1,0 +1,62 @@
+SCR_DestructibleBuildingEntity : "{5B22476A7FA55A61}Prefabs/Structures/Bulding/HouseC/House_C_5_EP1_Base.et" {
+ ID "6518692CDFC9CF44"
+ coords 58.1 1 143.767
+ {
+  $grp GenericEntity : "{648FA6039446ABF9}Prefabs/Structures/BuildingParts/Windows/Glass_65x65/Glass_65x65.et" {
+   {
+    ID "66EABCCC475600D7"
+    coords -5.25 1.835 -1.954
+    angles 0 90 0
+    scale 1.8
+   }
+   {
+    ID "66EABCCC47561B28"
+    coords -2.72 1.87 4.373
+    angles 0 21.394 0
+    scale 1.568
+   }
+   {
+    ID "66EABCCC4756B989"
+    coords -3.186 1.813 -5.866
+    scale 1.8
+   }
+   {
+    ID "66EABCCC47573B04"
+    coords 1.891 1.9 5.504
+    scale 1.8
+   }
+   {
+    ID "66EABCCC47573B05"
+    coords -5.217 1.833 1.714
+    angles 0 90 0
+    scale 1.8
+   }
+  }
+  GenericEntity : "{717F88E65A921861}Prefabs/Structures/BuildingParts/Misc/TvAntenna_02.et" {
+   ID "66EABCCC47561B26"
+   coords -5.079 3.83 4.279
+   angles 0 90.402 0
+   scale 1.53
+  }
+  $grp GenericEntity : "{7D254BF24C0FD915}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_EXT_COV_B_brown.et" {
+   {
+    ID "66EABCCC47563165"
+    coords 4.334 0.287 3.054
+    angles 0 -90 0
+    scale 0.88
+   }
+   {
+    ID "66EABCCC47563167"
+    coords -5.026 0.31 -3.98
+    angles 0 90 0
+    scale 0.88
+   }
+   {
+    ID "66EABCCC47598CE0"
+    coords -0.318 0.31 3.046
+    angles 0 90 0
+    scale 0.88
+   }
+  }
+ }
+}

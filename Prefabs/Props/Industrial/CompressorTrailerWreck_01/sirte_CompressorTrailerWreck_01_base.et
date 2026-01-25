@@ -1,0 +1,64 @@
+SCR_DestructibleEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{9F7723FE2A3A7C76}Assets/Props/Industrial/CompressorTrailerWreck_01/CompressorTrailerWreck_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "LargeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     DamageThreshold 150
+    }
+   }
+   m_fBaseHealth 2000
+   m_fDamageThresholdMaximum 30000
+  }
+ }
+ placement slopelandcontact
+ MaxHealth 2000
+ "Collision multiplier" 0.6
+ "Melee multiplier" 0.6
+ "Kinetic multiplier" 0.6
+ "Fragmentation multiplier" 0.8
+ DamageThreshold 150
+ DestroyAtNoHealth 0
+ FirstDestructionPhase SCR_BaseDestructionPhase "{66EB1064A64D0B87}" {
+  m_sPhaseModel "{9F7723FE2A3A7C76}Assets/Props/Industrial/CompressorTrailerWreck_01/CompressorTrailerWreck_01.xob"
+  m_aPhaseDestroySpawnObjects {
+   SCR_DebrisSpawnable "{66AA7AEC368A7E51}" : "{C2BD61C5E05B8971}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Light.conf" {
+    m_ModelPrefabs {
+     "{1CE84AACBFDA32E9}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_01.et" "{70BC7E4C031EBDC7}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_02.et" "{952032B50FFB2AAC}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_03.et" "{A814178D7A97A39B}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_04.et" "{4D885B74767234F0}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_05.et" "{21DC6F94CAB6BBDE}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_06.et" "{C440236DC6532CB5}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_07.et" "{5BB425E4206FA9B0}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_08.et" "{BE28691D2C8A3EDB}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_09.et" "{8E7E6EDD479D4AF2}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_10.et" "{6BE222244B78DD99}Prefabs/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_11.et"
+    }
+    m_bUseMaterialsFromParent 1
+    m_fMass 5
+    m_fMaxDamageToSpeedMultiplier 2
+   }
+   SCR_ParticleSpawnable "{66EB1064A64D0B9F}" {
+    m_vOffsetPosition 0 1.054 0
+    m_Particle "{3EC8ABC99657C8D1}Particles/Props/Explosion_Generic_Small.ptc"
+    m_bAtCenter 0
+    m_bDirectional 0
+   }
+  }
+ }
+ LastDestructionPhase SCR_BaseDestructionPhase "{66EB1064A64D0B9D}" {
+  Threshold 0
+  m_sPhaseModel "{487F90B12C980C55}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01.xob"
+ }
+ m_aDestroySpawnObjects {
+  SCR_DebrisSpawnable "{6636F39C59928C35}" : "{5C13E450831D831D}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Heavy.conf" {
+   m_ModelPrefabs {
+    "{487F90B12C980C55}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01.xob" "{F7D1D60F0AFD0FE8}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_01.xob" "{6ECF6F96171A3E78}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_02.xob" "{19C5071EE3B8D108}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_03.xob" "{1E02FD4F853E6BCB}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_04.xob" "{690895C7719C84BB}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_05.xob" "{F0162C5E6C7BB52B}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_06.xob" "{871C44D698D95A5B}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_07.xob" "{FF99D8FCA176C0AD}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_08.xob" "{8893B07455D42FDD}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_09.xob" "{74D3F91FF38288EC}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_10.xob" "{03D991970720679C}Assets/Props/Industrial/CompressorTrailerWreck_01/Dst/CompressorTrailerWreck_01_dst_01_dbr_11.xob"
+   }
+   m_bUseMaterialsFromParent 1
+   m_fMass 500
+  }
+  SCR_ParticleSpawnable "{66EB1064A64D0B93}" {
+   m_Particle "{986AD3606AFAEB44}Particles/Props/Dest_MetalWall_Long.ptc"
+  }
+ }
+ m_eMaterialSoundType BREAK_GROUNDRADAR
+}

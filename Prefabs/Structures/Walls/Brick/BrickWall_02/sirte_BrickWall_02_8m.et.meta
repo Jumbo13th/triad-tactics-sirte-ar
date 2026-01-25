@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{44C947D6E210E898}Prefabs/Structures/Walls/Brick/BrickWall_02/sirte_BrickWall_02_8m.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

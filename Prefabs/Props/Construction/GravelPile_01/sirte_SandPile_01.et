@@ -1,0 +1,11 @@
+GenericEntity : "{EAD49AAAD13457F0}Prefabs/Props/Construction/GravelPile_01/SandPile_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{8E3D97AA64FE5D32}Assets/Props/Construction/SandPile_01/SandPile_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+ }
+}

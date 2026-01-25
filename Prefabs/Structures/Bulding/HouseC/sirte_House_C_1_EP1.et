@@ -1,0 +1,282 @@
+SCR_DestructibleBuildingEntity {
+ ID "66EB1055162F3D93"
+ components {
+  MeshObject "{66EB105516578BFB}" {
+   Object "{FEFFC16E8129FEE2}Assets/ME_Bulding/HouseC/House_C_1_EP1.xob"
+  }
+  RigidBody "{66EB105516578BE4}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66EB105516578BE6}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EB105516578BD2}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EB105516578BD9}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EB105516578BDB}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EB105516578BDD}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{1A96D9A2F0450454}Prefabs/Structures/Bulding/HouseC/House_C_1_EP1_Ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EB105516578BC1}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EB105516578BC3}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EB105516578BC4}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EB105516578BC6}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66EB105516578BC9}" {
+  }
+  RplComponent "{66EB105516578BCA}" {
+  }
+  Hierarchy "{66EB105516578BB3}" {
+  }
+ }
+ coords 110.915 1 125.533
+ {
+  $grp GenericEntity : "{28AD8947BD109ADE}Prefabs/Structures/Signs/Large/Dst/SignLarge_01_PowerPlant_dst.et" {
+   {
+    ID "66EB10551650CCB6"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Materials {
+       MaterialAssignClass "{57209A7F573F5566}" {
+        SourceMaterial "SignLarge_01"
+        AssignedMaterial "{DBBCB6E929102685}Assets/Structures/Signs/Large/Data/SignLarge_Kunar_AutoParts.emat"
+       }
+       MaterialAssignClass "{57209A7F573F5493}" {
+        SourceMaterial "SignLarge_01_MLOD"
+        AssignedMaterial "{E41D0E40B001D7AB}Assets/Structures/Signs/Large/Data/SignLarge_Kunar_AutoParts_MLOD.emat"
+       }
+      }
+     }
+    }
+    coords 8.985 1.755 -3.017
+    angles 0 -180 0
+    scale 0.6
+   }
+   {
+    ID "66EB105516514752"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Materials {
+       MaterialAssignClass "{57209A7F573F5566}" {
+        SourceMaterial "SignLarge_01"
+        AssignedMaterial "{6914AC07A245CA31}Assets/Structures/Signs/Large/Data/SignLarge_Kunar_TireShop.emat"
+       }
+       MaterialAssignClass "{57209A7F573F5493}" {
+        SourceMaterial "SignLarge_01_MLOD"
+        AssignedMaterial "{6307B9B62DAA4BBC}Assets/Structures/Signs/Large/Data/SignLarge_Kunar_TireShop_MLOD.emat"
+       }
+      }
+     }
+    }
+    coords -4.873 1.789 -3.02
+    angles 0 -180 0
+    scale 0.6
+   }
+   {
+    ID "66EB105516514753"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Materials {
+       MaterialAssignClass "{57209A7F573F5566}" {
+        SourceMaterial "SignLarge_01"
+        AssignedMaterial "{0E817208229207D3}Assets/Structures/Signs/Large/Data/SignLarge_Kunar_TireShop_01.emat"
+       }
+       MaterialAssignClass "{57209A7F573F5493}" {
+        SourceMaterial "SignLarge_01_MLOD"
+        AssignedMaterial "{83F74325CDA4973C}Assets/Structures/Signs/Large/Data/SignLarge_Kunar_TireShop_01_MLOD.emat"
+       }
+      }
+     }
+    }
+    coords -1.795 1.787 -3.01
+    angles 0 -180 0
+    scale 0.6
+   }
+  }
+  GenericEntity : "{37FD663A110F1375}Prefabs/Structures/Infrastructure/Naval/Piers/Pier_Tires_02.et" {
+   ID "66EB10551650CCAC"
+   coords 1.882 4.413 -3.247
+   angles 0 -179 0
+   scale 0.82
+  }
+  $grp GenericEntity : "{6665A9CC940A7F4E}Prefabs/Structures/Door/garage_door.et" {
+   {
+    ID "66EB105516533CA2"
+    coords 7.512 4.178 -2.704
+    angles 0 -180 0
+    scale 0.955
+   }
+   {
+    ID "66EB105516533CA3"
+    coords -3.184 4.178 -2.717
+    angles 0 -180 0
+    scale 0.955
+   }
+  }
+  Building : "{B354A17CD6BEE37E}Prefabs/Structures/BuildingParts/Windows/Win_MunicipalOffice_E_01/Win_Counter_MunicialOffice_E_01_120x100_21_B_base.et" {
+   ID "66EB10551652C1E7"
+   coords 3.951 1.537 -1.836
+   angles 0 91 0
+   scale 1.21
+  }
+  $grp GenericEntity : "{C97D2037C275C757}Prefabs/Structures/BuildingParts/Doors/DoorSet_ShopModern_E_EXT_A.et" {
+   {
+    ID "66EB105516554EF5"
+    coords -1.763 0.06 -2.731
+    angles 0 -179.931 0
+    scale 1.046
+   }
+   {
+    ID "66EB105516554EF6"
+    coords 8.932 0.029 -2.756
+    angles 0 -179.931 0
+    scale 1.046
+   }
+  }
+  $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+   {
+    ID "66EB105516546450"
+    coords -5.571 0.088 3.689
+    angles 0 180 0
+   }
+   {
+    ID "66EB10551654912A"
+    coords -0.193 0.059 3.035
+    angles 0 -90 0
+    scale 1.01
+   }
+   {
+    ID "66EB10551654912B"
+    coords 9.622 0.08 3.662
+    angles 0 180 0
+   }
+   {
+    ID "66EB10551654912C"
+    coords 4.255 0.092 3.024
+    angles 0 90 0
+   }
+  }
+  $grp Building : "{EDEAA23E9994B699}Prefabs/Structures/BuildingParts/Windows/Win_Garage_E/win_garage_e_02_4400x1100_88_B.et" {
+   {
+    ID "66EB105516542443"
+    coords -1.59 3.873 3.802
+    angles 0 -179.659 0
+    scale 0.317
+   }
+   {
+    ID "66EB1055165464AC"
+    coords 5.84 3.702 -2.808
+    angles 0 -179.659 0
+    scale 0.639
+   }
+   {
+    ID "66EB1055165464AD"
+    coords -1.743 3.731 -2.878
+    angles 0 -179.659 0
+    scale 0.639
+   }
+   {
+    ID "66EB1055165464AE"
+    coords -4.851 3.731 -2.86
+    angles 0 -179.659 0
+    scale 0.639
+   }
+   {
+    ID "66EB105516578BF2"
+    coords 8.956 3.718 -2.827
+    angles 0 -179.659 0
+    scale 0.639
+   }
+   {
+    ID "66EB105516578BF3"
+    coords -5.211 3.911 3.813
+    angles 0 -179.659 0
+    scale 0.317
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+GenericEntity : "{B9003EF716A534D4}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_single.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{58910CB440544D56}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_LampStreet_02_single_Name"
+    m_Image "{B9593B29B093A62D}UI/Textures/EditorPreviews/Auto/Structures/Infrastructure/Lamps/LampStreet_E_02/E_LampStreet_E_02_single.edds"
+    m_aAutoLabels {
+     THEME_INFRASTRUCTURE ENTITYTYPE_OBJECT SIZE_M
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{58910CB440549666}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{66EA1A01CF04C038}" {
+     m_iParentID -1
+     m_Mesh "{9F18AF325AFBF168}Assets/Structures/Infrastructure/Lamps/LampStreetE_02/LampStreetE_02_single.xob"
+     m_Flags HORIZONTAL
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{66EA1A01CF04C023}" {
+     m_iParentID 0
+     m_Mesh ""
+     m_Flags 0
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0.04 7.617 1.743
+     m_vAngles 0 -65 0
+    }
+   }
+  }
+  RplComponent "{64DCE194BBCFB24D}" : "{B193E926C1935A4C}Prefabs/Editor/Components/Default_RplComponent.ct" {
+  }
+ }
+}

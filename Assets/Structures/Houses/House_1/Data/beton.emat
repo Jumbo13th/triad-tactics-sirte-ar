@@ -1,0 +1,7 @@
+MatPBRMulti {
+ SpecularMul 0
+ Color_1 0.588 0.588 0.588 1
+ BCR_1 "{CC35F189ECA41567}Assets/Structures/Houses/House_1/Data/Final/house_1_wall_BCR.edds"
+ NMO_1 "{2D1A281FBE244A7C}Assets/Structures/Houses/House_1/Data/Final/house_1_wall_N.edds"
+ DetNormal_1 3
+}

@@ -1,0 +1,4825 @@
+$grp SplineShapeEntity {
+ {
+  coords 1886.814 5 3603.657
+  Points {
+   ShapePoint "{66F94D00596969A4}" {
+    Position 0 0 1.422
+   }
+   ShapePoint "{66F94D0059698D3E}" {
+    Position 0 0 -12.912
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 32559
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 1.422
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -0.599
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -2.619
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -4.639
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -6.659
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -8.679
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -10.699
+       angles 0 90 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1886.814 5 3603.657
+  Points {
+   ShapePoint "{66F94D0074E488CC}" {
+    Position 0 0 -20.163
+   }
+   ShapePoint "{66F94D007D6106A9}" {
+    Position 0 0 -36.458
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 19400
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 -20.163
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -22.183
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -24.203
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -26.224
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -28.244
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -30.264
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -32.284
+       angles 0 90 0
+      }
+      {
+       coords 0 0 -34.304
+       angles 0 90 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1901.645 5 3634.133
+  Points {
+   ShapePoint "{66F94D0094824A84}" {
+    Position 0.408 0 0
+   }
+   ShapePoint "{66F94D00948272BA}" {
+    Position -36.206 0 0
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 31986
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0.408 0 0
+       angles 0 180 0
+      }
+      {
+       coords -1.612 0 0
+       angles 0 180 0
+      }
+      {
+       coords -3.632 0 0
+       angles 0 180 0
+      }
+      {
+       coords -5.653 0 0
+       angles 0 180 0
+      }
+      {
+       coords -7.673 0 0
+       angles 0 180 0
+      }
+      {
+       coords -9.693 0 0
+       angles 0 180 0
+      }
+      {
+       coords -11.713 0 0
+       angles 0 180 0
+      }
+      {
+       coords -13.733 0 0
+       angles 0 180 0
+      }
+      {
+       coords -15.754 0 0
+       angles 0 180 0
+      }
+      {
+       coords -17.774 0 0
+       angles 0 180 0
+      }
+      {
+       coords -19.794 0 0
+       angles 0 180 0
+      }
+      {
+       coords -21.814 0 0
+       angles 0 180 0
+      }
+      {
+       coords -23.834 0 0
+       angles 0 180 0
+      }
+      {
+       coords -25.854 0 0
+       angles 0 180 0
+      }
+      {
+       coords -27.875 0 0
+       angles 0 180 0
+      }
+      {
+       coords -29.895 0 0
+       angles 0 180 0
+      }
+      {
+       coords -31.915 0 0
+       angles 0 180 0
+      }
+      {
+       coords -33.935 0 0
+       angles 0 180 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1858.847 5 3632.18
+  Points {
+   ShapePoint "{66F94D00B9E6FDA0}" {
+    Position 0.007 0 -0.5
+   }
+   ShapePoint "{66F94D00B9E51E18}" {
+    Position -6.747 0 -0.5
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 3277
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0.007 0 -0.5
+       angles 0 180 0
+      }
+      {
+       coords -2.013 0 -0.5
+       angles 0 180 0
+      }
+      {
+       coords -4.033 0 -0.5
+       angles 0 180 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1858.006 5 3626.723
+  Points {
+   ShapePoint "{66F94D075921FDC2}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66F94D075921E9CF}" {
+    Position -6.381 0 0
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 6852
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angles 0 180 0
+      }
+      {
+       coords -2.02 0 0
+       angles 0 180 0
+      }
+      {
+       coords -4.04 0 0
+       angles 0 180 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1858.006 5 3626.723
+  Points {
+   ShapePoint "{66F94D07775EED1A}" {
+    Position -6 0 0
+   }
+   ShapePoint "{66F94D07745C66F5}" {
+    Position -6 0 -5
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.11 0 0.046
+      OutTangent -0.11 0 0.046
+     }
+    }
+   }
+   ShapePoint "{66F94D0772E09C0A}" {
+    Position -11.921 0 -5
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 18211
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords -6 0 0
+       angles 0 89.685 0
+      }
+      {
+       coords -5.989 0 -2.02
+       angles 0 89.881 0
+      }
+      {
+       coords -5.985 0 -4.04
+       angles 0 151.637 0
+      }
+      {
+       coords -7.762 0 -5
+       angles 0 180 0
+      }
+      {
+       coords -9.782 0 -5
+       angles 0 180 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1858.847 5 3632.18
+  Points {
+   ShapePoint "{66F94D0730EC5910}" {
+    Position -6.747 0 -0.5
+   }
+   ShapePoint "{66F94D073F85DB75}" {
+    Position -6.747 0 2
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.167 0 0.013
+      OutTangent -0.167 0 0.013
+     }
+    }
+   }
+   ShapePoint "{66F94D073BD37B4A}" {
+    Position -38 0 2
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.084 0 -0.026
+      OutTangent -0.084 0 -0.026
+     }
+    }
+   }
+   ShapePoint "{66F94D0739A314D4}" {
+    Position -38 0 -8.298
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 24182
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords -6.747 0 -0.5
+       angles 0 270.657 0
+      }
+      {
+       coords -6.724 0 1.52
+       angles 0 193.744 0
+      }
+      {
+       coords -8.686 0 2
+       angles 0 180 0
+      }
+      {
+       coords -10.706 0 2
+       angles 0 180 0
+      }
+      {
+       coords -12.726 0 2
+       angles 0 180 0
+      }
+      {
+       coords -14.747 0 2
+       angles 0 180 0
+      }
+      {
+       coords -16.767 0 2
+       angles 0 180 0
+      }
+      {
+       coords -18.787 0 2
+       angles 0 180 0
+      }
+      {
+       coords -20.807 0 2
+       angles 0 180 0
+      }
+      {
+       coords -22.827 0 2
+       angles 0 180 0
+      }
+      {
+       coords -24.848 0 2
+       angles 0 180 0
+      }
+      {
+       coords -26.868 0 2
+       angles 0 180 0
+      }
+      {
+       coords -28.888 0 2
+       angles 0 180 0
+      }
+      {
+       coords -30.908 0 2
+       angles 0 180 0
+      }
+      {
+       coords -32.928 0 2
+       angles 0 180 0
+      }
+      {
+       coords -34.948 0 2
+       angles 0 180 0
+      }
+      {
+       coords -36.969 0 2
+       angles 0 120.818 0
+      }
+      {
+       coords -38.004 0 0.265
+       angles 0 90.117 0
+      }
+      {
+       coords -38.008 0 -1.755
+       angles 0 90.045 0
+      }
+      {
+       coords -38.009 0 -3.775
+       angles 0 89.883 0
+      }
+      {
+       coords -38.005 0 -5.795
+       angles 0 89.883 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1872.827 5 3508.32
+  Points {
+   ShapePoint "{66F94D06A651EFD8}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66F94D06A6509560}" {
+    Position -51.351 0 -0.009
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -1.177 0 0.128
+      OutTangent -1.177 0 0.128
+     }
+    }
+   }
+   ShapePoint "{66F94D06ACE51556}" {
+    Position -51.729 0 -13.854
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 12207
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angles 0 179.955 0
+      }
+      {
+       coords -2.02 0 -0.002
+       angles 0 179.955 0
+      }
+      {
+       coords -4.04 0 -0.003
+       angles 0 179.955 0
+      }
+      {
+       coords -6.061 0 -0.005
+       angles 0 179.955 0
+      }
+      {
+       coords -8.081 0 -0.006
+       angles 0 179.955 0
+      }
+      {
+       coords -10.101 0 -0.008
+       angles 0 179.955 0
+      }
+      {
+       coords -12.121 0 -0.01
+       angles 0 179.955 0
+      }
+      {
+       coords -14.141 0 -0.011
+       angles 0 179.955 0
+      }
+      {
+       coords -16.161 0 -0.013
+       angles 0 179.955 0
+      }
+      {
+       coords -18.182 0 -0.014
+       angles 0 179.955 0
+      }
+      {
+       coords -20.202 0 -0.016
+       angles 0 179.955 0
+      }
+      {
+       coords -22.222 0 -0.018
+       angles 0 179.955 0
+      }
+      {
+       coords -24.242 0 -0.019
+       angles 0 179.965 0
+      }
+      {
+       coords -26.262 0 -0.021
+       angles 0 179.984 0
+      }
+      {
+       coords -28.282 0 -0.021
+       angles 0 179.984 0
+      }
+      {
+       coords -30.303 0 -0.021
+       angles 0 179.984 0
+      }
+      {
+       coords -32.323 0 -0.022
+       angles 0 179.984 0
+      }
+      {
+       coords -34.343 0 -0.023
+       angles 0 179.984 0
+      }
+      {
+       coords -36.363 0 -0.023
+       angles 0 179.984 0
+      }
+      {
+       coords -38.383 0 -0.024
+       angles 0 179.984 0
+      }
+      {
+       coords -40.403 0 -0.024
+       angles 0 179.984 0
+      }
+      {
+       coords -42.424 0 -0.025
+       angles 0 180.068 0
+      }
+      {
+       coords -44.444 0 -0.022
+       angles 0 180.116 0
+      }
+      {
+       coords -46.464 0 -0.019
+       angles 0 180.116 0
+      }
+      {
+       coords -48.484 0 -0.014
+       angles 0 180.116 0
+      }
+      {
+       coords -50.504 0 -0.01
+       angles 0 121.335 0
+      }
+      {
+       coords -51.555 0 -1.736
+       angles 0 91.973 0
+      }
+      {
+       coords -51.624 0 -3.755
+       angles 0 91.223 0
+      }
+      {
+       coords -51.668 0 -5.774
+       angles 0 90.713 0
+      }
+      {
+       coords -51.693 0 -7.794
+       angles 0 90.347 0
+      }
+      {
+       coords -51.705 0 -9.815
+       angles 0 90.347 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1872.827 5 3508.32
+  Points {
+   ShapePoint "{66F94D06BA331294}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66F94D0546DD2D3A}" {
+    Position 0.433 0 -25.086
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 24089
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angles 0 89.011 0
+      }
+      {
+       coords 0.035 0 -2.02
+       angles 0 89.011 0
+      }
+      {
+       coords 0.07 0 -4.04
+       angles 0 89.011 0
+      }
+      {
+       coords 0.105 0 -6.06
+       angles 0 89.011 0
+      }
+      {
+       coords 0.139 0 -8.08
+       angles 0 89.011 0
+      }
+      {
+       coords 0.174 0 -10.099
+       angles 0 89.011 0
+      }
+      {
+       coords 0.209 0 -12.119
+       angles 0 89.011 0
+      }
+      {
+       coords 0.244 0 -14.139
+       angles 0 89.011 0
+      }
+      {
+       coords 0.279 0 -16.159
+       angles 0 89.011 0
+      }
+      {
+       coords 0.314 0 -18.179
+       angles 0 89.011 0
+      }
+      {
+       coords 0.349 0 -20.199
+       angles 0 89.011 0
+      }
+      {
+       coords 0.383 0 -22.219
+       angles 0 89.011 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1901.519 5 3538.579
+  Points {
+   ShapePoint "{66F94D0574A1A2EF}" {
+    Position 0.578 0 0
+   }
+   ShapePoint "{66F94D0574A1CEE9}" {
+    Position -10.5 0 0
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.057 0 0.254
+      OutTangent -0.057 0 0.254
+     }
+    }
+   }
+   ShapePoint "{66F94D057DFD1FC6}" {
+    Position -10.5 0 2.854
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 28047
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0.578 0 0
+       angles 0 179.671 0
+      }
+      {
+       coords -1.442 0 -0.011
+       angles 0 179.671 0
+      }
+      {
+       coords -3.462 0 -0.023
+       angles 0 179.742 0
+      }
+      {
+       coords -5.482 0 -0.032
+       angles 0 179.941 0
+      }
+      {
+       coords -7.502 0 -0.034
+       angles 0 180.16 0
+      }
+      {
+       coords -9.523 0 -0.029
+       angles 0 241.066 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1865.588 5 3628.504
+  Points {
+   ShapePoint "{66F94D051A5C5D8A}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66F94D051A5C7B6F}" {
+    Position 3.5 0 0
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0.031 0 -0.154
+      OutTangent 0.031 0 -0.154
+     }
+    }
+   }
+   ShapePoint "{66F94D05234BEBE3}" {
+    Position 3.5 0 -6.423
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 2037
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angles 0 359.437 0
+      }
+      {
+       coords 2.02 0 0.02
+       angles 0 42.898 0
+      }
+      {
+       coords 3.5 0 -1.355
+       angles 0 90 0
+      }
+      {
+       coords 3.5 0 -3.375
+       angles 0 90 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1795.358 5 3628.021
+  Points {
+   ShapePoint "{66F94D121A163478}" {
+    Position 0 0 -0.481
+   }
+   ShapePoint "{66F94D121A155FC8}" {
+    Position 0 0 8.266
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 23422
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 -0.481
+       angles 0 270 0
+      }
+      {
+       coords 0 0 1.539
+       angles 0 270 0
+      }
+      {
+       coords 0 0 3.559
+       angles 0 270 0
+      }
+      {
+       coords 0 0 5.58
+       angles 0 270 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1773.662 5 3635.437
+  Points {
+   ShapePoint "{66F94D12C3F1CD50}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66F94D12C3F0FD3C}" {
+    Position 0 0 -14
+    Data {
+     SplinePointData SplinePointData {
+      InTangent -0.427 0 0.013
+      OutTangent -0.427 0 0.013
+     }
+    }
+   }
+   ShapePoint "{66F94D12D3D63529}" {
+    Position -6.183 0 -14
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 29150
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+       angles 0 89.563 0
+      }
+      {
+       coords 0.015 0 -2.02
+       angles 0 89.563 0
+      }
+      {
+       coords 0.031 0 -4.04
+       angles 0 89.563 0
+      }
+      {
+       coords 0.046 0 -6.06
+       angles 0 89.755 0
+      }
+      {
+       coords 0.055 0 -8.081
+       angles 0 89.922 0
+      }
+      {
+       coords 0.058 0 -10.101
+       angles 0 90.038 0
+      }
+      {
+       coords 0.056 0 -12.121
+       angles 0 111.535 0
+      }
+      {
+       coords -0.685 0 -14
+       angles 0 180 0
+      }
+      {
+       coords -2.705 0 -14
+       angles 0 180 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1768.065 5 3609.798
+  Points {
+   ShapePoint "{66F94D12801B11C6}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66F94D12801A0BB4}" {
+    Position 9.808 0 0
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 24232
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 2.02 0 0
+      }
+      {
+       coords 4.04 0 0
+      }
+      {
+       coords 6.061 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1768.237 5 3568.808
+  Points {
+   ShapePoint "{66F94D129CE48565}" {
+    Position 0 0 0
+   }
+   ShapePoint "{66F94D129CEBB1EC}" {
+    Position 11.483 0 0
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 20043
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords 0 0 0
+      }
+      {
+       coords 2.02 0 0
+      }
+      {
+       coords 4.04 0 0
+      }
+      {
+       coords 6.061 0 0
+      }
+      {
+       coords 8.081 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 1768.214 5 3539.799
+  Points {
+   ShapePoint "{66F94D12A12AF126}" {
+    Position -0.372 0 0
+   }
+   ShapePoint "{66F94D12A12815AC}" {
+    Position 8.186 0 0
+   }
+  }
+  {
+   WallGeneratorEntity : "{59203B19BC344845}PrefabLibrary/DefaultLibrary/Generators/Pavements/Concrete/WG_ConcreteKerb_01.et" {
+    Flags 0x100003 0
+    m_iSeed 12614
+    {
+     $grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+      {
+       coords -0.372 0 0
+      }
+      {
+       coords 1.648 0 0
+      }
+      {
+       coords 3.668 0 0
+      }
+      {
+       coords 5.689 0 0
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{03E5BE9B8EB2FB2C}Prefabs/Structures/Civilian/SportGrounds/PlaygroundClimber_01.et" {
+ coords 1837.984 5 3561.983
+}
+$grp GenericEntity : "{05466F929ABB3563}Prefabs/Structures/Market/sirte_Counter.et" {
+ {
+  coords 1898.753 5 3529.35
+  angles 0 -158.63 0
+ }
+ {
+  coords 1891.058 5 3520.032
+  angles 0 7.719 0
+ }
+ {
+  coords 1899.153 5 3519.869
+  angles 0 -13.591 0
+ }
+}
+$grp Tree : "{126CB12E8C5C68BB}Prefabs/Structures/Tree/sirte_palm2.et" {
+ {
+  coords 1858.44 0 3602.824
+  angles 0 270 0
+ }
+ {
+  coords 1792.35 0 3597.615
+  angles 0 0 0
+ }
+ {
+  coords 1769.379 0 3604.669
+  angles 0 0 0
+ }
+ {
+  coords 1890.485 0 3634.883
+  angles 0 -97.174 0
+ }
+ {
+  coords 1834.857 0 3635.022
+  angles 0 76.121 0
+ }
+ {
+  coords 1806.941 0 3634.862
+  angles 0 66.133 0
+ }
+ {
+  coords 1876.586 0 3506.005
+  angles 0 0 0
+ }
+ {
+  coords 1796.681 0 3504.8
+  angles 0 0 0
+ }
+ {
+  coords 1855.165 0 3605.048
+  angles 0 0 0
+ }
+}
+GenericEntity : "{1E20A8400CBEF3A9}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSwing_01.et" {
+ coords 1822.677 5 3554.679
+ angles 0 -29.964 0
+}
+$grp Tree : "{1E502DBD79FC8FA1}Prefabs/Structures/Tree/sirte_palm9.et" {
+ {
+  coords 1880.083 0 3504.185
+  angles 0 0 0
+ }
+ {
+  coords 1795.319 0 3606.385
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{258295123F54CA55}Prefabs/Props/Construction/ContainerMetal_01/sirte_ContainerMetal_01_green.et" {
+ {
+  coords 1809.723 5 3501.949
+  angles 0 -21.424 0
+ }
+ {
+  coords 1812.59 5 3614.796
+  angles 0 -21.424 0
+ }
+}
+$grp Tree : "{28CE429AB498FD85}Prefabs/Structures/Tree/sirte_palm10.et" {
+ {
+  coords 1861.267 0 3603.56
+  angles 0 0 0
+ }
+ {
+  coords 1826.151 0 3535.495
+  angles 0 0 0
+ }
+ {
+  coords 1842.91 0 3569.233
+  angles 0 0 0
+ }
+ {
+  coords 1843.869 0 3554.435
+  angles 0 0 0
+ }
+ {
+  coords 1881.079 0 3634.583
+  angles 0 0 0
+ }
+ {
+  coords 1850.549 0 3634.839
+  angles 0 0 0
+ }
+ {
+  coords 1813.984 0 3633.864
+  angles 0 0 0
+ }
+ {
+  coords 1878.168 0 3599.591
+  angles 0 0 0
+ }
+ {
+  coords 1806.284 0 3482.442
+  angles 0 0 0
+ }
+ {
+  coords 1815.498 0 3489.782
+  angles 0 0 0
+ }
+}
+$grp SCR_DestructibleEntity : "{28CE5B48712C5438}Prefabs/Structures/Walls/Brick/BrickWall_02/sirte_BrickWall_02_4m.et" {
+ {
+  coords 1885.995 0.786 3583.861
+  angles 0 90.741 0
+ }
+ {
+  coords 1878.29 0.786 3583.961
+  angles 0 90.741 0
+ }
+ {
+  coords 1778.137 0 3517.434
+  angles 0 -93.145 0
+ }
+ {
+  coords 1770.15 0 3516.995
+  angles 0 -93.145 0
+ }
+ {
+  coords 1795.434 0 3588.45
+  angles 0 -163.187 0
+ }
+ {
+  coords 1793.12 0 3580.792
+  angles 0 -163.187 0
+ }
+}
+$grp StaticModelEntity : "{2AE933B117645D30}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Narrow_4m_D.et" {
+ {
+  coords 1903.131 0 3635.728
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3631.899
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3624.035
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3627.864
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0.086 3614.968
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3611.181
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3599.489
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3603.317
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3607.353
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3579.945
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0.086 3595.505
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3591.635
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3587.809
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3583.771
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3541.266
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0.086 3576.371
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3572.503
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3568.674
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3564.639
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3560.81
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0.086 3556.827
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3552.956
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3549.13
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3545.092
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3491.201
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0.086 3537.146
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3533.369
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3529.449
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3525.413
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3521.585
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0.086 3506.761
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3502.891
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3499.064
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3495.027
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3487.246
+  angles 0 90 0
+ }
+ {
+  coords 1903.131 0 3483.209
+  angles 0 90 0
+ }
+ {
+  coords 1903.125 0.11 3482.029
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3635.432
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3631.268
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3627.233
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3623.404
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0.086 3614.337
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3610.55
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3606.722
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3602.686
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3598.858
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0.086 3594.873
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3591.004
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3587.178
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3583.14
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3579.314
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0.086 3575.74
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3571.872
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3568.043
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3560.179
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0.086 3556.196
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3552.325
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3548.498
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3544.461
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3540.635
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0.086 3536.515
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3532.738
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3528.818
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3524.782
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3520.954
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0.086 3506.13
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3502.26
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3498.433
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3494.396
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3490.57
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3486.615
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0 3482.578
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0.135 3635.792
+  angles 0 90 0
+ }
+ {
+  coords 1766.669 0.128 3482.125
+  angles 0 90 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{313401C05A17E368}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_01/sirte_WaterStation_01_Uncovered.et" {
+ coords 1811.18 0 3606.206
+ angles 0 178.249 0
+}
+$grp GenericEntity : "{3CF50AE706F1246C}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSlide_USSR_01.et" {
+ {
+  coords 1834.051 5 3542.597
+  angles 0 36.702 0
+ }
+ {
+  coords 1851.48 5 3556.525
+  angles 0 -62.822 0
+ }
+ {
+  coords 1830.03 5 3542.622
+  angles 0 -28.066 0
+ }
+}
+$grp SCR_DestructibleEntity : "{44C947D6E210E898}Prefabs/Structures/Walls/Brick/BrickWall_02/sirte_BrickWall_02_8m.et" {
+ {
+  coords 1878.036 0.786 3579.829
+  angles 0 0.741 0
+ }
+ {
+  coords 1778.11 0 3521.573
+  angles 0 176.855 0
+ }
+ {
+  coords 1791.535 0 3589.838
+  angles 0 106.813 0
+ }
+}
+$grp SCR_DestructibleEntity : "{4F5692142501AF90}Prefabs/Props/Commercial/sirte_MarketStand_01.et" {
+ {
+  coords 1892.38 5 3531.684
+  angles 0 53.665 0
+ }
+ {
+  coords 1895.587 5 3520.68
+  angles 0 -178.96 0
+ }
+ {
+  coords 1882.298 5 3520.723
+  angles 0 -106.266 0
+ }
+ {
+  coords 1882.784 5 3534.588
+  angles 0 -55.785 0
+ }
+}
+$grp GenericEntity : "{72E42BEAFED9B5A7}Prefabs/Props/Garbage/Bins/GarbageContainer_01.et" {
+ {
+  coords 1881.268 5 3580.96
+  angles 0 0.741 0
+ }
+ {
+  coords 1879.725 5 3582.328
+  angles 0 58.083 0
+ }
+ {
+  coords 1883.372 5 3581.04
+  angles 0 -20.57 0
+ }
+ {
+  coords 1884.907 5 3582.519
+  angles 0 -41.879 0
+ }
+ {
+  coords 1771.067 5 3518.784
+  angles 0 134.235 0
+ }
+ {
+  coords 1772.869 5 3520.003
+  angles 0 155.544 0
+ }
+ {
+  coords 1774.962 5 3520.226
+  angles 0 176.855 0
+ }
+ {
+  coords 1776.594 5 3518.966
+  angles 0 -125.803 0
+ }
+ {
+  coords 1791.751 5 3582.266
+  angles 0 64.193 0
+ }
+ {
+  coords 1791.22 5 3584.376
+  angles 0 85.502 0
+ }
+ {
+  coords 1791.726 5 3586.42
+  angles 0 106.813 0
+ }
+ {
+  coords 1793.468 5 3587.523
+  angles 0 164.155 0
+ }
+}
+$grp StaticModelEntity : "{79C79D894D147954}PrefabLibrary/DefaultLibrary/Infrastructure/Pavements/Asphalt/AsphaltPavement_01_Narrow_4m_D.et" {
+ {
+  coords 1769 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1773 0.138 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1777 0.131 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1781 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1790 0.138 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1794 0.152 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1798 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1802 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1806 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1810 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1814 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1818 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1822 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1826 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1830 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1834 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1838 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1842 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1846 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1850 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1854 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1870.723 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1882.723 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1866.723 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1874.723 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1878.723 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1890.663 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1886.663 0 3636.8
+  angles 0 0 0
+ }
+ {
+  coords 1894.663 0.016 3636.791
+  angles 0 0 0
+ }
+ {
+  coords 1898.27 0.016 3636.791
+  angles 0 0 0
+ }
+ {
+  coords 1768.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1897.463 -0.116 3477.132
+  angles 0 0 0
+ }
+ {
+  coords 1893.972 -0.116 3477.132
+  angles 0 0 0
+ }
+ {
+  coords 1889.972 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1885.972 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1882.032 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1878.032 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1874.032 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1870.032 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1866.032 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1853.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1849.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1845.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1841.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1837.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1829.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1833.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1825.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1821.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1817.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1813.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1809.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1805.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1801.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1797.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1793.309 0.02 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1789.309 0.006 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1780.309 -0.132 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1776.309 -0.001 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1772.309 0.006 3477.141
+  angles 0 0 0
+ }
+ {
+  coords 1898.15 0.042 3477.006
+  angles 0 0 0
+ }
+ {
+  coords 1767.682 0.133 3636.811
+  angles 0 0 0
+ }
+ {
+  coords 1767.697 0.132 3477.141
+  angles 0 0 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{7E1AD4EF5E0CCF69}Prefabs/Structures/Bulding/House_1/House_1.et" {
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1849.671 5 3525
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1858.871 5 3540
+  angles 0 180 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1811.202 5 3540
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1821.702 5 3525
+  angles 0 270 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1811.869 5 3570
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1821.052 5 3585
+  angles 0 180 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    Materials {
+     MaterialAssignClass "{66FCC232CC3E5CC6}" {
+      SourceMaterial "house_1_interiar"
+      AssignedMaterial "{9C9A0315F38DBC10}Assets/Structures/Houses/House_4/Data/house_4_interier.emat"
+     }
+     MaterialAssignClass "{66FCC232CC3E5CDE}" {
+      SourceMaterial "huose_1_podezd"
+      AssignedMaterial "{888F1B4A2F980E7C}Assets/Structures/Houses/House_4/Data/house_4_podezd.emat"
+     }
+    }
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1848.271 5 3585
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1858.871 5 3570
+  angles 0 270 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1796 5 3488
+  angles 0 -90 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1783 5 3498.604
+  angles 0 -90 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1878.56 5 3486.144
+  angles 0 -180 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1889 5 3499.144
+  angles 0 -180 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1876 5 3620.5
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1889 5 3610
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1793.5 5 3620.5
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1783 5 3607.5
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1842 5 3617.799
+  angles 0 270 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1827 5 3620.834
+  angles 0 90 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1889 5.006 3562
+  angles 0 180 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1885.884 5 3547
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1779.621 5 3547
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    Materials {
+     MaterialAssignClass "{66FCC232A01C578C}" {
+      SourceMaterial "house_1_interiar"
+      AssignedMaterial "{9C9A0315F38DBC10}Assets/Structures/Houses/House_4/Data/house_4_interier.emat"
+     }
+     MaterialAssignClass "{66FCC232A01C579D}" {
+      SourceMaterial "huose_1_podezd"
+      AssignedMaterial "{888F1B4A2F980E7C}Assets/Structures/Houses/House_4/Data/house_4_podezd.emat"
+     }
+    }
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1783 5 3562
+  angles 0 180 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1843.205 5 3488
+  angles 0 270 0
+ }
+ {
+  components {
+   MeshObject "{66F30022F5EF389E}" {
+    LODFactors {
+     1
+     350
+     500
+     1000
+    }
+   }
+   RigidBody "{66F30022F5EF3F0B}" {
+    ModelGeometry 1
+    Static 1
+   }
+   SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+    "Additional hit zones" {
+     SCR_HitZone Default {
+      HZDefault 1
+      MaxHealth 35000
+      DamageReduction 100
+      DamageThreshold 800
+      "Melee multiplier" 0
+      "Kinetic multiplier" 0.5
+      "Fragmentation multiplier" 0.1
+      "Explosive multiplier" 6
+     }
+    }
+    "Fall damage min speed" 3
+    "Fall damage max speed" 18
+    CollisionVelocityThreshold 5
+    "Heavy damage threshold" 70
+    m_aEffects {
+     SCR_TimedParticle Particle_Dust_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.2
+     }
+     SCR_TimedSound Sound_Bricks_01_Start {
+      m_fSpawnTime 0.001
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedSound Sound_Bricks_01_End {
+      m_fSpawnTime 0.5
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Brick_01_Start {
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+     }
+     SCR_TimedPrefab Prefab_Ruins_01 {
+      m_fSpawnTime 0.1
+     }
+     SCR_TimedSound Sounds_Bricks_01_PreStart {
+      m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+       m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+       m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+       m_eFlags 25
+      }
+     }
+     SCR_TimedParticle Particle_Dust_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+       m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 0.45
+     }
+     SCR_TimedParticle Particle_Brick_01_Collapse {
+      m_fSpawnTime 0.001
+      m_bSnapToTerrain 1
+      m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+       m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+       m_bAtCenter 0
+       m_bDirectional 0
+      }
+      m_fParticlesMultiplier 2
+     }
+    }
+    m_fDelay 2
+    m_fSinkingSpeed 0.3
+    m_fSinkingSpeedGradualMultiplier 500
+    m_fRotationSpeed 8
+    m_fRotationTime 50
+    m_vSinkVector 0 0 0
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+     m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+     m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+     m_eFlags 25
+    }
+    m_CameraShakeCurve +{
+    }
+    m_eAllowedRotations NONE
+   }
+  }
+  coords 1828.205 5 3491
+  angles 0 90 0
+ }
+}
+$grp Tree : "{7E3885CE3098E795}Prefabs/Structures/Tree/sirte_palm1.et" {
+ {
+  coords 1859.303 0 3607.715
+  angles 0 0 0
+ }
+ {
+  coords 1772.573 0 3627.262
+  angles 0 0 0
+ }
+ {
+  coords 1829.212 0 3555.446
+  angles 0 0 0
+ }
+ {
+  coords 1870.765 0 3635.058
+  angles 0 0 0
+ }
+ {
+  coords 1853.325 0 3624.529
+  angles 0 0 0
+ }
+ {
+  coords 1879.169 0 3498.619
+  angles 0 0 0
+ }
+ {
+  coords 1872.017 0 3608.99
+  angles 0 0 0
+ }
+}
+$grp StaticModelEntity : "{987B35F6140166E9}Prefabs/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Narrow_4m_90.et" {
+ {
+  coords 1903.147 0.016 3635.716
+  angles 0 -90 0
+ }
+ {
+  coords 1902.16 0 3477.123
+ }
+ {
+  coords 1766.675 0 3478.115
+  angles 0 90 0
+ }
+ {
+  coords 1767.659 0.016 3636.8
+  angles 0 180 0
+ }
+}
+$grp Tree : "{B061414C594986D0}Prefabs/Structures/Tree/sirte_palm8small.et" {
+ {
+  coords 1770.445 0 3606.996
+ }
+ {
+  coords 1822.122 -0.105 3563.519
+ }
+ {
+  coords 1901.555 0 3635.202
+ }
+ {
+  coords 1857.4 0 3633.911
+ }
+ {
+  coords 1853.491 0 3633.749
+ }
+ {
+  coords 1797.228 0 3634.792
+ }
+ {
+  coords 1881.302 0 3502.824
+ }
+ {
+  coords 1850.224 0 3516.488
+ }
+ {
+  coords 1845.396 0 3516.313
+ }
+ {
+  coords 1827.555 0 3516.449
+ }
+ {
+  coords 1805.76 0 3605.803
+ }
+}
+SCR_DestructibleBuildingEntity : "{B577B8D96987F464}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_02/sirte_WaterStation_USSR_02_gray.et" {
+ coords 1809.883 -0.424 3493.599
+ angles 0 -87.709 0
+}
+$grp GenericEntity : "{B81242DEDF1B37D5}Prefabs/Structures/Market/sirte_kioks.et" {
+ {
+  coords 1891.178 5 3537.037
+  angles 0 40.744 0
+ }
+ {
+  coords 1887.493 5 3519.541
+  angles 0 97.443 0
+ }
+}
+GenericEntity : "{BA34C7B1D21D9843}Prefabs/Structures/Market/sirte_Bags.et" {
+ coords 1899.964 5 3527.29
+ angles 0 -130 0
+}
+$grp Tree : "{CAC4D8EFF5D576E7}Prefabs/Structures/Tree/sirte_palm4.et" {
+ {
+  coords 1771.669 0 3632.129
+  angles 0 -42.222 0
+ }
+ {
+  coords 1837.755 0 3551.42
+  angles 0 0 0
+ }
+ {
+  coords 1844.933 0 3535.642
+  angles 0 -33.504 0
+ }
+ {
+  coords 1898.176 0 3634.94
+  angles 0 0 0
+ }
+ {
+  coords 1843.617 0 3634.89
+  angles 0 7.678 0
+ }
+ {
+  coords 1821.503 0 3635.073
+  angles 0 -38.767 0
+ }
+ {
+  coords 1801.482 0 3635.087
+  angles 0 0 0
+ }
+ {
+  coords 1875.659 0 3500.48
+  angles 0 0 0
+ }
+ {
+  coords 1875.321 0 3604.313
+  angles 0 0 0
+ }
+ {
+  coords 1874.741 0 3610.121
+  angles 0 65.827 0
+ }
+ {
+  coords 1801.102 0 3600.988
+  angles 0 0 0
+ }
+}
+GenericEntity : "{D9D40CE1916FCB7A}Prefabs/Structures/Civilian/SportGrounds/PlaygroundSwing_USSR_01.et" {
+ coords 1831.037 5 3563.948
+}
+SCR_DestructibleBuildingEntity : "{F1352295A12D1ECF}Prefabs/Structures/Commercial/Booth/NewspaperBooth_E_01/sirte_NewspaperBooth_E_01_redwhite.et" {
+ coords 1789.727 0 3519.241
+ angles 0 -88.584 0
+}
+$grp Tree : "{F7F0FDD780B9FFD0}Prefabs/Structures/Tree/sirte_palm3.et" {
+ {
+  coords 1769.05 0 3626.585
+  angles 0 0 0
+ }
+ {
+  coords 1847.035 0 3576.008
+  angles 0 0 0
+ }
+ {
+  coords 1827.015 0 3634.94
+  angles 0 0 0
+ }
+ {
+  coords 1817.107 0 3504.434
+  angles 0 0 0
+ }
+ {
+  coords 1824.988 0 3539.557
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{F98926365DB7FBC5}Prefabs/Props/Construction/ContainerMetal_01/sirte_ContainerMetal_01_low_grey.et" {
+ {
+  coords 1806.243 5 3501.631
+  angles 0 6.317 0
+ }
+ {
+  coords 1809.11 5 3614.478
+  angles 0 6.317 0
+ }
+}
+$grp GenericEntity : "{FA3A706ED1C40120}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/sirte_LampStreet_E_02_single.et" {
+ {
+  coords 1900 0 3479
+  angles 0 180 0
+ }
+ {
+  coords 1884.258 0 3479
+  angles 0 180 0
+ }
+ {
+  coords 1866.947 0 3479
+  angles 0 180 0
+ }
+ {
+  coords 1850.49 0 3479
+  angles 0 180 0
+ }
+ {
+  coords 1822.228 0 3479
+  angles 0 180 0
+ }
+ {
+  coords 1797.962 0 3479
+  angles 0 180 0
+ }
+ {
+  coords 1769 0 3479
+  angles 0 180 0
+ }
+ {
+  coords 1769 0 3504.586
+  angles 0 270 0
+ }
+ {
+  coords 1769 0 3519.465
+  angles 0 270 0
+ }
+ {
+  coords 1769 0 3540.588
+  angles 0 270 0
+ }
+ {
+  coords 1769 0 3565.551
+  angles 0 270 0
+ }
+ {
+  coords 1769 0 3608.76
+  angles 0 270 0
+ }
+ {
+  coords 1769 0 3622.289
+  angles 0 270 0
+ }
+ {
+  coords 1901 0 3632.789
+  angles 0 90 0
+ }
+ {
+  coords 1901 0 3621.163
+  angles 0 90 0
+ }
+ {
+  coords 1901 0 3584.002
+  angles 0 90 0
+ }
+ {
+  coords 1901 0 3543.138
+  angles 0 90 0
+ }
+ {
+  coords 1901 0 3517.408
+  angles 0 90 0
+ }
+ {
+  coords 1870 0 3507
+ }
+ {
+  coords 1851.706 0 3508.261
+ }
+ {
+  coords 1834.627 0 3507
+ }
+ {
+  coords 1808.462 0 3507
+ }
+ {
+  coords 1781.106 0 3507
+ }
+ {
+  coords 1820.472 0 3604
+  angles 0 180 0
+ }
+ {
+  coords 1849.945 0 3613.249
+  angles 0 180 0
+ }
+ {
+  coords 1878.178 0 3594.129
+  angles 0 270 0
+ }
+ {
+  coords 1878 0 3568
+  angles 0 270 0
+ }
+ {
+  coords 1878 0 3539.95
+  angles 0 270 0
+ }
+ {
+  coords 1878 0 3518.197
+  angles 0 270 0
+ }
+ {
+  coords 1798.843 0 3516.808
+  angles 0 90 0
+ }
+ {
+  coords 1792.154 0 3541.145
+  angles 0 90 0
+ }
+ {
+  coords 1791.857 0 3577.831
+  angles 0 90 0
+ }
+}

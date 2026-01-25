@@ -1,0 +1,23 @@
+GenericEntity : "{AC98FF880BD0F2C2}Prefabs/Props/Furniture/Chair_01/Chair_01_base.et" {
+ ID "6093E73785AED826"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{521489C5D8359B77}" {
+     m_ModelPrefabs {
+      "{DC02AD9475AA3A64}Prefabs/Props/Furniture/Chair_01/Dst/Chair_01_dst_01_yellow.et" "{2E6AC80FB64793DF}Prefabs/Props/Furniture/Chair_01/Dst/Chair_01_dst_03_yellow.et"
+     }
+    }
+    SCR_DebrisSpawnable "{5EECBA6CDAC99DEB}" {
+     m_ModelPrefabs {
+      "{F6268A3783445C4B}Prefabs/Props/Furniture/Chair_01/Dst/Chair_01_dst_02_yellow.et"
+     }
+    }
+   }
+  }
+ }
+ coords 12.691 4.473 -0.928
+}

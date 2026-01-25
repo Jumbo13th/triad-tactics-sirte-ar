@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "C:/Source/arma-reforger/Sirte/SatMap_BCR.png"
+ sRGBOutput 0
+ RenderRoads 1
+ Interpolation nearest
+ RoadsAA "8x"
+}

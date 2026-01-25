@@ -1,0 +1,11 @@
+GenericEntity : "{51B08BDA20AF8FF7}Prefabs/Props/Industrial/Pallets/WoodenPalletBox_01.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{F34BC9497ED6A537}Assets/Props/Industrial/Pallets/WoodenPalletBox_01_Wood.xob"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fBaseHealth 1500
+  }
+ }
+}

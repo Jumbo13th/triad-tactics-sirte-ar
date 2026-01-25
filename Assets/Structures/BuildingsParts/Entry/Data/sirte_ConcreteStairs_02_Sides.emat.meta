@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C90D20A829A0A501}Assets/Structures/BuildingsParts/Entry/Data/sirte_ConcreteStairs_02_Sides.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,43 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{19C3766C966C9E8B}Assets/Props/Garbage/Bins/TrashBin_02/TrashBin_02.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     DamageReduction 10
+     DamageThreshold 10
+    }
+   }
+   m_fBaseHealth 1000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66EABCDB61274D43}" {
+     m_ModelPrefabs {
+      "{2546EED590486F6C}Assets/Props/Garbage/Bins/TrashBin_02/Dst/TrashBin_02_dst_01.xob" "{BC58574C8DAF5EFC}Assets/Props/Garbage/Bins/TrashBin_02/Dst/TrashBin_02_dst_02.xob"
+     }
+     m_fMass 5
+     m_eMaterialSoundType METAL_LIGHT
+    }
+    SCR_ParticleSpawnable "{66EABCDB61274D5A}" {
+     m_vOffsetPosition 0 0.3 0
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+  TagComponent "{66EABCDB61274D57}" {
+   "Tag categories" 0x10 0
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

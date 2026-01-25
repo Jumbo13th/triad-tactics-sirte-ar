@@ -1,0 +1,10 @@
+MatPBRMulti {
+ DirtOpacity 1
+ DirtLayerSharpness 1.5
+ DirtColor 0.011 0.011 0.011 1
+ DirtRoughness 0.882
+ Color_1 0.733 0.733 0.733 1
+ BCR_1 "{8A606A37479694A8}Assets/Structures/Houses/House_4/Data/Experimental/Final/interior_BCR.edds"
+ NMO_1 "{32A9EBD3E356DB94}Assets/Structures/Houses/House_4/Data/Experimental/Final/interior_N.edds"
+ DetNormal_1 3
+}

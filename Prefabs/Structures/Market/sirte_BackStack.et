@@ -1,0 +1,10 @@
+GenericEntity : "{223703BE93AAF919}Prefabs/Structures/Misc/CarpetA.et" {
+ ID "5CB36483F06A1572"
+ components {
+  MeshObject "{5CB364830593DAAA}" {
+   Object "{0AC1EC0C89043829}Assets/ME_Market/bags_stack_EP1.xob"
+  }
+ }
+ coords 34.367 1.001 231.022
+ angles 0 0 0
+}

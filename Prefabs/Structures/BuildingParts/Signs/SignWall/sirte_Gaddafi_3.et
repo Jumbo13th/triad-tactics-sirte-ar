@@ -1,0 +1,20 @@
+GenericEntity : "{9B23BB407A31D21B}Prefabs/Structures/BuildingParts/Signs/SignWall/SignWall_01_95x72_Base.et" {
+ ID "5558F0C9D53195F3"
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{6708B7054857BB3C}" {
+     SourceMaterial "SignWall_01_95X72"
+     AssignedMaterial "{25B046E5E0BE5B8A}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/sirte_SignGaddafi_3.emat"
+    }
+    MaterialAssignClass "{6708B7054857BB2C}" {
+     SourceMaterial "SignWall_01_95X72_MLOD"
+     AssignedMaterial "{A4AC0E9E8414A84C}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/sirte_Sign_Gaddafi_3_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{5111E74C06F5C1E1}" {
+   ResponseIndex "TinyDestructible"
+  }
+ }
+}

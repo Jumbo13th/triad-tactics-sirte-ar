@@ -1,0 +1,244 @@
+SCR_DestructibleBuildingEntity {
+ ID "66EABCC6F6F28C33"
+ components {
+  MeshObject "{66EABCC6F69AE3AF}" {
+   Object "{505577AFF6754524}Assets/ME_Bulding/HouseC/House_C_4_EP3.xob"
+  }
+  RigidBody "{66EABCC6F69AE3B3}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66EABCC6F69AE3BC}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCC6F69AE040}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCC6F69AE042}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCC6F69AE04C}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCC6F69AE04F}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{964E35D2F0E46E25}Prefabs/Structures/Bulding/HouseC/House_C_4_EP1_Ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCC6F69AE048}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCC6F69AE04B}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCC6F69AE055}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCC6F69AE057}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66EABCC6F69AE053}" {
+  }
+  RplComponent "{66EABCC6F69AE052}" {
+  }
+  Hierarchy "{66EABCC6F69AE05A}" {
+  }
+ }
+ coords 107.542 1 121.91
+ {
+  $grp GenericEntity : "{83627982DE3DF2F3}Prefabs/Structures/BuildingParts/Windows/Glass_74x72/Glass_74x72.et" {
+   {
+    ID "66EABCC6F68C278B"
+    coords 6.849 5.245 3.898
+    angles 0 179.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68C3C2E"
+    coords -3.634 1.8 -5.309
+    angles 0 179.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68C684A"
+    coords 7.608 1.901 0.759
+    angles 0 89.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68C684D"
+    coords 5.987 1.988 -5.371
+    angles 0 179.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68C7EAF"
+    coords 0.294 2.577 3.931
+    angles 0 179.862 0
+    scale 1.344
+   }
+   {
+    ID "66EABCC6F68C83E1"
+    coords -4.998 1.896 -3.235
+    angles 0 89.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68CB76A"
+    coords -4.994 1.756 1.813
+    angles 0 89.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68CB76B"
+    coords 7.604 1.886 -3.411
+    angles 0 89.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68D01A9"
+    coords 4.049 5.331 3.904
+    angles 0 179.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68E93DF"
+    coords 2.678 5.479 -7.755
+    angles 0 179.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68EDB0E"
+    coords 5.201 5.479 -7.77
+    angles 0 179.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68F18EF"
+    coords -3.246 6.102 3.947
+    angles 0 179.862 0
+    scale 1.344
+   }
+   {
+    ID "66EABCC6F68F573E"
+    coords 6.279 2.145 3.92
+    angles 0 179.862 0
+    scale 1.344
+   }
+   {
+    ID "66EABCC6F68F573F"
+    coords 0.403 5.479 -7.754
+    angles 0 179.862 0
+    scale 2.1
+   }
+   {
+    ID "66EABCC6F68F9556"
+    coords -0.439 7.879 3.93
+    angles 0 179.862 0
+    scale 1.344
+   }
+  }
+  GenericEntity : "{9035AD947A95E822}Prefabs/Structures/BuildingParts/Doors/DoorSet_Garage_E_05_EXT_M1.et" {
+   ID "66EABCC6F6821144"
+   coords 3.002 0.596 -5.164
+   angles 0 180 0
+   scale 0.84
+  }
+  $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+   {
+    ID "66EABCC6F6868E13"
+    coords 0.396 6.863 1.287
+    angles 0 90 0
+   }
+   {
+    ID "66EABCC6F6868E14"
+    coords -3.988 3.703 0.387
+    angles 0 180 0
+   }
+   {
+    ID "66EABCC6F68734F0"
+    coords -0.605 0.62 -3.395
+    angles 0 90.113 0
+   }
+   {
+    ID "66EABCC6F68737F6"
+    coords -2.584 3.735 -3.325
+    angles 0 90 0
+   }
+   {
+    ID "66EABCC6F68737F7"
+    coords -3.041 0.579 3.976
+    angles 0 180 0
+   }
+  }
+ }
+}

@@ -1,0 +1,32 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{CEC8A3DF893B9C96}Assets/Props/Crates/BoxWooden_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   m_fBaseHealth 200
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66EABCDBE0BCDCF4}" {
+     m_ModelPrefabs {
+      "{BDDB103FC6FEA217}Assets/Props/Crates/Dst/BoxWooden_01_dst_01.xob" "{24C5A9A6DB199387}Assets/Props/Crates/Dst/BoxWooden_01_dst_02.xob" "{53CFC12E2FBB7CF7}Assets/Props/Crates/Dst/BoxWooden_01_dst_03.xob" "{54083B7F493DC634}Assets/Props/Crates/Dst/BoxWooden_01_dst_04.xob" "{230253F7BD9F2944}Assets/Props/Crates/Dst/BoxWooden_01_dst_05.xob"
+     }
+     m_fMass 3
+     m_fMaxDamageToSpeedMultiplier 3
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

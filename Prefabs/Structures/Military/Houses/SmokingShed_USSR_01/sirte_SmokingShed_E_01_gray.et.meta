@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C9E444EDD0C2D295}Prefabs/Structures/Military/Houses/SmokingShed_USSR_01/sirte_SmokingShed_E_01_gray.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

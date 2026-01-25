@@ -1,0 +1,34 @@
+GameMaterial : "{1AFE29BCB7B3593D}Common/Materials/Game/Core/loose_base.gamemat" {
+ "Physics material" "{C2004DDEB7A62E05}Common/Materials/Physics/sand.physmat"
+ "Vehicle contact surface" "{46A842F0A151001A}Common/Materials/Vehicles/sand.vhcsurf"
+ SoundInfo SoundInfo "{515AB906E32E91DF}" {
+  SurfaceSignalValue 2100
+ }
+ HitEffectInfo HitEffectInfo "{66E4EA2CA35399E6}" {
+  ParticleEffect "{2647741E60BE9355}Particles/Enviroment/Hit_dirt_enter_01.ptc"
+  DecalMaterial "{64C223A9530C3AD6}Assets/Decals/Dirt/Impacts/Data/Decal_Impact_Dirt_01.emat"
+  BayonetHitParticleEffect "{9AB88FD363E37A5C}Particles/Enviroment/Impact_Tiny/Hit_dirt_enter_tiny_01.ptc"
+ }
+ CollisionInfo CollisionInfo "{66E4EA2CA35399ED}" {
+  ParticleEffect "{2647741E60BE9355}Particles/Enviroment/Hit_dirt_enter_01.ptc"
+ }
+ BallisticInfo BallisticInfo "{527AC079FE96BA51}" {
+  Density 1.33
+ }
+ ParticleEffectInfo ParticleEffectInfo "{66E4EA2CA35399EA}" {
+  VehicleDust {
+   "{61B72547168AB8D2}Particles/Vehicle/sirte_Vehicle_dust_medium_wheel_dirt.ptc"
+   "{B71A7E224CE8B54C}Particles/Vehicle/sirte_Helicopter_Rotor_Wash_Dirt.ptc"
+   "{024376DD83945BEF}Particles/Vehicle/Helicopter/Rotor Collision Effects/sirte_Helicopter_Rotor_Collision_Main_Dirt.ptc"
+  }
+  Blast {
+   "{B3FECC9F8139FC1A}Particles/Blasts/Blast_tiny_dirt.ptc"
+   "{07DC99325624CAAA}Particles/Blasts/Blast_small_dirt.ptc"
+   "{B1C61668BCD77CF8}Particles/Blasts/Blast_medium_dirt.ptc"
+   "{3FB799A590B3F811}Particles/Blasts/Blast_big_dirt.ptc"
+   "{2C7486D2E7E40717}Particles/Blasts/Blast_huge_default.ptc"
+   "{28200E56DFBDA510}Particles/Weapon/Blast_Mortar_Sand.ptc"
+   "{2C7486D2E7E40717}Particles/Blasts/Blast_huge_default.ptc"
+  }
+ }
+}

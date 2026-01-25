@@ -1,0 +1,21 @@
+GenericEntity : "{97CA105CBFA5884E}Prefabs/World/Locations/Common/Urban/LocationUrbanVillage.et" {
+ ID "5278CCE9842C9D03"
+ components {
+  SCR_EditableCommentComponent "{529AB059519FE609}" {
+   m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
+    Name "#AR-MapLocation_Vernon"
+    m_ContentBrowserLabelConfig SCR_EditorContentBrowserDisplayConfig "{5EA87EF7F18683FB}" : "{1A22634F75F8CC12}Configs/Editor/ContentBrowser/StaticCompositions/ContentBrowserLabelConfig_StaticEden.conf" {
+     m_aAlwaysActiveLabels {
+      SCR_EditorContentBrowserActiveDisplayLabel "{67130C2EC73305FA}" {
+       m_iLabel STATIC_EDEN_VERNON
+      }
+     }
+    }
+   }
+  }
+  SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
+   DisplayName "#AR-MapLocation_Vernon"
+  }
+ }
+ coords 9243.436 59.721 2077.243
+}

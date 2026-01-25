@@ -1,0 +1,9 @@
+GenericEntity : "{F6D1E024E82511F9}Prefabs/Props/Crates/Crate_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+   Static 1
+  }
+ }
+}

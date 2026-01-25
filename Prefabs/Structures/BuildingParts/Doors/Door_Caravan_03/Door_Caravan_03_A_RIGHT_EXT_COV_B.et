@@ -1,0 +1,7 @@
+GenericEntity : "{8D3060ED4C1AC31B}Prefabs/Structures/BuildingParts/Doors/Door_Caravan_03/Door_Caravan_03_A_RIGHT_EXT_COV_B_base.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{309366462BDAFB24}" {
+  }
+ }
+}

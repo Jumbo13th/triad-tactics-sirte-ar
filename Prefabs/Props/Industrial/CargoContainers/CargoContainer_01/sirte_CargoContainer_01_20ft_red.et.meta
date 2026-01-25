@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7F5E3D3075D1706F}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/sirte_CargoContainer_01_20ft_red.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

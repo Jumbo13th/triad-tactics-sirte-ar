@@ -1,0 +1,354 @@
+SCR_DestructibleBuildingEntity {
+ ID "66EABCD587CFBC07"
+ components {
+  MeshObject "{66EABCD587F7980A}" {
+   Object "{A788EDE98F8C7EC6}Assets/ME_Bulding/HouseC/House_C_3_EP1.xob"
+  }
+  RigidBody "{66EABCD587F79800}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66EABCD587F79805}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCD587F79813}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCD587F79811}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCD587F79817}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCD587F79815}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{484C1E685AAF3F9E}Prefabs/Structures/Bulding/HouseC/House_C_3_EP1_Ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCD587F79FEB}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCD587F79FE9}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66EABCD587F79FE8}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66EABCD587F79FED}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66EABCD587F79FEC}" {
+  }
+  RplComponent "{66EABCD587F79FE3}" {
+  }
+  Hierarchy "{66EABCD587F79FF9}" {
+  }
+ }
+ coords 144.245 1.037 139.234
+ {
+  GenericEntity : "{13946084A8EBA4CE}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_ST_M1_beige.et" {
+   ID "66EABCD587C8D682"
+   coords 6.496 0.117 -2.624
+   scale 0.78
+   {
+    GenericEntity {
+     ID "59BD0C97BA0031B7"
+     coords 0 0 0
+    }
+   }
+  }
+  $grp GenericEntity : "{13B032160342EFE6}Prefabs/Structures/BuildingParts/Windows/Glass_74x165/Glass_74x165.et" {
+   {
+    ID "66EABCD587C8C094"
+    coords 6.75 5.274 5.085
+    scale 1.07
+   }
+   {
+    ID "66EABCD587C8D680"
+    coords 4.864 5.274 5.085
+    scale 1.07
+   }
+  }
+  $grp GenericEntity : "{15B1BD5987D6DF15}Prefabs/Structures/BuildingParts/Windows/Glass_128x68/Glass_128x68.et" {
+   {
+    ID "66EABCD587C8C0AA"
+    coords 6.523 2.347 -2.799
+    scale 0.832
+   }
+   {
+    ID "66EABCD587C8C0AB"
+    coords 5.533 1.197 -2.799
+    angles 0 0 90
+    scale 1.251
+   }
+   {
+    ID "66EABCD587C95182"
+    coords 5.481 2.33 -2.799
+    scale 0.864
+   }
+   {
+    ID "66EABCD587C9AF21"
+    components {
+     SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+      Enabled 0
+     }
+    }
+    coords 4.7 1.197 -2.799
+    angles 0 0 90
+    scale 1.251
+   }
+  }
+  $grp GenericEntity : "{15D475774C5A4EC5}Prefabs/Structures/BuildingParts/Windows/Glass_37x117/Glass_37x117.et" {
+   {
+    ID "66EABCD587C9AF23"
+    coords -0.37 7.5 -3.899
+    scale 1.17
+   }
+   {
+    ID "66EABCD587C9FD81"
+    coords 0.897 7.5 -3.899
+    scale 1.17
+   }
+   {
+    ID "66EABCD587CA1A48"
+    coords 1.323 7.5 -3.899
+    scale 1.17
+   }
+  }
+  GenericEntity : "{1661CAF1E56F5F47}Prefabs/Structures/BuildingParts/Windows/Glass_246x62/Glass_246x62.et" {
+   ID "66EABCD587CA1A4F"
+   components {
+    SCR_DestructionMultiPhaseComponent "{51C4DA20F6C21A24}" {
+     Enabled 0
+    }
+   }
+   coords 7.225 1.186 -2.794
+   angles 0 0 90
+   scale 0.661
+  }
+  $grp GenericEntity : "{465E10879E936748}Prefabs/Structures/BuildingParts/Windows/Glass_42x43/Glass_42x43.et" {
+   {
+    ID "66EABCD587C609D5"
+    coords -0.363 8.48 -3.927
+    scale 0.88
+   }
+   {
+    ID "66EABCD587C62B44"
+    coords 0.414 8.48 -3.927
+    scale 0.924
+   }
+   {
+    ID "66EABCD587C62B45"
+    coords 1.325 8.48 -3.927
+    scale 0.924
+   }
+   {
+    ID "66EABCD587C6BC20"
+    coords 0.868 8.48 -3.927
+    scale 0.97
+   }
+   {
+    ID "66EABCD587C6EDF4"
+    coords -1.303 8.486 -3.927
+    scale 0.88
+   }
+  }
+  GenericEntity : "{55BE1BD2DBAC340E}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_ST_M3_brown.et" {
+   ID "66EABCD587C773DF"
+   coords -7.891 0.17 -3.376
+   scale 0.825
+  }
+  GenericEntity : "{623AA8A9781285BD}Prefabs/Structures/BuildingParts/Windows/Glass_38x138/Glass_38x138.et" {
+   ID "66EABCD587C773DC"
+   coords -0.765 7.483 -3.898
+  }
+  $grp GenericEntity : "{652D4735256E3E7D}Prefabs/Structures/BuildingParts/Windows/Glass_141x41/Glass_141x41.et" {
+   {
+    ID "66EABCD587C7AFBB"
+    coords -5.05 7.24 -3.548
+    scale 0.9
+   }
+   {
+    ID "66EABCD587C7D768"
+    coords -6.942 7.24 -3.548
+    scale 0.9
+   }
+  }
+  GenericEntity : "{7376D9FB3E343A9C}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_COV_B.et" {
+   ID "66EABCD587FC031A"
+   coords -2.801 5.926 2.289
+   angles 0 90 0
+  }
+  $grp GenericEntity : "{7813C85D2795A47F}Prefabs/Structures/BuildingParts/Windows/Glass_44x122/Glass_44x122.et" {
+   {
+    ID "66EABCD587FC0318"
+    coords 0.428 7.421 -3.853
+    scale 1.19
+   }
+   {
+    ID "66EABCD587FC031B"
+    coords -1.203 7.421 -3.853
+    scale 1.19
+   }
+  }
+  GenericEntity : "{7DF1D5B7DDB1E0D2}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_L_EXT_COV_M2_blue.et" {
+   ID "66EABCD587FC0326"
+   coords 1.505 5.89 2.588
+   angles 0 -90 0
+  }
+  GenericEntity : "{81B7DA7DEF4795FE}Prefabs/Structures/BuildingParts/UtilityBoxes/UtilityBoxExt_01_M.et" {
+   ID "66EABCD587FC0324"
+   coords -2.489 1.899 -4.326
+   angles 0 178.88 0
+  }
+  $grp GenericEntity : "{A3199CE1D73B04A2}Prefabs/Structures/BuildingParts/Windows/Glass_62x72/Glass_62x72.et" {
+   {
+    ID "66EABCD587F85EDD"
+    coords -6.699 6.241 5.175
+    scale 1.703
+   }
+   {
+    ID "66EABCD587F8951D"
+    coords -4.506 6.241 5.175
+    scale 1.703
+   }
+  }
+  GenericEntity : "{A7569E5BD07267AA}Prefabs/Structures/BuildingParts/Windows/Glass_30x42/Glass_30x42.et" {
+   ID "66EABCD587F8951C"
+   coords -0.845 8.468 -3.96
+   angles 0 0 90
+   scale 1.34
+  }
+  $grp GenericEntity : "{A81DB1E975B9DFD1}Prefabs/Structures/BuildingParts/Windows/Glass_122x140/Glass_122x140_INT.et" {
+   {
+    ID "66EABCD587F8951E"
+    coords 6.545 5.311 -3.558
+    scale 1.13
+   }
+   {
+    ID "66EABCD587F8951F"
+    coords 4.82 5.311 -3.558
+    scale 1.254
+   }
+   {
+    ID "66EABCD587F8BE0D"
+    coords -6.946 6.223 -3.558
+    scale 1.13
+   }
+  }
+  $grp GenericEntity : "{C431B168F03F6347}Prefabs/Structures/BuildingParts/Windows/Glass_122x42/Glass_122x42.et" {
+   {
+    ID "66EABCD587FB0CB5"
+    coords 4.851 6.358 -3.45
+    angles -42.282 0 0
+    scale 1.132
+   }
+   {
+    ID "66EABCD587FB3ED3"
+    coords 6.545 6.371 -3.592
+    scale 1.132
+   }
+  }
+  Building : "{E762906FBD94633A}Prefabs/Structures/BuildingParts/Windows/Win_ShopHouse_E_A/Win_ShopHouse_E_A_420x275_2_B.et" {
+   ID "66EABCD587F4B175"
+   components {
+    Hierarchy "{66EABCD587F79EE6}" {
+     Enabled 1
+     PivotID "socket_win_420x275_01"
+     AutoTransform 1
+    }
+   }
+   coords -5.191 1.343 -3.455
+   scale 0.816
+  }
+  $grp GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+   {
+    ID "66EABCD587F4B172"
+    coords -7.947 0.196 5.456
+    angles 0 -179.991 0
+    scale 0.979
+   }
+   {
+    ID "66EABCD587F4B173"
+    coords 3.437 8.078 0.519
+    angles 0 90.009 0
+    scale 1.039
+   }
+   {
+    ID "66EABCD587F4D8A0"
+    coords 4.65 0.102 5.205
+    angles 0 -179.991 0
+    scale 1.02
+   }
+  }
+ }
+}

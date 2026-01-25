@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{68DD0E7C0C96BDA5}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/sirte_ShedMetal_02_long_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

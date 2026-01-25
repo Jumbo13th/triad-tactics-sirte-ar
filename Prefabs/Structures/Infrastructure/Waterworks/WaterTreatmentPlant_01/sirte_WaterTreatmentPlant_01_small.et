@@ -1,0 +1,14 @@
+SCR_DestructibleBuildingEntity : "{0C818BB5D185C49F}Prefabs/Structures/Infrastructure/Waterworks/WaterTreatmentPlant_01/WaterTreatmentPlant_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{5A7AF0CFBE9CC739}" {
+   Enabled 0
+  }
+  SoundComponent "{56DEF694BA0DE3B6}" {
+   Enabled 0
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{49F7F609BB62001B}Assets/Structures/Infrastructure/Waterworks/WaterTreatmentPlant_01/WaterTreatmentPlant_01_small.xob"
+  }
+ }
+}

@@ -1,0 +1,62 @@
+SCR_DestructibleBuildingEntity : "{D7C12B358010A4A6}Prefabs/Structures/Bulding/HouseC/House_C_11_EP1_Base.et" {
+ ID "65172E3A9D877F96"
+ Flags 0x80403 0
+ coords 117.921 0 201.141
+ {
+  GenericEntity : "{587FF67D8767126C}Prefabs/Props/Furniture/BenchKitchen_01/BenchKitchen_01_corner_Base.et" {
+   ID "66EB106B5CC82CF3"
+   coords 5.713 0.362 -1.627
+   angles 0 -88 0
+  }
+  StaticModelEntity : "{7BEB049CC132D25A}Prefabs/Structures/BuildingParts/Doors/Door_MetalGate_03/DoorSet_MetalGate_03_Small_Green.et" {
+   ID "66EB106B5CC99BF2"
+   coords -7.173 0 1.971
+   angles 0 -91 0
+   scale 1.116
+  }
+  $grp GenericEntity : "{83627982DE3DF2F3}Prefabs/Structures/BuildingParts/Windows/Glass_74x72/Glass_74x72.et" {
+   {
+    ID "66EB106B5CC99BF4"
+    coords -0.417 1.765 -0.619
+    scale 1.35
+   }
+   {
+    ID "66EB106B5CC9A714"
+    coords -1.797 1.765 -0.619
+    scale 1.35
+   }
+  }
+  $grp GenericEntity : "{E7EC6671E87FDFBC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Cowshed_R_EXT_B.et" {
+   {
+    ID "66EB106B5CCA5F94"
+    coords -3.136 0.362 -4.194
+    angles 0 89 0
+    scale 0.89
+   }
+   {
+    ID "66EB106B5CCA5F96"
+    coords 3.823 3.44 -0.075
+    angles 0 1 0
+    scale 0.89
+   }
+   {
+    ID "66EB106B5CCA5F97"
+    coords 1.79 0.374 2.545
+    angles 0 88 0
+    scale 0.89
+   }
+   {
+    ID "66EB106B5CCA78D9"
+    coords 4.052 0.406 -0.654
+    angles 0 179.876 0
+    scale 0.854
+    {
+     GenericEntity {
+      ID "568C838903529A55"
+      coords 0 0 -0.02
+     }
+    }
+   }
+  }
+ }
+}

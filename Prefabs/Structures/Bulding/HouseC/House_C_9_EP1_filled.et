@@ -1,0 +1,1856 @@
+SCR_DestructibleBuildingEntity {
+ ID "66FAA7E075712AF8"
+ components {
+  MeshObject "{66FAA7E06A98AF34}" {
+   Object "{D151DF51DBBE2B52}Assets/ME_Bulding/HouseC/House_C_9_EP1.xob"
+  }
+  RigidBody "{66FAA7E06A98AF09}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66FAA7E06A98AF0C}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66FAA7E06A98AF19}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAA7E06A98AF1F}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAA7E06A98AF1D}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66FAA7E06A98AF12}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{130D2763F207DDEF}Prefabs/Structures/Bulding/HouseC/House_C_9_EP1_Ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAA7E06A98AF11}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66FAA7E06A98AF17}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66FAA7E06A98AF15}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66FAA7E06A98AEEA}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66FAA7E06A98AEE9}" {
+  }
+  RplComponent "{66FAA7E06A98AEEE}" {
+  }
+  Hierarchy "{66FAA7E06A98AEE1}" {
+  }
+ }
+ coords 120.56 1 185.577
+ angles 0 90 0
+ {
+  GenericEntity {
+   ID "66FAA7E075711D37"
+   components {
+    MeshObject "{66FAA7E06A98AECD}" {
+     Materials {
+      MaterialAssignClass "{66FAA7E06A98AEC1}" {
+       SourceMaterial "Collor_Palette"
+       AssignedMaterial "{8A7A96B72CC449E7}Assets/ME_Sign/1024x256_FastFood_Sign.emat"
+      }
+      MaterialAssignClass "{66FAA7E06A98AEC6}" {
+       SourceMaterial "SignCommercial_01"
+       AssignedMaterial "{8A7A96B72CC449E7}Assets/ME_Sign/1024x256_FastFood_Sign.emat"
+      }
+     }
+    }
+   }
+   coords -5.021 6.004 -5.495
+   angles 0 -136.341 0
+   scale 1.009
+  }
+  $grp GenericEntity : "{02D4A61D327D2BD9}Prefabs/Props/Furniture/Carpet_03_green.et" {
+   {
+    ID "66FAA7E075711DC8"
+    coords -0.713 6.502 0.482
+    angles 0 88.493 0
+   }
+   {
+    ID "66FAA7E075718DEE"
+    coords -2.769 6.5 0.246
+    angles 0 -91.507 0
+   }
+   {
+    ID "66FAA7E075718DEF"
+    coords 1.425 6.502 0.507
+    angles 0 88.493 0
+   }
+   {
+    ID "66FAA7E07571DD2B"
+    coords -2.67 6.502 -2.797
+    angles 0 88.493 0
+   }
+   {
+    ID "66FAA7E07571F360"
+    coords -1.049 6.502 -5.389
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E07572793B"
+    coords 1.507 6.502 -2.595
+    angles 0 88.493 0
+   }
+  }
+  $grp GenericEntity : "{05B3F0626D25CB4A}Prefabs/Props/Commercial/Posters/PosterSingle_27x41_01_WashYourHands.et" {
+   {
+    ID "66FAA7E075727938"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Materials {
+       MaterialAssignClass "{58DEEDC5700213BC}" {
+        SourceMaterial "PosterLarge_NATO"
+        AssignedMaterial "{DB74B1D73CEA0595}Assets/Props/Military/Posters/Data/Poster_Market_01.emat"
+       }
+      }
+     }
+    }
+    coords 2.543 1.636 -5.174
+    angles 0 0 -0.36
+   }
+   {
+    ID "66FAA7E07572E966"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Materials {
+       MaterialAssignClass "{58DEEDC5700213BC}" {
+        SourceMaterial "PosterLarge_NATO"
+        AssignedMaterial "{DB74B1D73CEA0595}Assets/Props/Military/Posters/Data/Poster_Market_01.emat"
+       }
+      }
+     }
+    }
+    coords 4.092 5.243 -6.429
+    angles -0.36 0 0
+   }
+   {
+    ID "66FAA7E07572EDC1"
+    components {
+     MeshObject "{5872F0EB7FA40561}" {
+      Materials {
+       MaterialAssignClass "{58DEEDC5700213BC}" {
+        SourceMaterial "PosterLarge_NATO"
+        AssignedMaterial "{859C989483678B9A}Assets/Props/Military/Posters/Data/Poster_Market_02.emat"
+       }
+      }
+     }
+    }
+    coords 2.928 1.824 -5.174
+    angles 0 0 -0.36
+   }
+  }
+  GenericEntity : "{065823A82DF62B34}Prefabs/Props/Signs/Industrial/SignIndustrial_20x20_1_base.et" {
+   ID "66FAA7E07572E967"
+   coords 1.626 5.197 -3.8
+   angles 0 -89.942 0
+  }
+  $grp GenericEntity : "{0AD5FD0F21C53CBA}Prefabs/Props/Garbage/Cardboard/Cardboard_04.et" {
+   {
+    ID "66FAA7E0757331E0"
+    coords 5.679 0.152 -3.286
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E0757331E7"
+    coords 4.558 0.152 -3.429
+    angles 0 -180 0
+   }
+  }
+  $grp GenericEntity : "{0BE3BDE3910436F2}Prefabs/Props/Decorations/Flowerpots/FlowerpotPelargonia_01_red.et" {
+   {
+    ID "66FAA7E075737341"
+    coords 0.557 3.742 -6.272
+    scale 0.764
+   }
+   {
+    ID "66FAA7E07573F5B3"
+    coords -4.275 3.742 -1.922
+    angles 0 90 0
+    scale 0.764
+   }
+   {
+    ID "66FAA7E0757C674E"
+    coords 1.557 3.742 -6.242
+    scale 0.764
+   }
+  }
+  GenericEntity : "{0E43D5546330841F}Prefabs/Structures/BuildingParts/Industrial/ToolRack_01_tool_01.et" {
+   ID "66FAA7E0757C674F"
+   coords -6.045 6.651 0.311
+   angles 0 90 0
+  }
+  $grp GenericEntity : "{148E2BA12B48CFBA}Prefabs/Props/Furniture/PlantRoom_04.et" {
+   {
+    ID "66FAA7E0757C6742"
+    coords 2.898 3.742 4.49
+    angles 0 -142.522 0
+    scale 1.77
+   }
+   {
+    ID "66FAA7E0757C674D"
+    coords -5.511 3.742 3.706
+    angles 0 -142.522 0
+    scale 1.77
+   }
+  }
+  GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
+   ID "66FAA7E0757C6743"
+   coords -5.611 3.742 5.996
+   angles 0 -180 0
+  }
+  GenericEntity : "{1E84244AFD39A88E}Prefabs/Props/Commercial/ShelfUniversal_01_narrow.et" {
+   ID "66FAA7E0757C5323"
+   coords 3.04 3.691 4.215
+   angles 0 -91 0
+   {
+    GenericEntity : "{2B1D0128ED660BE9}Prefabs/Props/Crates/BoxWooden_01.et" {
+     ID "66FAA7E0757CC208"
+     coords -0.325 0.579 0.229
+    }
+   }
+  }
+  GenericEntity : "{1E98A2EEC901FCE4}Prefabs/Props/Commercial/Posters/PosterSet_E_04_Eden_V1.et" {
+   ID "66FAA7E0757CC20B"
+   components {
+    MeshObject "{5872F0EB7FA40561}" {
+     Materials {
+      MaterialAssignClass "{66FAA7E06A98AEAB}" {
+       SourceMaterial "PosterSet_04_01"
+       AssignedMaterial "{DB74B1D73CEA0595}Assets/Props/Military/Posters/Data/Poster_Market_01.emat"
+      }
+      MaterialAssignClass "{66FAA7E06A98AEA9}" {
+       SourceMaterial "PosterSet_04_02"
+       AssignedMaterial "{859C989483678B9A}Assets/Props/Military/Posters/Data/Poster_Market_02.emat"
+      }
+      MaterialAssignClass "{66FAA7E06A98AEAE}" {
+       SourceMaterial "PosterSet_04_03"
+       AssignedMaterial "{7194DF0C8EBAE3EE}Assets/Props/Military/Posters/Data/Poster_Market_03.emat"
+      }
+     }
+    }
+   }
+   coords -5.113 1.243 0.306
+   angles 0 -90 0
+   scale 1.821
+  }
+  $grp GenericEntity : "{261F10BDC068BB35}Prefabs/Props/Furniture/ChairOld_01.et" {
+   {
+    ID "66FAA7E0757D5BB8"
+    coords 1.446 6.503 -0.457
+    angles 0 -1 0
+   }
+   {
+    ID "66FAA7E0757D5BBF"
+    coords -0.907 3.739 -5.624
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E0757D6582"
+    coords -1.423 6.513 -3.175
+    angles 0 -93.82 0
+   }
+   {
+    ID "66FAA7E0757D6583"
+    coords -2.758 6.512 -3.811
+    angles 0 5.18 0
+   }
+   {
+    ID "66FAA7E0757D9984"
+    coords -2.79 6.501 1.21
+    angles 0 179 0
+   }
+   {
+    ID "66FAA7E0757E0C81"
+    coords 0.877 6.502 0.908
+    angles 0 98 0
+   }
+   {
+    ID "66FAA7E0757E4FBC"
+    coords 1.528 6.502 -3.559
+    angles 0 -1 0
+   }
+   {
+    ID "66FAA7E0757E4FBD"
+    coords 0.959 6.501 -2.194
+    angles 0 98 0
+   }
+   {
+    ID "66FAA7E0757EBAD9"
+    coords -2.221 6.5 -0.155
+    angles 0 -82 0
+   }
+  }
+  GenericEntity : "{2887E99075B9C928}Prefabs/Props/Garbage/Generic/Litter_01_long.et" {
+   ID "66FAA7E0757EBADA"
+   coords 0.219 6.501 6.046
+   angles 0 -176.601 0
+  }
+  $grp GenericEntity : "{29BA0E995E24468D}Prefabs/Props/Furniture/PlantRoom_03.et" {
+   {
+    ID "66FAA7E0757E929A"
+    coords 0.67 4.64 -1.359
+    angles 0 179.241 0
+   }
+   {
+    ID "66FAA7E0757EC191"
+    coords -3.545 4.656 1.5
+    angles 0 88.241 0
+   }
+  }
+  $grp GenericEntity : "{2DD4D94957E1DC2B}Prefabs/Props/Furniture/Carpet_03_red.et" {
+   {
+    ID "66FAA7E075782D89"
+    coords -4.849 6.502 0.914
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E0757EC190"
+    coords -0.582 6.502 -2.744
+    angles 0 86 0
+   }
+   {
+    ID "66FAA7E0757EDA82"
+    coords -2.308 3.742 5.102
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E0757EDA9D"
+    coords -4.865 6.502 -2.368
+    angles 0 87 0
+   }
+   {
+    ID "66FAA7E0757F74F0"
+    coords 2.102 6.502 -5.268
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E0757FEE87"
+    coords 1.015 3.742 4.836
+    angles 0 -180 0
+   }
+  }
+  $grp GenericEntity : "{3AB2B7156B3A0F3D}Prefabs/Props/Agriculture/MilkCan_01.et" {
+   {
+    ID "66FAA7E075780965"
+    coords 1.262 0.152 1.621
+    angles 0 93 0
+   }
+   {
+    ID "66FAA7E075782745"
+    coords 1.305 0.151 2.036
+    angles 0 93 0
+   }
+   {
+    ID "66FAA7E075782D88"
+    coords 1.339 0.152 2.423
+    angles 0 93 0
+   }
+   {
+    ID "66FAA7E075782D8B"
+    coords 1.3 0.152 1.199
+    angles 0 24.087 0
+   }
+  }
+  $grp GenericEntity : "{4107C4893DF2D0D7}Prefabs/Props/Furniture/Chair_02/Chair_02_red.et" {
+   {
+    ID "66FAA7E075781976"
+    coords 0.882 3.718 -0.289
+    angles 0 -150.944 0
+   }
+   {
+    ID "66FAA7E075781977"
+    coords -2.421 3.746 -3.575
+    angles 0 89.056 0
+   }
+   {
+    ID "66FAA7E0757845EC"
+    coords 0.565 3.719 -2.189
+    angles 0 -2.944 0
+   }
+   {
+    ID "66FAA7E075788893"
+    coords -0.554 3.744 -3.534
+    angles 0 -101.944 0
+   }
+   {
+    ID "66FAA7E07579054B"
+    coords 0.008 3.721 -1.334
+    angles 0 89.056 0
+   }
+   {
+    ID "66FAA7E07579054C"
+    coords -1.865 3.742 -4.43
+    angles 0 -2.944 0
+   }
+   {
+    ID "66FAA7E0757930E3"
+    coords -1.547 3.745 -2.53
+    angles 0 -150.944 0
+   }
+   {
+    ID "66FAA7E075795775"
+    coords 1.875 3.713 -1.293
+    angles 0 -101.944 0
+   }
+  }
+  GenericEntity : "{49012FE1DEF653EE}Prefabs/Props/Furniture/Sink_01.et" {
+   ID "66FAA7E075795774"
+   coords 3.582 3.845 -6.445
+   angles -0.36 0 -0.36
+  }
+  $grp GenericEntity : "{4F63524C78A8CECD}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_02_R_EXT_COV_B_blue.et" {
+   {
+    ID "66FAA7E07579AD30"
+    coords 3.792 6.505 -4.059
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E07579AD33"
+    coords -3.758 3.742 -3.976
+    angles 0 44.933 0
+    scale 0.85
+   }
+  }
+  $grp GenericEntity : "{5152F05C17652ADB}Prefabs/Props/Civilian/PaintCan_01.et" {
+   {
+    ID "66FAA7E0757983B8"
+    coords -2.792 6.501 5.99
+    angles 0 165.51 0
+   }
+   {
+    ID "66FAA7E07579AD32"
+    coords -2.888 6.502 5.669
+    angles 0 95 0
+   }
+   {
+    ID "66FAA7E07579AD3D"
+    coords -5.013 6.502 3.155
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7E07579DDA2"
+    coords -1.554 0.765 5.978
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E07579DDA3"
+    coords -2.434 0.765 5.993
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E07579F2A9"
+    coords -5.072 6.501 3.501
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7E0757A1DF8"
+    coords -2.743 0.765 5.999
+    angles 0 -89 0
+   }
+  }
+  GenericEntity : "{51D31AB07AE3C1C7}Prefabs/Props/Commercial/CashierShop_01.et" {
+   ID "66FAA7E0757A1D17"
+   coords 0.655 1.191 -3.374
+   angles 0 -180 0
+  }
+  GenericEntity : "{530705FBB61026D2}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_03.et" {
+   ID "66FAA7E0757A48AF"
+   coords -2.143 6.502 5.259
+   angles 0 95 0
+  }
+  $grp GenericEntity : "{53506DCB398C7EBE}Prefabs/Props/Furniture/Table_01.et" {
+   {
+    ID "66FAA7E0757A48AC"
+    coords -3.536 3.735 1.495
+    angles 0 3.345 0
+   }
+   {
+    ID "66FAA7E0757A48AD"
+    coords 0.665 3.719 -1.368
+    angles 0 94.345 0
+   }
+   {
+    ID "66FAA7E0757A5523"
+    coords -1.764 3.748 -3.609
+    angles 0 94.345 0
+   }
+  }
+  $grp GenericEntity : "{54AE416908A2D6AD}Prefabs/Props/Furniture/CurtainsWindow_01/CurtainWindow_01_straight_left_base.et" {
+   {
+    ID "66FAA7E06A8471FC"
+    coords 0.148 1.386 4.975
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E06A84D6F9"
+    coords 0.195 1.386 3.332
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E06A84D953"
+    coords 2.971 5.044 -6.365
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E06A84F16E"
+    coords 0.157 1.386 5.478
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E06A84F16F"
+    coords 0.161 1.386 5.712
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E06A84F22B"
+    coords 0.144 1.386 4.744
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E06A851348"
+    coords 2.975 5.044 -6.125
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E06A85B05D"
+    coords 4.785 1.436 -1.82
+    angles 0 88 0
+   }
+   {
+    ID "66FAA7E06A85B062"
+    coords 4.794 1.292 -2.069
+    angles 0 88 0
+   }
+   {
+    ID "66FAA7E06A85D710"
+    coords 4.751 1.486 -0.853
+    angles 0 88 0
+   }
+   {
+    ID "66FAA7E06A860F53"
+    coords 2.994 5.044 -5.011
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E0757A5524"
+    coords 3.004 5.044 -4.478
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E0757AED6B"
+    coords 0.191 1.386 3.086
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E0757B6490"
+    coords 0.173 1.386 6.383
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E0757B6D0E"
+    coords 0.165 1.386 5.945
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E0757B6D0F"
+    coords 2.999 5.044 -4.743
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E0757B8F64"
+    coords 0.169 1.386 6.164
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E0757BD0F1"
+    coords 0.153 1.386 5.233
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E0757BD0F2"
+    coords 4.645 1.486 -0.016
+    angles 0 -92 0
+   }
+   {
+    ID "66FAA7E0757BE204"
+    coords 4.655 1.486 -0.291
+    angles 0 -92 0
+   }
+  }
+  $grp GenericEntity : "{613F68B39D0A4A64}Prefabs/Props/Commercial/CoolingBoxShop_01.et" {
+   {
+    ID "66FAA7E06A86A0AC"
+    coords 1.999 0.113 -0.24
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A86FFF6"
+    coords 1.999 0.113 1.684
+    angles 0 -90 0
+   }
+  }
+  GenericEntity : "{63728F331E1BED60}Prefabs/Props/Furniture/Toilet_02.et" {
+   ID "66FAA7E06A86FFF7"
+   coords 5.913 3.741 -5.234
+   angles 0 -92 0
+  }
+  GenericEntity : "{6FD13E995D293853}Prefabs/Props/Furniture/SinkOld_01.et" {
+   ID "66FAA7E06A86FFF4"
+   coords 1.404 3.768 3.478
+   angles 0 91 0
+  }
+  GenericEntity : "{717F88E65A921861}Prefabs/Structures/BuildingParts/Misc/TvAntenna_02.et" {
+   ID "66FAA7E06A86FFF3"
+   coords 4.783 8.76 -2.622
+   angles 0 -2.598 0
+   scale 1.53
+  }
+  $grp GenericEntity : "{7410D707FA4A1394}Prefabs/Props/Furniture/ShelfDecorative_01_base.et" {
+   {
+    ID "66FAA7E06A86DAFA"
+    coords 3.861 3.763 2.69
+    angles 0 179.884 0
+   }
+   {
+    ID "66FAA7E06A873141"
+    coords 1.661 3.756 2.685
+    angles 0 179.884 0
+   }
+   {
+    ID "66FAA7E06A875D1F"
+    coords 0.559 3.742 2.684
+    angles 0 179.884 0
+   }
+   {
+    ID "66FAA7E06A87B026"
+    coords 2.742 3.763 2.688
+    angles 0 179.884 0
+   }
+  }
+  GenericEntity : "{79F622DEBB73D581}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_COV_B_brown.et" {
+   ID "66FAA7E06A87B025"
+   coords -0.876 3.742 2.952
+   angles 0 -180 0
+  }
+  GenericEntity : "{7BB30759D09C70B5}Prefabs/Props/Civilian/StepladderWooden_01.et" {
+   ID "66FAA7E06A87B024"
+   coords -0.78 0.152 5.889
+   angles 3.427 -179 0
+  }
+  GenericEntity : "{82705E62BB2D247E}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_01_A_EXT_B.et" {
+   ID "66FAA7E06A87FB95"
+   coords -3.908 0.171 -4.3
+   angles 0 -135 0
+   scale 0.877
+  }
+  $grp GenericEntity : "{83627982DE3DF2F3}Prefabs/Structures/BuildingParts/Windows/Glass_74x72/Glass_74x72.et" {
+   {
+    ID "66FAA7E06A8016C5"
+    coords -6.159 5.463 4.275
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A8016C6"
+    coords -6.159 5.463 1.928
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A8089C5"
+    coords -6.159 5.463 5.185
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A80C1FF"
+    coords 1.553 5.441 -6.606
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A80DC60"
+    coords -5.547 5.35 -0.536
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A80DC61"
+    coords -0.459 5.414 -5.94
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A810113"
+    coords 5.098 5.453 2.949
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A815051"
+    coords -1.761 5.434 -4.994
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A81BFD6"
+    coords 0.658 5.441 -6.606
+    angles 0 -180 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A822684"
+    coords -4.752 5.452 -2.044
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A87DA09"
+    coords -6.159 5.453 1.029
+    angles 0 -90 0
+    scale 1.16
+   }
+   {
+    ID "66FAA7E06A87FB9B"
+    coords 3.384 5.444 5.306
+    angles 0 -90 0
+    scale 1.16
+   }
+  }
+  $grp GenericEntity : "{85FC23A6E1F49BBE}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_02.et" {
+   {
+    ID "66FAA7E06A821CC3"
+    coords 1.703 1.623 -5.177
+    angles 0 0.862 0
+   }
+   {
+    ID "66FAA7E06A822683"
+    coords 1.875 1.623 -5.18
+    angles 0 0.862 0
+   }
+   {
+    ID "66FAA7E06A828D48"
+    coords 1.54 1.623 -5.174
+    angles 0 0.862 0
+   }
+   {
+    ID "66FAA7E06A82FD20"
+    coords 5.952 4.959 0.802
+    angles 0 -89.138 0
+   }
+   {
+    ID "66FAA7E06A82FD21"
+    coords 5.955 4.959 0.963
+    angles 0 -89.138 0
+   }
+  }
+  GenericEntity : "{8987B3EE79A24A44}Prefabs/Structures/BuildingParts/Heating/StoveColumn_01_brown.et" {
+   ID "66FAA7E06A830E7B"
+   coords -1.077 3.748 6.261
+   angles 0 -180 0
+  }
+  $grp GenericEntity : "{8B2C4E871E57D6A4}Prefabs/Props/Commercial/ShelfShop_02/ShelfShop_02.et" {
+   {
+    ID "66FAA7E06A83BFD8"
+    coords 1.487 1.594 2.726
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A83FA38"
+    coords 2.683 1.594 2.726
+    angles 0 -180 0
+   }
+  }
+  $grp GenericEntity : "{8BB5855208F77724}Prefabs/Props/Furniture/BenchWooden_01.et" {
+   {
+    ID "66FAA7E06A83FA3A"
+    coords 1.334 6.502 1.784
+   }
+   {
+    ID "66FAA7E06A8C398E"
+    coords 1.416 6.501 -1.318
+   }
+   {
+    ID "66FAA7E06A8C3991"
+    coords -2.444 6.501 -2.264
+    angles 0 -180 0
+   }
+  }
+  GenericEntity : "{8DBE697AA61EA7E3}Prefabs/Structures/Civilian/MessageBoard/MessageBoardSmall_01/MessageBoardSmall_01.et" {
+   ID "66FAA7E06A8C1FFE"
+   coords 0.763 1.552 -5.174
+   scale 0.83
+   {
+    GenericEntity : "{0BB192C0899899B8}Prefabs/Props/Commercial/Posters/Notice_A4_Vertical_V9.et" {
+     ID "66FAA7E06A8C1FFF"
+     coords -0.382 0.676 0.028
+     angles 0 0 -0.735
+     scale 1.205
+    }
+    GenericEntity : "{260B7CE9F8CB21CB}Prefabs/Props/Commercial/Posters/Notice_A4_Horizontal_V2.et" {
+     ID "66FAA7E06A8C7C6C"
+     coords -0.334 0.357 0.029
+     angles 0 0 91.082
+     scale 1.205
+    }
+    GenericEntity : "{43E4EEB4CDBBFE34}Prefabs/Props/Commercial/Posters/PosterSingle_27x41_01_RadioEveron.et" {
+     ID "66FAA7E06A8CED12"
+     coords 0.339 0.331 0.025
+     angles 0 0 0.545
+     scale 0.916
+    }
+    GenericEntity : "{FEA3152881423F97}Prefabs/Props/Commercial/Posters/Notice_A4_Horizontal_V4.et" {
+     ID "66FAA7E06A8CED11"
+     coords 0.324 0.723 0.03
+     angles 0 0 90
+     scale 1.205
+    }
+   }
+  }
+  $grp GenericEntity : "{8FB2845D48F4E02A}Prefabs/Props/Furniture/TableOld_01/TableOld_01_white.et" {
+   {
+    ID "66FAA7E06A8CED10"
+    coords -2.332 6.512 -3.226
+    angles 0 178.707 0
+    {
+     GenericEntity : "{29BA0E995E24468D}Prefabs/Props/Furniture/PlantRoom_03.et" {
+      ID "66FAA7E06A8D08AE"
+      coords -0.026 0.901 -0.001
+      angles 0 8.473 0
+     }
+    }
+   }
+   {
+    ID "66FAA7E06A8D0993"
+    coords 1.44 6.502 0.454
+    angles 0 -88.473 0
+    {
+     GenericEntity : "{29BA0E995E24468D}Prefabs/Props/Furniture/PlantRoom_03.et" {
+      ID "66FAA7E06A8D0994"
+      coords -0.026 0.901 -0.001
+      angles 0 8.473 0
+     }
+    }
+   }
+   {
+    ID "66FAA7E06A8D5233"
+    coords 1.522 6.502 -2.648
+    angles 0 -88.473 0
+    {
+     GenericEntity : "{29BA0E995E24468D}Prefabs/Props/Furniture/PlantRoom_03.et" {
+      ID "66FAA7E06A8DCD4E"
+      coords -0.026 0.901 -0.001
+      angles 0 8.473 0
+     }
+    }
+   }
+   {
+    ID "66FAA7E06A8E64A3"
+    coords -2.784 6.5 0.299
+    angles 0 91.527 0
+    {
+     GenericEntity : "{29BA0E995E24468D}Prefabs/Props/Furniture/PlantRoom_03.et" {
+      ID "66FAA7E06A8E64A2"
+      coords -0.026 0.901 -0.001
+      angles 0 8.473 0
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{8FE6D62204173656}Prefabs/Props/Civilian/BeerBottle_01_group.et" {
+   {
+    ID "66FAA7E06A8E80CE"
+    coords -3.292 1.278 6.017
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E06A8F1D75"
+    coords -4.418 1.278 6.037
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E06A8F1D76"
+    coords -3.548 1.278 6.022
+    angles 0 91 0
+   }
+   {
+    ID "66FAA7E06A8F3199"
+    coords -1.547 0.259 5.987
+    angles 0 -89 0
+   }
+  }
+  $grp GenericEntity : "{9545DA837C6C4E3F}Prefabs/Props/Crates/Crate_01_yellow.et" {
+   {
+    ID "66FAA7E06A8F890C"
+    coords -3.976 0.766 5.914
+    angles 0 -89 0
+   }
+   {
+    ID "66FAA7E06A8FC2B7"
+    coords -4.408 0.766 5.922
+    angles 0 -89 0
+   }
+  }
+  GenericEntity : "{9C231B6AC1BD0A26}Prefabs/Props/Civilian/Broom_01.et" {
+   ID "66FAA7E06A8FC2B6"
+   coords 3.925 3.718 -4.319
+   angles -5.397 179.964 0.362
+  }
+  GenericEntity : "{9FE49438E0414334}Prefabs/Props/Furniture/Sofa_01.et" {
+   ID "66FAA7E06A8FC2B9"
+   coords 1.427 3.76 5.845
+   angles 0 -180 0
+  }
+  GenericEntity : "{A0683DD8CEF09277}Prefabs/Props/Decorations/Paintings/PaintingBig_01_base.et" {
+   ID "66FAA7E06A886A6B"
+   components {
+    MeshObject "{5872F0EB7FA40561}" {
+     Materials {
+      MaterialAssignClass "{66FAA7E06A98AE83}" {
+       SourceMaterial "PaintingBig_01"
+       AssignedMaterial "{507A3C71C8B08F1E}Assets/Props/Decorations/PaintingBig_01_620x1000/Data/PaintingBig_Kunar_Market_01.emat"
+      }
+      MaterialAssignClass "{66FAA7E06A98AE81}" {
+       SourceMaterial "PaintingBig_01_MLOD"
+       AssignedMaterial "{692ACB8B8821285C}Assets/Props/Decorations/PaintingBig_01_620x1000/Data/PaintingBig_Kunar_Market_01_MLOD.emat"
+      }
+     }
+    }
+   }
+   coords -3.977 2.75 -4.362
+   angles 0 -135 0
+   scale 1.268
+  }
+  GenericEntity : "{A8CBEFB705FDEA36}Prefabs/Structures/BuildingParts/Bathroom/ToiletStall_01/ToiletStall_01_gray.et" {
+   ID "66FAA7E06A88B266"
+   coords 5.792 3.732 -4.589
+   angles 0 -92 0
+  }
+  $grp GenericEntity : "{AA3D2C0BB0D2B56B}Prefabs/Props/Crates/Crate_01_green.et" {
+   {
+    ID "66FAA7E06A88B267"
+    coords 4.85 0.684 -2.614
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A8937A5"
+    coords 5.687 0.684 -3.233
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A895760"
+    coords 5.687 0.684 -2.609
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A895763"
+    coords 4.429 0.684 -2.609
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A89FB7D"
+    coords 5.276 0.684 -3.233
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A8A1CF0"
+    coords 4.855 0.684 -3.233
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A8A9CBE"
+    coords 5.271 0.684 -2.613
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A8A9CBF"
+    coords 4.429 0.684 -3.233
+    angles 0 -90 0
+   }
+  }
+  GenericEntity : "{ABCBCADCE9B82884}Prefabs/Structures/BuildingParts/Bathroom/ToiletStall_01/ToiletStall_01_wall_grey.et" {
+   ID "66FAA7E06A8B0858"
+   coords 5.792 3.732 -4.589
+   angles 0 -92 0
+  }
+  GenericEntity : "{AC634B219947FAD5}Prefabs/Props/Furniture/LightCeiling_02.et" {
+   ID "66FAA7E06A8B085F"
+   coords -1.711 6.41 5.013
+   angles 0 -180 0
+   scale 0.556
+  }
+  $grp GenericEntity : "{AC98FF880BD0F2C2}Prefabs/Props/Furniture/Chair_01/Chair_01_base.et" {
+   {
+    ID "66FAA7E06A8B5855"
+    coords 2.962 0.113 2.267
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A8BEE56"
+    coords 1.085 0.152 -4.842
+    angles 0 -30 0
+   }
+  }
+  $grp GenericEntity : "{B3CF0487BB36323B}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_01.et" {
+   {
+    ID "66FAA7E06A8BEE54"
+    coords -0.369 6.27 -3
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7E06A8BEE57"
+    coords -0.653 6.27 0.422
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7E06A9409A4"
+    coords 1.011 3.489 -1.893
+    angles 0 90.417 0
+   }
+   {
+    ID "66FAA7E06A9427A8"
+    coords 0.706 3.489 4.539
+    angles 0 90.417 0
+   }
+   {
+    ID "66FAA7E06A947587"
+    coords -2.729 3.489 -1.171
+    angles 0 90.417 0
+   }
+   {
+    ID "66FAA7E06A947AC3"
+    coords -3.169 6.27 -0.121
+    angles 0 90 0
+   }
+  }
+  $grp GenericEntity : "{B7669B7F8B7923F6}Prefabs/Props/Commercial/ShelfShop_01.et" {
+   {
+    ID "66FAA7E06A947586"
+    coords -2.42 0.152 0.423
+    angles 0 -88 0
+   }
+   {
+    ID "66FAA7E06A94FE46"
+    coords -2.418 0.152 0.493
+    angles 0 92 0
+   }
+   {
+    ID "66FAA7E06A9512D6"
+    coords -2.331 0.152 2.961
+    angles 0 92 0
+   }
+   {
+    ID "66FAA7E06A953A8E"
+    coords -4.787 0.152 3.347
+    angles 0 90 0
+   }
+   {
+    ID "66FAA7E06A959827"
+    coords -2.334 0.152 2.891
+    angles 0 -88 0
+   }
+   {
+    ID "66FAA7E06A959858"
+    coords -4.787 0.152 0.877
+    angles 0 90 0
+   }
+  }
+  GenericEntity : "{B8BBA7227B4433B6}Prefabs/Props/Furniture/TableWorkshop_01.et" {
+   ID "66FAA7E06A9592AE"
+   coords 0.445 0.152 2.262
+   angles 0 3 0
+   {
+    GenericEntity : "{75740637080EB024}Prefabs/Props/Commercial/CoffeeGrinderShop_01.et" {
+     ID "66FAA7E06A9592AF"
+     coords -0.437 1.003 0.126
+     angles 0 175 0
+    }
+   }
+  }
+  $grp GenericEntity : "{BBBC235B9B053092}Prefabs/Props/Furniture/Armchair_02.et" {
+   {
+    ID "66FAA7E06A9592AC"
+    coords -3.696 3.742 3.672
+    angles 0 -1.075 0
+   }
+   {
+    ID "66FAA7E06A95E39A"
+    coords -2.204 3.754 5.604
+    angles 0 -89.075 0
+   }
+  }
+  GenericEntity : "{BBF415EE68294A4E}Prefabs/Props/Furniture/FridgeSmall_01.et" {
+   ID "66FAA7E06A95E39C"
+   coords 0.364 3.746 3.496
+   angles 0 -0.936 0
+  }
+  GenericEntity : "{BC3EEB0F1E36272F}Prefabs/Props/Forest/DeerSkull_01/DeerSkull_01_board.et" {
+   ID "66FAA7E06A95F41F"
+   coords 0.661 2.778 2.76
+   scale 0.62
+  }
+  GenericEntity : "{BC77A0CE72611DC3}Prefabs/Props/Furniture/Stool_01.et" {
+   ID "66FAA7E06A95F41E"
+   coords 3.387 3.715 -4.426
+   angles -0.182 -114.002 0.475
+  }
+  GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+   ID "66FAA7E06A95CF82"
+   coords 3.601 3.743 -6.217
+   angles -0.36 -90.002 0.36
+  }
+  $grp GenericEntity : "{BFE2A564F61D6F2D}Prefabs/Structures/BuildingParts/Windows/Glass_CounterPostOffice_01/Glass_45x21.et" {
+   {
+    ID "66FAA7E06A907976"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE43}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 0.528 -1.35
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A90A0E6"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE46}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -2.291 0.513 -5.383
+    angles 0 -180 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A90B41C"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE45}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 2.722 -2.691
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A90B41D"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE58}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -0.647 1.623 -5.383
+    angles 0 -180 -90
+    scale 3.479
+   }
+   {
+    ID "66FAA7E06A90D974"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE53}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 0.528 -2.691
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A90EF5F"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE5C}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -1.011 0.513 -5.383
+    angles 0 -180 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A911778"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE28}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 2.722 -1.347
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A91177B"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE55}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -3.16 0.778 -5.184
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66FAA7E06A91247A"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE56}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -3.16 1.955 -5.184
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66FAA7E06A916C2F"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE2F}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.759 2.985 -3.571
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66FAA7E06A918FB5"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE22}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -3.16 2.95 -5.184
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66FAA7E06A963688"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE91}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 1.596 -1.679
+    angles 0 -90 -90
+    scale 3.297
+   }
+   {
+    ID "66FAA7E06A965BF4"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE69}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 1.596 -2.381
+    angles 0 -90 -90
+    scale 3.297
+   }
+   {
+    ID "66FAA7E06A965BF7"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE6A}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.795 0.663 -3.536
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66FAA7E06A96F2A0"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE6D}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 1.596 -1.016
+    angles 0 -90 -90
+    scale 3.297
+   }
+   {
+    ID "66FAA7E06A9726DF"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE60}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -1.324 1.623 -5.383
+    angles 0 -180 -90
+    scale 3.479
+   }
+   {
+    ID "66FAA7E06A97523A"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE7B}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.958 1.596 -3.044
+    angles 0 -90 -90
+    scale 3.297
+   }
+   {
+    ID "66FAA7E06A97523B"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE7E}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.962 2.816 2.114
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A9758BC"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE67}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -1.963 1.623 -5.383
+    angles 0 -180 -90
+    scale 3.479
+   }
+   {
+    ID "66FAA7E06A97864A"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE73}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.962 2.816 0.878
+    angles 0 -90 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A979A02"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE49}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -2.605 1.623 -5.383
+    angles 0 -180 -90
+    scale 3.479
+   }
+   {
+    ID "66FAA7E06A979A0D"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE4A}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -2.291 2.726 -5.383
+    angles 0 -180 0
+    scale 3.025
+   }
+   {
+    ID "66FAA7E06A979C17"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE77}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -4.795 1.847 -3.536
+    angles 0 -135.984 -90
+    scale 2.641
+   }
+   {
+    ID "66FAA7E06A97F52D"
+    components {
+     MeshObject "{51C4DA208DB0E200}" {
+      Materials {
+       MaterialAssignClass "{66FAA7E06A98AE4C}" {
+        SourceMaterial "CounterPostOffice_01_glass"
+        AssignedMaterial "{6ABAC259E263495C}Assets/Structures/BuildingsParts/Windows/Data/window_glass_dirty.emat"
+       }
+      }
+     }
+    }
+    coords -0.98 2.726 -5.383
+    angles 0 -180 0
+    scale 3.025
+   }
+  }
+  GenericEntity : "{C67A378521482995}Prefabs/Props/Furniture/Rack_03.et" {
+   ID "66FAA7E06A918FB4"
+   coords -1.209 0.12 5.586
+   angles 0 1 0
+  }
+  $grp GenericEntity : "{C76C3AF337109066}Prefabs/Props/Crates/CardboardBoxStack_01.et" {
+   {
+    ID "66FAA7E06A91E9C0"
+    coords -5.601 6.502 3.2
+   }
+   {
+    ID "66FAA7E06A91E9C7"
+    coords -1.94 0.16 -4.87
+    angles 0 -174 0
+   }
+   {
+    ID "66FAA7E06A92010F"
+    coords -1.982 0.141 -3.959
+    angles 0 175 0
+   }
+   {
+    ID "66FAA7E06A920677"
+    coords -5.742 6.503 3.983
+    angles 0 90 0
+   }
+  }
+  $grp GenericEntity : "{CBE2BA7FF0914514}Prefabs/Structures/BuildingParts/Signs/Commercial/SignCommercial_01_FoodStore.et" {
+   {
+    ID "66FAA7E06A92010E"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{5682D51A894025A0}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{606DFE5B1E515E01}Assets/ME_Sign/1024x256_SuperMarket_01_Sign_MLOD.emat"
+       }
+       MaterialAssignClass "{5682D51A894025D1}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{7BCFAA7166A26FAE}Assets/ME_Sign/1024x256_SuperMarket_01_Sign.emat"
+       }
+      }
+     }
+    }
+    coords -4.985 3.744 -5.258
+    angles 0 -135.279 0
+    scale 0.931
+   }
+   {
+    ID "66FAA7E06A9243F9"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{5682D51A894025A0}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{598A5D8E30F1BD88}Assets/ME_Sign/1024x256_SuperMarket_03_Sign_MLOD.emat"
+       }
+       MaterialAssignClass "{5682D51A894025D1}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{89A7CFEAA54FC615}Assets/ME_Sign/1024x256_SuperMarket_03_Sign.emat"
+       }
+      }
+     }
+    }
+    coords -1.581 3.735 -6.755
+    angles 0 -179.875 0
+    scale 0.931
+   }
+   {
+    ID "66FAA7E06A927DBB"
+    components {
+     MeshObject "{5111E74D5E891458}" {
+      Materials {
+       MaterialAssignClass "{5682D51A894025A0}" {
+        SourceMaterial "Collor_Palette"
+        AssignedMaterial "{E401FC917354D705}Assets/ME_Sign/1024x256_SuperMarket_02_Sign_MLOD.emat"
+       }
+       MaterialAssignClass "{5682D51A894025D1}" {
+        SourceMaterial "SignCommercial_01"
+        AssignedMaterial "{51EB8DD2904C0981}Assets/ME_Sign/1024x256_SuperMarket_02_Sign.emat"
+       }
+      }
+     }
+    }
+    coords -6.356 3.739 -1.886
+    angles 0 -90.378 0
+    scale 0.931
+   }
+  }
+  $grp GenericEntity : "{CC26426052C1D1E6}Prefabs/Props/Furniture/PlantRoom_02.et" {
+   {
+    ID "66FAA7E06A9243FA"
+    coords -4.236 3.742 -3.124
+    angles 0 -92.759 0
+   }
+   {
+    ID "66FAA7E06A9243FB"
+    coords -4.295 3.74 -0.66
+    angles 0 -92.759 0
+   }
+  }
+  $grp GenericEntity : "{D0BD7A55306FC46B}Prefabs/Props/Furniture/Faucet_01.et" {
+   {
+    ID "66FAA7E06A9284CF"
+    coords 3.547 5.124 -6.429
+    angles -0.36 0 -0.36
+   }
+   {
+    ID "66FAA7E06A9284D0"
+    coords 1.371 5.174 3.104
+    angles 0 1 0
+   }
+  }
+  GenericEntity : "{D349CAB0A6544C59}Prefabs/Props/Furniture/TableWorkshop_01_short.et" {
+   ID "66FAA7E06A92DF9B"
+   coords -5.565 3.742 4.736
+   angles 0 91 0
+   {
+    GenericEntity : "{313CC1F195E06A6E}Prefabs/Props/Furniture/TVSet_01.et" {
+     ID "66FAA7E06A92DD99"
+     coords 0.021 1.003 0.161
+     angles 0 -10.805 0
+    }
+   }
+  }
+  $grp GenericEntity : "{D6E93EF9D3232D16}Prefabs/Props/Commercial/ShelfUniversal_01_wide.et" {
+   {
+    ID "66FAA7E06A92DD98"
+    coords 4.812 0.135 2.72
+    angles 0 -92 0
+   }
+   {
+    ID "66FAA7E06A9377EC"
+    coords 4.862 0.135 1.288
+    angles 0 -92 0
+   }
+   {
+    ID "66FAA7E06A939CAB"
+    coords 2.78 3.712 -1.436
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A93D1DD"
+    coords -4.447 3.742 3.021
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A93D1DE"
+    coords -3.022 3.745 3.021
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A9C64D3"
+    coords 2.779 3.712 0.018
+    angles 0 -90 0
+   }
+   {
+    ID "66FAA7E06A9CBE05"
+    coords -5.882 3.742 3.021
+    angles 0 -180 0
+   }
+  }
+  $grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+   {
+    ID "66FAA7E06A9C908D"
+    coords 5.436 0.411 -2.882
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A9CBE04"
+    coords 4.654 0.411 -2.9
+    angles 0 0 0
+   }
+   {
+    ID "66FAA7E06A9D0456"
+    coords 4.654 0.275 -2.882
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A9D1372"
+    coords 5.436 0.275 -2.882
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A9D1375"
+    coords 5.436 0.547 -2.882
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A9D6CAE"
+    coords 5.436 0.152 -2.882
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A9D7E6B"
+    coords 4.654 0.547 -2.882
+    angles 0 -180 0
+   }
+   {
+    ID "66FAA7E06A9D8110"
+    coords 4.654 0.152 -2.906
+    angles 0 0 0
+   }
+  }
+  GenericEntity : "{DD918C2BCC564E9D}Prefabs/Props/Decorations/Paintings/PaintingBig_01_V4.et" {
+   ID "66FAA7E06A9DD592"
+   coords 1.297 5.485 6.353
+   angles 0 -180 0
+  }
+  GenericEntity : "{E19E1CD639A13B9E}Prefabs/Props/Furniture/BenchKitchen_01/BenchKitchen_01_corner_Red.et" {
+   ID "66FAA7E06A9DD593"
+   coords -4.787 3.742 0.522
+   angles 0 88.102 0
+  }
+  $grp GenericEntity : "{E214337C6E1931C5}Prefabs/Props/Commercial/CounterShop_01.et" {
+   {
+    ID "66FAA7E06A9E1D93"
+    coords -0.972 0.152 -3.506
+   }
+   {
+    ID "66FAA7E06A9E4B8D"
+    coords 0.525 0.152 -3.506
+   }
+  }
+  GenericEntity : "{EA47C7B9C65402F8}Prefabs/Structures/BuildingParts/Doors/DoorSet_Metal_02_L_INT_COV_B.et" {
+   ID "66FAA7E06A9E8494"
+   coords 3.456 0.239 5.278
+   angles 0 -90 0
+   scale 1.04
+  }
+  GenericEntity : "{EB66EE2298D16D18}Prefabs/Props/Civilian/SackTruck_01.et" {
+   ID "66FAA7E06A9E8497"
+   coords -4.441 0.152 -0.833
+   angles 0 165 0
+  }
+  GenericEntity : "{F1141DB8B7FA9B9A}Prefabs/Props/Commercial/ShelfUniversal_01_corner.et" {
+   ID "66FAA7E06A9E8496"
+   coords 2.768 3.712 -2.88
+  }
+  $grp GenericEntity : "{F188F489FD7864C0}Prefabs/Props/Furniture/ShowerCurtains_01_straight.et" {
+   {
+    ID "66FAA7E06A9E9AA5"
+    coords 0.175 2.416 4.098
+    angles 0 -89 0
+    scale 1.269
+   }
+   {
+    ID "66FAA7E06A9E9AAA"
+    coords 4.72 2.516 -0.925
+    angles 0 -92 0
+    scale 1.168
+   }
+   {
+    ID "66FAA7E06A9F1C4A"
+    coords 0.171 2.416 3.852
+    angles 0 -89 0
+    scale 1.269
+   }
+   {
+    ID "66FAA7E06A9F923E"
+    coords 2.951 6.074 -5.599
+    angles 0 -89 0
+    scale 1.269
+   }
+   {
+    ID "66FAA7E06A9F923F"
+    coords 0.2 2.416 5.52
+    angles 0 -89 0
+    scale 1.269
+   }
+   {
+    ID "66FAA7E06A9FBCD8"
+    coords 2.962 6.074 -4.98
+    angles 0 -89 0
+    scale 1.269
+   }
+  }
+  GenericEntity : "{F56333F87A4FB433}Prefabs/Props/Commercial/ScaleShop_01/ScaleShop_01_yellow.et" {
+   ID "66FAA7E06A982DF2"
+   coords 2.497 0.987 0.36
+   angles 0 -180 0
+   scale 0.95
+  }
+  GenericEntity : "{F6D1E024E82511F9}Prefabs/Props/Crates/Crate_01_base.et" {
+   ID "66FAA7E06A9874F5"
+   coords -3.432 0.256 5.92
+   angles 0 -179 0
+  }
+  GenericEntity : "{FD47FF9699A52E82}Prefabs/Props/Furniture/Wardrobe_01.et" {
+   ID "66FAA7E06A98AF33"
+   coords -1.604 3.711 3.02
+  }
+ }
+}

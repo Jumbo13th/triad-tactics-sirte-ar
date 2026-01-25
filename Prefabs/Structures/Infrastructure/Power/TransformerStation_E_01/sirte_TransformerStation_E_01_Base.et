@@ -1,0 +1,410 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{66F6C8E2E25AE2F8}" {
+  }
+  SoundComponent "{66F6C8E2E25AE29A}" {
+   Filenames {
+    "{70C2EDCD2BAD4121}Sounds/Structures/Infrastructure/Power/TransformerStation_E_01/Structures_TransformerStation_E_01.acp"
+   }
+   DistanceManagement 0
+   IncludeInactive 1
+   SoundPoints {
+    SoundPointInfo Spark {
+     Offset -4.0031 1.5411 -2.9594
+    }
+   }
+  }
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{95976F0F549C5431}Assets/Structures/Infrastructure/Power/TransformerStation_E_01/TransformerStation_E_01.xob"
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{5D7AD08C91BD11D1}" : "{7CE3E1FDD2E6AFB5}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Brick_Medium.ct" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_bPersistent 1
+     m_sRuinsPrefab "{5215F8254B638B76}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_01/Dst/TransformerStation_E_01_ruin.et"
+    }
+   }
+   m_aInteriorQueryBoundingBoxes {
+    SCR_InteriorBoundingBox "{62A0984EACAFEF26}" {
+     m_vCenter PointInfo "{66F6C8E2E25AE2A8}" {
+      Offset 0.0549 -0.1921 0
+     }
+     m_vScale 22.5 10 8
+    }
+    SCR_InteriorBoundingBox "{62A0984EAD14BCC2}" {
+     m_vCenter PointInfo "{66F6C8E2E25AE2AA}" {
+      Offset -3.567 5.0212 0
+     }
+     m_vScale 7.3 2 8
+    }
+   }
+  }
+  SCR_MapDescriptorComponent "{66F6C8E2E25AE2A4}" {
+   MainType Transformer
+  }
+ }
+ coords 1.749 2.616 2.894
+ SlotBoneMappings {
+  SlotBoneMappingObject "{66F6C8E2E25AE2A1}" {
+   BonePrefix "socket_door_garage_left"
+   Prefab "{FD9D8A63AF629B6F}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_02_A_SMALL_Left_EXT_COV_B.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25AE2A0}" {
+   BonePrefix "socket_door_garage_right"
+   Prefab "{93A43D15BE355D73}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_02_A_SMALL_Right_EXT_COV_B.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25AE2A3}" {
+   BonePrefix "socket_Door_Industrial_A_LEFT_EXT_COV"
+   Prefab "{BCD839C770651A5A}Prefabs/Structures/BuildingParts/Doors/Door_Industrial_A_LEFT_EXT_COV_B.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25AE2A2}" {
+   BonePrefix "socket_door_int_left_01"
+   Prefab "{D86958F19333AA7B}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_LEFT_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25AA3C5}" {
+   BonePrefix "socket_door_int_left_02"
+   Prefab "{39E7D27CDE88A553}Prefabs/Structures/BuildingParts/Doors/Door_WireMesh_01_LEFT_INT_ST_B.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25AA3DA}" {
+   BonePrefix "socket_win_72x90"
+   Prefab "{CA6F31FA82BD537F}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_90x72_1_B.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25A55DB}" {
+   BonePrefix "socket_electricalcabinet"
+   Prefab "{A99A323CB706AF22}Prefabs/Structures/BuildingParts/Eletrical/ElectricCabinetInterior_01.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25A55DA}" {
+   BonePrefix "socket_trafo"
+   Prefab "{9B11428D92F2C855}Prefabs/Structures/Infrastructure/Power/TransformerStation110kV_E_01/Transformer110kV_E_01_scaled50.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25A5424}" {
+   BonePrefix "socket_win_72x90"
+   Prefab "{1E5AC06A0FC1BD34}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_90x72_1_M1.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25A543B}" {
+   BonePrefix "socket_glassblock_150x225"
+   Prefab "{A672274B7A57FF01}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_150x225.et"
+  }
+  SlotBoneMappingObject "{66F6C8E2E25A164C}" {
+   BonePrefix "socket_glassblock_150x50"
+   Prefab "{6F81C4ABDA31ED1F}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_150x50.et"
+  }
+ }
+ {
+  $grp Building : "{1E5AC06A0FC1BD34}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_90x72_1_M1.et" {
+   {
+    ID "66F6C8E2E257CE69"
+    components {
+     Hierarchy "{66F6C8E2E25A1672}" {
+      Enabled 1
+      PivotID "socket_win_72x90_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E257CE6A"
+    components {
+     Hierarchy "{66F6C8E2E25A1668}" {
+      Enabled 1
+      PivotID "socket_win_72x90_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E257CE6B"
+    components {
+     Hierarchy "{66F6C8E2E25A166B}" {
+      Enabled 1
+      PivotID "socket_win_72x90_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{39E7D27CDE88A553}Prefabs/Structures/BuildingParts/Doors/Door_WireMesh_01_LEFT_INT_ST_B.et" {
+   ID "66F6C8E2E2578459"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_door_int_left_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GameEnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   ID "66F6C8E2E257845F"
+   coords -1.795 1.809 1.372
+  }
+  $grp GenericEntity : "{6F81C4ABDA31ED1F}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_150x50.et" {
+   {
+    ID "66F6C8E2E256F962"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_glassblock_150x50_002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E25758EC"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_glassblock_150x50_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E25758EF"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_glassblock_150x50_003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{93A43D15BE355D73}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_02_A_SMALL_Right_EXT_COV_B.et" {
+   {
+    ID "66F6C8E2E2568942"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_garage_right_00"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E2568943"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_garage_right_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E256B7C3"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_garage_right_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp SCR_DestructibleBuildingEntity : "{9B11428D92F2C855}Prefabs/Structures/Infrastructure/Power/TransformerStation110kV_E_01/Transformer110kV_E_01_scaled50.et" {
+   {
+    ID "66F6C8E2E25628E1"
+    components {
+     Hierarchy "{50B87EFBB2BAB285}" {
+      Enabled 1
+      PivotID "socket_trafo_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+    scale 0.5
+   }
+   {
+    ID "66F6C8E2E259EDF1"
+    components {
+     Hierarchy "{50B87EFBB2BAB285}" {
+      Enabled 1
+      PivotID "socket_trafo_00"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+    scale 0.5
+   }
+  }
+  $grp GenericEntity : "{A672274B7A57FF01}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_150x225.et" {
+   {
+    ID "66F6C8E2E25985A8"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_glassblock_150x225_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E259CCA1"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_glassblock_150x225_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E259CCAE"
+    components {
+     Hierarchy "{7642683663DE57B3}" {
+      Enabled 1
+      PivotID "socket_glassblock_150x225_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{A99A323CB706AF22}Prefabs/Structures/BuildingParts/Eletrical/ElectricCabinetInterior_01.et" {
+   {
+    ID "66F6C8E2E258F39C"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_electricalcabinet_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E25928DF"
+    components {
+     Hierarchy "{612AE78C95E98EEB}" {
+      Enabled 1
+      PivotID "socket_electricalcabinet_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp GenericEntity : "{BCD839C770651A5A}Prefabs/Structures/BuildingParts/Doors/Door_Industrial_A_LEFT_EXT_COV_B.et" {
+   {
+    ID "66F6C8E2E2587CB3"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_Door_Industrial_A_LEFT_EXT_COV_B_00"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E258F39D"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_Door_Industrial_A_LEFT_EXT_COV_B_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{CA6F31FA82BD537F}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_90x72_1_B.et" {
+   {
+    ID "66F6C8E2E258172C"
+    components {
+     Hierarchy "{66F6C8E2E25A1609}" {
+      Enabled 1
+      PivotID "socket_win_72x90_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E258172D"
+    components {
+     Hierarchy "{66F6C8E2E25A1604}" {
+      Enabled 1
+      PivotID "socket_win_72x90_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E2587CB0"
+    components {
+     Hierarchy "{66F6C8E2E25A160D}" {
+      Enabled 1
+      PivotID "socket_win_72x90_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{D86958F19333AA7B}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_LEFT_INT_COV_B.et" {
+   ID "66F6C8E2E25BB800"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "socket_door_int_left_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{FD9D8A63AF629B6F}Prefabs/Structures/BuildingParts/Doors/Door_Garage_E_02_A_SMALL_Left_EXT_COV_B.et" {
+   {
+    ID "66F6C8E2E25AE211"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_garage_left_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E25B4291"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_garage_left_00"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66F6C8E2E25B4296"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "socket_door_garage_left_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

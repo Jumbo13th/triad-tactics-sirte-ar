@@ -1,0 +1,879 @@
+$grp GenericEntity : "{02F75C4EB0ABDEA7}Prefabs/Props/Crates/sirte_CrateWooden_01_plain.et" {
+ {
+  coords 2311.494 5 3864.182
+  angles 0 -113.245 0
+ }
+ {
+  coords 2266.146 5 3797.571
+  angles 0 14.135 0
+ }
+}
+$grp GenericEntity : "{043E6768DB051989}Prefabs/Props/VehicleParts/Tires/sirte_Tire_UAZ469_pile.et" {
+ {
+  coords 2248.128 5 3829.805
+ }
+ {
+  coords 2278.432 5 3795.854
+ }
+}
+GenericEntity : "{05466F929ABB3563}Prefabs/Structures/Market/sirte_Counter.et" {
+ coords 2308.543 5 3774.812
+ angles 0 -10 0
+}
+$grp StaticModelEntity : "{08E07DC45E4E7E24}Prefabs/Structures/Infrastructure/Waterworks/Well_02/Well_02_red.et" {
+ {
+  coords 2351.553 0 3849.052
+  angles 0 141.467 0
+ }
+ {
+  coords 2288.615 0 3864.481
+  angles 0 141.467 0
+ }
+}
+GenericEntity : "{0EB4DED7874F8A1F}Prefabs/Props/Crates/sirte_Crate_01_green.et" {
+ coords 2304.456 6.025 3774.174
+ angles 0 120 0
+}
+$grp SCR_DestructibleBuildingEntity : "{1354EDDA67BD8DA4}Prefabs/Structures/Bulding/HouseC/sirte_House_C_9_EP1.et" {
+ {
+  coords 2310.448 5 3819.187
+  angles 0 180 0
+ }
+ {
+  coords 2309.913 5.064 3785.276
+  angles 0 270 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{14FB7FC4692E91C9}Prefabs/Structures/Bulding/HouseC/sirte_House_C_2_EP1.et" {
+ coords 2343.935 5 3782.288
+}
+GenericEntity : "{22212E27BFF80D10}Prefabs/Structures/Market/sirte_market_tent_2.et" {
+ coords 2304.724 5 3775.866
+}
+$grp SCR_DestructibleEntity : "{24EBCCFD22E56256}PrefabLibrary/DefaultLibrary/Walls/Metal/TinWall_01_6m_C.et" {
+ {
+  coords 2325.407 0.001 3846.226
+  angles 0 276.114 0
+ }
+ {
+  coords 2331.046 0.001 3862.779
+  angles 0 336.944 0
+ }
+ {
+  coords 2342.421 0.001 3866.424
+  angles 0 77.084 0
+ }
+}
+GenericEntity : "{278B4DB8DA564CE7}Prefabs/Props/Industrial/Repair/sirte_GasWelder_01.et" {
+ coords 2291.103 5 3865.652
+ angles 0 -110.423 0
+}
+$grp SCR_DestructibleEntity : "{28CE5B48712C5438}Prefabs/Structures/Walls/Brick/BrickWall_02/sirte_BrickWall_02_4m.et" {
+ {
+  coords 2331.74 0.786 3794.347
+  angles 0 80 0
+ }
+ {
+  coords 2339.619 0.786 3795.735
+  angles 0 80 0
+ }
+ {
+  coords 2348.675 0.786 3872.611
+  angles 0 -70 0
+ }
+ {
+  coords 2341.158 0.786 3875.348
+  angles 0 -70 0
+ }
+ {
+  coords 2232.048 0.786 3775.103
+  angles 0 -90 0
+ }
+ {
+  coords 2224.048 0.786 3775.104
+  angles 0 -90 0
+ }
+}
+GenericEntity : "{2DC40DA6525CA153}Prefabs/Structures/Market/sirte_BackStack.et" {
+ coords 2295.265 5 3777.447
+ angles 0 -20.344 0
+}
+$grp GenericEntity : "{309BD2B72752F27F}Prefabs/Props/Industrial/Pallets/sirte_Pallet_01_Pile.et" {
+ {
+  coords 2312.564 5 3849.386
+  angles 0 -25.643 0
+ }
+ {
+  coords 2312.245 5 3851.025
+  angles 0 33.534 0
+ }
+}
+$grp GenericEntity : "{3161F3BF3683F542}Prefabs/Props/Industrial/Repair/sirte_VehicleGarbage_01_pile_large.et" {
+ {
+  coords 2336.466 5.001 3841.511
+  angles 0 90.866 0
+ }
+ {
+  coords 2270.893 5 3847.24
+ }
+}
+$grp SCR_DestructibleEntity : "{359AEB1130916031}Prefabs/Structures/Walls/Brick/BrickWall_02/BrickWall_02_Pole.et" {
+ {
+  coords 2340.135 0.757 3791.63
+  angles 0 -10 0
+ }
+ {
+  coords 2342.765 0.757 3879.161
+  angles 0 -160 0
+ }
+ {
+  coords 2224.254 0.757 3779.235
+  angles 0 -180 0
+ }
+}
+GenericEntity : "{3B046714938209E7}Prefabs/Props/Crates/sirte_BoxWooden_01.et" {
+ coords 2311.448 5 3862.815
+ angles 0 -163.398 0
+}
+StaticModelEntity : "{3D1205D8A4048A72}Prefabs/Structures/BuildingParts/Doors/DoorSet_MetalGate_04.et" {
+ coords 2343.951 0.001 3859.717
+ angles 0 -95.32 0
+ {
+  GenericEntity {
+   ID "5A68878594416E1D"
+   coords 0 0 0
+  }
+ }
+}
+GenericEntity : "{43F55F330184A65F}Prefabs/Structures/Market/sirte_hut.et" {
+ coords 2374.925 5 3777.179
+ angles 0 120 0
+}
+$grp SCR_DestructibleEntity : "{44C947D6E210E898}Prefabs/Structures/Walls/Brick/BrickWall_02/sirte_BrickWall_02_8m.et" {
+ {
+  coords 2332.263 0.786 3790.243
+  angles 0 -10 0
+ }
+ {
+  coords 2350.276 0.786 3876.427
+  angles 0 -160 0
+ }
+ {
+  coords 2232.247 0.786 3779.234
+  angles 0 -180 0
+ }
+}
+GenericEntity : "{48A1C910F28D2880}Prefabs/Props/Construction/sirte_ConcreteMixer_01.et" {
+ coords 2342.211 5.001 3841.353
+ angles 0 -39.361 0
+}
+SCR_DestructibleEntity : "{4F5692142501AF90}Prefabs/Props/Commercial/sirte_MarketStand_01.et" {
+ coords 2304.434 5 3774.262
+ angles 0 176.182 0
+}
+$grp SCR_DestructibleEntity : "{5326C298427D91A3}PrefabLibrary/DefaultLibrary/Walls/Metal/TinWall_01_3m.et" {
+ {
+  coords 2334.833 0.001 3840.297
+  angles 0 180.002 0
+ }
+ {
+  coords 2326.563 0.001 3855.116
+  angles 0 288.364 0
+ }
+ {
+  coords 2328.849 0.001 3840.297
+  angles 0 180.002 0
+ }
+ {
+  coords 2343.851 0.001 3858.912
+  angles 0 90.065 0
+ }
+ {
+  coords 2331.841 0.001 3840.297
+  angles 0 180.002 0
+ }
+ {
+  coords 2343.839 0.001 3854.549
+  angles 0 90.118 0
+ }
+ {
+  coords 2326.041 0.001 3852.169
+  angles 0 280.147 0
+ }
+ {
+  coords 2337.825 0.001 3840.297
+  angles 0 180.002 0
+ }
+ {
+  coords 2343.865 0.001 3851.616
+  angles 0 93.568 0
+ }
+ {
+  coords 2343.866 0.001 3855.886
+  angles 0 90.118 0
+ }
+}
+StaticModelEntity : "{5688284820911E1A}Prefabs/Structures/BuildingParts/Doors/DoorSet_MetalWall_01_Gate.et" {
+ coords 2343.805 -0.18 3842.688
+ angles 0 -90 0
+ {
+  GenericEntity {
+   ID "56D6A1E0644C2635"
+   coords 0 0 0
+  }
+  GenericEntity {
+   ID "56D6A1E0644C261E"
+   coords 0 0 0
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{5DE825A04AE12EE2}Prefabs/Structures/Bulding/HouseC/sirte_House_C_5_EP1.et" {
+ {
+  coords 2336.105 5.001 3856.018
+  {
+   GenericEntity {
+    ID "66EABCCC475600D7"
+    coords -5.25 1.835 -1.955
+   }
+   GenericEntity {
+    ID "66EABCCC47561B28"
+    coords -2.72 1.87 4.373
+   }
+   GenericEntity {
+    ID "66EABCCC4756B989"
+    coords -3.186 1.813 -5.866
+   }
+   GenericEntity {
+    ID "66EABCCC47573B04"
+    coords 1.891 1.9 5.503
+   }
+   GenericEntity {
+    ID "66EABCCC47573B05"
+    coords -5.217 1.833 1.714
+   }
+   GenericEntity {
+    ID "66EABCCC47561B26"
+    coords -5.079 3.83 4.279
+   }
+   GenericEntity {
+    ID "66EABCCC47563165"
+    coords 4.334 0.287 3.053
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "66EABCCC47563167"
+    coords -5.026 0.31 -3.98
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "66EABCCC47598CE0"
+    coords -0.318 0.31 3.045
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords -0.001 0 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2357.671 5 3850.818
+  angles 0 -90 0
+  {
+   GenericEntity {
+    ID "66EABCCC475600D7"
+    coords -5.25 1.835 -1.954
+   }
+   GenericEntity {
+    ID "66EABCCC47561B28"
+    coords -2.72 1.87 4.373
+   }
+   GenericEntity {
+    ID "66EABCCC4756B989"
+    coords -3.186 1.813 -5.866
+   }
+   GenericEntity {
+    ID "66EABCCC47573B04"
+    coords 1.891 1.9 5.504
+   }
+   GenericEntity {
+    ID "66EABCCC47573B05"
+    coords -5.217 1.833 1.714
+   }
+   GenericEntity {
+    ID "66EABCCC47561B26"
+    coords -5.079 3.83 4.279
+   }
+   GenericEntity {
+    ID "66EABCCC47563165"
+    coords 4.334 0.287 3.054
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "66EABCCC47563167"
+    coords -5.026 0.31 -3.98
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "66EABCCC47598CE0"
+    coords -0.318 0.31 3.046
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2370.14 5 3847.561
+  angles 0 -180 0
+  {
+   GenericEntity {
+    ID "66EABCCC475600D7"
+    coords -5.25 1.835 -1.954
+   }
+   GenericEntity {
+    ID "66EABCCC47561B28"
+    coords -2.72 1.87 4.373
+   }
+   GenericEntity {
+    ID "66EABCCC4756B989"
+    coords -3.186 1.813 -5.866
+   }
+   GenericEntity {
+    ID "66EABCCC47573B04"
+    coords 1.891 1.9 5.504
+   }
+   GenericEntity {
+    ID "66EABCCC47573B05"
+    coords -5.217 1.833 1.714
+   }
+   GenericEntity {
+    ID "66EABCCC47561B26"
+    coords -5.079 3.83 4.279
+   }
+   GenericEntity {
+    ID "66EABCCC47563165"
+    coords 4.334 0.287 3.054
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "66EABCCC47563167"
+    coords -5.026 0.31 -3.98
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "66EABCCC47598CE0"
+    coords -0.318 0.31 3.046
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2370.07 5 3832.451
+  angles 0 90 0
+  {
+   GenericEntity {
+    ID "66EABCCC475600D7"
+    coords -5.25 1.835 -1.954
+   }
+   GenericEntity {
+    ID "66EABCCC47561B28"
+    coords -2.72 1.87 4.373
+   }
+   GenericEntity {
+    ID "66EABCCC4756B989"
+    coords -3.186 1.813 -5.866
+   }
+   GenericEntity {
+    ID "66EABCCC47573B04"
+    coords 1.891 1.9 5.504
+   }
+   GenericEntity {
+    ID "66EABCCC47573B05"
+    coords -5.217 1.833 1.714
+   }
+   GenericEntity {
+    ID "66EABCCC47561B26"
+    coords -5.079 3.83 4.279
+   }
+   GenericEntity {
+    ID "66EABCCC47563165"
+    coords 4.334 0.287 3.054
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "66EABCCC47563167"
+    coords -5.026 0.31 -3.98
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+   GenericEntity {
+    ID "66EABCCC47598CE0"
+    coords -0.318 0.31 3.046
+    {
+     GenericEntity {
+      ID "5AB6CC72423A2536"
+      coords 0 0 0
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{5F1B8071C73F1CC9}Prefabs/Props/Industrial/sirte_ConcretePanel_01_stack.et" {
+ coords 2293.622 5 3865.324
+ angles 0 179.955 0
+}
+GenericEntity : "{6453CD48A2B82C51}Prefabs/Props/Crates/sirte_CrateWooden_01_blue.et" {
+ coords 2371.286 5 3775.447
+ angles 0 -31.917 0
+}
+SCR_DestructibleBuildingEntity : "{68DD0E7C0C96BDA5}Prefabs/Structures/Industrial/Sheds/ShedMetal_02/sirte_ShedMetal_02_long_base.et" {
+ coords 2281.505 0 3742.559
+}
+GenericEntity : "{6CB61083C06F2F9E}Prefabs/Props/Industrial/Repair/sirte_VehicleGarbage_01_pile_small.et" {
+ coords 2296.019 5 3844.03
+}
+GenericEntity : "{6E5F5E34C269202E}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/Dst/sirte_CargoContainer_01_20ft_Dst_base.et" {
+ coords 2216.209 5 3755.765
+ angles 0 155.416 0
+}
+GenericEntity : "{6F0474CEB3E0A9F3}Prefabs/Props/Crates/sirte_Crate_01_yellow.et" {
+ coords 2303.53 6.026 3773.956
+ angles 0 -151.518 0
+}
+$grp GenericEntity : "{72E42BEAFED9B5A7}Prefabs/Props/Garbage/Bins/GarbageContainer_01.et" {
+ {
+  coords 2338.734 5 3792.906
+  angles 0 -44.838 0
+ }
+ {
+  coords 2336.925 5 3792.299
+  angles 0 -10 0
+ }
+ {
+  coords 2335.258 5 3791.922
+  angles 0 -10 0
+ }
+ {
+  coords 2333.283 5 3792.365
+  angles 0 47.342 0
+ }
+ {
+  coords 2343.34 5 3877.356
+  angles 0 165.162 0
+ }
+ {
+  coords 2345.21 5 3876.978
+  angles 0 -160 0
+ }
+ {
+  coords 2346.843 5 3876.47
+  angles 0 -160 0
+ }
+ {
+  coords 2348.33 5 3875.098
+  angles 0 -102.658 0
+ }
+ {
+  coords 2225.412 5 3777.737
+  angles 0 145.162 0
+  {
+   GenericEntity {
+    ID "5C64CC0693F240E3"
+    coords -0.018 0.82 0.1
+   }
+  }
+ }
+ {
+  coords 2227.299 5 3778.02
+  angles 0 -180 0
+  {
+   GenericEntity {
+    ID "5C64CC0693F240E3"
+    coords -0.018 0.82 0.1
+   }
+  }
+ }
+ {
+  coords 2229.006 5 3778.102
+  angles 0 -180 0
+  {
+   GenericEntity {
+    ID "5C64CC0693F240E3"
+    coords -0.018 0.82 0.1
+   }
+  }
+ }
+ {
+  coords 2230.873 5 3777.322
+  angles 0 -122.658 0
+  {
+   GenericEntity {
+    ID "5C64CC0693F240E3"
+    coords -0.018 0.82 0.1
+   }
+  }
+ }
+ {
+  coords 2272.45 5 3846.801
+  angles 0 -168.022 0
+  {
+   GenericEntity {
+    ID "5C64CC0693F240E3"
+    coords -0.018 0.82 0.1
+   }
+  }
+ }
+ {
+  coords 2281.616 4.942 3887.377
+  angles 0 134.503 0
+  {
+   GenericEntity {
+    ID "5C64CC0693F240E3"
+    coords -0.018 0.82 0.1
+   }
+  }
+ }
+ {
+  coords 2280.411 5 3802.418
+  angles 0 90.101 0
+  {
+   GenericEntity {
+    ID "5C64CC0693F240E3"
+    coords -0.018 0.82 0.1
+   }
+  }
+ }
+}
+GenericEntity : "{7671F4F53C366D17}Prefabs/Structures/Market/sirte_CarpetRack.et" {
+ coords 2308.849 5 3778.4
+ angles 0 20 0
+}
+SCR_DestructibleBuildingEntity : "{7A5E7507B6417993}Prefabs/Structures/Houses/Garage/Garage_E_01/sirte_Garage_E_no_doors_01.et" {
+ coords 2296.529 0 3758.04
+ angles 0 -180 0
+ {
+  GameEnvironmentProbeEntity {
+   ID "5EE89DB4FCC3D7ED"
+   coords 0 1.711 3789.563
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{7AB6419D5C4F7F41}Prefabs/Structures/Bulding/HouseC/sirte_House_C_3_EP1.et" {
+ {
+  coords 2303.622 5 3886.451
+  angles 0 180 0
+  scale 1.037
+ }
+ {
+  coords 2293.716 5 3783.297
+  scale 1.037
+ }
+ {
+  coords 2294.654 5 3821.658
+  angles 0 180 0
+  scale 1.037
+ }
+}
+Tree : "{7E3885CE3098E795}Prefabs/Structures/Tree/sirte_palm1.et" {
+ coords 2336.382 0.001 3852.963
+ angles 0 17.093 0
+}
+$grp GenericEntity : "{7FCA9B62D6D082D6}Prefabs/Props/Furniture/Chair_02/sirte_Chair_02_Base.et" {
+ {
+  coords 2373.086 5 3775.947
+  angles 0 159.925 0
+ }
+ {
+  coords 2330.509 5 3743.441
+  angles 0 111.945 0
+ }
+}
+GenericEntity : "{85BCADE6466B7CE9}Prefabs/Structures/Market/sirte_SmallStand.et" {
+ coords 2297.823 5 3774.743
+ angles 0 60 0
+}
+GenericEntity : "{9445885AB0970CEF}Prefabs/Props/Industrial/Repair/sirte_VehicleGarbage_01_pile_medium.et" {
+ coords 2295.563 5 3846.023
+ angles 0 62.664 0
+}
+$grp GenericEntity : "{9BDB6CE8D29FF704}Prefabs/Props/Garbage/Bins/sirte_TrashBin_02_base.et" {
+ {
+  coords 2254.757 5 3824.19
+ }
+ {
+  coords 2221.625 5 3755.383
+ }
+}
+SCR_DestructibleBuildingEntity : "{A62C3D2F368CA251}Prefabs/Structures/Bulding/HouseC/sirte_House_C_1_EP1.et" {
+ coords 2361.295 5.355 3781.507
+ {
+  GenericEntity {
+   ID "66EB105516554EF6"
+   {
+    GenericEntity {
+     ID "568ABA535969BBD5"
+     coords 0 0 0
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{A8A76017CAF46D24}Prefabs/Props/Furniture/Chair_03/sirte_Chair_03_Base.et" {
+ {
+  coords 2289.817 5 3729.734
+  angles 0 -178.661 0
+ }
+ {
+  coords 2296.824 5 3776.441
+  angles 0 -178.661 0
+ }
+ {
+  coords 2308.12 5 3776.484
+  angles 0 170.465 0
+ }
+}
+$grp GenericEntity : "{AAF4D98A4712780F}Prefabs/Props/Commercial/ScaleShop_01/sirte_ScaleShop_01_yellow.et" {
+ {
+  coords 2371.308 5.804 3775.351
+  angles 0 -139.631 0
+ }
+ {
+  coords 2308.009 5.86 3774.836
+  angles 0 140.369 0
+ }
+}
+$grp SCR_DestructibleEntity : "{AD23B4E492C47A13}PrefabLibrary/DefaultLibrary/Walls/Metal/TinWall_01_6m_A.et" {
+ {
+  coords 2327.495 0.001 3857.961
+  angles 0 306.583 0
+ }
+ {
+  coords 2343.816 0.001 3839.831
+  angles 0 -175.598 0
+ }
+}
+GenericEntity : "{AF46DED77614AB65}Prefabs/Props/Industrial/PotIndustrial_01/PotIndustrial_01_base.et" {
+ coords 2293.352 5 3864.246
+ angles 0 177.515 0
+}
+Tree : "{B061414C594986D0}Prefabs/Structures/Tree/sirte_palm8small.et" {
+ coords 2338.785 0.001 3853.071
+}
+$grp SCR_DestructibleBuildingEntity : "{B1254169ED4FFA01}Prefabs/Structures/Bulding/HouseC/sirte_House_C_11_EP1.et" {
+ {
+  coords 2304.112 0 3845.507
+ }
+ {
+  coords 2272.761 0 3887.078
+  angles 0 -180 0
+ }
+ {
+  coords 2271.023 0 3855.363
+  angles 0 -90 0
+ }
+ {
+  coords 2270.354 0 3870.308
+  angles 0 90 0
+ }
+ {
+  coords 2293.832 0 3871.492
+ }
+ {
+  coords 2330.042 0 3824.075
+  angles 0 90 0
+ }
+ {
+  coords 2332.286 0 3811.125
+  angles 0 180 0
+ }
+ {
+  coords 2353.106 0 3820.729
+  angles 0 90 0
+ }
+ {
+  coords 2353.788 -0.063 3805.802
+  angles 0 270 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{B299BEBD81C099C3}Prefabs/Structures/Houses/Garage/Garage_E_01/sirte_Garage_E_01.et" {
+ coords 2334.721 0.001 3845.141
+ angles 0 90 0
+ {
+  GameEnvironmentProbeEntity {
+   ID "5EE89DB4FCC3D7ED"
+   coords 0 1.711 -0.831
+  }
+  GenericEntity {
+   ID "5566F7B6D62F071B"
+   coords 0 0 0
+  }
+  GenericEntity {
+   ID "5566F7B6D62F07F6"
+   coords 0 0 0
+  }
+ }
+}
+$grp GenericEntity : "{B81242DEDF1B37D5}Prefabs/Structures/Market/sirte_kioks.et" {
+ {
+  coords 2374.458 5 3777.27
+  angles 0 36.342 0
+ }
+ {
+  coords 2301.178 5 3775.562
+  angles 0 96.342 0
+ }
+}
+$grp GenericEntity : "{BA34C7B1D21D9843}Prefabs/Structures/Market/sirte_Bags.et" {
+ {
+  coords 2295.664 5 3774.538
+ }
+ {
+  coords 2310.637 5 3776.06
+  angles 0 -130 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{BA6D63E0CFA1D82F}Prefabs/Structures/Bulding/HouseC/sirte_House_C_4_EP3.et" {
+ {
+  coords 2331.758 5 3783.491
+  angles 0 90 0
+ }
+ {
+  coords 2360.351 5 3886.435
+  angles 0 180 0
+ }
+}
+$grp SCR_DestructibleEntity : "{C17780042E00F53D}PrefabLibrary/DefaultLibrary/Walls/Metal/TinWall_01_6m_B.et" {
+ {
+  coords 2336.546 0.001 3865.127
+  angles 0 347.927 0
+ }
+ {
+  coords 2325.822 0.001 3840.26
+  angles 0 266.084 0
+ }
+}
+GenericEntity : "{CB19B2D7DD7F5672}Prefabs/Props/Construction/sirte_PalletJack_01.et" {
+ coords 2297.09 5 3864.11
+ angles 0 149.397 0
+}
+$grp SCR_DestructibleBuildingEntity : "{CC978E65AF4A0678}Prefabs/Structures/Bulding/HouseC/House_C_3_EP1_Base.et" {
+ {
+  coords 2369.427 5 3796.733
+  angles 0 -90 0
+  scale 1.037
+ }
+ {
+  coords 2369.427 5 3815.74
+  angles 0 -90 0
+  scale 1.037
+ }
+}
+SCR_DestructibleEntity : "{D7D4B9C12ADA4FA0}PrefabLibrary/DefaultLibrary/Walls/Metal/TinWall_01_6m_Pole.et" {
+ coords 2343.751 0.001 3848.632
+ angles 0 90.118 0
+}
+$grp GenericEntity : "{DBA4C0BD17654058}Prefabs/Props/Crates/sirte_CardboardBoxStack_01.et" {
+ {
+  coords 2294.298 5 3775.772
+  angles 0 140.652 0
+ }
+ {
+  coords 2311.782 5 3862.121
+  angles 0 -127.38 0
+ }
+ {
+  coords 2310.688 5 3863.28
+  angles 0 -166.728 0
+ }
+ {
+  coords 2265.102 5 3798.107
+ }
+ {
+  coords 2265.918 5 3798.759
+  angles 0 -39.348 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{DC1CA32A90006916}Prefabs/Structures/Houses/Village/HouseAddon_Workshop_E_01/HouseAddon_Workshop_E_01.et" {
+ coords 2373.024 0.309 3879.926
+}
+SCR_DestructibleEntity : "{DF3905E54137495D}Prefabs/Structures/Walls/Metal/TinWall_01/TinWall_01_3m.et" {
+ coords 2343.645 0.001 3842.811
+ angles 0 90 0
+}
+$grp SCR_DestructibleBuildingEntity : "{DF687F30D82E1489}Prefabs/Structures/Bulding/HouseC/sirte_House_C_10_EP1.et" {
+ {
+  coords 2311.833 5 3802.009
+  angles 0 180 0
+ }
+ {
+  coords 2274.298 5 3782.984
+  angles 0 270 0
+ }
+ {
+  coords 2275.01 5 3821.958
+  angles 0 90 0
+ }
+ {
+  coords 2337.478 5 3889.205
+  angles 0 90 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{F649B40889D42AAD}Prefabs/Structures/Bulding/HouseC/sirte_House_C_2_EP1_Base.et" {
+ {
+  coords 2306.771 5.168 3867.448
+  angles 0 -90 0
+ }
+ {
+  coords 2358.943 5.436 3878.957
+ }
+}

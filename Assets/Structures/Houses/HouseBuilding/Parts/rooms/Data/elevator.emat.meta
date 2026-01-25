@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7F742C8CE483470B}Assets/Structures/Houses/HouseBuilding/Parts/rooms/Data (1)/elevator.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

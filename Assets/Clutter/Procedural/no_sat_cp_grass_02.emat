@@ -1,0 +1,45 @@
+Grass {
+ Color 0.784 0.784 0.784 1
+ SpecularIBL 0.391 0.391 0.391 1
+ BCRMap "{5ECE46F72A83760F}Assets/Clutter/Procedural/Data/c_GrassAtlas_01_BCR.edds"
+ OpacityMap "{A889372677E3EEB7}Assets/Clutter/Procedural/Data/c_GrassAtlas_01_A.edds"
+ NTOMap "{F4F0EF95B625FBA5}Assets/Clutter/Procedural/Data/c_GrassAtlas_01_NTO.edds"
+ SatMapBlendMask "{B486FE162B9BDF9A}Assets/Clutter/Procedural/Data/c_GrassAtlas_01_MASK.edds"
+ SpecularMul 0.85
+ DielectricReflectance 0.02
+ AOToCavity 0
+ WetnessScale 0.15
+ ViewDependency 1
+ SSSColorLV -6
+ Plants 8
+ BladesCount 3
+ Height 0.05
+ HeightRandomOffset 0.4
+ Edge 0.42
+ EdgeRandomOffset 0.05
+ EdgeBottomScale 0.848
+ ZenithRandomOffset 30
+ Overlap 0.375
+ Distribution "1 10 10 10 15 15 15 15"
+ ScaleDistribution "1 0.8 0.8 0.8 1.2 1.3 1 1.1"
+ DistanceDistribution "0.4 1 0.8 0.6 1 0.8 0.6 0.7"
+ ZenithDistribution "30 0 0 0 0 0 0 0"
+ DistributionAtlasUVs {
+  0 0.66 0 0.27
+  0 0.66 0 0.27
+  0 0.66 0 0.27
+  0 0.66 0 0.27
+  0.695 0.98 0 0.492
+  0.695 0.98 0 0.492
+  0.695 0.98 0 0.492
+  0 0.185 0 0.265
+ }
+ DistributionMap "{BFAB61C22EBC583F}Assets/Clutter/Masks/cp_grass_02_CMASK.edds"
+ TexPlants 8
+ DistantLOD 2
+ WindLocalSpeed 0.7
+ WindSmoothness 0.7
+ WindLightness 0.1
+ WindLightnessOffset 0.5
+ ObstacleFlatteningAffection 0.65
+}

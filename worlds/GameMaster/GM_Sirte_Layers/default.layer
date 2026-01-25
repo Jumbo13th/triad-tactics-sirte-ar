@@ -1,0 +1,47 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{67133AAB216477ED}" {
+     NavmeshFile "{FB631E75EF9E826B}NavMesh/sirte_soldiers.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{8A97C197DCC85FFA}NavMesh/sirte_btr.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{57342B711B150A82}NavMesh/sirte_lowRes.nmn"
+    }
+   }
+  }
+ }
+ coords 2045.03 5 2045.319
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2045.03 5 2044.319
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 2045.03 5 2043.319
+}
+SCR_MapLocator {
+ coords 2129.754 5 3834.578
+}

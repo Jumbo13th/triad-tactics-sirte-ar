@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{59ABEB8960A60462}Assets/Clutter/Procedural/no_sat_cp_grass_02_field.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

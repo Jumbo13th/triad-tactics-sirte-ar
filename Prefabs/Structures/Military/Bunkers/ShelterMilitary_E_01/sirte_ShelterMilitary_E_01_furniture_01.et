@@ -1,0 +1,37 @@
+GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_base.et" {
+ ID "56A8CBB92342240A"
+ {
+  $grp GenericEntity : "{AA1E1DD1D69055EC}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_green.et" {
+   {
+    ID "671292CDB50AA515"
+    coords 1.3 0.096 -3.508
+    angles 0 -180 0
+   }
+   {
+    ID "671292CDB50AB187"
+    coords -1.045 0.096 -2.487
+   }
+  }
+  $grp GenericEntity : "{BC16FA49B7483E63}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_01.et" {
+   {
+    ID "671292CDB50A5140"
+    coords 2.597 0.096 -3.423
+    angles 0 175 0
+   }
+   {
+    ID "671292CDB50AA51A"
+    coords -1.136 0.096 -3.505
+   }
+  }
+  GenericEntity : "{D042CEA90B8CB14D}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_02.et" {
+   ID "671292CDB504A0CC"
+   coords 0.114 0.096 -3.498
+   angles 0 -180 0
+  }
+  GenericEntity : "{ECC4315520263256}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_dark.et" {
+   ID "671292CDB5044580"
+   coords 0.333 0.096 -2.492
+   angles 0 -180 0
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C5C5FEFFB96DC2AF}Assets/Structures/Houses/House_4/Data/house_4_wall_side_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

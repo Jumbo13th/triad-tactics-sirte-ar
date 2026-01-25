@@ -1,0 +1,14 @@
+StaticModelEntity : "{BA6ACE4A72AC6A38}Prefabs/Structures/Core/Pavements_Base.et" {
+ ID "548326DBB969067D"
+ components {
+  MeshObject "{5936E5AA56187F89}" {
+   Object "{692C9C0B7FD80562}Assets/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Wide_4m_90.xob"
+   ClutterOccluder 1
+  }
+  RigidBody "{5936E5AA546A0157}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 0 0 0
+}

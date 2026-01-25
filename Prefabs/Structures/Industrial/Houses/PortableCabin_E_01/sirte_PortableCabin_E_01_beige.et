@@ -1,0 +1,51 @@
+SCR_DestructibleBuildingEntity : "{C875B63FF5118515}Prefabs/Structures/Industrial/Houses/PortableCabin_E_01/PortableCabin_E_01_Base.et" {
+ ID "51B282FAFCB515EE"
+ {
+  GenericEntity : "{3C69E6629CB629CF}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_LEFT_EXT_ST_B_beige.et" {
+   ID "66EB1066DE724700"
+   components {
+    MeshObject "{309366462BDAFB24}" {
+     Materials {
+      MaterialAssignClass "{66EB1066DE724716}" {
+       SourceMaterial "ColorPallete"
+       AssignedMaterial "{0BCDEB01412C5A9D}Assets/Structures/BuildingsParts/Doors/Data/Doors_Entrance_02_DarkBrown_MLOD.emat"
+      }
+      MaterialAssignClass "{66EB1066DE724729}" {
+       SourceMaterial "Doors_Entrance_02"
+       AssignedMaterial "{7F2C3057F7070DDF}Assets/Structures/BuildingsParts/Doors/Data/Doors_Entrance_02_Old_Baige_INT.emat"
+      }
+      MaterialAssignClass "{66EB1066DE72472E}" {
+       SourceMaterial "Doors_Entrance_02_INT"
+       AssignedMaterial "{A2692CA478F63F81}Assets/Structures/BuildingsParts/Doors/Data/Doors_Entrance_02_Old_Baige.emat"
+      }
+     }
+    }
+    Hierarchy "{7642683606C70747}" {
+     PivotID "socket_door_ext_left_01"
+    }
+   }
+  }
+  GenericEntity : "{44F62429569B0AD0}Prefabs/Structures/BuildingParts/Windows/Win_Bars_A/Win_Bars_PortableCabin_E_A_B.et" {
+   ID "66EB1066DE724707"
+   components {
+    Hierarchy "{7642683663DE57B3}" {
+     Enabled 1
+     PivotID "socket_win_130x142_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{786C04A030C4FB13}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_130x142_1_B.et" {
+   ID "66EB1066DE724704"
+   components {
+    Hierarchy "{66EB1066DE724739}" {
+     Enabled 1
+     PivotID "socket_win_130x142_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

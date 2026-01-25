@@ -1,0 +1,85 @@
+SCR_DestructibleBuildingEntity : "{F5B56A4271E27B07}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS2M_base.et" {
+ ID "5272E314F01B2DBE"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{FECD78188B160238}Assets/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS2M_covered.xob"
+  }
+  SCR_DestructibleBuildingComponent "{65B30801BCCE88B2}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     MaxHealth 40000
+    }
+   }
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_sRuinsPrefab "{FAE13B149BA9D61A}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Dst/Bunker_SPS2M_Covered_Ruin.et"
+    }
+   }
+  }
+ }
+ SlotBoneMappings {
+  SlotBoneMappingObject "{61F4943D4AC61506}" {
+   BonePrefix "Socket_Bunker_SPS2M_covered_windows_01"
+  }
+  SlotBoneMappingObject "{61F4943D4A1D3DBB}" {
+   BonePrefix "Socket_Bunker_SPS2M_covered_windows_Left"
+  }
+  SlotBoneMappingObject "{61F4943D4A552147}" {
+   BonePrefix "Socket_Bunker_SPS2M_covered_windows_Right"
+  }
+ }
+ {
+  GameEnvironmentProbeEntity {
+   ID "5ECC84F82C238C2A"
+   Visible 0
+  }
+  GenericEntity : "{212EAEFB57EB7E4A}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_SPS/Door_Bunker_SPS2M_B_LEFT_SPE_COV_B.et" {
+   ID "6714BEB035269AC4"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "Socket_Bunker_SPS2M_covered_windows_Left"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{A6DB070ECE1044FA}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_SPS/Door_Bunker_SPS2M_A_RIGHT_SPE_COV_B.et" {
+   ID "6714BEB0352746ED"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "Socket_Bunker_SPS2M_covered_windows_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{C8D8169BD86D03EC}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_SPS/Door_Bunker_SPS2M_B_RIGHT_SPE_COV_B.et" {
+   ID "6714BEB0352746EE"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     Enabled 1
+     PivotID "Socket_Bunker_SPS2M_covered_windows_Right"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{E3AFEEF14876FBB9}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_SPS/DoorSet_Bunker_SPS_A_LEFT_EXT_B.et" {
+   ID "6714BEB0352746EF"
+   coords 0.56 0.055 -1.296
+   angles 0 -180 0
+   {
+    GenericEntity {
+     ID "61F47949157812D7"
+     components {
+      DoorComponent "{221C667A9F7D4B69}" {
+       AngleRange -88
+      }
+     }
+    }
+   }
+  }
+ }
+}

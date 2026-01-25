@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C2B27A0EB67DB1B7}Prefabs/Props/Military/WaterTanks/sirte_MobileWaterTank_US_01_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

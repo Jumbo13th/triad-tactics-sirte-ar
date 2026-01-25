@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7CE04CA6B11767D8}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/sirte_Sign_Gaddafi_2_MLOD.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

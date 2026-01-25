@@ -1,0 +1,225 @@
+SCR_DestructibleBuildingEntity : "{9D656741EA2AABC5}Prefabs/Structures/Industrial/Garages/Garage_E_02/Garage_E_02_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  $grp StaticModelEntity : "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et" {
+   {
+    ID "66ECB2D691C40DF1"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_wide_004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66ECB2D691C40DF2"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_wide_003"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66ECB2D691C4B4B8"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_wide_001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66ECB2D691C4BD6C"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_wide_002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{5C72A86670277BC2}Prefabs/Structures/BuildingParts/Windows/Win_Garage_E/win_garage_e_02_4400x1100_0_B.et" {
+   {
+    ID "66ECB2D691C40DCC"
+    components {
+     Hierarchy "{66ECB2D691FBB051}" {
+      PivotID "socket_win_4400x1100_0_002"
+     }
+    }
+   }
+   {
+    ID "66ECB2D691C40DCD"
+    components {
+     Hierarchy "{66ECB2D691FBB044}" {
+      PivotID "socket_win_4400x1100_0_001"
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{65FBBAE477AD3969}Prefabs/Structures/BuildingParts/Doors/DoorSet_Garage_E_02_EXT.et" {
+   {
+    ID "66ECB2D691C40DD8"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_frame_gate_004"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66ECB2D691C40DDF"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_frame_gate_002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{7F1730DFAAEA1B8B}Prefabs/Structures/BuildingParts/Doors/DoorSet_Garage_E_02_EXT_03.et" {
+   ID "66ECB2D691C40652"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_frame_gate_003"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{9A8B7C26A60F8CE0}Prefabs/Structures/BuildingParts/Doors/DoorSet_Garage_E_02_EXT_02.et" {
+   ID "66ECB2D691C40650"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_frame_gate_001"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp GenericEntity : "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et" {
+   {
+    ID "66ECB2D691C4065D"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_frame_ext_001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66ECB2D691C40742"
+    components {
+     Hierarchy "{612AE78C85563E26}" {
+      Enabled 1
+      PivotID "socket_door_frame_ext_002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  $grp Building : "{E68D2802A8DB8DB2}Prefabs/Structures/BuildingParts/Windows/Win_Garage_E/win_garage_e_02_1300x1400_444_B.et" {
+   {
+    ID "66ECB2D691C40744"
+    components {
+     Hierarchy "{66ECB2D691FBB068}" {
+      Enabled 1
+      PivotID "socket_win_1400x1300_001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5706C1076DDF127C"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{66ECB2D691FBB062}" {
+          SourceMaterial "Common/Materials/Glass_generic_ccw"
+          AssignedMaterial "{8BBAB95D8CDFFE6F}Assets/Structures/BuildingsParts/Windows/Data/window_glass_atlas_INT.emat"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66ECB2D691C43CE7"
+    components {
+     Hierarchy "{66ECB2D691FBB09A}" {
+      Enabled 1
+      PivotID "socket_win_1400x1300_002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+    {
+     GenericEntity {
+      ID "5706C1076DDF127C"
+      components {
+       MeshObject "{51C4DA208DB0E200}" {
+        Materials {
+         MaterialAssignClass "{66ECB2D691FBB095}" {
+          SourceMaterial "Common/Materials/Glass_generic_ccw"
+          AssignedMaterial "{8BBAB95D8CDFFE6F}Assets/Structures/BuildingsParts/Windows/Data/window_glass_atlas_INT.emat"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  Building : "{EDEAA23E9994B699}Prefabs/Structures/BuildingParts/Windows/Win_Garage_E/win_garage_e_02_4400x1100_88_B.et" {
+   ID "66ECB2D691FBC0CB"
+   components {
+    Hierarchy "{66ECB2D691FBB091}" {
+     PivotID "socket_win_4400x1100_88_001"
+    }
+   }
+  }
+  $grp StaticModelEntity : "{FA188839C5E6DAD3}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01_narrow.et" {
+   {
+    ID "66ECB2D691FBB020"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_narrow_002"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66ECB2D691FBC0C9"
+    components {
+     Hierarchy "{5488F0388A297CDE}" {
+      Enabled 1
+      PivotID "socket_entry_narrow_001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

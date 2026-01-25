@@ -1,0 +1,50 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{7CD7C0694804F956}Assets/Props/Furniture/BenchStadium_01/Data/BenchStadium_01_GLOBAL_MASK.edds"
+ Enabled_4 1
+ Color_4 0.02 0.031 0.012 1
+ BCR_4 "{BCC6BF9DF11A74D0}Assets/_SharedData/Plastic/ST_PlasticBase_01_BCR.edds"
+ NMO_4 "{805071494BEE8FA0}Assets/_SharedData/Plastic/ST_Plastic_Leather01_1m_NMO.edds"
+ MaskSharpness_4 5.027
+ MaskOffset_4 0.065
+ Mask_4 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ MaskUVScale_4 1.273
+ UVTransform_4 MatUVTransform "{55A03DDECA23A2AD}" {
+  TilingU 10
+  TilingV 10
+ }
+ Roughness_4 1.7
+ Metalness_4 0
+ Enabled_3 1
+ Color_3 0.15 0.15 0.15 1
+ BCR_3 "{D9F47D76A9247FD3}Assets/_SharedData/Metal/ST_Metal_Rust_01_BCR.edds"
+ NMO_3 "{FD3614E7F90495C2}Assets/_SharedData/Metal/ST_Metal_Rust_Coarse01_1m_NMO.edds"
+ UVTransform_3 MatUVTransform "{55A03DDE3C95136F}" {
+  TilingU 8
+  TilingV 8
+ }
+ DetNormal_3 0.6
+ Enabled_2 1
+ Color_2 0.165 0.14 0.131 1
+ BCR_2 "{12F7DB7333E60620}Assets/_SharedData/Wood/ST_WoodPlain_Rough_01_BCR.edds"
+ NMO_2 "{6E8CE1807D694599}Assets/_SharedData/Wood/ST_WoodPlain_Rough_01_NMO.edds"
+ MaskSharpness_2 1
+ MaskOffset_2 0.1
+ Mask_2 "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ UVTransform_2 MatUVTransform "{55A03DC416982FDD}" {
+  TilingU 4
+  TilingV 4
+ }
+ DetNormal_2 0.421
+ Roughness_2 1.878
+ Metalness_2 0
+ BCR_1 "{1DADF5196CDE6B12}Assets/_SharedData/Wood/ST_WoodPlanks_Floor_01_BCR.edds"
+ NMO_1 "{844236632B9A841A}Assets/_SharedData/Wood/ST_WoodPlain_Clean_01_NMO.edds"
+ UVTransform_1 MatUVTransform "{55A03DDBEAAF4C4C}" {
+  TilingU 4
+  TilingV 4
+  OffsetV 0.034
+ }
+ DetNormal_1 0.732
+ Roughness_1 1.1
+}

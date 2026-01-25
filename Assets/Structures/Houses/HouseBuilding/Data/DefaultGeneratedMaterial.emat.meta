@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{440D91B4F0AC400F}Assets/Structures/Houses/HouseBuilding/Data/DefaultGeneratedMaterial.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

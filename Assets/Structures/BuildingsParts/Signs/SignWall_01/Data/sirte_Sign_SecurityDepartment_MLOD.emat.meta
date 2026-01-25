@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F58FF1BE5960875B}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/sirte_Sign_SecurityDepartment_MLOD.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

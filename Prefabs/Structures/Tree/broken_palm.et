@@ -1,0 +1,28 @@
+Tree : "{63DC62906A5917F3}Prefabs/Vegetation/Tree/t_populus_nigra/t_populus_nigra_3s.et" {
+ ID "0F2AA6B42CA78628"
+ components {
+  MeshObject "{680BA6B5982CCC9C}" {
+   Object "{ECC49F9A72C51C24}Assets/Vegetation/Tree/Larix_Decidua/Dst/t_larix_decidua_2fb_dst_base.xob"
+   Materials {
+    MaterialAssignClass "{671702A7B54FFCB0}" {
+     SourceMaterial "t_larix_decidua_2fb_bark_dst_9DB22C0F2402BF0E"
+     AssignedMaterial "{7ED2B357F06A3C4E}Assets/ME_Tree/Data/palma_kmen_01_co.emat"
+    }
+   }
+  }
+ }
+ coords 115.376 0 191.18
+ angles -0.138 126.006 -0.869
+ scale 1
+ Enabled 0
+ FirstDestructionPhase SCR_BaseDestructionPhase "{5EA30A303A8696D4}" {
+  m_sPhaseModel "{FFCC3BA084E07A2B}Assets/ME_Tree/palm_01.xob"
+  m_aPhaseDestroySpawnObjects {
+   SCR_PrefabSpawnable "{6308EB177862FBD3}" {
+    m_Prefabs {
+     "{D75C4CE9004C1365}Prefabs/Structures/Tree/damp_palm1.et"
+    }
+   }
+  }
+ }
+}

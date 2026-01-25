@@ -1,0 +1,18 @@
+GenericEntity : "{F96CCEE337351B0E}Prefabs/Props/Industrial/CrawlerCraneWreck_01/CrawlerCraneWreck_01_Track_yellow.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  GenericEntity : "{AA91D57F5E764083}Prefabs/Props/Industrial/CrawlerCraneWreck_01/CrawlerCraneWreck_01_cabin_yellow.et" {
+   ID "66F8B0390171A919"
+   {
+    GenericEntity : "{78D04913BE40E778}Prefabs/Props/Industrial/CrawlerCraneWreck_01/CrawlerCraneWreck_01_arm_yellow.et" {
+     ID "66F8B0390171A918"
+     components {
+      Hierarchy "{64B480B1A3384146}" {
+       PivotID "socket_CrawlerCraneWreck_01_cabin"
+      }
+     }
+    }
+   }
+  }
+ }
+}

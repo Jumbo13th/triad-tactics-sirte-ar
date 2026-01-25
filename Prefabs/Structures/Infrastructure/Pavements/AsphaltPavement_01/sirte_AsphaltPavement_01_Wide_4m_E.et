@@ -1,0 +1,21 @@
+StaticModelEntity : "{BA6ACE4A72AC6A38}Prefabs/Structures/Core/Pavements_Base.et" {
+ ID "548326DBB969067D"
+ components {
+  MeshObject "{5936E5AA56187F89}" {
+   Object "{EE2AD3E016C2C4F9}Assets/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Wide_4m.xob"
+   Materials {
+    MaterialAssignClass "{66E91ED85E9C2916}" {
+     SourceMaterial "Asphalt_Pavement_01"
+     AssignedMaterial "{183294327A75F814}Assets/Structures/Infrastructure/Pavements/AsphaltPavement_01/Data/Asphalt_Pavement_01_A.emat"
+    }
+   }
+   ClutterOccluder 1
+  }
+  RigidBody "{5936E5AA546A0157}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 4799.177 0.011 7053.416
+ placement slopelandcontact
+}

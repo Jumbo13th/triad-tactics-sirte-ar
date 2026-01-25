@@ -1,0 +1,6 @@
+MatPBRBasic {
+ RoughnessScale 0.634
+ MetalnessScale 0
+ BCRMap "{D3EE716F00A07772}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/security_department_texture_BCR.edds"
+ NMOMap "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+}

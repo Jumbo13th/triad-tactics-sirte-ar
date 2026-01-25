@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{503F858A6E8CAC64}Prefabs/Structures/BuildingParts/Signs/SignWall/sirte_Gaddafi_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

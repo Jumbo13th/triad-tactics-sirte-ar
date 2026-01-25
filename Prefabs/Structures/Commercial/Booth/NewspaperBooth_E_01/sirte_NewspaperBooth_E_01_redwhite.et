@@ -1,0 +1,29 @@
+SCR_DestructibleBuildingEntity : "{D6CCD293C7425808}Prefabs/Structures/Commercial/Booth/NewspaperBooth_E_01/NewspaperBooth_E_01_Base.et" {
+ ID "2A6B282EBC14CAC8"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{66EEA8D1820B5B08}" {
+     SourceMaterial "BoothNews_E_01_ext_mat0"
+     AssignedMaterial "{DDA804FE02A22DEB}Assets/Structures/Commercial/Booth/BoothNews_E_01/Data/BoothNews_E_01_RedWhite_ext_mat.emat"
+    }
+    MaterialAssignClass "{66EEA8D1820B5B00}" {
+     SourceMaterial "BoothNews_E_01_exterior_MLOD"
+     AssignedMaterial "{09461FB8436DBCE1}Assets/Structures/Commercial/Booth/BoothNews_E_01/Data/BoothNews_E_01_exterior_RedWhite_MLOD.emat"
+    }
+    MaterialAssignClass "{66EEA8D1820B5B03}" {
+     SourceMaterial "NameDecal"
+     AssignedMaterial "{1183D76EB01446D5}Assets/Structures/Commercial/Booth/BoothNews_E_01/Data/BoothNews_E_01_decal_v1.emat"
+    }
+   }
+  }
+  SCR_DestructibleBuildingComponent "{5DA867F3495AA9A7}" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_sRuinsPrefab "{CCDC86B4709DD13F}Prefabs/Structures/Commercial/Booth/NewspaperBooth_E_01/BoothNews_E_01_ruin_redwhite.et"
+    }
+   }
+  }
+ }
+ coords 8.104 -1.634 11.555
+}

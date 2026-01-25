@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{8A3A7B9B02CCD1DC}Prefabs/Structures/Bulding/HouseC/sirte_House_C_12_EP3.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,12 @@
+SCR_TreeDebrisSmallEntity : "{A4FE86D58CCB42AF}Prefabs/Vegetation/Tree/Dst/TreeDebris_Leafy_Large_base.et" {
+ ID "6308EB15DCEA74C8"
+ components {
+  DampingComponent "{6308EB1581DE345B}" {
+   AngularDamping 0.7 0.5 0
+  }
+  MeshObject "{6308EB1589E945A6}" {
+   Object "{161F10E00B231E08}Assets/ME_Tree/palm_04.xob"
+  }
+ }
+ coords 0 0 0
+}

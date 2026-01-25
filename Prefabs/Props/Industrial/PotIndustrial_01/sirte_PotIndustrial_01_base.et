@@ -1,0 +1,45 @@
+GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{80B025A53ACD4525}Assets/Props/Industrial/PotIndustrial_01/PotIndustrial_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 30
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{51A4A8CA10A96EE4}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default : "{AF71026AA37B4DF3}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Metal_Light.conf" {
+    }
+   }
+   m_fBaseHealth 1000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{58769A1D57601BED}" : "{C2BD61C5E05B8971}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Light.conf" {
+     m_ModelPrefabs {
+      "{199A58B670D45142}Assets/Props/Industrial/PotIndustrial_01/Dst/PotIndustrial_01_dst_02.xob" "{6E90303E8476BE32}Assets/Props/Industrial/PotIndustrial_01/Dst/PotIndustrial_01_dst_03.xob"
+     }
+     m_eMaterialSoundType METAL_HEAVY
+    }
+    SCR_ParticleSpawnable "{66EB10642FE56294}" {
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+   }
+   m_bDeleteAfterFinalPhase 0
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{66EB10642FE562AE}" {
+     m_PhaseModel "{8084E12F6D3360D2}Assets/Props/Industrial/PotIndustrial_01/Dst/PotIndustrial_01_dst_01.xob"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+  RplComponent "{61E0ACF06B2DAF73}" : "{3B686EF5E3C610B9}Prefabs/Props/Core/DestructionMultiPhase_Rpl_Base.ct" {
+   Enabled 1
+  }
+ }
+ coords 1333.602 32.001 2181.522
+ angles 0 68 0
+}

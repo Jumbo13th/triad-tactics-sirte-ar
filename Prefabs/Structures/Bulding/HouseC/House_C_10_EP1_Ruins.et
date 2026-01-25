@@ -1,0 +1,15 @@
+StaticModelEntity {
+ ID "671758A05615DB53"
+ components {
+  MeshObject "{671758A05615DB47}" {
+   Object "{4EBDCB08B40A62F3}Assets/ME_Bulding/HouseC/House_C_10_EP1_Ruins.xob"
+  }
+  RigidBody "{671758A05615DB9A}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{671758A05615DB87}" {
+  }
+ }
+ coords 36.765 1.001 130.518
+}

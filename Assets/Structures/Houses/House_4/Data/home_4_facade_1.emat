@@ -1,0 +1,17 @@
+MatPBRMulti {
+ Color 0.588 0.588 0.588 1
+ SpecularMul 0
+ MetalnessScale 1.213
+ NormalPower 0.05
+ DirtOpacity 0.146
+ DirtLayerSharpness 1.297
+ DirtColor 0.612 0.447 0.275 1
+ DirtRoughness 0.4
+ DirtMaskMap "{8A50472D717443E4}Assets/_SharedData/DetailMask/ST_Dirt_02_Mask1.edds"
+ Color_1 0.471 0.471 0.471 1
+ BCR_1 "{B2BCA03DB81EAE9C}Assets/Structures/Houses/House_4/Data/Experimental/Final/facade_1_BCR.edds"
+ NMO_1 "{7883C1B5E8CA35AB}Assets/Structures/Houses/House_4/Data/Experimental/Final/wall_N.edds"
+ DetNormal_1 3
+ Roughness_1 3
+ Metalness_1 0.7
+}

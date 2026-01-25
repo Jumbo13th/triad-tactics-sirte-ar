@@ -1,0 +1,30 @@
+SCR_DestructibleBuildingEntity : "{9ACEB1AC0BA9561D}Prefabs/Structures/Infrastructure/Power/TransformerStation_E_02/TransformerStation_E_02_Base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  SCR_JunctionPowerPole {
+   ID "66FAA7DB12610B37"
+   components {
+    Hierarchy "{66FAA7DB12610B1F}" {
+    }
+   }
+   coords -4.505 9.102 -1.483
+   angles 0 90 0
+   m_aCableSlotGroups {
+    SCR_PoleCableSlotGroup "{66FAA7DB12610B68}" {
+     m_eCableType POWER_HV
+     m_aSlots {
+      SCR_PoleCableSlot "{66FAA7DB12610B6D}" {
+       m_vPosition 0.907 -0.16 -1.885
+      }
+      SCR_PoleCableSlot "{66FAA7DB12610B6F}" {
+       m_vPosition -0.044 -0.156 -1.879
+      }
+      SCR_PoleCableSlot "{66FAA7DB12609564}" {
+       m_vPosition -0.914 -0.156 -1.879
+      }
+     }
+    }
+   }
+  }
+ }
+}

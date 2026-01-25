@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{706FF163792203B0}Common/Materials/Game/dirt_sirte_final.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass PS5 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+ }
+}

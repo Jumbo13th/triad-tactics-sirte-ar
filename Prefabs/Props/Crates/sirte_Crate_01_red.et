@@ -1,0 +1,25 @@
+GenericEntity : "{F6D1E024E82511F9}Prefabs/Props/Crates/Crate_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{66EEA8D39CA460B9}" {
+     SourceMaterial "Crate_01_01"
+     AssignedMaterial "{4970AE00B35664D7}Assets/Props/Crates/Data/Crate_01_01_Red.emat"
+    }
+    MaterialAssignClass "{66EEA8D39CA460B1}" {
+     SourceMaterial "Crate_01_02"
+     AssignedMaterial "{8392308AE898EECD}Assets/Props/Crates/Data/Crate_01_02_Red.emat"
+    }
+    MaterialAssignClass "{66EEA8D39CA460B0}" {
+     SourceMaterial "Color_palette_01"
+     AssignedMaterial "{F1E6EA9BC72E0CD8}Common/Materials/ColorPalette/Color_palette_02_BRICK_10_S4_R3.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "TinyDestructible"
+   Static 1
+  }
+ }
+}

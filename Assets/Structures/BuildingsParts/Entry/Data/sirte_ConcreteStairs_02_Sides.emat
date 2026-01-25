@@ -1,0 +1,46 @@
+MatPBRMulti {
+ Color 0.588 1 0.4 1
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{49D5D4587A5AFD88}Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides_Global_MASK.edds"
+ Enabled_4 1
+ Color_4 0.275 0.263 0.23 1
+ BCR_4 "{029A84113517FD09}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_BCR.edds"
+ NMO_4 "{1C5B574FA1CE7490}Assets/_SharedData/Concrete/ST_Concrete_Rough_01_NMO.edds"
+ MaskSharpness_4 2
+ Mask_4 "{FC7330716A9E08A7}Assets/_SharedData/DetailMask/ST_Plaster_Brizolit_01_MASK1.edds"
+ UVTransform_4 MatUVTransform "{5192941E64B10AF5}" {
+  TilingU 2
+  TilingV 2
+ }
+ DetNormal_4 3
+ Roughness_4 2
+ Metalness_4 0
+ Enabled_3 1
+ Color_3 0.171 0.161 0.144 1
+ BCR_3 "{029A84113517FD09}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_BCR.edds"
+ NMO_3 "{2EFC1D1671029FE8}Assets/_SharedData/Concrete/ST_Concrete_Bare_01_NMO.edds"
+ MaskSharpness_3 3
+ Mask_3 "{FC7330716A9E08A7}Assets/_SharedData/DetailMask/ST_Plaster_Brizolit_01_MASK1.edds"
+ MaskUVScale_3 1.5
+ UVTransform_3 MatUVTransform "{5192941F71048E68}" {
+  TilingU 1.5
+  TilingV 1.5
+ }
+ DetNormal_3 3
+ Roughness_3 5
+ Metalness_3 0
+ Enabled_2 1
+ Color_2 0.701 0.68 0.612 1
+ BCR_2 "{DBFD66586367B563}Assets/_SharedData/Stone/ST_StoneSurface_01_BCR.edds"
+ NMO_2 "{3A423F83EC60AF97}Assets/_SharedData/Concrete/ST_Concrete_Clean_01_NMO.edds"
+ MaskSharpness_2 1
+ Mask_2 "{FC7330716A9E08A7}Assets/_SharedData/DetailMask/ST_Plaster_Brizolit_01_MASK1.edds"
+ MaskUVScale_2 2
+ DetNormal_2 3
+ Roughness_2 2
+ Metalness_2 0
+ Color_1 0.376 0.35 0.317 1
+ BCR_1 "{42FB832888DDAAFB}Assets/_SharedData/Concrete/ST_Concrete_Wall_01_BCR.edds"
+ NMO_1 "{7A2338BA51AAF865}Assets/_SharedData/Concrete/ST_Concrete_Wall_01_NMO.edds"
+ Metalness_1 0
+}

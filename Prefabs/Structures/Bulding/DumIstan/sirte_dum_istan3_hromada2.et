@@ -1,0 +1,294 @@
+SCR_DestructibleBuildingEntity {
+ ID "66FAA7FFAB907058"
+ components {
+  MeshObject "{66FAA7FFAB9C3EE6}" {
+   Object "{507F6B0E483E8F0E}Assets/ME_Bulding/DumIstan/dum_istan3_hromada2.xob"
+  }
+  RigidBody "{66FAA7FFAB9C3F00}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 203.578 1 190.091
+ {
+  GenericEntity {
+   ID "66FAA7FFAB90CB52"
+   coords 8.201 9.133 1.741
+  }
+  Building : "{01384942B844E425}Prefabs/Structures/BuildingParts/Windows/Win_WoodenHouse_E/Win_HouseWooden_E_A_100x142_B_base.et" {
+   ID "66FAA7FFAB90CB51"
+   coords -1.004 5.323 3.093
+   angles 0 -90 0
+   scale 1.279
+  }
+  GenericEntity : "{01EB4A20B6BB6390}Prefabs/Structures/Misc/Nargile.et" {
+   ID "66FAA7FFAB90CB57"
+   coords -5.669 3.373 0.858
+   angles 0 0 0
+  }
+  $grp GenericEntity : "{02D4A61D327D2BD9}Prefabs/Props/Furniture/Carpet_03_green.et" {
+   {
+    ID "66FAA7FFAB9085D7"
+    coords 6.3 6.746 6.053
+    angles 0 90.493 0
+    scale 0.94
+   }
+   {
+    ID "66FAA7FFAB9085D8"
+    coords 8.287 6.746 2.869
+    angles 0 179.493 0
+   }
+   {
+    ID "66FAA7FFAB90CB55"
+    coords 8.494 6.746 5.702
+    angles 0 90.493 0
+   }
+  }
+  GenericEntity : "{081107D1147FDBE0}Prefabs/Props/Furniture/ShelfOld_01_small.et" {
+   ID "66FAA7FFAB9085D9"
+   coords 4.92 1.652 4.496
+   angles 0 180 0
+  }
+  GenericEntity : "{1649BD4423178DA9}Prefabs/Structures/Misc/Torba.et" {
+   ID "66FAA7FFAB9085DA"
+   coords 5.218 6.746 3.739
+   angles 0 0 0
+  }
+  GenericEntity : "{1AB7A2C69A30391D}Prefabs/Props/Furniture/CoatRack_01.et" {
+   ID "66FAA7FFAB9085DB"
+   coords 5.525 6.764 5.08
+  }
+  $grp GenericEntity : "{1E84244AFD39A88E}Prefabs/Props/Commercial/ShelfUniversal_01_narrow.et" {
+   {
+    ID "66FAA7FFAB9085DD"
+    coords 6.234 6.746 7.242
+    angles 0 179 0
+   }
+   {
+    ID "66FAA7FFAB90ADC6"
+    coords 5.178 6.746 7.224
+    angles 0 179 0
+   }
+  }
+  GenericEntity : "{223703BE93AAF919}Prefabs/Structures/Misc/CarpetA.et" {
+   ID "66FAA7FFAB90ADC5"
+   coords 0.498 3.373 6.07
+   angles 0 175 0
+  }
+  $grp GenericEntity : "{261F10BDC068BB35}Prefabs/Props/Furniture/ChairOld_01.et" {
+   {
+    ID "66FAA7FFAB90ADC4"
+    coords 7.939 6.746 6.094
+    angles 0 100 0
+   }
+   {
+    ID "66FAA7FFAB9128ED"
+    coords -4.819 3.373 0.195
+    angles 0 -88 0
+   }
+   {
+    ID "66FAA7FFAB91DA18"
+    coords 8.531 6.746 4.739
+    angles 0 1 0
+   }
+  }
+  GenericEntity : "{2A8D029D69C5281E}Prefabs/Structures/Misc/Chair.et" {
+   ID "66FAA7FFAB9E43F4"
+   coords -5.095 3.373 1.835
+   angles 0 137 0
+  }
+  $grp GenericEntity : "{2AD69BEF1CB26BD1}Prefabs/Structures/glass/prop_glass.et" {
+   {
+    ID "66FAA7FFAB9E43F6"
+    coords 4.073 5.547 7.391
+    scale 1.28
+   }
+   {
+    ID "66FAA7FFAB9E7B4E"
+    coords 3.013 5.547 7.391
+    scale 1.28
+   }
+  }
+  $grp Building : "{2CB9BDF535CC5D03}Prefabs/Structures/glass/Win_HouseWooden_E_A_100x142_M1_b.et" {
+   {
+    ID "66FAA7FFAB9E7B44"
+    coords 9.967 2 -3.077
+    angles 0 90 0
+    scale 1.26
+   }
+   {
+    ID "66FAA7FFAB9E7B45"
+    coords 6.472 2.016 7.391
+    scale 1.26
+   }
+   {
+    ID "66FAA7FFAB9E7B47"
+    coords 6.566 5.297 8.424
+    scale 1.26
+   }
+   {
+    ID "66FAA7FFAB9E7B4A"
+    coords 0.463 2.016 7.391
+    scale 1.26
+   }
+   {
+    ID "66FAA7FFAB9EBDC3"
+    coords 4.85 5.289 -6.424
+    angles 0 180 0
+    scale 1.26
+   }
+   {
+    ID "66FAA7FFAB9ED7DC"
+    coords 8.804 5.278 -0.134
+    angles 0 90 0
+    scale 1.26
+   }
+   {
+    ID "66FAA7FFAB9ED7DD"
+    coords 7.943 1.991 -4.424
+    angles 0 180 0
+    scale 1.26
+   }
+  }
+  GenericEntity : "{366472053F5C31DC}Prefabs/Structures/Misc/Carpet1.et" {
+   ID "66FAA7FFAB9EBDC4"
+   coords 0.405 3.327 3.799
+   angles 0 0 0
+  }
+  GenericEntity : "{5E6C47DF7D75F949}Prefabs/Props/Furniture/ShelfOld_01.et" {
+   ID "66FAA7FFAB9EBDC5"
+   coords 9.726 8.359 3.522
+   angles 0 -88 0
+  }
+  GenericEntity : "{62D08E8600994BA3}Prefabs/Structures/Misc/Canister.et" {
+   ID "66FAA7FFAB9EBDC7"
+   coords -1.435 3.373 4.139
+   angles 0 0 0
+  }
+  GenericEntity : "{6929659CE9375CAF}Prefabs/Props/Garbage/Tires/TireTractor_01_single.et" {
+   ID "66FAA7FFAB9EBD39"
+   coords 2.338 0.613 3.412
+   angles 0 -87 81.475
+   scale 0.93
+  }
+  $grp GenericEntity : "{6D83404953816F23}Prefabs/Structures/BuildingParts/Doors/DoorSet_Shed_02_R_EXT_B.et" {
+   {
+    ID "66FAA7FFAB9EBD3A"
+    coords 7.948 0.14 3.021
+    angles 0 90 0
+    scale 1.37
+   }
+   {
+    ID "66FAA7FFAB9EBD3B"
+    coords 4.929 6.82 5.979
+    angles 0 90 0
+    scale 1.37
+   }
+   {
+    ID "66FAA7FFAB9F6D48"
+    coords 8.905 3.505 3.046
+    angles 0 -90 0
+    scale 1.37
+    {
+     GenericEntity {
+      ID "5868A8EBB1314136"
+      components {
+       DoorComponent "{221C667A9F7D4B69}" {
+        Enabled 0
+       }
+       ActionsManagerComponent "{F32B667C3C823800}" {
+        Enabled 0
+       }
+      }
+     }
+    }
+   }
+   {
+    ID "66FAA7FFAB9F6D4F"
+    coords -1.009 3.434 5.954
+    angles 0 -90 0
+    scale 1.37
+   }
+  }
+  GenericEntity : "{6E3320C3C37CAFE5}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_04.et" {
+   ID "66FAA7FFAB9F6D49"
+   coords -6.32 3.373 -0.381
+   angles 0 -82 0
+  }
+  $grp GenericEntity : "{717F88E65A921861}Prefabs/Structures/BuildingParts/Misc/TvAntenna_02.et" {
+   {
+    ID "66FAA7FFAB9F6D4A"
+    coords 8.738 10.12 2.28
+    angles 0 -8 0
+   }
+   {
+    ID "66FAA7FFAB9FE0E2"
+    coords 8.5 10.121 6.786
+    angles 0 179 0
+   }
+  }
+  GenericEntity : "{7BB30759D09C70B5}Prefabs/Props/Civilian/StepladderWooden_01.et" {
+   ID "66FAA7FFAB9FE0E3"
+   coords 9.241 3.589 1.166
+   angles 6.497 90 0
+  }
+  GenericEntity : "{7E2E69AE2A6BF8AD}Prefabs/Structures/Misc/Sepet.et" {
+   ID "66FAA7FFAB9FE0EC"
+   coords -5.905 3.373 2.373
+   angles 0 0 0
+  }
+  GenericEntity : "{8AC72C9CD5397298}Prefabs/Structures/Misc/Chest.et" {
+   ID "66FAA7FFAB9FE9F2"
+   coords -1.459 3.373 3.088
+   angles 0 0 0
+  }
+  GenericEntity : "{8BB5855208F77724}Prefabs/Props/Furniture/BenchWooden_01.et" {
+   ID "66FAA7FFAB9FE9F3"
+   coords 8.38 6.746 6.978
+   angles 0 2 0
+  }
+  GenericEntity : "{8FB2845D48F4E02A}Prefabs/Props/Furniture/TableOld_01/TableOld_01_white.et" {
+   ID "66FAA7FFAB9FE9F0"
+   coords 8.51 6.746 5.65
+   angles 0 -86.473 0
+  }
+  GenericEntity : "{97FF4DA84258FBAF}Prefabs/Props/Civilian/TableSink_01.et" {
+   ID "66FAA7FFAB9F956F"
+   coords 9.193 3.589 -1.157
+   angles 0 103 0
+  }
+  GenericEntity : "{9C231B6AC1BD0A26}Prefabs/Props/Civilian/Broom_01.et" {
+   ID "66FAA7FFAB9F9569"
+   coords 5.247 0.032 3.989
+   angles -14.337 -3.295 -0.289
+  }
+  GenericEntity : "{AC76F47F96377547}Prefabs/Props/Agriculture/WeighingScale_01_base.et" {
+   ID "66FAA7FFAB9F9568"
+   coords 4.136 0.032 3.678
+   angles 0 88.103 0
+  }
+  GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+   ID "66FAA7FFAB9C619A"
+   coords 5.469 0.032 4.191
+   angles 0 -64.884 0
+  }
+  GenericEntity : "{D349CAB0A6544C59}Prefabs/Props/Furniture/TableWorkshop_01_short.et" {
+   ID "66FAA7FFAB9C6199"
+   coords 8.134 6.762 2.228
+  }
+  GenericEntity : "{F39A28AB89986935}Prefabs/Structures/Misc/Table.et" {
+   ID "66FAA7FFAB9C3E80"
+   coords -0.115 6.747 2.621
+  }
+  GenericEntity : "{F4CA533A99B20DAE}Prefabs/Props/Civilian/SackUniversal_01.et" {
+   ID "66FAA7FFAB9C3E81"
+   coords 6.161 6.746 1.774
+   angles -4.546 85.208 0
+  }
+  GenericEntity : "{F6CF869062E6EDB0}Prefabs/Props/Furniture/Rack_01_Long.et" {
+   ID "66FAA7FFAB9C3E9E"
+   coords 5.698 6.746 2.044
+   angles 0 90 0
+  }
+ }
+}

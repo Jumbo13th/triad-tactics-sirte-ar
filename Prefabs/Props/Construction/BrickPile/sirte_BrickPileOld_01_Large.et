@@ -1,0 +1,18 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{96CEAC642E08F4EC}Assets/Props/Construction/BrickPileOld_01/BrickPileOld_01_Large.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_eMaterialSoundType NONE
+  }
+ }
+ coords 3.458 9.946 -4.008
+ angles 0 -91.199 0
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4E342607D8975CEA}Prefabs/Structures/BuildingParts/Signs/SignWall/sirte_SignWall_01_95x72_RadioEveron.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

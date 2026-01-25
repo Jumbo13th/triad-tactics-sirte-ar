@@ -1,0 +1,180 @@
+SCR_DestructibleBuildingEntity : "{C3A427E5AD7B1D98}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_base.et" {
+ ID "5272E314F01B2DBE"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{8B3FDFD4B419A454}Assets/Structures/Military/Fortifications/Bunker_SPS/Bunker_SPS_covered.xob"
+  }
+  SCR_DestructibleBuildingComponent "{65B30800DC246A64}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     MaxHealth 40000
+    }
+   }
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_sRuinsPrefab "{7D03D1E2B8BB77FB}Prefabs/Structures/Military/Fortifications/Bunker_SPS/Dst/Bunker_SPS_covered_Ruin.et"
+    }
+   }
+  }
+ }
+ SlotBoneMappings {
+  SlotBoneMappingObject "{61F4943109E6C47A}" {
+   BonePrefix "Socket_Bunker_SPS_covered_DoorFrame"
+  }
+  SlotBoneMappingObject "{61F4943109189519}" {
+   BonePrefix "Socket_Bunker_SPS_covered_Ladder"
+  }
+  SlotBoneMappingObject "{61F4943109368B30}" {
+   BonePrefix "Socket_Bunker_SPS_covered_Windows"
+  }
+  SlotBoneMappingObject "{61F494310953D288}" {
+   BonePrefix "Socket_Bunker_SPS_covered_ElectricityBox_02"
+  }
+  SlotBoneMappingObject "{61F494310972F14F}" {
+   BonePrefix "Socket_Bunker_SPS_covered_ElectricityBox_Medium_01"
+  }
+  SlotBoneMappingObject "{61F49431E06040F4}" {
+   BonePrefix "Socket_Bunker_SPS_covered_ElectricityBox_Small_01"
+  }
+  SlotBoneMappingObject "{61F49431DD37A7FF}" {
+   BonePrefix "Socket_Bunker_SPS_covered_ElectricityBox_Small_02"
+  }
+ }
+ {
+  GameEnvironmentProbeEntity {
+   ID "5ECC84F9967C60DF"
+   Visible 0
+  }
+  GenericEntity : "{9B4F35315B8A7209}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_medium_01.et" {
+   ID "6714BEBF990A415C"
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_Bunker_SPS_covered_ElectricityBox_Medium_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{A1B037BBDADB1A7B}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_small_02.et" {
+   ID "6714BEBF990A415E"
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_Bunker_SPS_covered_ElectricityBox_Small_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{CDE4035B661F9555}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBoxes/ElectricityBox_small_01.et" {
+   ID "6714BEBF990A2C0C"
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_Bunker_SPS_covered_ElectricityBox_Small_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{CF9CD408B686DC88}Prefabs/Structures/BuildingParts/Ladders/Ladder_Bunker_SPS/Ladder_Bunker_SPS_B.et" {
+   ID "6714BEBF990A2C13"
+   components {
+    LadderComponent "{588EECC514BB6DFC}" {
+     TopLeftPositionInfo LadderExitPointInfo Top_left {
+      FinalTransform PointInfo "{65FADE9D9727EB2F}" {
+       Offset -0.0949 0 -1.3847
+      }
+     }
+     TopRightPositionInfo LadderExitPointInfo Top_right {
+      FinalTransform PointInfo "{65FADE9CEA4E08A7}" {
+       Offset 0.2721 0 -1.2724
+      }
+     }
+    }
+    Hierarchy "{557E8CF8B87AB6F6}" {
+     PivotID "Socket_Bunker_SPS_covered_Ladder"
+    }
+   }
+  }
+  GenericEntity : "{E3AFEEF14876FBB9}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_SPS/DoorSet_Bunker_SPS_A_LEFT_EXT_B.et" {
+   ID "6714BEBF990A2C11"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "Socket_Bunker_SPS_covered_DoorFrame"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "61F47949157812D7"
+     components {
+      DoorComponent "{221C667A9F7D4B69}" {
+       AngleRange -82.5
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{F418FF0692B350B3}Prefabs/Structures/BuildingParts/Doors/Door_Bunker_SPS/Door_Bunker_SPS_Front_A_RIGHT_SPE_COV_B.et" {
+   {
+    ID "6714BEBF990A2C17"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "Socket_Bunker_SPS_covered_Windows_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6714BEBF990A944C"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "Socket_Bunker_SPS_covered_Windows_02"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6714BEBF990A944D"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "Socket_Bunker_SPS_covered_Windows_01"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "6714BEBF990ADBD0"
+    components {
+     Hierarchy "{7642683606C70747}" {
+      Enabled 1
+      PivotID "Socket_Bunker_SPS_covered_Windows_03"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{F888D38CA33F2694}Prefabs/Structures/BuildingParts/Eletrical/ElectricityBox_02.et" {
+   ID "6714BEBF990A944F"
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "Socket_Bunker_SPS_covered_ElectricityBox_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

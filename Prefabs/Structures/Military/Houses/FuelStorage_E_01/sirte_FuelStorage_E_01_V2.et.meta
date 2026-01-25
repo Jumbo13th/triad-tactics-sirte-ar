@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B476F96C72C0413D}Prefabs/Structures/Military/Houses/FuelStorage_E_01/sirte_FuelStorage_E_01_V2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{519AB996D7B6B910}Assets/Clutter/Procedural/no_sat_cp_grass_beach.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,14 @@
+GenericEntity : "{E8767F1EBB320F1F}Prefabs/Structures/BuildingParts/Mural/Murals_7x5_base.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  MeshObject "{5E047E6807CD4ED7}" {
+   Materials {
+    MaterialAssignClass "{67088691B922B2BF}" {
+     SourceMaterial "Murals_7Mx5"
+     AssignedMaterial "{3529A534DD8008DA}Assets/Structures/BuildingsParts/Mural/Data/Murals_RETEZ_MURAL.emat"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

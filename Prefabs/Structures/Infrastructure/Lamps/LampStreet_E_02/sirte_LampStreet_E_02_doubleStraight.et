@@ -1,0 +1,23 @@
+GenericEntity : "{3F3D50D5D02C93D4}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LampStreet_E_02_doubleStraight_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  $grp GameEntity : "{E58DA987A920AB40}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_glass_single.et" {
+   {
+    ID "66E97E83B4226C51"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      PivotID "Socket_doubleStraight_glass_02"
+     }
+    }
+   }
+   {
+    ID "66E97E83B4226C56"
+    components {
+     Hierarchy "{51C4DA20F011E284}" {
+      PivotID "Socket_doubleStraight_glass_01"
+     }
+    }
+   }
+  }
+ }
+}

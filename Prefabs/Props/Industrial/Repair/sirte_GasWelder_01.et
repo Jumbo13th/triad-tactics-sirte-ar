@@ -1,0 +1,57 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{79EE1F126728BF6C}Assets/Props/Industrial/Repair/GasWelder_01/GasWelder_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     DamageReduction 10
+     DamageThreshold 30
+    }
+   }
+   m_fBaseHealth 2000
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMaximum 20000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66EABCDEF2DE6F50}" {
+     m_ModelPrefabs {
+      "{70336C1F6BC235C0}Assets/Props/Industrial/Repair/GasWelder_01/dst/GasWelder_01_dst_01.xob" "{E92DD58676250450}Assets/Props/Industrial/Repair/GasWelder_01/dst/GasWelder_01_dst_02.xob" "{00FEFEC6F9E66073}Assets/Props/Industrial/Repair/GasWelder_01/dst/GasWelder_01_dst_07.xob"
+     }
+     m_fRandomVelocityLinear 3
+     m_eMaterialSoundType METAL_POLE
+    }
+    SCR_DebrisSpawnable "{66EABCDEF2DE6F58}" {
+     m_vOffsetPosition 0 1 0
+     m_ModelPrefabs {
+      "{0A04F02D30BA8459}Assets/Props/Debris/Metal/FragmentMechanical_dbr_03.xob" "{D9678156553F87C7}Assets/Props/Debris/Metal/FragmentMetal_dbr_02.xob" "{407938CF48D8B657}Assets/Props/Debris/Metal/FragmentMetal_dbr_01.xob" "{AE6DE9DEA19D68B7}Assets/Props/Debris/Metal/FragmentMetal_dbr_03.xob" "{0A04F02D30BA8459}Assets/Props/Debris/Metal/FragmentMechanical_dbr_03.xob" "{AE6DE9DEA19D68B7}Assets/Props/Debris/Metal/FragmentMetal_dbr_03.xob"
+     }
+     m_fMass 1
+     m_fRandomVelocityLinear 0.8
+     m_eMaterialSoundType METAL_POLE
+    }
+    SCR_DebrisSpawnable "{66EABCDEF2DE6F5B}" {
+     m_ModelPrefabs {
+      "{9E27BD0E8287EB20}Assets/Props/Industrial/Repair/GasWelder_01/dst/GasWelder_01_dst_03.xob" "{99E0475FE40151E3}Assets/Props/Industrial/Repair/GasWelder_01/dst/GasWelder_01_dst_04.xob" "{EEEA2FD710A3BE93}Assets/Props/Industrial/Repair/GasWelder_01/dst/GasWelder_01_dst_05.xob" "{77F4964E0D448F03}Assets/Props/Industrial/Repair/GasWelder_01/dst/GasWelder_01_dst_06.xob"
+     }
+     m_fMass 1
+     m_fRandomVelocityLinear 0.8
+     m_eMaterialSoundType METAL_LIGHT
+    }
+    SCR_ParticleSpawnable "{66EABCDEF2DE6F25}" {
+     m_Particle "{66DAEB775AA8CA4C}Particles/Props/Dest_Prop_Metal_Medium.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords -0.077 2.767 2.003
+}

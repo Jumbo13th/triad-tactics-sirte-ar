@@ -1,0 +1,51 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{054BC9F5E41C4D2C}Assets/Props/Furniture/Chair_03/Chair_03.xob"
+   Materials {
+    MaterialAssignClass "{66EEA8D3449D6D45}" {
+     SourceMaterial "Chair_03"
+     AssignedMaterial "{27C3512439A44CE9}Assets/Props/Furniture/Chair_03/Data/Chair_03_Grey.emat"
+    }
+    MaterialAssignClass "{66EEA8D3449D6D3D}" {
+     SourceMaterial "Color_Palette"
+     AssignedMaterial "{1BA99C79915AC7FC}Common/Materials/ColorPalette/Color_palette_01_GREY_21_S2_R2.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 3
+   LinearDamping 0.05
+   AngularDamping 0.05
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default : "{AF71026AA37B4DF3}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Metal_Light.conf" {
+    }
+   }
+   m_fBaseHealth 500
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5566A720D9D5813C}" : "{C2BD61C5E05B8971}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Metal_Light.conf" {
+     m_ModelPrefabs {
+      "{A53381FBD2C8E439}Assets/Props/Furniture/Chair_03/Dst/Chair_03_dst_01.xob" "{3C2D3862CF2FD5A9}Assets/Props/Furniture/Chair_03/Dst/Chair_03_dst_02.xob" "{4B2750EA3B8D3AD9}Assets/Props/Furniture/Chair_03/Dst/Chair_03_dst_03.xob"
+     }
+     m_fRandomVelocityLinear 0.6
+     m_eMaterialSoundType METAL_LIGHT
+    }
+    SCR_ParticleSpawnable "{66EEA8D3449D6D35}" {
+     m_Particle "{6A57903619B5C050}Particles/Props/Dest_Prop_Metal_Small.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+}

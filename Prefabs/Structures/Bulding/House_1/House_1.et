@@ -1,0 +1,273 @@
+SCR_DestructibleBuildingEntity {
+ ID "66F30022F5EF38BD"
+ components {
+  MeshObject "{66F30022F5EF389E}" {
+   Object "{6D33BB0969357113}Assets/Structures/Houses/House_1/house_1.xob"
+   Materials {
+    MaterialAssignClass "{66FCC230010087BE}" {
+     SourceMaterial "beton"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+    MaterialAssignClass "{66FCC2300100878D}" {
+     SourceMaterial "house_1_interiar"
+     AssignedMaterial "{9C9A0315F38DBC10}Assets/Structures/Houses/House_4/Data/house_4_interier.emat"
+    }
+    MaterialAssignClass "{66FCC23001008796}" {
+     SourceMaterial "house_1_window"
+     AssignedMaterial "{75387861351DB1DF}Assets/Structures/Houses/House_4/Data/house_4_window.emat"
+    }
+    MaterialAssignClass "{66FCC23001008793}" {
+     SourceMaterial "huose_1_podezd"
+     AssignedMaterial "{9C9A0315F38DBC10}Assets/Structures/Houses/House_4/Data/house_4_interier.emat"
+    }
+    MaterialAssignClass "{66FCC23001008791}" {
+     SourceMaterial "kirpich"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+   }
+  }
+  Occluder "{66F30022F5EF3F0D}" {
+  }
+  RigidBody "{66F30022F5EF3F0B}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{66F30022F5EF3F0A}" {
+   "Additional hit zones" {
+    SCR_HitZone Default {
+     ColliderNames {
+      "UTM_FireGeo"
+     }
+     HZDefault 1
+     MaxHealth 35000
+     DamageReduction 100
+     DamageThreshold 800
+     "Melee multiplier" 0
+     "Kinetic multiplier" 0.5
+     "Fragmentation multiplier" 0.1
+     "Explosive multiplier" 6
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_aEffects {
+    SCR_TimedParticle Particle_Dust_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FFE}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.2
+    }
+    SCR_TimedSound Sound_Bricks_01_Start {
+     m_fSpawnTime 0.001
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FFB}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedSound Sound_Bricks_01_End {
+     m_fSpawnTime 0.5
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FF8}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_END"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Brick_01_Start {
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE6}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+    }
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_fSpawnTime 0.1
+     m_sRuinsPrefab "{A9A765D60D3C6813}Prefabs/Structures/Bulding/House_1/House_1_ruins.et"
+    }
+    SCR_TimedSound Sounds_Bricks_01_PreStart {
+     m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FE3}" {
+      m_sSoundProject "{951A2351637B9445}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Generic.acp"
+      m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_PRESTART"
+      m_eFlags 25
+     }
+    }
+    SCR_TimedParticle Particle_Dust_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FE0}" {
+      m_Particle "{B0D882F853DE2783}Particles/Enviroment/Building_Explosion_Smoke.ptc"
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 0.45
+    }
+    SCR_TimedParticle Particle_Brick_01_Collapse {
+     m_fSpawnTime 0.001
+     m_bSnapToTerrain 1
+     m_Particle SCR_ParticleSpawnable "{66F30022F5EF3FEE}" {
+      m_Particle "{6D89EA548ABDDF25}Particles/Enviroment/Building_Explosion_Debris_Brick.ptc"
+      m_bAtCenter 0
+      m_bDirectional 0
+     }
+     m_fParticlesMultiplier 2
+    }
+   }
+   m_fDelay 2
+   m_fSinkingSpeed 0.3
+   m_fSinkingSpeedGradualMultiplier 500
+   m_fRotationSpeed 8
+   m_fRotationTime 50
+   m_vSinkVector 0 0 0
+   m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{66F30022F5EF3FEA}" {
+    m_sSoundProject "{53CB8C37D0722255}Sounds/Destruction/Buildings/Destruction_Buildings_Brick_Small.acp"
+    m_sSoundEventName "SOUND_BUILDING_DESTRUCTION_BOUNCE"
+    m_eFlags 25
+   }
+   m_CameraShakeCurve {
+    0 1 0.08 0.2 0.2 0.03 1 0.01
+   }
+   m_eAllowedRotations NONE
+  }
+  WorldSubsceneComponent "{66F30022F5EF3FAB}" {
+  }
+  RplComponent "{66F30022F5EF3F97}" {
+  }
+  Hierarchy "{66F30022F5EF3F94}" {
+  }
+ }
+ coords 99.809 1 142.535
+ {
+  $grp GenericEntity : "{2E31051ACA01F6C5}Prefabs/Structures/BuildingParts/Windows/Glass_GreenHouse_01/Glass_Door_Greenhouse_01_77x47.et" {
+   {
+    ID "66F30025DFF1DD65"
+    coords -5.097 2.46 -2.924
+    angles 0 90 0
+    scale 2
+   }
+   {
+    ID "66F3002A03E56319"
+    coords -5.092 8.388 -2.921
+    angles 0 90 0
+    scale 2
+   }
+   {
+    ID "66F3002A2ADBBD13"
+    coords -5.093 5.392 -2.931
+    angles 0 90 0
+    scale 2
+   }
+   {
+    ID "66F3002AFF1F67F3"
+    coords -5.091 11.362 -2.92
+    angles 0 90 0
+    scale 2
+   }
+  }
+  $grp GenericEntity : "{6B5A3E142DC6C485}Prefabs/Structures/BuildingParts/Doors/Door_Metal_02_LEFT_INT_COV_B_red.et" {
+   {
+    ID "66F30021AAEE9807"
+    coords 1.581 0.657 5.877
+    angles 0 90 0
+    scale 1.25
+   }
+   {
+    ID "671373111A29A896"
+    coords 3.361 12.5 1.074
+    scale 1.25
+   }
+  }
+  $grp GenericEntity : "{B4D245F0422A838E}Prefabs/Structures/Door/DoorSet_Cowshed_R_EXT_B_kunar.et" {
+   {
+    ID "671373100DAE0BA1"
+    coords 1.608 6.682 2.05
+    angles 0 90 0
+    scale 0.95
+   }
+   {
+    ID "6713731049DA9CCF"
+    coords 1.608 3.697 2.05
+    angles 0 90 0
+    scale 0.95
+   }
+   {
+    ID "6713731073E7945F"
+    coords 3.943 3.691 1.041
+    angles 0 0 0
+    scale 0.95
+   }
+   {
+    ID "67137310CD90B671"
+    coords 3.943 6.683 1.041
+    angles 0 0 0
+    scale 0.95
+   }
+   {
+    ID "67137310E67DAD86"
+    coords 1.608 9.679 2.05
+    angles 0 90 0
+    scale 0.95
+   }
+   {
+    ID "67137310FBEA41FF"
+    coords 3.943 9.683 1.041
+    angles 0 0 0
+    scale 0.95
+   }
+   {
+    ID "67137313D69CEE64"
+    coords 3.943 0.704 1.041
+    angles 0 0 0
+    scale 0.95
+   }
+   {
+    ID "6713731DECC27DF8"
+    coords 1.608 0.698 2.05
+    angles 0 90 0
+    scale 0.95
+   }
+  }
+  $grp GenericEntity : "{C7565CC91C6555C4}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_ST_M1.et" {
+   {
+    ID "66F3002513EAA480"
+    coords 0.905 0.7 -5.2
+   }
+   {
+    ID "66F300255A9CE0B3"
+    coords -4.983 0.729 1.736
+    angles 0 90 0
+   }
+   {
+    ID "66F3002A03E56315"
+    coords 0.91 6.628 -5.197
+   }
+   {
+    ID "66F3002A03E56341"
+    coords -4.978 6.657 1.739
+    angles 0 90 0
+   }
+   {
+    ID "66F3002A2ADBBE24"
+    coords -4.979 3.661 1.737
+    angles 0 90 0
+   }
+   {
+    ID "66F3002A2ADBBEED"
+    coords 0.909 3.632 -5.181
+   }
+   {
+    ID "66F3002AFF1F601F"
+    coords -4.977 9.631 1.74
+    angles 0 90 0
+   }
+   {
+    ID "66F3002AFF1F6704"
+    coords 0.911 9.602 -5.196
+   }
+  }
+ }
+}

@@ -1,0 +1,21 @@
+GenericEntity : "{14225F5BB48F0C00}Prefabs/Props/Construction/ContainerMetal_01/ContainerMetal_01_base.et" {
+ ID "521687062BFF487C"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{66F57D18909CB388}" {
+     SourceMaterial "MetalContainer_01_Base"
+     AssignedMaterial "{1103B1AE25D9D44F}Assets/Props/Construction/ContainerMetal_01/data/MetalContainer_01_Blue.emat"
+    }
+    MaterialAssignClass "{66F57D18909CB3C7}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{AEAC53D90B6510E0}Common/Materials/ColorPalette/Color_palette_01_AZURE_11_S2_R3.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+ }
+ coords 0 0 0
+}

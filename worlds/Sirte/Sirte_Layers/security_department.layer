@@ -1,0 +1,1119 @@
+SCR_DestructibleEntity {
+ coords 2195.886 5.525 3334.902
+ angles 0 180 0
+}
+$grp SplineShapeEntity {
+ {
+  coords 2137.315 5 3371.069
+  Points {
+   ShapePoint "{67069DA62D8C88E3}" {
+    Position -1.658 0 -18
+   }
+   ShapePoint "{67069DA650B43CD0}" {
+    Position -1.658 0 0
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0 0 0
+      OutTangent 0 0 0
+     }
+    }
+   }
+   ShapePoint "{67069DA650B7C09F}" {
+    Position 37.352 0 0
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0 0 0
+      OutTangent 0 0 0
+     }
+    }
+   }
+   ShapePoint "{67069DA8E8B34E0C}" {
+    Position 54.41 0 -9
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0 0 0
+      OutTangent 0 0 0
+     }
+    }
+   }
+   ShapePoint "{67069DA8F01F8EDB}" {
+    Position 67.104 0 -9
+   }
+   ShapePoint "{67069DA8D5B8064F}" {
+    Position 71.333 0 1.529
+   }
+   ShapePoint "{67069DA8A444526D}" {
+    Position 91.038 0 -7.97
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0 0 0
+      OutTangent 0 0 0
+     }
+    }
+   }
+   ShapePoint "{67069DA86AB87EEF}" {
+    Position 91.349 0 -34.669
+    Data {
+     SplinePointData SplinePointData {
+      InTangent 0 0 0
+      OutTangent 0 0 0
+     }
+    }
+   }
+   ShapePoint "{67069DA87D254173}" {
+    Position 30.995 0 -34.665
+   }
+  }
+  LineColor 0 0 0 0
+  {
+   WallGeneratorEntity : "{55A3B9EDA50846BB}PrefabLibrary/DefaultLibrary/Generators/Walls/Net/WG_NetFence_03.et" {
+    Flags 0x100003 0
+    m_iSeed 22943
+    {
+     $grp SCR_DestructibleEntity : "{168CE46092EAD301}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_4m.et" {
+      {
+       coords -1.658 0 -9.99
+       angles 0 270 0
+      }
+      {
+       coords -1.658 0 -5.98
+       angles 0 270 0
+      }
+      {
+       coords 6.106 0 0
+      }
+      {
+       coords 10.116 0 0
+      }
+      {
+       coords 14.126 0 0
+      }
+      {
+       coords 18.136 0 0
+      }
+      {
+       coords 22.146 0 0
+      }
+      {
+       coords 26.156 0 0
+      }
+      {
+       coords 30.166 0 0
+      }
+      {
+       coords 43.508 0 -3.248
+       angles 0 27.817 0
+      }
+      {
+       coords 47.055 0 -5.119
+       angles 0 27.817 0
+      }
+      {
+       coords 50.601 0 -6.99
+       angles 0 27.817 0
+      }
+      {
+       coords 62.106 0 -9.773
+       angles 0 354.88 0
+      }
+      {
+       coords 68.915 0 -1.916
+       angles 0 301.747 0
+      }
+      {
+       coords 78.617 0 -1.059
+       angles 0 27.193 0
+      }
+      {
+       coords 82.184 0 -2.891
+       angles 0 28.912 0
+      }
+      {
+       coords 85.694 0 -4.83
+       angles 0 30.176 0
+      }
+      {
+       coords 91.13 0 -15.885
+       angles 0 89.333 0
+      }
+      {
+       coords 91.177 0 -19.894
+       angles 0 89.333 0
+      }
+      {
+       coords 91.224 0 -23.904
+       angles 0 89.333 0
+      }
+      {
+       coords 91.271 0 -27.914
+       angles 0 89.333 0
+      }
+      {
+       coords 83.365 0 -34.669
+       angles 0 180.004 0
+      }
+      {
+       coords 79.354 0 -34.669
+       angles 0 180.004 0
+      }
+      {
+       coords 75.344 0 -34.668
+       angles 0 180.004 0
+      }
+      {
+       coords 63.315 0 -34.667
+       angles 0 180.004 0
+      }
+      {
+       coords 59.305 0 -34.667
+       angles 0 180.004 0
+      }
+      {
+       coords 55.295 0 -34.667
+       angles 0 180.004 0
+      }
+      {
+       coords 51.285 0 -34.667
+       angles 0 180.004 0
+      }
+      {
+       coords 47.275 0 -34.667
+       angles 0 180.004 0
+      }
+      {
+       coords 43.265 0 -34.666
+       angles 0 180.004 0
+      }
+      {
+       coords 39.255 0 -34.666
+       angles 0 180.004 0
+      }
+      {
+       coords 35.245 0 -34.666
+       angles 0 180.004 0
+      }
+     }
+     SCR_DestructibleEntity : "{25E7C831EF87A0E1}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_Pole.et" {
+      coords 31.235 0 -34.665
+      angles 0 180.004 0
+     }
+     $grp SCR_DestructibleEntity : "{664176B900CE86B2}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_2m.et" {
+      {
+       coords 34.176 0 0
+      }
+      {
+       coords 89.161 0 -6.845
+       angles 0 30.921 0
+      }
+      {
+       coords 91.317 0 -31.924
+       angles 0 89.333 0
+      }
+     }
+     $grp SCR_DestructibleEntity : "{F717C1D3B6A27867}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_03_8m.et" {
+      {
+       coords -1.658 0 -18
+       angles 0 270 0
+      }
+      {
+       coords -1.658 0 -1.97
+       angles 0 345.762 0
+      }
+      {
+       coords 36.186 0 0
+       angles 0 23.923 0
+      }
+      {
+       coords 54.148 0 -8.862
+       angles 0 6.53 0
+      }
+      {
+       coords 66.1 0 -9.415
+       angles 0 290.576 0
+      }
+      {
+       coords 71.025 0 1.494
+       angles 0 18.584 0
+      }
+      {
+       coords 90.885 0 -7.878
+       angles 0 88.246 0
+      }
+      {
+       coords 91.341 0 -33.933
+       angles 0 174.731 0
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2141.207 5 3363.46
+  Points {
+   ShapePoint "{67069DAAC1608992}" {
+    Position 0 0 -2.189
+   }
+   ShapePoint "{67069DAAC16086B8}" {
+    Position 10.372 0 -2.189
+   }
+  }
+  {
+   RoadGeneratorEntity : "{FBD760529B765632}PrefabLibrary/DefaultLibrary/Generators/Decals/ConcretePanels/RG_ConcretePanelRow_01_A.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "5502CE41AA4A5D23"
+      SplinePoints {
+       ShapePoint "{5502CE416AEF8906}" {
+        Position 0 0 -2.189
+       }
+       ShapePoint "{5502CE416AEF8DAC}" {
+        Position 10.372 0 -2.189
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2141.207 5 3363.46
+  Points {
+   ShapePoint "{67069DAA9AAAE26D}" {
+    Position 0 0 1.719
+   }
+   ShapePoint "{67069DAA9AAAD26A}" {
+    Position 10.372 0 1.719
+   }
+  }
+  {
+   RoadGeneratorEntity : "{FBD760529B765632}PrefabLibrary/DefaultLibrary/Generators/Decals/ConcretePanels/RG_ConcretePanelRow_01_A.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "5502CE41AA4A5D23"
+      SplinePoints {
+       ShapePoint "{5502CE416AEF8906}" {
+        Position 0 0 1.719
+       }
+       ShapePoint "{5502CE416AEF8DAC}" {
+        Position 10.372 0 1.719
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2141.207 5 3363.46
+  Points {
+   ShapePoint "{67069DAA770FB7FF}" {
+    Position 0 0 5.644
+   }
+   ShapePoint "{67069DAA770FA477}" {
+    Position 10.372 0 5.644
+   }
+  }
+  {
+   RoadGeneratorEntity : "{FBD760529B765632}PrefabLibrary/DefaultLibrary/Generators/Decals/ConcretePanels/RG_ConcretePanelRow_01_A.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "5502CE41AA4A5D23"
+      SplinePoints {
+       ShapePoint "{5502CE416AEF8906}" {
+        Position 0 0 5.644
+       }
+       ShapePoint "{5502CE416AEF8DAC}" {
+        Position 10.372 0 5.644
+       }
+      }
+      IsClosedSpline 0
+      Width 4
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2172.813 5 3348.597
+  Points {
+   ShapePoint "{67069DB756DC5BEA}" {
+    Position 0 0 1.412
+   }
+   ShapePoint "{67069DB756DC741C}" {
+    Position 22.451 0 1.412
+   }
+  }
+  {
+   RoadGeneratorEntity : "{CDB4B4E4750F3EAE}PrefabLibrary/DefaultLibrary/Generators/Decals/Runway/RG_Runway_Line20_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "56A8C9FA030E307C"
+      SplinePoints {
+       ShapePoint "{56A8C9FA35C571F9}" {
+        Position 0 0 1.412
+       }
+       ShapePoint "{56A8C9FA35C57048}" {
+        Position 22.451 0 1.412
+       }
+      }
+      IsClosedSpline 0
+      Width 0.3
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2172.813 5 3348.597
+  Points {
+   ShapePoint "{67069DB73BDA2CAE}" {
+    Position 0 0 8.394
+   }
+   ShapePoint "{67069DB73BDA3EC0}" {
+    Position 22.451 0 8.394
+   }
+  }
+  {
+   RoadGeneratorEntity : "{CDB4B4E4750F3EAE}PrefabLibrary/DefaultLibrary/Generators/Decals/Runway/RG_Runway_Line20_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "56A8C9FA030E307C"
+      SplinePoints {
+       ShapePoint "{56A8C9FA35C571F9}" {
+        Position 0 0 8.394
+       }
+       ShapePoint "{56A8C9FA35C57048}" {
+        Position 22.451 0 8.394
+       }
+      }
+      IsClosedSpline 0
+      Width 0.3
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2192.782 5 3347.89
+  Points {
+   ShapePoint "{67069DB707245D3F}" {
+    Position 0 0 -0.183
+   }
+   ShapePoint "{67069DB707244880}" {
+    Position 0 0 11.391
+   }
+  }
+  {
+   RoadGeneratorEntity : "{CDB4B4E4750F3EAE}PrefabLibrary/DefaultLibrary/Generators/Decals/Runway/RG_Runway_Line20_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "56A8C9FA030E307C"
+      SplinePoints {
+       ShapePoint "{56A8C9FA35C571F9}" {
+        Position 0 0 -0.183
+       }
+       ShapePoint "{56A8C9FA35C57048}" {
+        Position 0 0 11.391
+       }
+      }
+      IsClosedSpline 0
+      Width 0.3
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 2192.782 5 3347.89
+  Points {
+   ShapePoint "{67069DB7145F5501}" {
+    Position -17.358 0 -0.183
+   }
+   ShapePoint "{67069DB7145F2524}" {
+    Position -17.358 0 11.391
+   }
+  }
+  {
+   RoadGeneratorEntity : "{CDB4B4E4750F3EAE}PrefabLibrary/DefaultLibrary/Generators/Decals/Runway/RG_Runway_Line20_01.et" {
+    coords 0 0 0
+    {
+     RoadEntity {
+      ID "56A8C9FA030E307C"
+      SplinePoints {
+       ShapePoint "{56A8C9FA35C571F9}" {
+        Position -17.358 0 -0.183
+       }
+       ShapePoint "{56A8C9FA35C57048}" {
+        Position -17.358 0 11.391
+       }
+      }
+      IsClosedSpline 0
+      Width 0.3
+     }
+    }
+   }
+  }
+ }
+}
+StaticModelEntity : "{07F043DD6AACCD0B}Prefabs/Structures/Infrastructure/Barriers/BarGate_01/BarGate_01.et" {
+ coords 2204.414 0 3337.461
+ angles 0 -180 0
+}
+GenericEntity : "{3C6BB16AD248234A}Prefabs/Structures/BuildingParts/Signs/SignWall/sirte_Gaddafi_1.et" {
+ components {
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   EnableDamage 0
+  }
+ }
+ coords 2169.314 7.584 3349.677
+ angles 0 90 0
+ scale 5.123
+}
+$grp SCR_DestructibleEntity : "{56F6F5C13ED7431A}Prefabs/Structures/Walls/Net/NetFence_03/NetFence_03_Pole.et" {
+ {
+  coords 2152.833 0 3353.025
+  angles 0 -180 0
+ }
+ {
+  coords 2168.547 0 3344.423
+  angles 0 -90 0
+ }
+ {
+  coords 2208.653 0 3336.359
+  angles 0 180 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{64FAC77ECB9793CE}Prefabs/Structures/Industrial/Houses/Office_E_01/Office_E_01_tutorial.et" {
+ coords 2218.639 0 3353.965
+ angles 0 90 0
+}
+SCR_DestructibleEntity : "{7B75DBCC0EDB5EE3}Prefabs/Structures/Walls/Net/NetFence_03/NetFence_03_8m.et" {
+ coords 2168.637 -0.456 3336.452
+ angles 0 -90 0
+}
+StaticModelEntity : "{82CCE96E35DC6A6E}Prefabs/Structures/Military/Antennas/Antenna_BARS_01/Antenna_BARS_01_transmitter.et" {
+ coords 2146.212 0 3365.201
+}
+$grp StaticModelEntity : "{84CB4C5EC2DAFE91}PrefabLibrary/DefaultLibrary/Infrastructure/Roads/ConcreteKerb_01_2m_v2.et" {
+ {
+  coords 2165.458 0 3342.481
+  angles 0 -90.207 0
+ }
+ {
+  coords 2165.48 0 3336.611
+  angles 0 -90.207 0
+ }
+ {
+  coords 2165.473 0 3338.578
+  angles 0 -90.207 0
+ }
+ {
+  coords 2165.465 0 3340.505
+  angles 0 -90.207 0
+ }
+ {
+  coords 2165.485 0 3334.659
+  angles 0 -90.207 0
+ }
+ {
+  coords 2139.826 0 3348.987
+  angles 0 179.781 0
+ }
+ {
+  coords 2135.938 0 3348.971
+  angles 0 179.781 0
+ }
+ {
+  coords 2137.896 0 3348.979
+  angles 0 179.781 0
+ }
+ {
+  coords 2169.583 0 3337.634
+  angles 0 -90.207 0
+ }
+ {
+  coords 2169.556 0 3345.456
+  angles 0 -90.207 0
+ }
+ {
+  coords 2169.563 0 3343.48
+  angles 0 -90.207 0
+ }
+ {
+  coords 2169.571 0 3341.553
+  angles 0 -90.207 0
+ }
+ {
+  coords 2169.578 0 3339.587
+  angles 0 -90.207 0
+ }
+ {
+  coords 2179.341 0 3337.716
+  angles 0 179.793 0
+ }
+ {
+  coords 2171.519 0 3337.689
+  angles 0 179.793 0
+ }
+ {
+  coords 2173.495 0 3337.696
+  angles 0 179.793 0
+ }
+ {
+  coords 2175.422 0 3337.704
+  angles 0 179.793 0
+ }
+ {
+  coords 2177.389 0 3337.711
+  angles 0 179.793 0
+ }
+ {
+  coords 2189.082 0 3337.748
+  angles 0 179.793 0
+ }
+ {
+  coords 2181.26 0 3337.721
+  angles 0 179.793 0
+ }
+ {
+  coords 2183.236 0 3337.728
+  angles 0 179.793 0
+ }
+ {
+  coords 2185.163 0 3337.736
+  angles 0 179.793 0
+ }
+ {
+  coords 2187.13 0 3337.743
+  angles 0 179.793 0
+ }
+ {
+  coords 2198.705 0 3337.782
+  angles 0 179.793 0
+ }
+ {
+  coords 2190.883 0 3337.755
+  angles 0 179.793 0
+ }
+ {
+  coords 2192.859 0 3337.762
+  angles 0 179.793 0
+ }
+ {
+  coords 2194.786 0 3337.77
+  angles 0 179.793 0
+ }
+ {
+  coords 2196.753 0 3337.777
+  angles 0 179.793 0
+ }
+ {
+  coords 2169.532 0 3355.068
+  angles 0 -90.207 0
+ }
+ {
+  coords 2169.56 0 3347.246
+  angles 0 -90.207 0
+ }
+ {
+  coords 2169.554 0 3349.199
+  angles 0 -90.207 0
+ }
+ {
+  coords 2169.548 0 3351.165
+  angles 0 -90.207 0
+ }
+ {
+  coords 2169.54 0 3353.092
+  angles 0 -90.207 0
+ }
+ {
+  coords 2218.624 0 3337.81
+  angles 0 179.793 0
+ }
+ {
+  coords 2210.927 0 3337.785
+  angles 0 179.793 0
+ }
+ {
+  coords 2212.895 0 3337.791
+  angles 0 179.793 0
+ }
+ {
+  coords 2220.551 0 3337.818
+  angles 0 179.793 0
+ }
+ {
+  coords 2222.517 0 3337.826
+  angles 0 179.793 0
+ }
+ {
+  coords 2214.845 0 3337.797
+  angles 0 179.793 0
+ }
+ {
+  coords 2224.469 0 3337.83
+  angles 0 179.793 0
+ }
+ {
+  coords 2216.647 0 3337.803
+  angles 0 179.793 0
+ }
+ {
+  coords 2226.089 0 3337.833
+  angles 0 179.793 0
+ }
+ {
+  coords 2227.24 0 3337.84
+  angles 0 179.793 0
+ }
+ {
+  coords 2227.169 0 3347.467
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.194 0 3339.77
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.188 0 3341.738
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.161 0 3349.394
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.153 0 3351.36
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.182 0 3343.688
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.149 0 3353.312
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.176 0 3345.49
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.122 0 3362.934
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.147 0 3355.237
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.141 0 3357.205
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.135 0 3359.155
+  angles 0 89.793 0
+ }
+ {
+  coords 2227.129 0 3360.957
+  angles 0 89.793 0
+ }
+ {
+  coords 2221.817 0 3365.331
+  angles 0 -155.375 0
+ }
+ {
+  coords 2214.823 0 3368.54
+  angles 0 -155.375 0
+ }
+ {
+  coords 2216.611 0 3367.72
+  angles 0 -155.375 0
+ }
+ {
+  coords 2223.572 0 3364.53
+  angles 0 -155.375 0
+ }
+ {
+  coords 2225.357 0 3363.711
+  angles 0 -155.375 0
+ }
+ {
+  coords 2218.383 0 3366.907
+  angles 0 -155.375 0
+ }
+ {
+  coords 2227.132 0 3362.895
+  angles 0 -155.375 0
+ }
+ {
+  coords 2220.021 0 3366.155
+  angles 0 -155.375 0
+ }
+ {
+  coords 2209.36 0 3364.843
+  angles 0 129.31 0
+ }
+ {
+  coords 2205.729 0 3360.412
+  angles 0 129.31 0
+ }
+ {
+  coords 2210.58 0 3366.335
+  angles 0 129.31 0
+ }
+ {
+  coords 2211.824 0 3367.857
+  angles 0 129.31 0
+ }
+ {
+  coords 2206.965 0 3361.92
+  angles 0 129.31 0
+ }
+ {
+  coords 2213.063 0 3369.365
+  angles 0 129.31 0
+ }
+ {
+  coords 2208.106 0 3363.314
+  angles 0 129.31 0
+ }
+ {
+  coords 2198.67 0 3358.88
+  angles 0 179.793 0
+ }
+ {
+  coords 2200.597 0 3358.888
+  angles 0 179.793 0
+ }
+ {
+  coords 2202.564 0 3358.896
+  angles 0 179.793 0
+ }
+ {
+  coords 2194.891 0 3358.867
+  angles 0 179.793 0
+ }
+ {
+  coords 2204.515 0 3358.9
+  angles 0 179.793 0
+ }
+ {
+  coords 2196.693 0 3358.873
+  angles 0 179.793 0
+ }
+ {
+  coords 2187.718 0 3361.516
+  angles 0 -152.945 0
+ }
+ {
+  coords 2180.865 0 3365.019
+  angles 0 -152.945 0
+ }
+ {
+  coords 2182.617 0 3364.123
+  angles 0 -152.945 0
+ }
+ {
+  coords 2189.435 0 3360.64
+  angles 0 -152.945 0
+ }
+ {
+  coords 2191.186 0 3359.746
+  angles 0 -152.945 0
+ }
+ {
+  coords 2184.353 0 3363.235
+  angles 0 -152.945 0
+ }
+ {
+  coords 2192.923 0 3358.855
+  angles 0 -152.945 0
+ }
+ {
+  coords 2185.957 0 3362.415
+  angles 0 -152.945 0
+ }
+ {
+  coords 2173.869 0 3368.454
+  angles 0 -154.069 0
+ }
+ {
+  coords 2175.603 0 3367.613
+  angles 0 -154.069 0
+ }
+ {
+  coords 2177.371 0 3366.753
+  angles 0 -154.069 0
+ }
+ {
+  coords 2179.126 0 3365.898
+  angles 0 -154.069 0
+ }
+ {
+  coords 2166.257 0 3369.307
+  angles 0 179.793 0
+ }
+ {
+  coords 2158.56 0 3369.282
+  angles 0 179.793 0
+ }
+ {
+  coords 2160.528 0 3369.287
+  angles 0 179.793 0
+ }
+ {
+  coords 2168.184 0 3369.315
+  angles 0 179.793 0
+ }
+ {
+  coords 2170.151 0 3369.323
+  angles 0 179.793 0
+ }
+ {
+  coords 2162.478 0 3369.294
+  angles 0 179.793 0
+ }
+ {
+  coords 2172.102 0 3369.327
+  angles 0 179.793 0
+ }
+ {
+  coords 2164.28 0 3369.3
+  angles 0 179.793 0
+ }
+ {
+  coords 2154.726 0 3369.266
+  angles 0 179.793 0
+ }
+ {
+  coords 2156.677 0 3369.27
+  angles 0 179.793 0
+ }
+ {
+  coords 2136.769 0 3359.304
+  angles 0 -90.207 0
+ }
+ {
+  coords 2136.744 0 3367.001
+  angles 0 -90.207 0
+ }
+ {
+  coords 2136.75 0 3365.033
+  angles 0 -90.207 0
+ }
+ {
+  coords 2136.778 0 3357.377
+  angles 0 -90.207 0
+ }
+ {
+  coords 2136.785 0 3355.411
+  angles 0 -90.207 0
+ }
+ {
+  coords 2136.757 0 3363.083
+  angles 0 -90.207 0
+ }
+ {
+  coords 2136.79 0 3353.458
+  angles 0 -90.207 0
+ }
+ {
+  coords 2136.762 0 3361.281
+  angles 0 -90.207 0
+ }
+ {
+  coords 2136.683 0 3368.976
+  angles 0 -0.207 0
+ }
+ {
+  coords 2140.616 0 3368.991
+  angles 0 179.793 0
+ }
+ {
+  coords 2138.688 0 3353.5
+  angles 0 -0.207 0
+ }
+ {
+  coords 2136.735 0 3353.495
+  angles 0 -0.207 0
+ }
+ {
+  coords 2156.274 0 3349.411
+  angles 0 179.781 0
+ }
+ {
+  coords 2154.588 0 3349.395
+  angles 0 179.781 0
+ }
+ {
+  coords 2157.033 0 3349.415
+  angles 0 179.781 0
+ }
+ {
+  coords 2167.665 0 3357.07
+  angles 0 179.793 0
+ }
+ {
+  coords 2169.592 0 3357.078
+  angles 0 179.793 0
+ }
+ {
+  coords 2156.405 0 3356.681
+  angles 0 179.793 0
+ }
+ {
+  coords 2154.429 0 3356.673
+  angles 0 179.793 0
+ }
+ {
+  coords 2158.332 0 3356.689
+  angles 0 179.793 0
+ }
+}
+$grp SCR_DestructibleEntity : "{9AEEFE7F2A93F585}Prefabs/Structures/Walls/Net/NetFence_03/NetFence_03_4m.et" {
+ {
+  coords 2139.698 0 3353.145
+  angles 0 180 0
+ }
+ {
+  coords 2156.825 0 3353.024
+  angles 0 180 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{B476F96C72C0413D}Prefabs/Structures/Military/Houses/FuelStorage_E_01/sirte_FuelStorage_E_01_V2.et" {
+ {
+  coords 2176.143 0 3341.697
+ }
+ {
+  coords 2189.663 0 3341.697
+ }
+}
+GenericEntity : "{B5321E154790C5B9}Prefabs/Structures/BuildingParts/Signs/SignWall/sirte_SecurityDepartment.et" {
+ coords 2195.877 7.526 3334.896
+ angles 0 180 0
+ scale 3.852
+}
+SCR_DestructibleBuildingEntity : "{B96C06BCDEC3C62A}Prefabs/Structures/Military/Houses/GuardHouse_02/sirte_GuardHouse_02.et" {
+ components {
+  SCR_DestructibleBuildingComponent "{5D7E937D7EAFF090}" {
+   EnableDamage 0
+  }
+ }
+ coords 2163.448 0 3350.877
+}
+SCR_DestructibleBuildingEntity : "{C9E444EDD0C2D295}Prefabs/Structures/Military/Houses/SmokingShed_USSR_01/sirte_SmokingShed_E_01_gray.et" {
+ coords 2162.148 0 3366.787
+ angles 0 180 0
+}
+SCR_DestructibleBuildingEntity : "{D4D48F725A0A08C5}Prefabs/Structures/Military/Houses/ShedMilitary_01/sirte_ShedMilitary_E_01.et" {
+ coords 2153.76 0 3364.967
+ angles 0 90 0
+}
+SCR_DestructibleBuildingEntity : "{D6773EF393AC1F0A}Prefabs/Structures/Military/Houses/ControlTowerMilitary_E_02/sirte_ControlTowerMilitary_E_02.et" {
+ coords 2214.491 0 3340.62
+ angles 0 -90 0
+}
+$grp DecalEntity : "{E4A4110F56DDF920}PrefabLibrary/DefaultLibrary/Decals/Asphalt/Decal_Asphalt_Crossroad_01.et" {
+ {
+  coords 2205.392 0 3333.966
+  angles -90 -90.008 -92.059
+  scale 3.5
+ }
+ {
+  coords 2210.474 0 3334.208
+  angles -89.98 89.993 87.942
+  scale 3.5
+ }
+ {
+  coords 2198.45 0 3333.758
+  angles -90 -90.008 -92.059
+  scale 3.5
+ }
+ {
+  coords 2203.532 0 3334
+  angles -89.98 89.993 87.942
+  scale 3.5
+ }
+ {
+  coords 2160.049 0 3333.997
+  angles -90 -90.008 -92.059
+  scale 3.5
+ }
+ {
+  coords 2165.131 0 3334.239
+  angles -89.98 89.993 87.942
+  scale 3.5
+ }
+ {
+  coords 2150.129 0 3333.959
+  angles -90 -90.008 -92.059
+  scale 3.5
+ }
+ {
+  coords 2155.211 0 3334.201
+  angles -89.98 89.993 87.942
+  scale 3.5
+ }
+ {
+  coords 2142.247 0 3334.181
+  angles -90 -90.008 -92.059
+  scale 3.5
+ }
+ {
+  coords 2147.329 0 3334.423
+  angles -89.98 89.993 87.942
+  scale 3.5
+ }
+ {
+  coords 2134.74 0 3333.825
+  angles -90 -90.008 -92.059
+  scale 3.5
+ }
+ {
+  coords 2139.822 0 3334.067
+  angles -89.98 89.993 87.942
+  scale 3.5
+ }
+ {
+  coords 2133.422 0 3341.865
+  angles -90 89.992 176.255
+  scale 3.5
+ }
+ {
+  coords 2133.813 0 3336.792
+  angles -89.98 178.3 87.949
+  scale 3.5
+ }
+ {
+  coords 2133.381 0 3348.771
+  angles -90 89.992 -179.676
+  scale 3.5
+ }
+ {
+  coords 2133.412 0 3343.683
+  angles -89.972 -177.631 87.949
+  scale 3.5
+ }
+}
+SCR_DestructibleBuildingEntity : "{E4AA68C78F958F73}Prefabs/Structures/Bulding/HouseC/sirte_House_C_4_Police.et" {
+ coords 2144.927 5 3353.428
+ {
+  GenericEntity {
+   ID "67069DA68F5BA8A0"
+   coords -3.625 2.038 -5.266
+  }
+ }
+}

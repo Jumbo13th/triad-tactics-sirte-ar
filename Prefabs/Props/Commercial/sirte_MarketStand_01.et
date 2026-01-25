@@ -1,0 +1,96 @@
+SCR_DestructibleEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{8AEBC3FDF26E9C07}Assets/Props/Commercial/MarketStand_01/MarketStand_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 20
+   ResponseIndex "SmallDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 0
+   m_fBaseHealth 1000
+   m_fForceToDamageScale 350
+   m_fDamageThresholdMaximum 20000
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66EEA8D1E24B6075}" {
+     m_ModelPrefabs {
+      "{41B7DD05CF848F15}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_05.xob" "{D8A9649CD263BE85}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_06.xob"
+     }
+     m_fRandomVelocityLinear 2
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+    }
+    SCR_DebrisSpawnable "{66EEA8D1E24B6068}" {
+     m_ModelPrefabs {
+      "{DF6E9ECDB4E50446}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_01.xob" "{46702754A90235D6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_02.xob" "{317A4FDC5DA0DAA6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_03.xob" "{36BDB58D3B266065}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_04.xob" "{AFA30C1426C151F5}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_07.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+    }
+    SCR_ParticleSpawnable "{66EEA8D1E24B606A}" {
+     m_vOffsetPosition 0 0.5 0
+     m_Particle "{63D673751320F318}Particles/Props/Dest_Prop_Wood_Medium.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+ MaxHealth 1000
+ "Explosive multiplier" 90
+ FirstDestructionPhase SCR_BaseDestructionPhase "{66EEA8D1E24B6060}" {
+  m_sPhaseModel "{8AEBC3FDF26E9C07}Assets/Props/Commercial/MarketStand_01/MarketStand_01.xob"
+ }
+ LastDestructionPhase SCR_BaseDestructionPhase "{66EEA8D1E24B6063}" {
+  Threshold 0
+  m_aPhaseDestroySpawnObjects {
+   SCR_DebrisSpawnable "{66EEA8D1E24B6062}" {
+    m_vOffsetPosition 0 0 0
+    m_vOffsetRotation 0 0 0
+    m_ModelPrefabs {
+     "{41B7DD05CF848F15}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_05.xob" "{D8A9649CD263BE85}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_06.xob"
+    }
+    m_fMass 10
+    m_fLifetimeMin 5
+    m_fLifetimeMax 10
+    m_fDistanceMax 200
+    m_fPriority 0
+    m_fDamageToImpulse 0.1
+    m_fMaxDamageToSpeedMultiplier 2
+    m_fRandomVelocityLinear 2
+    m_fRandomVelocityAngular 180
+    m_eMaterialSoundType WOOD_PLANK_LARGE
+   }
+   SCR_DebrisSpawnable "{66EEA8D1E24B6064}" {
+    m_vOffsetPosition 0 0 0
+    m_vOffsetRotation 0 0 0
+    m_ModelPrefabs {
+     "{DF6E9ECDB4E50446}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_01.xob" "{46702754A90235D6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_02.xob" "{317A4FDC5DA0DAA6}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_03.xob" "{36BDB58D3B266065}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_04.xob" "{AFA30C1426C151F5}Assets/Props/Commercial/MarketStand_01/Dst/MarketStand_01_Dst_07.xob"
+    }
+    m_fMass 10
+    m_fLifetimeMin 5
+    m_fLifetimeMax 10
+    m_fDistanceMax 200
+    m_fPriority 0
+    m_fDamageToImpulse 0.1
+    m_fMaxDamageToSpeedMultiplier 2
+    m_fRandomVelocityLinear 0.5
+    m_fRandomVelocityAngular 180
+    m_eMaterialSoundType WOOD_PLANK_LARGE
+   }
+   SCR_ParticleSpawnable "{66EEA8D1E24B6067}" {
+    m_vOffsetPosition 0 0.5 0
+    m_vOffsetRotation 0 0 0
+    m_Particle "{63D673751320F318}Particles/Props/Dest_Prop_Wood_Medium.ptc"
+    m_bAtCenter 1
+    m_bDirectional 1
+   }
+  }
+ }
+ m_eMaterialSoundType BREAK_WOOD_SOLID
+}

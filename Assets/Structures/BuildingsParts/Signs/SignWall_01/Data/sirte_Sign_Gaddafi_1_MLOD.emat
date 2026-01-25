@@ -1,0 +1,6 @@
+MatPBRBasic {
+ RoughnessScale 0.634
+ MetalnessScale 0
+ BCRMap "{B2ACB8AA551A13BA}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/gaddafi_texture_BCR.edds"
+ NMOMap "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+}

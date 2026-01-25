@@ -1,0 +1,16 @@
+StaticModelEntity : "{D93A7286584E122C}Prefabs/Props/Construction/GravelPile_01/GravelPile_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{1D309C35F90BE925}Assets/Props/Construction/GravelPile_01/GravelPile_01_large.xob"
+   LODFactors {
+    50 80 1.5 1 1 1
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+ }
+ coords 4.142 4.76 2.987
+ scale 0.987
+}

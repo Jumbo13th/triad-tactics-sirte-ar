@@ -1,0 +1,9 @@
+MatPBRMulti {
+ Color 0.733 0.733 0.733 1
+ SpecularMul 0
+ MetalnessScale 0
+ VFXMap "{0406C56753CE290C}Assets/Structures/Houses/House_4/Data/Experimental/Final/wall_VFX.edds"
+ NormalPower 1.459
+ BCR_1 "{8A606A37479694A8}Assets/Structures/Houses/House_4/Data/Experimental/Final/interior_BCR.edds"
+ NMO_1 "{32A9EBD3E356DB94}Assets/Structures/Houses/House_4/Data/Experimental/Final/interior_N.edds"
+}

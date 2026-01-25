@@ -1,0 +1,33 @@
+GenericEntity : "{2A0C495C5BB7E833}Prefabs/Props/Commercial/ScaleShop_01/ScaleShop_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0DB551192790257B}Assets/Props/Commercial/ScaleShop_01/ScaleShop_01.xob"
+   Materials {
+    MaterialAssignClass "{66EEA8D3CED7862A}" {
+     SourceMaterial "ShopScale_01"
+     AssignedMaterial "{26C0867C2057B5BB}Assets/Props/Commercial/ScaleShop_01/data/ShopScale_01_Green.emat"
+    }
+    MaterialAssignClass "{66EEA8D3CED78620}" {
+     SourceMaterial "Color_palette_01"
+     AssignedMaterial "{367345D47CCEB538}Common/Materials/ColorPalette/Color_palette_01_SKY_12_S2_R2.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "MediumDestructible"
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_fBaseHealth 800
+   m_DestroySpawnObjects {
+    SCR_PrefabSpawnable "{52E49E2DD33E0904}" {
+     m_Prefabs {
+      "{AECFECB217C615F7}Prefabs/Props/Commercial/ScaleShop_01/Dst/ScaleShop_01_dst_green.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

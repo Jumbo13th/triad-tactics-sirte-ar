@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{888F1B4A2F980E7C}Assets/Structures/Houses/House_4/Data/house_4_podezd.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

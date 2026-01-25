@@ -1,0 +1,240 @@
+$grp GenericEntity {
+ Second_District {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Second District"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Second District"
+    MainType "Name Local"
+   }
+  }
+  coords 1811.802 5 3820.813
+ }
+ First_District {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "First District"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "First District"
+    MainType "Name Local"
+   }
+  }
+  coords 2158.302 5 3820.813
+ }
+ City_Park {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "City Park"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "City Park"
+    MainType "Name Local"
+   }
+  }
+  coords 2003.843 8.375 3413.068
+ }
+ Al_Dollar {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Al-Dollar"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Al-Dollar"
+    MainType "Name Local"
+   }
+  }
+  coords 1918.349 5.242 3290.654
+ }
+ Sabkha {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Sabkha"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Sabkha"
+    MainType "Name Local"
+   }
+  }
+  coords 1951.638 10.65 3565.043
+ }
+ Al_Shabiyah {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Al-Shabiyah"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Al-Shabiyah"
+    MainType "Name Local"
+   }
+  }
+  coords 2128.991 5 3290.654
+ }
+ Third_District {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Third District"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Third District"
+    MainType "Name Local"
+   }
+  }
+  coords 2474.918 5 3538.007
+ }
+ Green_Square {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Green Square"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Green Square"
+    MainType "Name Local"
+   }
+  }
+  coords 2406.97 18.736 3646.471
+ }
+ Sirte_Stadium {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Sirte Stadium"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Sirte Stadium"
+    MainType "Name Local"
+   }
+  }
+  coords 2477.058 5 3271.982
+ }
+ Al_Zaafran {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Al-Zaafran"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Al-Zaafran"
+    MainType "Name Local"
+   }
+  }
+  coords 1303.251 5 3843.743
+ }
+ Estirahat_Siyahaya {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Estirahat Siyahaya"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Estirahat Siyahaya"
+    MainType "Name Local"
+   }
+  }
+  coords 3072.1 5 3892.015
+ }
+ Sirte_Radio {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Sirte Radio"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Sirte Radio"
+    MainType "Name Local"
+   }
+  }
+  coords 2300.017 5 3205.851
+ }
+ Ammunition_Depot {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Ammunition Depot"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Ammunition Depot"
+    MainType "Name Local"
+   }
+  }
+  coords 1645.25 5 2222.273
+ }
+ Security_Department {
+  components {
+   SCR_EditableCommentComponent "{67130DC549203095}" {
+    m_EntityType COMMENT
+    m_UIInfo SCR_EditableCommentUIInfo "{67130DC4914761B3}" {
+     Name "Security Department"
+    }
+    m_bAutoRegister ALWAYS
+    m_Flags 6168
+   }
+   SCR_MapDescriptorComponent "{67130DC54F7A90DE}" {
+    DisplayName "Security Department"
+    MainType "Name Local"
+   }
+  }
+  coords 2148.056 5 3365.289
+ }
+}

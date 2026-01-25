@@ -1,0 +1,9 @@
+SCR_TreeDebrisSmallEntity : "{A4FE86D58CCB42AF}Prefabs/Vegetation/Tree/Dst/TreeDebris_Leafy_Large_base.et" {
+ ID "6308EB15DCEA74C8"
+ components {
+  MeshObject "{6308EB1589E945A6}" {
+   Object "{FFCC3BA084E07A2B}Assets/ME_Tree/palm_01.xob"
+  }
+ }
+ coords 0 0 0
+}

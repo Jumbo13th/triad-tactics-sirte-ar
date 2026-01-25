@@ -1,0 +1,11 @@
+GenericEntity : "{DC585B515860ABA9}Prefabs/Props/Agriculture/WaterTank_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{F781D811A394F6BF}Assets/Props/Agricultural/WaterTank_01/WaterTank_01.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+ }
+}

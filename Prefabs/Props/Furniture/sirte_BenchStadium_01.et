@@ -1,0 +1,28 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{0693E54EE7A201D0}Assets/Props/Furniture/BenchStadium_01/BenchStadium_01.xob"
+   Materials {
+    MaterialAssignClass "{670D4ECFA1E9AB56}" {
+     SourceMaterial "BenchStadium_01"
+     AssignedMaterial "{B25251675087BB13}Assets/Props/Furniture/BenchStadium_01/Data/sirte_BenchStadium_01.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   m_fBaseHealth 700
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{670D4ECFDC1E6E30}" {
+     m_eMaterialSoundType WOOD_PLANK_LARGE
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+ }
+}

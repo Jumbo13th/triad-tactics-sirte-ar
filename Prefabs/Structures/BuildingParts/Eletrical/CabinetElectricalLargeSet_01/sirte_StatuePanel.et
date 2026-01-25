@@ -1,0 +1,28 @@
+GenericEntity : "{985B8FE100464966}Prefabs/Structures/BuildingParts/Eletrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_base.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Object "{1756E3B20EB6AC3C}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/CabinetElectricalLargeSet_01_EndPanel.xob"
+   Materials {
+    MaterialAssignClass "{670700AFDA632866}" {
+     SourceMaterial "CabinetElectricalLarge_01_8A1DE695910F5619"
+     AssignedMaterial "{BF1C025CF9A940AD}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/data/sirte_CabinetElectricalLarge_01.emat"
+    }
+    MaterialAssignClass "{670700AFDA632850}" {
+     SourceMaterial "CabinetElectricalLarge_01_MLOD_FBC1039E250537E3"
+     AssignedMaterial "{BF1C025CF9A940AD}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/data/sirte_CabinetElectricalLarge_01.emat"
+    }
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{58F896B4CD371A8B}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5C4A81A325CF0B4B}" {
+     m_ModelPrefabs {
+      "{5C2A4E01D3FE7D25}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/Dst/CabinetElectricalLarge_EndPanel_01_Dst.xob"
+     }
+    }
+   }
+   m_bDeleteAfterFinalPhase 1
+  }
+ }
+}

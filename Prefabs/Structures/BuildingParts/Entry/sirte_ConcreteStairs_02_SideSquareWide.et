@@ -1,0 +1,37 @@
+StaticModelEntity : "{FA5F43973A00A65C}Prefabs/Structures/BuildingParts/Entry/Entry_Base.et" {
+ ID "50D67C36F42A694D"
+ components {
+  MeshObject "{547A8804AA50F719}" {
+   Object "{F22DBEC8311DC84A}Assets/Structures/BuildingsParts/Entry/ConcreteStairs_02_SideSquareWide.xob"
+   Materials {
+    MaterialAssignClass "{670D4ECEF1C488EA}" {
+     SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides"
+     AssignedMaterial "{C90D20A829A0A501}Assets/Structures/BuildingsParts/Entry/Data/sirte_ConcreteStairs_02_Sides.emat"
+    }
+    MaterialAssignClass "{670D4ECEF1C488E2}" {
+     SourceMaterial "Assets/Structures/BuildingsParts/Entry/Data/ConcreteStairs_02_Sides_MLOD"
+     AssignedMaterial "{C41A769A45ED2D4F}Assets/Structures/BuildingsParts/Entry/Data/sirte_ConcreteStairs_02_Sides_MLOD.emat"
+    }
+   }
+   LODFactors {
+    200 150 1 1
+   }
+  }
+  NavmeshCustomLinkComponent "{670D4ECD0BA95DC6}" {
+   LinkType NavmeshJumpLink "{670D4ECD0BA95D29}" {
+    "Navmesh setting presets" {
+     NavmeshCustomLinkSetting "{670D4ECD0BA95D2F}" {
+      ProjectPresets {
+       NavmeshCustomLinkPreset "{670D4ECD0BA95D2C}" {
+        ProjectName "Soldiers"
+        AreaType "Fence"
+       }
+      }
+      BeginPoint 1 0 0
+      EndPoint -1 0 0
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,141 @@
+MetaFileClass {
+ Name "{450247A3A8C80039}Assets/Structures/Houses/House_4/house_4.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{66F41B0E7C0CBAB5}" {
+     SourceMaterial "house_4_window"
+     AssignedMaterial "{75387861351DB1DF}Assets/Structures/Houses/House_4/Data/house_4_window.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA96}" {
+     SourceMaterial "home_4_main"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA93}" {
+     SourceMaterial "house_4_podezd"
+     AssignedMaterial "{888F1B4A2F980E7C}Assets/Structures/Houses/House_4/Data/house_4_podezd.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA9F}" {
+     SourceMaterial "home_4_wall_2"
+     AssignedMaterial "{5D523FCCE848C0A6}Assets/Structures/Houses/House_4/Data/home_4_facade_1.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA9C}" {
+     SourceMaterial "house_4_wall_side_1"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA87}" {
+     SourceMaterial "house_4_wall_side_2"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA83}" {
+     SourceMaterial "house_4_wall_3"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA8E}" {
+     SourceMaterial "house_4_interier"
+     AssignedMaterial "{9C9A0315F38DBC10}Assets/Structures/Houses/House_4/Data/house_4_interier.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA8A}" {
+     SourceMaterial "house_4_pol"
+     AssignedMaterial "{CDF2D13075A5CA5E}Assets/Structures/Houses/House_4/Data/house_4_pol.emat"
+    }
+    MaterialAssignClass "{66F41B0E7C0CBA88}" {
+     SourceMaterial "home_4_wall"
+     AssignedMaterial "{489810554F2478A7}Assets/Structures/Houses/House_4/Data/home_4_wall_end.emat"
+    }
+   }
+   MeshParams {
+    MeshParam house_4 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Building {
+     LayerPreset "Building"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Geometry {
+     LayerPreset "ViewGeo"
+     SurfaceProperties {
+      "{1A05231C3FD1627A}Common/Materials/Game/concrete.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FireGeo {
+     SurfaceProperties {
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{04EDBC73E4CA0226}house_4_window.gamemat"
+      "{2B26C3ADFA939716}home_4_main.gamemat"
+      "{FA11BF509DCADC1C}home_4_wall.gamemat"
+      "{67387B3855B6F14B}home_4_wall_2.gamemat"
+      "{6ACE2B65B164FED2}house_4_podezd.gamemat"
+      "{B5C5474597533EEE}house_4_wall_3.gamemat"
+      "{64C5D2F1F6C2EAEE}house_4_interier.gamemat"
+      "{5A60D72A39A5A500}house_4_pol.gamemat"
+      "{1D63524A4DF4096F}house_4_wall_side_1.gamemat"
+      "{137D1602700306B5}house_4_wall_side_2.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{66F41B0E7CA7F2BD}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{66F41B0E7CA7F7AD}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{66F41B0E7CA7F6DF}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{66F41B0E7CA7F531}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{66F41B0E7CA7F5A2}" : "{F62AA8E7B8EA9D26}Configs/System/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{66F41B0E7CA7F42E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

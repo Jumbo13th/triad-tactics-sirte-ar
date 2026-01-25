@@ -1,0 +1,55 @@
+StaticModelEntity : "{E4D57D1BA5178563}Prefabs/Structures/Core/Wall_Gate_Base.et" {
+ ID "1133272B8B185691"
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Object "{2B5DDDB08632311A}Assets/Structures/BuildingsParts/Doors/Door_NetFence_02/DoorFrame_NetFence_02_Gate_Small.xob"
+  }
+  NavmeshCustomLinkComponent "{5088C72B466E73FA}" {
+   LinkType NavmeshJumpLink "{5088C72B44859B28}" {
+    "Navmesh setting presets" {
+     NavmeshCustomLinkSetting "{5C90EA9654F713FE}" {
+      BeginPoint 0.75 0 1.5
+      EndPoint 0.75 0 -1.5
+     }
+    }
+   }
+  }
+  RigidBody "{56DE7C8DDE282E03}" {
+   ResponseIndex "TinyDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{552EDAEFE4B6B7FF}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   m_fBaseHealth 2500
+   m_fDamageThresholdMaximum 50000
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{66EB1053205616EF}" {
+     m_ModelPrefabs {
+      "{3A0A8CF33BFEE5A3}Assets/Structures/BuildingsParts/Doors/Door_NetFence_02/Dst/NetFence_02_Gate_Small_dst_01.xob"
+     }
+     m_fDamageToImpulse 1
+     m_fRandomVelocityLinear 1
+     m_eMaterialSoundType METAL_POLE
+    }
+   }
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{66EB1053205616E6}" {
+     m_fPhaseHealth 3000
+     m_PhaseModel "{4D00E47BCF5C0AD3}Assets/Structures/BuildingsParts/Doors/Door_NetFence_02/Dst/NetFence_02_Gate_Small_dst_00.xob"
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL_POLE
+  }
+ }
+ coords -5.493 0.755 2.243
+ {
+  GenericEntity : "{D0D25CEDF887B717}Prefabs/Structures/BuildingParts/Doors/Door_NetFence_02_Small_RIGHT_EXT_ST_B.et" {
+   ID "66EB10532056169D"
+   components {
+    Hierarchy "{7642683606C70747}" {
+     PivotID "socket_gate_right"
+    }
+   }
+  }
+ }
+}

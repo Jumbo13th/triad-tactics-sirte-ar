@@ -1,0 +1,83 @@
+GenericEntity : "{6095B175AA9804DC}Prefabs/Props/VehicleParts/Tires/Tire_UAZ469.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "SmallDestructible"
+   Static 1
+  }
+  SCR_SlotCompositionComponent "{66EABCC756DF679F}" {
+   m_bOrientChildrenToTerrain 0
+   m_bEditableChildren 0
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+  Hierarchy "{66EABCC756DF6794}" {
+  }
+ }
+ coords 0 0 0
+ {
+  $grp GenericEntity : "{6095B175AA9804DC}Prefabs/Props/VehicleParts/Tires/Tire_UAZ469.et" {
+   {
+    ID "66EABCC756DF3A0A"
+    components {
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      Static 1
+     }
+     Hierarchy "{66EABCC756DF6660}" {
+     }
+    }
+    coords -0.042 1.045 -0.035
+    angles -0.192 3.562 -0.481
+   }
+   {
+    ID "66EABCC756DF3A0D"
+    components {
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      Static 1
+     }
+     Hierarchy "{66EABCC756DF6664}" {
+     }
+    }
+    coords -0.011 0.212 0.011
+    angles -0.088 2.647 -0.015
+   }
+   {
+    ID "66EABCC756DF4301"
+    components {
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      Static 1
+     }
+     Hierarchy "{66EABCC756DF6679}" {
+     }
+    }
+    coords -0.024 0.841 0.016
+    angles -0.114 3.123 0.108
+   }
+   {
+    ID "66EABCC756DF6786"
+    components {
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      Static 1
+     }
+     Hierarchy "{66EABCC756DF667D}" {
+     }
+    }
+    coords -0.01 0.425 0.02
+    angles 0.001 2.689 0.074
+   }
+   {
+    ID "66EABCC756DF6787"
+    components {
+     RigidBody "{5872F0EB7DFB5A9D}" {
+      Static 1
+     }
+     Hierarchy "{66EABCC756DF6671}" {
+     }
+    }
+    coords -0.016 0.634 -0.008
+    angles -0.082 3.044 0.156
+   }
+  }
+ }
+}

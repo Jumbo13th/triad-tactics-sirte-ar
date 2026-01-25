@@ -1,0 +1,22 @@
+SCR_DestructibleEntity : "{ABE1EFC16D47A8C2}Prefabs/Structures/Core/Wall_MultiPhase_Base.et" {
+ ID "51E2F0F09703F07B"
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Object "{A75090BDA62B1F75}Assets/Structures/Houses/HouseBuilding/Parts/walls/wall_5m.xob"
+  }
+  NavmeshCustomLinkComponent "{5088C72B466E73FA}" {
+   Enabled 0
+  }
+  RigidBody "{56DE7C8DDE282E03}" {
+   ResponseIndex "Normal"
+  }
+  Hierarchy "{6702EE963BCDF1C6}" {
+  }
+ }
+ coords 100.681 0.082 -82.245
+ angles 0 0.683 0
+ placement none
+ Enabled 0
+ MaxHealth 15000
+ m_eMaterialSoundType BREAK_ROCK
+}

@@ -1,0 +1,6 @@
+MatPBRBasic {
+ RoughnessScale 0.634
+ MetalnessScale 0
+ BCRMap "{CBA0BB4207A39828}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/radio_sirte_BCR.edds"
+ NMOMap "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+}

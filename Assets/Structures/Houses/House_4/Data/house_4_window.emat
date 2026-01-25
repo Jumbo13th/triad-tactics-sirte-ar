@@ -1,0 +1,5 @@
+MatPBRMulti {
+ SpecularMul 0
+ BCR_1 "{C15B7536867A1694}Assets/Structures/Houses/House_4/Data/Experimental/window_brown.edds"
+ DetNormal_1 0
+}

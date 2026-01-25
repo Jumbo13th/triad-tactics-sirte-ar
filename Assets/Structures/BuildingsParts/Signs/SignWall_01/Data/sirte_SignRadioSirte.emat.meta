@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F423B3D67D303874}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/sirte_SignWall_01_95x72_RadioEveron.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

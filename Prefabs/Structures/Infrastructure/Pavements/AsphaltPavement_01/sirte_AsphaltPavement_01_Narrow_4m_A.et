@@ -1,0 +1,16 @@
+StaticModelEntity : "{BA6ACE4A72AC6A38}Prefabs/Structures/Core/Pavements_Base.et" {
+ ID "548326DBB969067D"
+ components {
+  MeshObject "{5936E5AA56187F89}" {
+   Object "{500D4D5FF82377B1}Assets/Structures/Infrastructure/Pavements/AsphaltPavement_01/AsphaltPavement_01_Narrow_4m.xob"
+   ClutterOccluder 1
+  }
+  RigidBody "{5936E5AA546A0157}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 3.555 0.094 -0.039
+ angles 0 -7.822 0
+ placement slopelandcontact
+}

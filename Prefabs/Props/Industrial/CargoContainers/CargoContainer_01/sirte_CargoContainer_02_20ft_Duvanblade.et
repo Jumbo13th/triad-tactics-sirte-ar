@@ -1,0 +1,21 @@
+GenericEntity : "{4E847FB9C036EE30}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_02_20ft_Base.et" {
+ ID "55DAD3EB50374E38"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{66EB10630CAD5ADB}" {
+     SourceMaterial "CargoContainer_01_20ft"
+     AssignedMaterial "{EDB7320D9C394D4F}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_02_20ft_Duvanblade.emat"
+    }
+    MaterialAssignClass "{66EB10630CAD5ADC}" {
+     SourceMaterial "CargoContainer_01_20ft_Decals"
+     AssignedMaterial "{7A70CF15C1617EDA}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_02_20ft_Duvanblade_Decals.emat"
+    }
+    MaterialAssignClass "{66EB10630CAD5AD2}" {
+     SourceMaterial "CargoContainer_01_20ft_MLOD"
+     AssignedMaterial "{6547C04582E21747}Assets/Props/Industrial/CargoContainer_01/Data/CargoContainer_02_20ft_Duvanblade_MLOD.emat"
+    }
+   }
+  }
+ }
+}

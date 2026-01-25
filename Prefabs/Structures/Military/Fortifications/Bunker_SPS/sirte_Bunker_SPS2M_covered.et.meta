@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{283ED2358E0B0413}Prefabs/Structures/Military/Fortifications/Bunker_SPS/sirte_Bunker_SPS2M_covered.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

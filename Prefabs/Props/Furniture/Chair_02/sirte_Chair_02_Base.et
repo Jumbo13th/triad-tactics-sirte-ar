@@ -1,0 +1,42 @@
+GenericEntity : "{4CC2C69DE1AEF103}Prefabs/Props/Core/DestructibleMultiPhase_Props_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{5B2CC29845CBBFB9}Assets/Props/Furniture/Chair_02/Chair_02.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 3
+   LinearDamping 0.05
+   AngularDamping 0.05
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" : "{76DA308CC9E2AB84}Prefabs/Props/Core/DestructionMultiPhase_Base.ct" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default : "{08EE9251C32CBE4C}Configs/Destruction/MultiphaseDestruction/HitZone/HitZone_Wood_Planks.conf" {
+    }
+   }
+   m_fBaseHealth 300
+   m_bPassDamageToChildren 1
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{51B26D57E9A4556A}" : "{38A75EBDDCB8B715}Configs/Destruction/MultiphaseDestruction/FX_Debris/FX_Debris_Wood_Planks_Small.conf" {
+     m_ModelPrefabs {
+      "{8F1D2F246780E482}Assets/Props/Furniture/Chair_02/Dst/Chair_02_dst_04.xob" "{66CE0464E84380A1}Assets/Props/Furniture/Chair_02/Dst/Chair_02_dst_01.xob" "{FFD0BDFDF5A4B131}Assets/Props/Furniture/Chair_02/Dst/Chair_02_dst_02.xob" "{88DAD57501065E41}Assets/Props/Furniture/Chair_02/Dst/Chair_02_dst_03.xob"
+     }
+     m_fRandomVelocityLinear 0.6
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+    SCR_ParticleSpawnable "{66EEA8D350F82EDA}" {
+     m_Particle "{C436A8D33CE1AA4E}Particles/Props/Dest_Prop_Wood_Small.ptc"
+    }
+   }
+   m_eMaterialSoundType BREAK_WOOD_SOLID
+  }
+  RplComponent "{5624A88DC2D9928D}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+}

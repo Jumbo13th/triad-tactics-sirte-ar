@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D0CB9B85972BD0C7}Prefabs/Structures/BuildingParts/Doors/sirte_DoorSet_NetFence_02_Gate_Small.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

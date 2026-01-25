@@ -1,0 +1,84 @@
+SCR_DestructibleBuildingEntity : "{4DF75B7B80E91836}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_02/WaterStation_USSR_02_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{66EEA8F5456D79A6}" {
+  }
+  SoundComponent "{66EEA8F5456D7986}" {
+   Filenames {
+    "{BCB1B30B1702697A}Sounds/Structures/Infrastructure/Waterworks/WaterStation_02/Structures_WaterStation_02.acp"
+   }
+  }
+ }
+ {
+  GenericEntity : "{18F439CD25E566A9}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_EXT_ST_B_beige.et" {
+   ID "66EEA8F5456D9DCB"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_Door_DoorSet_Village_E_01_L_EXT_ST_B_beige"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "59BD0C97863A170F"
+     components {
+      DoorComponent "{221C667A9F7D4B69}" {
+       AngleRange 80
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{6E240D7985934BF9}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_ST_B_beige.et" {
+   ID "66EEA8F5456D9DCD"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_Door_DoorSet_Village_E_01_R_EXT_ST_B_beige"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "59BD0A353DAE30F6"
+     components {
+      DoorComponent "{221C667A9F7D4B69}" {
+       AngleRange -80
+      }
+     }
+    }
+   }
+  }
+  $grp Building : "{D77424417E2B7FF9}Prefabs/Structures/BuildingParts/Windows/Win_Office_E_A/Win_Office_E_130x72_1_M1.et" {
+   {
+    ID "66EEA8F5456D7906"
+    components {
+     Hierarchy "{66EEA8F5456D7E63}" {
+      Enabled 1
+      PivotID "socket_win_Win_Office_E_130x72_1_M1_1"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66EEA8F5456D9DCE"
+    components {
+     Hierarchy "{66EEA8F5456D7E6C}" {
+      Enabled 1
+      PivotID "socket_win_Win_Office_E_130x72_1_M1_1.001"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+  GenericEntity : "{F8B2D1224554D8F9}Prefabs/Structures/Infrastructure/Waterworks/WaterStation_02/Furniture/WaterStation_USSR_02_furniture_01.et" {
+   ID "66EEA8F5456D79F8"
+   coords 0 0 0
+  }
+ }
+}

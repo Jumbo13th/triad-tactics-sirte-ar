@@ -1,0 +1,91 @@
+SCR_DestructibleBuildingEntity : "{0DBDC1DD5949B7EE}Prefabs/Structures/Military/Houses/ControlTowerMilitary_E_02/ControlTowerMilitary_E_02_base.et" {
+ ID "F0DBA538AC2A0552"
+ {
+  GenericEntity : "{1E01D526381C4B5F}Prefabs/Structures/BuildingParts/Doors/DoorSet_MetalDoor_01_L_EXT.et" {
+   ID "66FAF3F65425EEF9"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_DoorFrame_door_metal_A_EXT_B_02"
+    }
+   }
+   angles 0 180 0
+  }
+  GenericEntity : "{1E01D526381C4B60}Prefabs/Structures/BuildingParts/Doors/DoorSet_MetalDoor_01_R_EXT.et" {
+   ID "66FAF3F65425EEF8"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     PivotID "socket_DoorFrame_door_metal_A_EXT_B_01"
+    }
+   }
+   angles 0 180 0
+  }
+  StaticModelEntity : "{5C2139DAEAD2935E}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_03_narrow_v3.et" {
+   ID "66FAF3F65425EEFF"
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     PivotID "socket_entry_front"
+    }
+   }
+  }
+  GenericEntity : "{5DA96509348E4041}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_125x75.et" {
+   ID "66FAF3F65425EEFE"
+   components {
+    Hierarchy "{7642683663DE57B3}" {
+     Enabled 1
+     PivotID "socket_Win_GlassBlock_01_125x75"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  StaticModelEntity : "{6FB3D1DC0464CCA3}Prefabs/Structures/BuildingParts/Entry/ControlTowerMilitary_E_02_stairs.et" {
+   ID "66FAF3F65425EEE1"
+   components {
+    Hierarchy "{5488F0388A297CDE}" {
+     PivotID "socket_entry_back"
+    }
+   }
+  }
+  GenericEntity : "{8F17372BAB5A9CF8}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02.et" {
+   ID "66FAF3F65425EEE0"
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     Enabled 1
+     PivotID "socket_LightIndustrial_02_02"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{C4BC7E4E19BB7E11}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_170x142_2_B.et" {
+   ID "66FAF3F65425EEE3"
+   components {
+    Hierarchy "{66FAF3F65425EE26}" {
+     Enabled 1
+     PivotID "socket_Win_village_e_a_170x142_2_B"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{C853CBEB57B4DD3D}Prefabs/Structures/BuildingParts/Lights/LightIndustrial_02_red.et" {
+   ID "66FAF3F65425EEE2"
+   components {
+    Hierarchy "{612AE78C95E98EEB}" {
+     PivotID "socket_LightIndustrial_02_01"
+    }
+   }
+  }
+  GenericEntity : "{EAB8C2D083C36160}Prefabs/Structures/BuildingParts/Windows/Win_GlassBlock_01/Win_GlassBlock_01_100x125.et" {
+   ID "66FAF3F65425EEE5"
+   components {
+    Hierarchy "{7642683663DE57B3}" {
+     Enabled 1
+     PivotID "socket_Win_GlassBlock_01_100x125"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+ }
+}

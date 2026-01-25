@@ -1,0 +1,16 @@
+GenericEntity : "{31CE12B3D1F6789E}Prefabs/Structures/Military/Flags/FlagPole_01/FlagPole_01_base.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_FlagComponent "{5E3C95A1F6DA459D}" {
+   m_sDefaultMaterial "{08FDCA3382B1203F}Assets/Props/Fabric/Flags/Data/Flag_1_jamahiriya.emat"
+  }
+  SlotManagerComponent "{67069DB9ED9E9137}" {
+   Slots {
+    EntitySlotInfo Flag {
+     Offset 0 5.153 0
+     Prefab "{C085F975596F8025}Prefabs/Props/Fabric/Flags/Flag_1_2_jamahiriya_01.et"
+    }
+   }
+  }
+ }
+}

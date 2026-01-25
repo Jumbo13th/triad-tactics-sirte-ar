@@ -1,0 +1,20 @@
+GenericEntity : "{9B23BB407A31D21B}Prefabs/Structures/BuildingParts/Signs/SignWall/SignWall_01_95x72_Base.et" {
+ ID "5558F0C9D53195F3"
+ components {
+  MeshObject "{5111E74D5E891458}" {
+   Materials {
+    MaterialAssignClass "{67069DBB31783276}" {
+     SourceMaterial "SignWall_01_95X72"
+     AssignedMaterial "{F82EFCF0645B05FC}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/sirte_SignSecurityDepartment.emat"
+    }
+    MaterialAssignClass "{67069DBB31783245}" {
+     SourceMaterial "SignWall_01_95X72_MLOD"
+     AssignedMaterial "{6A4E806EA0E58A91}Assets/Structures/BuildingsParts/Signs/SignWall_01/Data/sirte_Sign_RadioSirte_MLOD.emat"
+    }
+   }
+  }
+  RigidBody "{5111E74C06F5C1E1}" {
+   ResponseIndex "TinyDestructible"
+  }
+ }
+}

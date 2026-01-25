@@ -1,0 +1,150 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{CFB0F50FCD791C73}Assets/Structures/Industrial/Houses/Warehouse_01/warehouse_01_workshop.xob"
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructibleBuildingComponent "{5DA867F3C1A778A1}" : "{9622E065EAE99999}Prefabs/Structures/Core/Destruction/DestructibleBuildingComponent_Brick_Small.ct" {
+   m_aEffects {
+    SCR_TimedPrefab Prefab_Ruins_01 {
+     m_bPersistent 1
+     m_sRuinsPrefab "{77C8C36FAADB5C44}Prefabs/Structures/Industrial/Houses/Warehouse_01/Dst/warehouse_01_workshop_Ruin.et"
+    }
+   }
+   m_aInteriorQueryBoundingBoxes {
+    SCR_InteriorBoundingBox "{62BAA7D53BA12D7A}" {
+     m_vCenter PointInfo "{66EB1063756DEA92}" {
+      Offset 0.0091 4.4271 -0.0835
+     }
+     m_vScale 9.7 2.2 10.4
+    }
+    SCR_InteriorBoundingBox "{62BAA7D5B1591BB9}" {
+     m_vCenter PointInfo "{66EB1063756DEA89}" {
+      Offset -0.0116 1.0933 -0.535
+     }
+     m_vScale 9.6 4.5 9.5
+    }
+   }
+  }
+ }
+ coords 2.964 3.095 1.591
+ SlotBoneMappings {
+  SlotBoneMappingObject "{66EB1063756DEA86}" {
+   BonePrefix "socket_170x182"
+   Prefab "{FCC56F6EEE674179}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_170x182_2_B.et"
+  }
+  SlotBoneMappingObject "{66EB1063756DEA87}" {
+   BonePrefix "socket_170x72"
+   Prefab "{A184FC2DE695DCB3}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_170x72_2_B.et"
+  }
+  SlotBoneMappingObject "{66EB1063756DEA80}" {
+   BonePrefix "socket_door_ext_r"
+   Prefab "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et"
+  }
+  SlotBoneMappingObject "{66EB1063756DEA81}" {
+   BonePrefix "socket_door_int_l"
+   Prefab "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{66EB1063756DEA82}" {
+   BonePrefix "socket_door_double"
+   Prefab "{559FE84BD8AC6B0C}Prefabs/Structures/BuildingParts/Doors/DoorSet_Industrial_01_EXT.et"
+  }
+  SlotBoneMappingObject "{66EB1063756D8994}" {
+   BonePrefix "socket_slope"
+   Prefab "{18E3F1942F2C8509}Prefabs/Structures/BuildingParts/Entry/Entry_Slope_Platform_01.et"
+  }
+  SlotBoneMappingObject "{66EB1063756D8995}" {
+   BonePrefix "socket_stair"
+   Prefab "{69A8FFE5527CB776}Prefabs/Structures/BuildingParts/Entry/Entry_Direct_01.et"
+  }
+ }
+ {
+  GenericEntity : "{559FE84BD8AC6B0C}Prefabs/Structures/BuildingParts/Doors/DoorSet_Industrial_01_EXT.et" {
+   ID "66EB1063756CEDFF"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_double_ext_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GameEnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   ID "66EB1063756CEDE3"
+   coords -1.096 2.318 1.469
+  }
+  GenericEntity : "{66A908B66DC3277A}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B.et" {
+   ID "66EB1063756CBE73"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_int_l_001"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  Building : "{A184FC2DE695DCB3}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_170x72_2_B.et" {
+   ID "66EB1063756CBE76"
+   components {
+    Hierarchy "{66EB1063756D89CB}" {
+     Enabled 1
+     PivotID "socket_170x72_01"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et" {
+   ID "66EB1063756CBE79"
+   components {
+    Hierarchy "{612AE78C85563E26}" {
+     Enabled 1
+     PivotID "socket_door_ext_r_001"
+     AutoTransform 1
+    }
+   }
+   coords 0 0 0
+  }
+  $grp Building : "{FCC56F6EEE674179}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_170x182_2_B.et" {
+   {
+    ID "66EB1063756C2594"
+    components {
+     Hierarchy "{66EB1063756D89C2}" {
+      Enabled 1
+      PivotID "socket_170x182_04"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66EB1063756C2595"
+    components {
+     Hierarchy "{66EB1063756D89C1}" {
+      Enabled 1
+      PivotID "socket_170x182_05"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+   {
+    ID "66EB1063756DEA65"
+    components {
+     Hierarchy "{66EB1063756D89C4}" {
+      Enabled 1
+      PivotID "socket_170x182_06"
+      AutoTransform 1
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

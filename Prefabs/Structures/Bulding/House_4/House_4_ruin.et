@@ -1,0 +1,76 @@
+SCR_DestructibleBuildingEntity {
+ ID "67143A7035E0AFDA"
+ components {
+  MeshObject "{67143A7035FB1462}" {
+   Object "{F7D72E5064BDCD02}Assets/Structures/Houses/House_4/hous_4_dst.xob"
+   Materials {
+    MaterialAssignClass "{67143A70C81F9FA3}" {
+     SourceMaterial "home_4_main"
+     AssignedMaterial "{C910B47B6AEE2958}Assets/Structures/Houses/House_4/Data/home_4_wall.emat"
+    }
+    MaterialAssignClass "{67143A70C81F9FB9}" {
+     SourceMaterial "home_4_wall"
+     AssignedMaterial "{03BA168F57C54EA9}Assets/Structures/Houses/House_4/Data/home_4_facade_2.emat"
+    }
+    MaterialAssignClass "{67143A70C81F9F8E}" {
+     SourceMaterial "home_4_wall_2"
+     AssignedMaterial "{5D523FCCE848C0A6}Assets/Structures/Houses/House_4/Data/home_4_facade_1.emat"
+    }
+    MaterialAssignClass "{67143A70C81F9F88}" {
+     SourceMaterial "house_4_wall_3"
+     AssignedMaterial "{03BA168F57C54EA9}Assets/Structures/Houses/House_4/Data/home_4_facade_2.emat"
+    }
+    MaterialAssignClass "{67143A70C81F9F93}" {
+     SourceMaterial "house_4_wall_side_1"
+     AssignedMaterial "{436175CDF6FAE952}Assets/Structures/Houses/House_4/Data/home_4_side.emat"
+    }
+    MaterialAssignClass "{67143A70C81F9F9A}" {
+     SourceMaterial "house_4_wall_side_2"
+     AssignedMaterial "{436175CDF6FAE952}Assets/Structures/Houses/House_4/Data/home_4_side.emat"
+    }
+    MaterialAssignClass "{67143A70C81F9F66}" {
+     SourceMaterial "house_4_window"
+     AssignedMaterial "{03BA168F57C54EA9}Assets/Structures/Houses/House_4/Data/home_4_facade_2.emat"
+    }
+   }
+  }
+  Occluder "{67143A7035FB1450}" {
+  }
+  RigidBody "{67143A7035FB145E}" {
+   ModelGeometry 1
+   Static 1
+  }
+  WorldSubsceneComponent "{67143A7035FB17E4}" {
+  }
+  RplComponent "{67143A7035FB17E1}" {
+   Streamable Disabled
+  }
+  Hierarchy "{67143A7035FB17EF}" {
+  }
+ }
+ coords -0.657 -5 0.569
+ {
+  $grp StaticModelEntity : "{34C9168E1AD207B7}Prefabs/Structures/Commercial/Shops/ShopHouse_E_2l01/Dst/Ruins/ShopHouse_E_2I01t_V2_dst_01_dbr_01_ruins.et" {
+   {
+    ID "671760001AEBAF9A"
+    coords -2.84 3.972 -7.004
+   }
+   {
+    ID "671760005395E7F9"
+    coords -11.607 0.68 11.594
+    angles 0 90 0
+    scale 2
+   }
+   {
+    ID "67176005FC303DCC"
+    coords -9.496 1.158 -3.33
+    angles 0 90 0
+    scale 2
+   }
+   {
+    ID "6717600FBFA0AFD9"
+    coords -4.982 3.738 -14.41
+   }
+  }
+ }
+}

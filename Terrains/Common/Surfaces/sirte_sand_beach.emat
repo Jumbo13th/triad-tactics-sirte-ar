@@ -1,0 +1,16 @@
+TerrainMaterial {
+ Color 0.792 0.674 0.631 1
+ SurfaceProperties "{88C8EE27BD581FE4}Common/Materials/Game/dirt_sirte.gamemat"
+ BCRMap "{8716ED8713A2A4EE}Terrains/Common/Surfaces/Data/sirte_sand_beach_BCR.edds"
+ NHOMap "{BFCE5615CAD5F670}Terrains/Common/Surfaces/Data/sirte_sand_beach_NMO.edds"
+ DielectricReflectance 0.031
+ ScaleUV 9
+ ParallaxScale 0.065
+ SatMapBlend 0.11
+ SatMapBrightness 0.096
+ CavityFromAO 0.706
+ DetailBlendDistance 111.765
+ ClutterConfig "{3F58B6B06A1DE576}Configs/Clutter/Sets/sirte_c_desert.conf"
+ MiddleNOBlend 0.271
+ PorosityScale 0.2
+}

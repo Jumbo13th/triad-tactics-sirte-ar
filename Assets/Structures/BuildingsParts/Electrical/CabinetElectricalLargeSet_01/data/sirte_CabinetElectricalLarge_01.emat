@@ -1,0 +1,36 @@
+MatPBRMulti {
+ UVSrcGlobalMaps "UV set 2"
+ MaskMap "{0EF181186936A01D}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/data/CabinetElectricalLarge_01_GLOBAL_MASK.edds"
+ VFXMap "{452F6BB9F47EF30C}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/data/CabinetElectricalLarge_01_VFX.edds"
+ MudOpacity 0.828
+ MudColor 0.431 0.349 0.231 1
+ MudBCRMap "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ MudNMOMap "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ MudMaskMap "{BD7A9CC72D73B91E}Assets/_SharedData/DetailMask/ST_Paint_Peeling_01_Mask1.edds"
+ DirtOpacity 0.4
+ DirtLayerSharpness 1.77
+ DirtColor 0.431 0.349 0.231 1
+ DirtRoughness 1
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ Enabled_4 1
+ BCR_4 "{0D85D583716D10FE}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/data/CabinetElectricalLarge_01_BCR.edds"
+ NMO_4 "{355D6E11A81A4260}Assets/Structures/BuildingsParts/Electrical/CabinetElectricalLargeSet_01/data/CabinetElectricalLarge_01_NMO.edds"
+ Enabled_3 1
+ Color_3 0.431 0.349 0.231 1
+ BCR_3 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_3 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ MaskSharpness_3 0.992
+ Mask_3 "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ Enabled_2 1
+ Color_2 0.431 0.349 0.231 1
+ BCR_2 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_2 "{E33A5A9E39D9E660}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_NMO.edds"
+ MaskSharpness_2 1.397
+ MaskOffset_2 0.469
+ Mask_2 "{B62129F4BA24B2EA}Assets/_SharedData/DetailMask/ST_Concrete_04_Mask1.edds"
+ Metalness_2 0
+ Color_1 0.255 0.255 0.255 1
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+}

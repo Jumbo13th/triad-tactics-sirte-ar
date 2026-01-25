@@ -1,0 +1,59 @@
+SCR_DestructibleEntity : "{1C5F774E41C02543}Prefabs/Structures/Walls/Brick/BrickWall_02/BrickWall_02_base.et" {
+ ID "51E2F0F09703F07B"
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Object "{A7E8CCBC14CD24C2}Assets/Structures/Walls/Brick/BrickWall_02_8m.xob"
+  }
+  NavmeshCustomLinkComponent "{5088C72B466E73FA}" {
+   Enabled 1
+  }
+  RigidBody "{56DE7C8DDE282E03}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1.735 3.129 2.99
+ MaxHealth 15000
+ FirstDestructionPhase SCR_BaseDestructionPhase "{5A18F297698A2425}" {
+  m_sPhaseModel "{83E7089C4B582642}Assets/Structures/Walls/Brick/BrickWallOld_01_8m_A.xob"
+  m_aPhaseDestroySpawnObjects {
+   SCR_DebrisSpawnable "{5AD4C9DC3D568BD8}" {
+    m_vOffsetRotation 0 10 0
+    m_ModelPrefabs {
+     "{695DE8A7C5DF649E}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01_dbr_01.xob" "{F043513ED838550E}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01_dbr_02.xob" "{874939B62C9ABA7E}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01_dbr_03.xob" "{808EC3E74A1C00BD}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01_dbr_04.xob" "{F784AB6FBEBEEFCD}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01_dbr_05.xob" "{6E9A12F6A359DE5D}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01_dbr_06.xob" "{19907A7E57FB312D}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01_dbr_07.xob" "{6115E6546E54ABDB}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01_dbr_08.xob"
+    }
+   }
+   SCR_DebrisSpawnable "{5AD4C9DC01384D92}" {
+    m_vOffsetPosition 2 2 0
+   }
+   SCR_DebrisSpawnable "{5AD4C9DC00D5BEED}" {
+    m_vOffsetPosition 6 2 0
+   }
+   SCR_ParticleSpawnable "{5AD4C9DC3C0A775B}" {
+    m_Particle "{2F1D1723614A0261}Particles/Props/Dest_ConcreteWall_Long.ptc"
+   }
+   SCR_ParticleSpawnable "{66EAAB653093FF46}" {
+    m_vOffsetPosition 0 1 0
+    m_Particle "{2F1D1723614A0261}Particles/Props/Dest_ConcreteWall_Long.ptc"
+   }
+  }
+ }
+ DamagePhases {
+  SCR_BaseDestructionPhase "{5A18F296E1A50B97}" {
+   m_sPhaseModel "{AAF80A24ADDFF1CB}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_01.xob"
+   m_aPhaseDestroySpawnObjects {
+    SCR_DebrisSpawnable "{5AD4C9DC77FE5D93}" {
+     m_ModelPrefabs {
+      "{04D9CADDECA5E058}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_09.xob" "{FBCCA2FBE70C668B}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_01.xob" "{62D21B62FAEB571B}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_02.xob" "{15D873EA0E49B86B}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_03.xob" "{121F89BB68CF02A8}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_04.xob" "{6515E1339C6DEDD8}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_05.xob" "{7C5C56F7D50A7AAE}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_06.xob" "{0B563E7F21A895DE}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_07.xob" "{73D3A25518070F28}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02_dbr_08.xob"
+     }
+    }
+    SCR_DebrisSpawnable "{5A2EFB66D353FE7C}" {
+     m_vOffsetPosition 6 1.5 0
+    }
+   }
+  }
+ }
+ LastDestructionPhase SCR_BaseDestructionPhase "{5A18F297606BF928}" {
+  m_sPhaseModel "{33E6B3BDB038C05B}Assets/Structures/Walls/Brick/dst/Brick_wall_02_8m_dst_02.xob"
+ }
+}

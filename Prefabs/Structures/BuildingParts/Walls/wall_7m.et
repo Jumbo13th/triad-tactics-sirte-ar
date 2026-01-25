@@ -1,0 +1,8 @@
+SCR_DestructibleEntity : "{C51EAF3001C29D3A}Prefabs/Structures/BuildingParts/Walls/wall_base.et" {
+ ID "51E2F0F09703F07B"
+ components {
+  MeshObject "{56DE7C8DCD0F4E0A}" {
+   Object "{54772817C4ADCC74}Assets/Structures/Houses/HouseBuilding/Parts/walls/wall_7m_door.xob"
+  }
+ }
+}
