@@ -1,0 +1,33 @@
+GenericEntity : "{8D3CBF3A91BE18C9}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/BenchStreet_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{68FD12CBE148108F}" {
+     SourceMaterial "StreetBench_01"
+     AssignedMaterial "{477DAA9781BB97B8}Assets/Props/Civilian/BenchStreet/Data/BenchStreet_02.emat"
+    }
+    MaterialAssignClass "{68FD12CBE1482E18}" {
+     SourceMaterial "Color_palette_01"
+     AssignedMaterial "{50DFCC906D2C4033}Common/Materials/ColorPalette/Color_palette_01_RED_12_S2_R0.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Mass 50
+   CenterOfMass 0 0.2 0
+   ResponseIndex "TinyDestructible"
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{52D4A469ED28E53F}" {
+     m_ModelPrefabs {
+      "{E008CD586E8C6075}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/Dst/BenchStreet_01_dst_01_red.et" "{ACC4B4A3BCA5C621}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/Dst/BenchStreet_01_dst_02_red.et" "{4958F85AB040514A}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/Dst/BenchStreet_01_dst_03_red.et" "{746CDD62C52CD87D}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/Dst/BenchStreet_01_dst_04_red.et"
+     }
+    }
+   }
+  }
+ }
+}

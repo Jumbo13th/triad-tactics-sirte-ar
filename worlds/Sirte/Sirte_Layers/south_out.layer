@@ -1123,7 +1123,7 @@ $grp PolylineShapeEntity {
   coords 2225.472 5 3156.175
   Points {
    ShapePoint "{670ED66AB41A1BCA}" {
-    Position 0 0 0
+    Position -20.964 0 -0.187
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
@@ -1151,54 +1151,41 @@ $grp PolylineShapeEntity {
     }
    }
    ShapePoint "{670ED66ABDA30725}" {
-    Position -49.212 0 -334.314
-    Data {
-     ForestGeneratorPointData "{000000002C57B0BA}" {
-     }
-    }
-   }
-   ShapePoint "{670ED66ABB5925F6}" {
-    Position 96.334 0 -397.101
-    Data {
-     ForestGeneratorPointData "{000000002C57B0BA}" {
-     }
-    }
-   }
-   ShapePoint "{670ED66ABA60EAEB}" {
-    Position 112.253 0 -272.256
+    Position -48.797 0 -253.771
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{670ED66AB88E28DD}" {
-    Position 1.515 0 -266.023
+    Position -11.762 0 -252.056
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{670ED66AB8360899}" {
-    Position -9.513 0 -184.011
+    Position -11.192 0 -184.026
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{670ED66946076CE0}" {
-    Position 0.661 0 0.141
+    Position -11.146 0 0.582
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
   }
+  IsClosed 1
   {
    ForestGeneratorEntity : "{66628A66E4F05D1E}PrefabLibrary/DefaultLibrary/Generators/Forests/FG_Forest_base.et" {
     Flags 0x100003 0
     GeneratorType GeneratorTypeForest "{670B118061786308}" {
     }
-    m_iSeed 27758
+    m_iSeed 22880
     m_bRandomiseSeedOnUse 1
     m_aLevels {
      ForestGeneratorTopLevel Palms {
@@ -1302,21 +1289,6 @@ $grp PolylineShapeEntity {
     {
      $grp SCR_IndestructibleEnvironmentalEntity : "{102F94404E45E8D6}PrefabLibrary/DefaultLibrary/Rocks/Granite/Granite_Cluster_Large_01.et" {
       {
-       coords -15.463 0 -302.203
-       angles 0 -82.565 0
-       scale 0.954
-      }
-      {
-       coords -5.86 0 -268.334
-       angles 0 31.048 0
-       scale 1.002
-      }
-      {
-       coords -8.391 0 -290.589
-       angles 0 68.106 0
-       scale 0.809
-      }
-      {
        coords -40.196 0 -163.857
        angles 0 91.233 0
        scale 1.112
@@ -1336,21 +1308,6 @@ $grp PolylineShapeEntity {
        angles 0 -18.106 0
        scale 0.919
       }
-      {
-       coords -2.013 0 -23.826
-       angles 0 -166.887 0
-       scale 1.187
-      }
-      {
-       coords 70.635 0 -368.416
-       angles 0 -159.142 0
-       scale 1.043
-      }
-      {
-       coords 75.266 0 -350.592
-       angles 0 -138.795 0
-       scale 1.111
-      }
      }
      $grp Tree : "{126CB12E8C5C68BB}Prefabs/Structures/Tree/sirte_palm2.et" {
       {
@@ -1363,33 +1320,11 @@ $grp PolylineShapeEntity {
        angles -1.408 38.794 3.29
        scale 0.974
       }
-      {
-       coords 64.485 0 -342.649
-       angles 1.853 -99.671 -0.563
-       scale 0.933
-      }
-      {
-       coords 90.077 0 -318.677
-       angles 0 -117.876 0
-       scale 0.858
-      }
      }
-     $grp SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_03.et" {
-      {
-       coords -23.953 0 -106.104
-       angles -55.538 101.116 -113.283
-       scale 1.183
-      }
-      {
-       coords 36.613 0 -287.504
-       angles 87.888 139.662 -31.185
-       scale 1.027
-      }
-      {
-       coords 95.883 0 -300.706
-       angles -45.073 -116.524 26.527
-       scale 1.077
-      }
+     SCR_IndestructibleEnvironmentalEntity : "{1BA4712EED0CB208}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_03.et" {
+      coords -23.953 0 -106.104
+      angles -55.538 101.116 -113.283
+      scale 1.183
      }
      Tree : "{1E502DBD79FC8FA1}Prefabs/Structures/Tree/sirte_palm9.et" {
       coords -13.322 0 -145.892
@@ -1416,16 +1351,6 @@ $grp PolylineShapeEntity {
        coords -46.404 0 -133.044
        angles -0.374 144.771 -1.193
        scale 0.945
-      }
-      {
-       coords -10.66 0 -287.182
-       angles -0.399 51.033 -1.623
-       scale 0.973
-      }
-      {
-       coords -44.931 0 -255.104
-       angles 1.877 50.33 -0.625
-       scale 1.199
       }
       {
        coords -14.901 0 -196.696
@@ -1457,33 +1382,8 @@ $grp PolylineShapeEntity {
        angles -1.602 -92.486 -0.037
        scale 0.848
       }
-      {
-       coords 20.739 0 -346.22
-       angles -0.487 -62.404 0.807
-       scale 1.112
-      }
-      {
-       coords 1.96 0 -271.334
-       angles -1.288 27.631 -0.932
-       scale 0.858
-      }
-      {
-       coords 68.471 0 -331.904
-       angles 1.45 34.531 -0.564
-       scale 1.044
-      }
-      {
-       coords 76.657 0 -326.833
-       angles 1.11 -26.588 0.618
-       scale 1.168
-      }
      }
      $grp Tree : "{6813E89F9EF2BDAC}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_rosa_canina_1s.et" {
-      {
-       coords -36.366 0 -326.852
-       angles 0.134 -33.883 -1.654
-       scale 1.033
-      }
       {
        coords -31.285 0 -238.968
        angles 0.593 59.251 -1.404
@@ -1504,21 +1404,6 @@ $grp PolylineShapeEntity {
        angles 0.927 -37.827 -0.621
        scale 0.937
       }
-      {
-       coords 22.838 0 -308.56
-       angles -1.301 -179.335 0.865
-       scale 0.958
-      }
-      {
-       coords 24.903 0 -314.148
-       angles 0.136 21.457 1.754
-       scale 0.997
-      }
-      {
-       coords 50.343 0 -369.623
-       angles -1.423 161.823 -1.929
-       scale 1.132
-      }
      }
      $grp Tree : "{7E3885CE3098E795}Prefabs/Structures/Tree/sirte_palm1.et" {
       {
@@ -1536,88 +1421,8 @@ $grp PolylineShapeEntity {
        angles -0.997 154.912 0.181
        scale 0.873
       }
-      {
-       coords 31.428 0 -299.187
-       angles 0.224 -76.291 0.739
-       scale 0.807
-      }
      }
      $grp Tree : "{839E9535771BA366}PrefabLibrary/DefaultLibrary/Vegetation/Bushes/b_sambucus_nigra_0.et" {
-      {
-       coords -8.569 0 -71.618
-       angles 0.856 130.379 0.68
-       scale 0.961
-      }
-      {
-       coords -6.435 0 -71.89
-       angles 1.088 164.031 -0.115
-       scale 0.84
-      }
-      {
-       coords -8.493 0 -73.73
-       angles -1.926 103.297 -1.357
-       scale 0.941
-      }
-      {
-       coords -6.402 0 -73.865
-       angles -1.591 -103.89 0.409
-       scale 0.86
-      }
-      {
-       coords -7.081 0 -70.324
-       angles 1.308 69.172 1.774
-       scale 0.842
-      }
-      {
-       coords 104.188 0 -302.626
-       angles 0.676 -178.094 -0.759
-       scale 0.948
-      }
-      {
-       coords 103.911 0 -304.967
-       angles 0.343 -106.329 1.799
-       scale 0.926
-      }
-      {
-       coords 101.33 0 -303.581
-       angles 1.845 168.469 1.669
-       scale 0.878
-      }
-      {
-       coords 102.799 0 -301.3
-       angles -1.092 -44.232 1.176
-       scale 0.811
-      }
-      {
-       coords -45.387 0 -312.055
-       angles -0.541 25.203 0.548
-       scale 0.81
-      }
-      {
-       coords -47.614 0 -310.284
-       angles -1.558 -0.099 0.479
-       scale 0.889
-      }
-      {
-       coords -47.074 0 -312.789
-       angles 0.932 -165.58 0.535
-       scale 1.017
-      }
-      {
-       coords -44.944 0 -309.771
-       angles 1.544 73.644 0.42
-       scale 0.827
-      }
-      {
-       coords -14.196 0 -306.744
-       angles -1.709 84.103 0.407
-       scale 0.943
-      }
-      {
-       coords -28.392 0 -280.689
-       angles 1.109 -133.455 1.062
-       scale 1.073
-      }
       {
        coords -40.982 0 -221.914
        angles -0.41 -51.286 1.05
@@ -1627,41 +1432,6 @@ $grp PolylineShapeEntity {
        coords -15.788 0 -243.866
        angles 1.44 134.664 1.44
        scale 1.14
-      }
-      {
-       coords 6.035 0 -319.716
-       angles 0.368 -124.622 1.02
-       scale 1.143
-      }
-      {
-       coords 25.109 0 -309.268
-       angles -1.254 59.031 1.627
-       scale 0.819
-      }
-      {
-       coords 10.922 0 -285.661
-       angles 0.191 128.566 1.543
-       scale 0.92
-      }
-      {
-       coords 73.851 0 -348.858
-       angles 0.516 -74.852 1.707
-       scale 1.041
-      }
-      {
-       coords 53.404 0 -293.478
-       angles 0.969 -75.456 -0.799
-       scale 0.931
-      }
-      {
-       coords 85.342 0 -274.286
-       angles -0.417 10.295 -0.939
-       scale 1.182
-      }
-      {
-       coords 98.231 0 -328.26
-       angles -1.998 -146.43 -0.14
-       scale 0.993
       }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_01.et" {
@@ -1675,79 +1445,8 @@ $grp PolylineShapeEntity {
        angles -29.483 -176.006 155.17
        scale 1.184
       }
-      {
-       coords 87.444 0 -386.361
-       angles 3.296 1.17 60.251
-       scale 1.135
-      }
-      {
-       coords 63.205 0 -339.41
-       angles 61.833 62.157 174.281
-       scale 0.883
-      }
-      {
-       coords 98.898 0 -296.397
-       angles 43.172 -65.184 135.098
-       scale 1.132
-      }
-     }
-     $grp Tree : "{B061414C594986D0}Prefabs/Structures/Tree/sirte_palm8small.et" {
-      {
-       coords -33.021 0 -296.695
-       angles 0 119.392 0
-       scale 0.998
-      }
-      {
-       coords 3.5 0 -296.222
-       angles 0 35.19 0
-       scale 0.943
-      }
-     }
-     $grp Tree : "{CAC4D8EFF5D576E7}Prefabs/Structures/Tree/sirte_palm4.et" {
-      {
-       coords -8.214 0 -243.086
-       angles 1.962 78.335 -1.735
-       scale 0.878
-      }
-      {
-       coords 25.974 0 -311.357
-       angles -0.316 -143.684 1.225
-       scale 1.134
-      }
-      {
-       coords 90.25 0 -293.217
-       angles -1.728 134.081 -0.571
-       scale 1.162
-      }
-     }
-     $grp Tree : "{F7F0FDD780B9FFD0}Prefabs/Structures/Tree/sirte_palm3.et" {
-      {
-       coords -18.165 0 -346.272
-       angles -0.188 33.18 0.59
-       scale 1.112
-      }
-      {
-       coords -35.777 0 -256.889
-       angles -1.898 -168.338 3.134
-       scale 0.92
-      }
-      {
-       coords -3.507 0 -25.609
-       angles -0.062 -25.225 1.008
-       scale 1.004
-      }
-      {
-       coords 65.027 0 -287.147
-       angles 1.593 37.498 -3.566
-       scale 1.106
-      }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{FE383DD7E1E92563}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_02.et" {
-      {
-       coords -31.18 0 -328.933
-       angles 72.49 -62.981 -10.525
-       scale 0.956
-      }
       {
        coords -28.376 0 -112.358
        angles 27.489 23.792 -40.299
@@ -1767,16 +1466,6 @@ $grp PolylineShapeEntity {
        coords -31.225 0 -34.867
        angles -47.77 -65.288 -42.321
        scale 0.987
-      }
-      {
-       coords 19.431 0 -283.385
-       angles 58.982 -69.381 157.17
-       scale 1.054
-      }
-      {
-       coords 89.9 0 -344.531
-       angles -27.219 -113.481 -59.894
-       scale 1.093
       }
      }
     }
@@ -2722,7 +2411,6 @@ $grp PolylineShapeEntity {
       {
        coords -183.865 -1.275 -391.204
        angles 54.285 120.485 -98.133
-       scale 1
       }
       {
        coords -174.492 -1.275 -330.083
@@ -3400,7 +3088,7 @@ $grp PolylineShapeEntity {
       }
       {
        coords -159.588 0.545 -17.363
-       angles 0.276 0.099 -0
+       angles 0.276 0.099 0
        scale 0.94
       }
       {
@@ -3898,7 +3586,6 @@ $grp PolylineShapeEntity {
       {
        coords -196.825 0.633 -11.897
        angles 1.648 -139.212 0.67
-       scale 1
       }
       {
        coords -151.948 -1.275 -402.587
@@ -4717,7 +4404,6 @@ $grp PolylineShapeEntity {
       {
        coords -276.343 1.391 -53.13
        angles -0.924 154.209 -0.378
-       scale 1
       }
       {
        coords -274.568 1.421 -51.479
@@ -5117,7 +4803,6 @@ $grp PolylineShapeEntity {
       {
        coords -428.874 -1.275 -262.126
        angles -0.358 170.678 0.24
-       scale 1
       }
       {
        coords -436.922 -0.466 -152.646

@@ -1,0 +1,10 @@
+SCR_DestructibleBuildingEntity : "{1E7AC996BD3B73A7}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/GarageMilitary_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ coords 2264.509 0 2882.184
+ {
+  GenericEntity : "{D6FF7F9D886C3248}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/sirte_GarageFireStation_furniture.et" {
+   ID "68B97C28453D30F7"
+   coords 0 0 0
+  }
+ }
+}

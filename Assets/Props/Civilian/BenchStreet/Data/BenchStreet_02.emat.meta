@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{477DAA9781BB97B8}Assets/Props/Civilian/BenchStreet/Data/BenchStreet_02.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

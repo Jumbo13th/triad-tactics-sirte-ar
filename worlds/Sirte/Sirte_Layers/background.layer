@@ -1121,26 +1121,27 @@ $grp SplineShapeEntity {
     }
    }
    ShapePoint "{670EA256C3B6364F}" {
-    Position -1.548 0 -185.716
+    Position 34.362 0 -182.115
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
    ShapePoint "{670EA256C2BCDC05}" {
-    Position -1.087 0 -1.287
+    Position 33.479 0 8.261
     Data {
      ForestGeneratorPointData "{000000002C57B0BA}" {
      }
     }
    }
   }
+  IsClosed 1
   {
    ForestGeneratorEntity : "{66628A66E4F05D1E}PrefabLibrary/DefaultLibrary/Generators/Forests/FG_Forest_base.et" {
     Flags 0x100003 0
     GeneratorType GeneratorTypeForest "{670B118061786308}" {
     }
-    m_iSeed 26450
+    m_iSeed 22161
     m_bRandomiseSeedOnUse 1
     m_aLevels {
      ForestGeneratorTopLevel Palms {
@@ -16429,6 +16430,61 @@ $grp SplineShapeEntity {
        coords -49.361 0 -1208.9
        angles -0.003 35.465 -0.771
        scale 1.063
+      }
+      {
+       coords 3.185 0 -130.466
+       angles 0.991 169.129 -1.038
+       scale 0.814
+      }
+      {
+       coords 41.477 0 -250.763
+       angles -1.793 111.317 -0.949
+       scale 1.154
+      }
+      {
+       coords 44.387 0 -250.527
+       angles -0.446 -20.248 0.837
+       scale 0.868
+      }
+      {
+       coords 43.471 0 -252.455
+       angles 1.636 18.589 -1.716
+       scale 0.985
+      }
+      {
+       coords 42.937 0 -249.015
+       angles -1.947 123.15 0.419
+       scale 0.808
+      }
+      {
+       coords 38.361 0 -224.192
+       angles 0.951 -24.533 -0.245
+       scale 1.111
+      }
+      {
+       coords 37.143 0 -226.644
+       angles -1.64 72.391 -0.692
+       scale 1.093
+      }
+      {
+       coords 35.115 0 -225.649
+       angles -0.587 -79.741 1.755
+       scale 1.067
+      }
+      {
+       coords 36.821 0 -223.042
+       angles 1.325 -177.709 0.28
+       scale 0.806
+      }
+      {
+       coords 35.18 0 -223.748
+       angles -0.403 -175.512 0.96
+       scale 0.814
+      }
+      {
+       coords 45.423 0 -255.833
+       angles -1.221 -145.463 1.695
+       scale 0.951
       }
      }
      $grp SCR_IndestructibleEnvironmentalEntity : "{926C09375D2DAA4D}PrefabLibrary/DefaultLibrary/Rocks/Granite/GraniteStone_01.et" {
