@@ -1,0 +1,32 @@
+SCR_DestructibleBuildingEntity : "{CCB26B05BF0C59FC}Prefabs/Structures/Bulding/HouseC/House_C_1_EP2.et" {
+ ID "65353844087C9EEC"
+ coords 2136.708 5.285 2696.122
+ {
+  GenericEntity : "{2BF58454BEAB913E}Prefabs/Props/Industrial/Pallets/sirte_WoodenPalletBox_01_Wood.et" {
+   ID "691303FBF82F96BC"
+   coords -6.21 4.565 3.597
+  }
+  GenericEntity : "{309BD2B72752F27F}Prefabs/Props/Industrial/Pallets/sirte_Pallet_01_Pile.et" {
+   ID "691303FBF82FBFAA"
+   coords -5.53 4.669 -3.516
+   angles 0 0 0
+  }
+  GenericEntity : "{4BC3BE99653BECCE}Prefabs/Props/Industrial/ToolBox_02/ToolBox_02_lightblue.et" {
+   ID "691303FBF82F96B7"
+   coords -6.223 5.42 -2.859
+  }
+  GenericEntity : "{67B5336A6D63CCA4}Prefabs/Props/Construction/PlankPile/PlankPile_01_Medium.et" {
+   ID "691303FBF82FBFBB"
+   coords 9.787 4.705 -1.938
+   angles 0 -178.373 0
+  }
+  GenericEntity : "{B3283803059E2750}Prefabs/Props/Crates/CrateWooden_01_plain.et" {
+   ID "691303FBF82FBFB5"
+   coords -6.391 4.615 -3.424
+  }
+  GenericEntity : "{DE658AC78172D02E}Prefabs/Props/Construction/GarbageStack_01/GarbageStack_01_Short.et" {
+   ID "691303FBF82FBFB2"
+   coords 6.694 4.735 -3.373
+  }
+ }
+}

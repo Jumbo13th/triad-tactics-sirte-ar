@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D6FF7F9D886C3248}Prefabs/Structures/Military/Houses/GarageMilitary_E_01/sirte_GarageFireStation_furniture.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

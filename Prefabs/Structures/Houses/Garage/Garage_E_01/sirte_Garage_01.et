@@ -1,0 +1,11 @@
+SCR_DestructibleBuildingEntity : "{B299BEBD81C099C3}Prefabs/Structures/Houses/Garage/Garage_E_01/sirte_Garage_E_01.et" {
+ ID "591B677B0142FAA0"
+ coords 2267.266 0.23 2698.429
+ angles 0 -177.075 0
+ {
+  GenericEntity : "{5815E2B6F01D6C33}Prefabs/Structures/Houses/Garage/Garage_E_01/Furniture/Garage_E_01_furniture_01.et" {
+   ID "690E8D9C177CE292"
+   coords 0 0 0
+  }
+ }
+}
